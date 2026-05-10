@@ -1,0 +1,301 @@
+ID_Bayi,Nama_Bayi,NIK_Bayi,Tanggal_Lahir,Umur_Bulan,Jenis_Kelamin,Jenis_Imunisasi,Tanggal_Imunisasi,Status_Imunisasi,Petugas,Posyandu,Keterangan
+A001,Putri,16025533791612,2023-07-17,17,Laki-laki,Campak,2025-04-02,Belum Lengkap,Bidan Siti,Posyandu Anggrek,Tidak ada KIPI
+A002,Aulia,16027342550802,2024-09-18,13,Laki-laki,BCG,2025-04-28,Lengkap,Bidan Rina,Posyandu Anggrek,Tidak ada KIPI
+A003,Nabila,16028047027346,2024-02-01,14,Laki-laki,BCG,2025-11-17,Belum Lengkap,Bidan Dewi,Posyandu Melati,Demam ringan
+A004,Siti,16024313303110,2025-06-22,23,Laki-laki,Polio,2025-08-10,Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A005,Budi,16029701642842,2025-02-10,20,Perempuan,Polio,2025-08-26,Belum Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A006,Ahmad,16026804637788,2024-08-20,6,Perempuan,BCG,2025-08-09,Belum Lengkap,Bidan Rina,Posyandu Melati,Tidak ada KIPI
+A007,Ahmad,16022112841909,2023-09-18,15,Perempuan,BCG,2025-08-07,Lengkap,Kader Ani,Posyandu Melati,Sehat
+A008,Ahmad,16028238576105,2023-04-11,10,Laki-laki,BCG,2025-05-08,Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A009,Dimas,16022549020304,2025-03-29,36,Perempuan,Polio,2025-11-12,Belum Lengkap,Bidan Siti,Posyandu Mawar,Tidak ada KIPI
+A010,Aisyah,16021845200694,2025-03-30,8,Perempuan,BCG,2025-06-23,Belum Lengkap,Kader Ani,Posyandu Anggrek,Tidak ada KIPI
+A011,Rizki,16028915616865,2024-09-06,57,Perempuan,BCG,2025-06-06,Belum Lengkap,Kader Ani,Posyandu Mawar,Demam ringan
+A012,Ahmad,16027372486262,2022-12-09,20,Perempuan,Campak,2025-12-16,Belum Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A013,Siti,16027557030994,2024-01-18,45,Laki-laki,BCG,2025-06-03,Lengkap,Bidan Dewi,Posyandu Anggrek,Tidak ada KIPI
+A014,Rizki,16022352776052,2023-12-13,34,Laki-laki,BCG,2025-07-13,Belum Lengkap,Kader Rina,Posyandu Melati,Demam ringan
+A015,Rizki,16023231334775,2023-06-18,22,Perempuan,Polio,2025-03-30,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A016,Putri,16028073642774,2022-12-12,48,Perempuan,Polio,2025-04-17,Lengkap,Bidan Siti,Posyandu Melati,Sehat
+A017,Aulia,16027197083611,2023-02-28,44,Laki-laki,Campak,2025-12-08,Lengkap,Bidan Dewi,Posyandu Anggrek,Tidak ada KIPI
+A018,Rizki,16023755736256,2024-01-01,22,Laki-laki,Campak,2025-08-04,Lengkap,Bidan Dewi,Posyandu Anggrek,Tidak ada KIPI
+A019,Aisyah,16026411165352,2024-11-26,15,Laki-laki,Campak,2025-08-25,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A020,Nabila,16025471592420,2024-01-26,8,Laki-laki,BCG,2025-07-08,Belum Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A021,Putri,16028404849187,2023-07-26,15,Perempuan,Polio,2025-09-08,Belum Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A022,Budi,16022353391688,2024-06-11,4,Laki-laki,DPT-HB-Hib,2025-12-15,Belum Lengkap,Kader Ani,Posyandu Melati,Demam ringan
+A023,Rafi,16022187647885,2022-10-29,24,Perempuan,Polio,2025-09-03,Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A024,Rafi,16027753169484,2025-05-01,28,Laki-laki,Campak,2025-11-30,Belum Lengkap,Kader Rina,Posyandu Anggrek,Tidak ada KIPI
+A025,Aisyah,16024884565112,2025-05-20,19,Laki-laki,DPT-HB-Hib,2025-05-24,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A026,Putri,16029126979123,2023-12-11,44,Laki-laki,BCG,2025-05-07,Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A027,Putri,16027397744161,2023-10-07,3,Laki-laki,Polio,2025-10-20,Belum Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A028,Aisyah,16022729398866,2025-02-16,18,Laki-laki,BCG,2025-07-30,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Sehat
+A029,Putri,16027259247141,2024-07-18,26,Perempuan,Polio,2025-08-02,Lengkap,Bidan Dewi,Posyandu Melati,Demam ringan
+A030,Siti,16023937955826,2024-07-11,53,Laki-laki,DPT-HB-Hib,2025-10-22,Belum Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A031,Dimas,16025123083157,2023-10-01,29,Perempuan,BCG,2025-04-30,Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A032,Rafi,16029635732195,2024-08-31,2,Perempuan,Campak,2025-09-03,Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A033,Ahmad,16029389612682,2024-06-02,20,Perempuan,Campak,2025-12-28,Lengkap,Bidan Rina,Posyandu Melati,Tidak ada KIPI
+A034,Aisyah,16025376207355,2024-01-15,21,Perempuan,BCG,2025-10-21,Belum Lengkap,Kader Rina,Posyandu Melati,Tidak ada KIPI
+A035,Rafi,16028862562142,2024-01-18,52,Laki-laki,Polio,2025-05-28,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A036,Ahmad,16024473480469,2024-09-14,34,Laki-laki,Polio,2026-01-06,Lengkap,Kader Rina,Posyandu Anggrek,Demam ringan
+A037,Rizki,16021726977062,2025-04-19,20,Perempuan,BCG,2025-09-21,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A038,Putri,16023969321418,2025-02-16,32,Laki-laki,Campak,2025-11-01,Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A039,Putri,16025485138676,2022-11-04,0,Laki-laki,Campak,2025-03-24,Lengkap,Bidan Siti,Posyandu Anggrek,Tidak ada KIPI
+A040,Nabila,16027376842071,2023-04-19,27,Perempuan,Campak,2025-03-19,Belum Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A041,Budi,16027031285101,2023-04-12,55,Laki-laki,DPT-HB-Hib,2025-10-04,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A042,Aisyah,16023834022159,2023-09-16,49,Laki-laki,DPT-HB-Hib,2025-12-13,Belum Lengkap,Kader Rina,Posyandu Anggrek,Sehat
+A043,Aisyah,16021126585840,2025-01-01,47,Perempuan,Polio,2025-12-03,Belum Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A044,Aisyah,16022033830258,2023-03-07,34,Perempuan,BCG,2025-09-26,Belum Lengkap,Bidan Dewi,Posyandu Melati,Sehat
+A045,Nabila,16022840337873,2023-09-23,5,Laki-laki,Polio,2025-09-05,Belum Lengkap,Bidan Rina,Posyandu Mawar,Tidak ada KIPI
+A046,Nabila,16024317889037,2023-09-26,59,Laki-laki,Polio,2025-10-24,Belum Lengkap,Bidan Siti,Posyandu Anggrek,Demam ringan
+A047,Dimas,16024237013056,2024-10-09,42,Perempuan,DPT-HB-Hib,2025-12-08,Belum Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A048,Siti,16021829968782,2023-11-13,23,Perempuan,DPT-HB-Hib,2025-08-08,Belum Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A049,Aisyah,16026009886512,2024-03-23,21,Perempuan,DPT-HB-Hib,2025-05-17,Lengkap,Kader Ani,Posyandu Anggrek,Demam ringan
+A050,Siti,16023442180774,2022-11-19,29,Laki-laki,BCG,2025-06-19,Lengkap,Kader Ani,Posyandu Melati,Demam ringan
+A051,Putri,16022670621548,2023-02-12,40,Laki-laki,BCG,2025-11-04,Lengkap,Bidan Dewi,Posyandu Anggrek,Sehat
+A052,Dimas,16023929901018,2022-10-13,55,Perempuan,Polio,2025-04-01,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A053,Aulia,16024959162181,2025-03-02,16,Laki-laki,DPT-HB-Hib,2025-06-15,Lengkap,Kader Rina,Posyandu Anggrek,Sehat
+A054,Aisyah,16027926433811,2023-12-24,24,Laki-laki,BCG,2025-06-28,Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A055,Aulia,16025147208020,2024-12-08,43,Perempuan,Polio,2025-11-11,Belum Lengkap,Bidan Siti,Posyandu Melati,Sehat
+A056,Dimas,16021097467778,2025-06-26,42,Laki-laki,Polio,2025-09-12,Belum Lengkap,Kader Ani,Posyandu Melati,Demam ringan
+A057,Dimas,16028383805112,2023-03-20,55,Laki-laki,BCG,2025-04-26,Lengkap,Kader Ani,Posyandu Melati,Sehat
+A058,Rafi,16023916574304,2022-11-27,52,Perempuan,Polio,2025-08-13,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A059,Aisyah,16028222675321,2023-11-01,4,Perempuan,Campak,2025-04-12,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A060,Aulia,16026444677658,2024-06-28,17,Laki-laki,Campak,2025-07-26,Belum Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A061,Budi,16021710470980,2024-06-11,28,Perempuan,BCG,2025-12-09,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A062,Dimas,16021874381219,2024-09-18,43,Laki-laki,BCG,2025-12-06,Lengkap,Kader Ani,Posyandu Anggrek,Tidak ada KIPI
+A063,Rizki,16029582784755,2024-08-06,46,Perempuan,BCG,2025-04-02,Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A064,Putri,16021323734094,2024-01-24,22,Perempuan,Campak,2025-05-09,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Tidak ada KIPI
+A065,Siti,16028345831960,2025-05-16,18,Laki-laki,DPT-HB-Hib,2025-12-01,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A066,Rafi,16026128228540,2025-04-15,30,Laki-laki,DPT-HB-Hib,2025-10-02,Belum Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A067,Aulia,16027208276028,2024-11-21,54,Perempuan,DPT-HB-Hib,2025-06-15,Lengkap,Kader Rina,Posyandu Melati,Sehat
+A068,Budi,16028560273092,2023-11-09,10,Perempuan,DPT-HB-Hib,2025-09-18,Lengkap,Bidan Dewi,Posyandu Anggrek,Sehat
+A069,Rafi,16029511676356,2023-05-25,53,Perempuan,BCG,2025-05-21,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A070,Ahmad,16029927944890,2023-06-21,37,Perempuan,DPT-HB-Hib,2025-04-22,Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A071,Putri,16029686485640,2024-08-24,13,Perempuan,Polio,2025-07-02,Lengkap,Bidan Dewi,Posyandu Anggrek,Sehat
+A072,Rizki,16027806313096,2024-10-20,1,Laki-laki,Polio,2025-11-21,Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A073,Dimas,16023061844190,2025-02-06,44,Perempuan,Campak,2026-01-10,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A074,Aulia,16021879269353,2024-02-07,15,Laki-laki,DPT-HB-Hib,2025-04-08,Lengkap,Bidan Rina,Posyandu Mawar,Tidak ada KIPI
+A075,Putri,16029320147201,2024-11-27,19,Laki-laki,BCG,2025-04-13,Lengkap,Bidan Rina,Posyandu Mawar,Demam ringan
+A076,Aulia,16028896868745,2025-04-26,59,Laki-laki,DPT-HB-Hib,2025-04-12,Lengkap,Kader Rina,Posyandu Anggrek,Tidak ada KIPI
+A077,Dimas,16026182640030,2023-10-20,35,Laki-laki,Campak,2025-10-28,Belum Lengkap,Kader Ani,Posyandu Melati,Sehat
+A078,Aisyah,16023482181850,2023-12-20,20,Laki-laki,DPT-HB-Hib,2025-05-19,Belum Lengkap,Kader Ani,Posyandu Anggrek,Demam ringan
+A079,Rizki,16027446940205,2022-10-19,57,Laki-laki,BCG,2025-06-04,Belum Lengkap,Kader Rina,Posyandu Melati,Sehat
+A080,Aisyah,16023805269982,2024-11-01,46,Laki-laki,Campak,2025-11-09,Lengkap,Kader Rina,Posyandu Melati,Sehat
+A081,Rizki,16025353245165,2024-07-02,18,Perempuan,Polio,2025-06-30,Lengkap,Bidan Rina,Posyandu Anggrek,Tidak ada KIPI
+A082,Rafi,16028272724400,2023-04-24,23,Perempuan,BCG,2025-09-27,Belum Lengkap,Bidan Rina,Posyandu Mawar,Sehat
+A083,Rizki,16028992623903,2024-07-28,12,Laki-laki,BCG,2025-10-05,Belum Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A084,Aulia,16029223649238,2024-02-05,59,Laki-laki,Polio,2025-04-03,Lengkap,Bidan Rina,Posyandu Mawar,Sehat
+A085,Putri,16023167106806,2023-10-22,58,Laki-laki,DPT-HB-Hib,2025-12-16,Belum Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A086,Aulia,16023522723594,2023-04-19,34,Laki-laki,DPT-HB-Hib,2025-09-28,Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A087,Dimas,16021975309316,2023-02-05,28,Laki-laki,Campak,2025-05-31,Lengkap,Bidan Siti,Posyandu Melati,Sehat
+A088,Rafi,16022654685330,2025-05-01,8,Laki-laki,BCG,2025-08-03,Lengkap,Kader Rina,Posyandu Anggrek,Demam ringan
+A089,Dimas,16021499615583,2024-09-08,3,Perempuan,Campak,2025-07-08,Lengkap,Kader Ani,Posyandu Melati,Tidak ada KIPI
+A090,Budi,16021082107621,2024-08-22,12,Laki-laki,Polio,2025-08-03,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A091,Aulia,16021915125258,2023-02-08,2,Perempuan,BCG,2025-05-23,Belum Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A092,Putri,16026937270503,2025-03-31,22,Perempuan,DPT-HB-Hib,2025-09-10,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A093,Aulia,16023314029326,2023-08-15,58,Perempuan,BCG,2025-12-15,Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A094,Ahmad,16024700486352,2024-03-30,42,Perempuan,Campak,2025-11-15,Lengkap,Bidan Dewi,Posyandu Anggrek,Tidak ada KIPI
+A095,Nabila,16025708233617,2024-09-10,42,Perempuan,BCG,2025-11-17,Lengkap,Bidan Siti,Posyandu Mawar,Sehat
+A096,Budi,16022644140250,2022-11-19,34,Laki-laki,DPT-HB-Hib,2025-06-28,Belum Lengkap,Kader Ani,Posyandu Mawar,Demam ringan
+A097,Putri,16023737557755,2025-05-28,13,Laki-laki,DPT-HB-Hib,2025-06-27,Belum Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A098,Siti,16023322157332,2024-06-15,51,Laki-laki,Campak,2025-11-13,Lengkap,Bidan Siti,Posyandu Anggrek,Demam ringan
+A099,Ahmad,16022043175502,2024-08-24,34,Perempuan,Campak,2026-01-09,Lengkap,Bidan Siti,Posyandu Anggrek,Tidak ada KIPI
+A100,Nabila,16024685242989,2024-08-18,41,Perempuan,BCG,2025-08-16,Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A101,Putri,16021548021941,2025-05-14,47,Laki-laki,DPT-HB-Hib,2025-09-08,Lengkap,Kader Ani,Posyandu Mawar,Demam ringan
+A102,Rafi,16024484966872,2024-11-07,40,Perempuan,Polio,2025-05-02,Lengkap,Bidan Dewi,Posyandu Melati,Sehat
+A103,Aulia,16028205004077,2025-04-15,21,Laki-laki,Polio,2025-11-28,Lengkap,Bidan Dewi,Posyandu Melati,Demam ringan
+A104,Aulia,16022519013175,2024-05-22,15,Laki-laki,DPT-HB-Hib,2025-09-12,Lengkap,Bidan Siti,Posyandu Mawar,Demam ringan
+A105,Dimas,16025841818789,2023-03-16,55,Laki-laki,Campak,2025-08-07,Lengkap,Bidan Siti,Posyandu Anggrek,Tidak ada KIPI
+A106,Aisyah,16029027790091,2025-03-10,47,Perempuan,Polio,2025-05-06,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A107,Rizki,16028310654364,2023-12-18,39,Laki-laki,DPT-HB-Hib,2025-09-26,Lengkap,Kader Ani,Posyandu Mawar,Demam ringan
+A108,Budi,16023254805595,2025-01-30,59,Laki-laki,Campak,2025-12-31,Belum Lengkap,Kader Ani,Posyandu Melati,Sehat
+A109,Putri,16029812507918,2025-04-18,24,Perempuan,BCG,2025-05-29,Belum Lengkap,Kader Ani,Posyandu Melati,Tidak ada KIPI
+A110,Rizki,16023828774823,2024-11-02,29,Laki-laki,BCG,2025-03-21,Belum Lengkap,Bidan Siti,Posyandu Melati,Sehat
+A111,Rizki,16022655114383,2023-10-17,51,Perempuan,Campak,2025-04-01,Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A112,Dimas,16022338988016,2023-09-11,30,Perempuan,DPT-HB-Hib,2025-06-24,Belum Lengkap,Kader Rina,Posyandu Anggrek,Demam ringan
+A113,Ahmad,16025352267685,2024-02-03,44,Perempuan,Polio,2025-10-05,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A114,Budi,16021864671919,2025-01-23,32,Laki-laki,DPT-HB-Hib,2025-08-31,Belum Lengkap,Bidan Dewi,Posyandu Melati,Sehat
+A115,Rafi,16021006468596,2025-02-27,7,Perempuan,DPT-HB-Hib,2025-11-04,Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A116,Siti,16029054818945,2023-02-24,16,Perempuan,Campak,2025-04-07,Lengkap,Kader Ani,Posyandu Mawar,Demam ringan
+A117,Siti,16028644542939,2023-04-15,27,Perempuan,Polio,2025-08-25,Lengkap,Bidan Dewi,Posyandu Melati,Demam ringan
+A118,Putri,16021648695130,2023-03-18,47,Laki-laki,DPT-HB-Hib,2025-12-29,Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A119,Budi,16028017432818,2025-02-18,30,Laki-laki,Polio,2025-03-23,Belum Lengkap,Bidan Siti,Posyandu Mawar,Sehat
+A120,Nabila,16022404879224,2024-06-21,11,Perempuan,BCG,2025-11-09,Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A121,Siti,16029905003748,2023-01-13,23,Perempuan,Polio,2025-12-05,Belum Lengkap,Kader Rina,Posyandu Melati,Demam ringan
+A122,Siti,16026786588655,2022-12-17,18,Laki-laki,Polio,2025-05-02,Lengkap,Bidan Siti,Posyandu Mawar,Demam ringan
+A123,Putri,16029523702467,2023-09-17,44,Laki-laki,Polio,2025-07-21,Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A124,Budi,16028385741710,2025-05-02,41,Perempuan,DPT-HB-Hib,2025-06-26,Lengkap,Bidan Dewi,Posyandu Melati,Tidak ada KIPI
+A125,Ahmad,16028173832127,2025-04-18,42,Laki-laki,DPT-HB-Hib,2025-10-16,Belum Lengkap,Kader Ani,Posyandu Melati,Tidak ada KIPI
+A126,Rizki,16024343364939,2025-05-27,17,Perempuan,BCG,2025-12-09,Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A127,Rafi,16021105077758,2025-04-03,24,Laki-laki,DPT-HB-Hib,2025-03-25,Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A128,Dimas,16027879868750,2024-12-22,53,Perempuan,Polio,2025-12-28,Lengkap,Bidan Dewi,Posyandu Melati,Tidak ada KIPI
+A129,Rafi,16025695493391,2023-05-04,50,Laki-laki,BCG,2025-08-05,Lengkap,Bidan Rina,Posyandu Mawar,Demam ringan
+A130,Nabila,16026484072780,2025-02-08,47,Perempuan,Campak,2025-10-17,Lengkap,Kader Rina,Posyandu Anggrek,Sehat
+A131,Budi,16024896900327,2023-10-21,1,Perempuan,Polio,2025-09-04,Belum Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A132,Rafi,16022583256304,2025-03-04,30,Perempuan,DPT-HB-Hib,2025-09-03,Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A133,Putri,16023235742174,2024-09-19,30,Perempuan,Campak,2025-08-06,Lengkap,Bidan Siti,Posyandu Melati,Sehat
+A134,Dimas,16021882109969,2024-05-03,12,Laki-laki,DPT-HB-Hib,2025-12-20,Belum Lengkap,Kader Ani,Posyandu Anggrek,Sehat
+A135,Ahmad,16027114762454,2024-11-19,8,Perempuan,BCG,2025-03-30,Lengkap,Bidan Dewi,Posyandu Melati,Sehat
+A136,Putri,16023808343787,2022-11-17,27,Laki-laki,Campak,2025-08-06,Lengkap,Bidan Dewi,Posyandu Melati,Sehat
+A137,Putri,16022072414046,2024-07-10,33,Perempuan,Campak,2025-06-13,Belum Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A138,Aisyah,16025211206322,2025-03-06,37,Perempuan,DPT-HB-Hib,2025-11-30,Lengkap,Bidan Siti,Posyandu Anggrek,Tidak ada KIPI
+A139,Aisyah,16022465785804,2024-11-23,0,Laki-laki,Polio,2025-03-22,Lengkap,Kader Ani,Posyandu Melati,Sehat
+A140,Siti,16029823826069,2024-02-15,24,Laki-laki,DPT-HB-Hib,2025-11-25,Lengkap,Kader Ani,Posyandu Melati,Sehat
+A141,Nabila,16026383286457,2024-10-08,39,Perempuan,DPT-HB-Hib,2025-11-21,Belum Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A142,Siti,16023750183112,2024-03-25,56,Laki-laki,Campak,2025-11-09,Belum Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A143,Nabila,16027624670674,2023-01-20,2,Laki-laki,BCG,2025-11-15,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A144,Rizki,16022301795836,2025-01-08,38,Perempuan,Campak,2026-01-08,Belum Lengkap,Kader Ani,Posyandu Melati,Sehat
+A145,Aulia,16021342085549,2025-02-08,6,Laki-laki,DPT-HB-Hib,2025-06-13,Lengkap,Bidan Siti,Posyandu Mawar,Demam ringan
+A146,Putri,16029053106323,2025-03-04,43,Laki-laki,Campak,2025-08-14,Belum Lengkap,Kader Rina,Posyandu Anggrek,Tidak ada KIPI
+A147,Budi,16027203273816,2024-04-06,10,Laki-laki,BCG,2025-06-19,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A148,Siti,16027829203201,2024-09-12,27,Laki-laki,Campak,2026-01-08,Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A149,Dimas,16026035959805,2023-01-14,11,Laki-laki,DPT-HB-Hib,2025-07-04,Belum Lengkap,Kader Rina,Posyandu Melati,Demam ringan
+A150,Dimas,16024193195656,2024-03-24,33,Perempuan,Campak,2025-12-07,Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A151,Rizki,16024931668434,2022-12-12,45,Perempuan,Polio,2025-06-13,Belum Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A152,Rafi,16024784727222,2023-02-11,33,Perempuan,Polio,2025-07-15,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A153,Ahmad,16025156268255,2023-01-27,10,Perempuan,Polio,2025-05-06,Belum Lengkap,Bidan Dewi,Posyandu Melati,Sehat
+A154,Ahmad,16021610226027,2024-01-06,31,Laki-laki,BCG,2025-04-09,Belum Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A155,Aulia,16024570121295,2022-12-17,46,Laki-laki,DPT-HB-Hib,2025-04-09,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A156,Budi,16022927215312,2023-10-22,59,Perempuan,DPT-HB-Hib,2025-12-10,Belum Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A157,Aisyah,16021016145079,2023-11-03,55,Perempuan,Polio,2025-06-26,Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A158,Dimas,16023999633582,2023-01-06,15,Perempuan,Campak,2025-04-30,Lengkap,Kader Rina,Posyandu Melati,Tidak ada KIPI
+A159,Budi,16027297305178,2025-03-11,17,Laki-laki,Campak,2025-06-08,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A160,Aisyah,16026741545876,2023-11-20,0,Laki-laki,Polio,2025-03-20,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A161,Dimas,16024869044263,2023-06-17,6,Perempuan,DPT-HB-Hib,2025-03-25,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A162,Nabila,16029391319440,2023-06-25,23,Perempuan,Campak,2025-10-19,Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A163,Aisyah,16025872443362,2023-12-31,7,Perempuan,Polio,2025-07-19,Lengkap,Bidan Rina,Posyandu Mawar,Demam ringan
+A164,Budi,16025866869398,2025-05-03,2,Laki-laki,BCG,2025-05-25,Belum Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A165,Ahmad,16022279085770,2023-12-11,55,Laki-laki,Campak,2025-11-04,Lengkap,Bidan Rina,Posyandu Anggrek,Tidak ada KIPI
+A166,Siti,16027555216551,2024-07-11,10,Perempuan,DPT-HB-Hib,2025-07-08,Lengkap,Bidan Siti,Posyandu Anggrek,Demam ringan
+A167,Budi,16026470513825,2025-05-07,13,Perempuan,DPT-HB-Hib,2025-11-26,Lengkap,Bidan Rina,Posyandu Anggrek,Sehat
+A168,Ahmad,16024410397787,2023-01-24,8,Perempuan,Polio,2025-09-05,Belum Lengkap,Bidan Siti,Posyandu Mawar,Sehat
+A169,Rizki,16022085447678,2023-09-20,25,Laki-laki,Campak,2025-05-17,Belum Lengkap,Kader Ani,Posyandu Mawar,Demam ringan
+A170,Rafi,16021799027000,2024-11-20,37,Laki-laki,BCG,2025-06-12,Belum Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A171,Aisyah,16021734674562,2023-08-03,42,Laki-laki,Polio,2025-06-30,Belum Lengkap,Kader Ani,Posyandu Melati,Tidak ada KIPI
+A172,Rizki,16028212452950,2024-10-01,27,Perempuan,Polio,2026-01-09,Lengkap,Kader Rina,Posyandu Melati,Tidak ada KIPI
+A173,Aulia,16024405165617,2022-11-11,6,Perempuan,Campak,2025-08-04,Belum Lengkap,Bidan Dewi,Posyandu Melati,Tidak ada KIPI
+A174,Rafi,16023698921475,2024-06-30,31,Laki-laki,DPT-HB-Hib,2025-11-01,Belum Lengkap,Bidan Rina,Posyandu Mawar,Tidak ada KIPI
+A175,Aulia,16027385913947,2022-10-23,0,Laki-laki,Campak,2025-06-03,Lengkap,Kader Rina,Posyandu Anggrek,Tidak ada KIPI
+A176,Putri,16021716831612,2024-07-26,5,Perempuan,DPT-HB-Hib,2025-12-01,Belum Lengkap,Kader Rina,Posyandu Anggrek,Demam ringan
+A177,Siti,16025122453404,2022-11-17,55,Perempuan,Campak,2025-12-25,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Sehat
+A178,Ahmad,16025635807793,2023-08-21,18,Laki-laki,Campak,2025-04-13,Belum Lengkap,Kader Rina,Posyandu Anggrek,Tidak ada KIPI
+A179,Rafi,16026478626949,2025-06-14,35,Laki-laki,BCG,2025-07-08,Lengkap,Bidan Dewi,Posyandu Anggrek,Sehat
+A180,Dimas,16024218146511,2024-05-07,56,Perempuan,BCG,2025-04-02,Belum Lengkap,Kader Ani,Posyandu Anggrek,Sehat
+A181,Aulia,16027736804007,2025-01-24,34,Perempuan,DPT-HB-Hib,2025-10-13,Lengkap,Bidan Rina,Posyandu Anggrek,Sehat
+A182,Budi,16024058127219,2023-07-18,6,Laki-laki,BCG,2025-04-27,Belum Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A183,Nabila,16025840016838,2024-11-30,55,Laki-laki,BCG,2025-10-13,Lengkap,Kader Ani,Posyandu Melati,Sehat
+A184,Budi,16028235967538,2025-03-23,31,Perempuan,Campak,2025-05-03,Belum Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A185,Budi,16022787186914,2024-11-15,3,Perempuan,Polio,2025-12-19,Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A186,Rizki,16026242825567,2025-04-29,45,Perempuan,Campak,2025-10-18,Belum Lengkap,Kader Ani,Posyandu Anggrek,Tidak ada KIPI
+A187,Nabila,16025786870404,2023-05-16,29,Laki-laki,Campak,2025-05-24,Belum Lengkap,Bidan Rina,Posyandu Mawar,Sehat
+A188,Aisyah,16022008894064,2023-10-28,15,Perempuan,Campak,2025-05-06,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A189,Dimas,16023059463807,2024-01-01,2,Laki-laki,Polio,2025-05-26,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A190,Ahmad,16023200339181,2024-12-29,25,Laki-laki,Campak,2025-08-17,Lengkap,Bidan Siti,Posyandu Melati,Demam ringan
+A191,Dimas,16026484485600,2024-07-04,55,Laki-laki,Campak,2025-04-18,Belum Lengkap,Bidan Siti,Posyandu Mawar,Sehat
+A192,Aulia,16029590849731,2023-01-17,42,Laki-laki,DPT-HB-Hib,2025-11-09,Lengkap,Bidan Siti,Posyandu Anggrek,Tidak ada KIPI
+A193,Rafi,16021820814998,2024-01-24,32,Perempuan,BCG,2025-09-07,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Demam ringan
+A194,Rafi,16026633306817,2023-10-29,35,Laki-laki,BCG,2025-08-30,Belum Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A195,Dimas,16029389222865,2023-06-11,4,Perempuan,Polio,2025-05-16,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A196,Budi,16027388292514,2023-03-13,24,Laki-laki,BCG,2025-10-27,Belum Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A197,Rafi,16023175158992,2023-12-27,12,Perempuan,DPT-HB-Hib,2025-10-23,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A198,Nabila,16028986984298,2023-11-11,58,Laki-laki,BCG,2025-09-22,Belum Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A199,Dimas,16024994204122,2025-06-12,53,Laki-laki,BCG,2025-09-26,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A200,Aisyah,16029106994394,2024-10-27,44,Perempuan,DPT-HB-Hib,2025-11-04,Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A201,Ahmad,16022851278558,2023-11-20,53,Laki-laki,Polio,2025-09-26,Belum Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A202,Rizki,16026223400579,2024-07-02,3,Laki-laki,Campak,2026-01-08,Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A203,Dimas,16025396096724,2023-01-28,8,Perempuan,BCG,2025-06-30,Lengkap,Bidan Rina,Posyandu Mawar,Sehat
+A204,Aisyah,16028260246420,2025-02-06,52,Laki-laki,BCG,2025-06-30,Belum Lengkap,Bidan Siti,Posyandu Mawar,Tidak ada KIPI
+A205,Nabila,16025006718050,2024-12-06,47,Laki-laki,DPT-HB-Hib,2025-08-17,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A206,Nabila,16029438748923,2025-05-19,33,Perempuan,Campak,2025-05-13,Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A207,Rafi,16027844350530,2024-06-19,42,Laki-laki,DPT-HB-Hib,2025-03-23,Belum Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A208,Putri,16029852906084,2024-11-26,11,Perempuan,DPT-HB-Hib,2025-04-15,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Demam ringan
+A209,Siti,16022094906099,2024-02-23,29,Perempuan,Campak,2025-07-02,Belum Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A210,Siti,16026731172005,2024-10-16,12,Laki-laki,Polio,2025-03-23,Belum Lengkap,Kader Ani,Posyandu Melati,Sehat
+A211,Ahmad,16025373662577,2024-09-20,6,Laki-laki,BCG,2025-09-13,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A212,Siti,16024930557254,2025-03-15,14,Laki-laki,BCG,2025-09-10,Belum Lengkap,Kader Rina,Posyandu Melati,Sehat
+A213,Nabila,16024117633141,2024-01-18,13,Laki-laki,Campak,2025-04-10,Belum Lengkap,Bidan Rina,Posyandu Melati,Tidak ada KIPI
+A214,Dimas,16029223215840,2023-11-04,16,Perempuan,Polio,2025-04-08,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A215,Ahmad,16022200090875,2025-01-23,58,Perempuan,DPT-HB-Hib,2026-01-12,Lengkap,Bidan Siti,Posyandu Mawar,Sehat
+A216,Aulia,16026632955611,2025-05-28,59,Laki-laki,Campak,2025-10-26,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A217,Putri,16022641209175,2022-11-29,52,Perempuan,DPT-HB-Hib,2025-05-18,Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A218,Dimas,16024600257218,2023-12-12,4,Perempuan,Campak,2025-10-29,Belum Lengkap,Kader Ani,Posyandu Anggrek,Demam ringan
+A219,Aisyah,16023671862091,2023-01-24,29,Perempuan,DPT-HB-Hib,2025-09-28,Belum Lengkap,Bidan Rina,Posyandu Mawar,Demam ringan
+A220,Putri,16028789936873,2025-06-19,9,Perempuan,DPT-HB-Hib,2025-10-20,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A221,Aisyah,16021575704141,2023-07-19,46,Laki-laki,DPT-HB-Hib,2025-05-09,Belum Lengkap,Kader Rina,Posyandu Melati,Demam ringan
+A222,Budi,16024307237891,2025-04-16,32,Perempuan,DPT-HB-Hib,2025-06-05,Belum Lengkap,Bidan Dewi,Posyandu Melati,Tidak ada KIPI
+A223,Putri,16021744759285,2024-01-02,39,Perempuan,Campak,2025-09-04,Belum Lengkap,Bidan Rina,Posyandu Mawar,Tidak ada KIPI
+A224,Rizki,16022829872030,2025-03-06,27,Laki-laki,BCG,2025-05-15,Belum Lengkap,Bidan Rina,Posyandu Mawar,Tidak ada KIPI
+A225,Dimas,16024014278717,2022-11-29,23,Laki-laki,Campak,2025-05-08,Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A226,Siti,16025655061018,2023-04-06,0,Perempuan,Campak,2025-09-16,Lengkap,Kader Ani,Posyandu Melati,Tidak ada KIPI
+A227,Nabila,16023819545259,2025-02-13,3,Perempuan,BCG,2025-08-25,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A228,Ahmad,16021077147729,2022-11-27,43,Perempuan,BCG,2025-12-24,Lengkap,Bidan Dewi,Posyandu Anggrek,Sehat
+A229,Rizki,16023267034859,2022-10-16,51,Laki-laki,BCG,2025-09-11,Belum Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A230,Rizki,16027327881742,2022-10-04,33,Laki-laki,DPT-HB-Hib,2025-05-21,Lengkap,Kader Ani,Posyandu Melati,Tidak ada KIPI
+A231,Aisyah,16028726552782,2023-09-27,29,Laki-laki,Polio,2025-11-12,Belum Lengkap,Kader Rina,Posyandu Melati,Tidak ada KIPI
+A232,Rafi,16028710786696,2024-11-25,51,Perempuan,DPT-HB-Hib,2025-09-24,Belum Lengkap,Bidan Siti,Posyandu Mawar,Demam ringan
+A233,Budi,16029373680034,2022-11-11,2,Perempuan,BCG,2025-05-18,Lengkap,Bidan Dewi,Posyandu Mawar,Demam ringan
+A234,Ahmad,16023564125199,2022-11-26,8,Laki-laki,BCG,2025-06-17,Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A235,Ahmad,16027533570333,2025-04-10,54,Laki-laki,Polio,2025-12-03,Belum Lengkap,Bidan Siti,Posyandu Anggrek,Demam ringan
+A236,Aulia,16024453136857,2023-07-25,49,Perempuan,Polio,2025-12-25,Lengkap,Kader Rina,Posyandu Melati,Tidak ada KIPI
+A237,Siti,16022222817711,2025-02-18,23,Perempuan,DPT-HB-Hib,2025-05-27,Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A238,Aisyah,16022235229135,2025-02-14,13,Perempuan,Campak,2025-03-27,Belum Lengkap,Bidan Siti,Posyandu Mawar,Demam ringan
+A239,Budi,16024082610747,2024-02-14,4,Laki-laki,BCG,2025-06-29,Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A240,Nabila,16029421116124,2023-02-26,9,Perempuan,Polio,2025-08-29,Belum Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A241,Nabila,16029210224236,2024-09-04,15,Laki-laki,DPT-HB-Hib,2025-06-23,Belum Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A242,Aisyah,16029987372200,2025-02-16,36,Laki-laki,Polio,2025-10-04,Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A243,Nabila,16022088059003,2023-12-06,24,Laki-laki,Campak,2025-04-01,Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A244,Budi,16028111013314,2023-10-30,19,Perempuan,Polio,2025-12-19,Lengkap,Kader Ani,Posyandu Melati,Sehat
+A245,Ahmad,16023141077867,2022-12-17,35,Laki-laki,BCG,2025-08-31,Belum Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A246,Rafi,16027965376262,2024-08-10,25,Perempuan,BCG,2025-11-03,Lengkap,Bidan Dewi,Posyandu Melati,Demam ringan
+A247,Rizki,16027414785512,2023-03-31,20,Perempuan,Polio,2025-12-11,Lengkap,Kader Rina,Posyandu Melati,Demam ringan
+A248,Aulia,16028455189836,2023-08-10,46,Perempuan,BCG,2025-08-21,Belum Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A249,Aulia,16023973591552,2024-05-13,3,Laki-laki,Polio,2025-08-11,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A250,Putri,16025007862223,2025-02-07,46,Perempuan,DPT-HB-Hib,2025-11-28,Belum Lengkap,Kader Ani,Posyandu Anggrek,Demam ringan
+A251,Putri,16028273530421,2022-11-13,22,Perempuan,Campak,2025-05-12,Belum Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A252,Ahmad,16028611220020,2023-02-09,12,Laki-laki,DPT-HB-Hib,2025-06-05,Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A253,Dimas,16021695887939,2024-06-10,12,Perempuan,DPT-HB-Hib,2025-06-12,Belum Lengkap,Bidan Dewi,Posyandu Mawar,Demam ringan
+A254,Aisyah,16021295720056,2024-02-02,16,Perempuan,DPT-HB-Hib,2025-04-09,Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A255,Rizki,16025467938000,2023-05-13,37,Perempuan,DPT-HB-Hib,2025-06-03,Lengkap,Kader Rina,Posyandu Anggrek,Demam ringan
+A256,Dimas,16026602743428,2025-06-20,11,Laki-laki,BCG,2025-11-19,Belum Lengkap,Bidan Siti,Posyandu Mawar,Tidak ada KIPI
+A257,Ahmad,16029658357727,2025-01-15,38,Laki-laki,Polio,2025-11-08,Belum Lengkap,Kader Ani,Posyandu Mawar,Tidak ada KIPI
+A258,Rizki,16023886444919,2024-01-13,29,Perempuan,BCG,2025-10-17,Belum Lengkap,Bidan Siti,Posyandu Melati,Tidak ada KIPI
+A259,Aulia,16024757782293,2024-11-23,10,Laki-laki,DPT-HB-Hib,2025-08-11,Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A260,Aulia,16028088586742,2023-08-26,56,Perempuan,BCG,2025-07-28,Belum Lengkap,Kader Ani,Posyandu Melati,Sehat
+A261,Aulia,16027120894491,2025-01-01,51,Laki-laki,Polio,2025-04-26,Belum Lengkap,Kader Rina,Posyandu Melati,Demam ringan
+A262,Siti,16027536828606,2023-04-12,2,Laki-laki,BCG,2025-11-08,Lengkap,Bidan Dewi,Posyandu Melati,Tidak ada KIPI
+A263,Siti,16023581472469,2023-08-13,11,Laki-laki,DPT-HB-Hib,2025-06-17,Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A264,Aulia,16025714643658,2024-01-26,59,Laki-laki,DPT-HB-Hib,2025-12-01,Lengkap,Kader Rina,Posyandu Mawar,Demam ringan
+A265,Putri,16023638559263,2024-11-09,24,Perempuan,BCG,2025-10-04,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A266,Aisyah,16022932129393,2024-04-26,2,Laki-laki,BCG,2025-09-11,Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A267,Aisyah,16028501662126,2024-08-06,41,Laki-laki,DPT-HB-Hib,2025-04-11,Belum Lengkap,Bidan Rina,Posyandu Anggrek,Tidak ada KIPI
+A268,Aisyah,16024699072430,2023-10-28,58,Perempuan,BCG,2025-11-29,Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A269,Dimas,16025092111073,2024-01-09,57,Perempuan,DPT-HB-Hib,2025-04-30,Lengkap,Bidan Siti,Posyandu Melati,Sehat
+A270,Siti,16022827219623,2023-04-03,57,Perempuan,Campak,2025-06-16,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Tidak ada KIPI
+A271,Rafi,16029742691032,2024-05-23,35,Perempuan,Polio,2025-05-06,Lengkap,Kader Rina,Posyandu Anggrek,Sehat
+A272,Nabila,16025502298688,2024-02-17,52,Laki-laki,DPT-HB-Hib,2025-04-03,Lengkap,Bidan Rina,Posyandu Melati,Demam ringan
+A273,Aulia,16024062741542,2025-06-15,40,Perempuan,Campak,2025-06-26,Lengkap,Kader Rina,Posyandu Anggrek,Tidak ada KIPI
+A274,Aulia,16027387598839,2024-07-29,19,Perempuan,Campak,2025-05-25,Belum Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A275,Putri,16029462365681,2024-05-25,18,Perempuan,Campak,2025-06-18,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Demam ringan
+A276,Rafi,16022162584739,2023-11-22,33,Laki-laki,BCG,2025-08-06,Belum Lengkap,Bidan Dewi,Posyandu Anggrek,Tidak ada KIPI
+A277,Aulia,16022921726612,2024-06-30,54,Laki-laki,Campak,2025-04-03,Lengkap,Bidan Dewi,Posyandu Melati,Demam ringan
+A278,Aisyah,16026944856376,2024-02-18,57,Laki-laki,DPT-HB-Hib,2025-11-16,Lengkap,Bidan Rina,Posyandu Melati,Tidak ada KIPI
+A279,Rizki,16023032274062,2024-10-20,21,Laki-laki,BCG,2025-07-11,Lengkap,Bidan Dewi,Posyandu Mawar,Tidak ada KIPI
+A280,Rizki,16025089617957,2024-07-07,29,Laki-laki,Campak,2025-06-27,Lengkap,Kader Rina,Posyandu Anggrek,Demam ringan
+A281,Ahmad,16028369150784,2023-01-29,18,Laki-laki,DPT-HB-Hib,2025-10-20,Lengkap,Kader Ani,Posyandu Anggrek,Sehat
+A282,Ahmad,16025647561325,2024-05-15,31,Perempuan,DPT-HB-Hib,2025-04-30,Lengkap,Bidan Siti,Posyandu Anggrek,Sehat
+A283,Siti,16024757047803,2024-10-13,36,Laki-laki,Polio,2025-10-11,Lengkap,Bidan Dewi,Posyandu Melati,Tidak ada KIPI
+A284,Ahmad,16021953635854,2023-12-03,54,Laki-laki,BCG,2025-06-21,Lengkap,Kader Ani,Posyandu Mawar,Sehat
+A285,Nabila,16026640430835,2023-06-26,27,Laki-laki,Polio,2025-11-03,Lengkap,Kader Ani,Posyandu Anggrek,Demam ringan
+A286,Aisyah,16029942494487,2025-02-25,26,Laki-laki,Campak,2025-07-02,Belum Lengkap,Kader Rina,Posyandu Mawar,Sehat
+A287,Budi,16026478262427,2022-10-15,11,Perempuan,Campak,2025-12-27,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A288,Dimas,16023710288130,2022-11-14,59,Perempuan,DPT-HB-Hib,2025-04-05,Belum Lengkap,Bidan Siti,Posyandu Mawar,Tidak ada KIPI
+A289,Siti,16022447569842,2022-12-03,2,Perempuan,DPT-HB-Hib,2025-04-15,Lengkap,Bidan Rina,Posyandu Mawar,Demam ringan
+A290,Dimas,16022349975024,2022-11-15,6,Perempuan,BCG,2025-11-22,Lengkap,Bidan Rina,Posyandu Melati,Tidak ada KIPI
+A291,Nabila,16027869436094,2023-11-25,20,Laki-laki,DPT-HB-Hib,2025-08-09,Lengkap,Bidan Dewi,Posyandu Mawar,Sehat
+A292,Putri,16028731935929,2024-12-14,14,Perempuan,Polio,2025-11-13,Lengkap,Bidan Rina,Posyandu Melati,Sehat
+A293,Rizki,16025545884867,2023-12-28,31,Perempuan,Polio,2025-04-19,Belum Lengkap,Kader Rina,Posyandu Melati,Demam ringan
+A294,Dimas,16025545740781,2024-03-16,7,Perempuan,DPT-HB-Hib,2025-11-11,Lengkap,Bidan Rina,Posyandu Mawar,Sehat
+A295,Siti,16023475068341,2025-05-14,19,Perempuan,DPT-HB-Hib,2025-09-07,Belum Lengkap,Kader Rina,Posyandu Mawar,Tidak ada KIPI
+A296,Ahmad,16026506128983,2023-09-18,35,Laki-laki,DPT-HB-Hib,2025-04-29,Belum Lengkap,Bidan Rina,Posyandu Mawar,Sehat
+A297,Aulia,16024581089304,2025-01-21,2,Perempuan,Polio,2025-11-07,Belum Lengkap,Bidan Siti,Posyandu Melati,Sehat
+A298,Ahmad,16022238378471,2023-02-09,53,Perempuan,Polio,2025-10-15,Belum Lengkap,Kader Ani,Posyandu Anggrek,Sehat
+A299,Rafi,16024659736810,2023-05-23,31,Laki-laki,BCG,2025-07-09,Lengkap,Bidan Rina,Posyandu Anggrek,Demam ringan
+A300,Rafi,16024570576837,2023-11-30,14,Perempuan,Campak,2025-06-19,Belum Lengkap,Bidan Rina,Posyandu Mawar,Sehat
