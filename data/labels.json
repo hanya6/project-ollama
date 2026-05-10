@@ -4,32 +4,31 @@
       "id": 1,
       "nama": "Pemantauan Gizi Balita",
       "kode": "GIZI",
-      "deskripsi": "Kegiatan penimbangan berat badan, pengukuran tinggi badan, dan lingkar kepala balita. Pemantauan status gizi meliputi gizi baik, gizi kurang, dan stunting. Termasuk pencatatan ASI eksklusif, kenaikan atau penurunan berat badan, serta rujukan untuk balita dengan status gizi buruk atau stunting.",
-      "kata_kunci": ["gizi", "penimbangan", "berat badan", "tinggi badan", "lingkar kepala", "stunting", "gizi kurang", "gizi baik", "ASI eksklusif", "antropometri", "status gizi", "BB", "TB", "LK"],
+      "deskripsi": "Penimbangan berat badan, pengukuran tinggi badan dan lingkar kepala balita. Pemantauan status gizi (gizi baik, gizi kurang, stunting), pencatatan ASI eksklusif.",
+      "kata_kunci": ["gizi", "penimbangan", "berat badan", "tinggi badan", "lingkar kepala", "stunting", "gizi kurang", "ASI eksklusif", "antropometri"],
       "sumber_data": "gizi_balita.csv"
     },
     {
       "id": 2,
       "nama": "Imunisasi Bayi",
       "kode": "IMN",
-      "deskripsi": "Pemberian vaksin/imunisasi pada bayi dan balita meliputi BCG, DPT-HB-Hib, Polio, dan Campak. Pencatatan status kelengkapan imunisasi (lengkap/belum lengkap), pemantauan Kejadian Ikutan Pasca Imunisasi (KIPI) seperti demam ringan, serta pelayanan oleh bidan dan kader posyandu.",
-      "kata_kunci": ["imunisasi", "vaksin", "BCG", "DPT-HB-Hib", "Polio", "Campak", "KIPI", "suntik", "lengkap", "belum lengkap", "demam ringan", "vaksinasi"],
+      "deskripsi": "Pemberian vaksin BCG, DPT-HB-Hib, Polio, dan Campak. Pencatatan status kelengkapan imunisasi dan pemantauan KIPI.",
+      "kata_kunci": ["imunisasi", "vaksin", "BCG", "DPT-HB-Hib", "Polio", "Campak", "KIPI", "vaksinasi"],
       "sumber_data": "imunisasi_bayi.csv"
     },
     {
       "id": 3,
       "nama": "Pemeriksaan Kesehatan Balita",
       "kode": "KES",
-      "deskripsi": "Pemeriksaan kesehatan umum balita yang mencakup pemantauan pertumbuhan (berat badan, tinggi badan, lingkar kepala), status gizi, kelengkapan imunisasi, pemberian ASI eksklusif, serta catatan perkembangan dan kesehatan secara menyeluruh. Merupakan pelayanan kesehatan terpadu untuk balita di posyandu.",
-      "kata_kunci": ["pemeriksaan kesehatan", "kesehatan balita", "terpadu", "komprehensif", "pertumbuhan", "imunisasi lengkap", "ASI", "perkembangan", "pelayanan kesehatan"],
+      "deskripsi": "Pemeriksaan kesehatan terpadu mencakup pertumbuhan, status gizi, kelengkapan imunisasi, ASI eksklusif, dan catatan perkembangan menyeluruh.",
+      "kata_kunci": ["pemeriksaan kesehatan", "terpadu", "komprehensif", "pertumbuhan", "perkembangan"],
       "sumber_data": "kesehatan_balita.csv"
     }
   ],
   "metadata": {
     "versi": "2.0",
     "jumlah_tema": 3,
-    "sumber": "Data Posyandu - Pelayanan Kesehatan Ibu dan Anak",
     "metode": "Zero-Shot Learning dengan Large Language Model (LLM) via Ollama",
-    "catatan": "Label dan deskripsi digunakan sebagai konteks untuk pendekatan Zero-Shot Learning. Model LLM mengklasifikasikan teks laporan tanpa pelatihan khusus pada data berlabel."
+    "sumber": "Data Posyandu - Pelayanan Kesehatan Ibu dan Anak"
   }
 }
