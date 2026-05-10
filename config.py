@@ -1,5 +1,6 @@
 """
-Konfigurasi Project Klasifikasi Tema Pelayanan KIA
+Konfigurasi Project
+Klasifikasi Tema Pelayanan Kesehatan Ibu dan Anak
 pada Teks Laporan Posyandu menggunakan LLM dan Zero-Shot Learning
 """
 
@@ -31,67 +32,52 @@ GENERATION_CONFIG = {
 
 # Path data
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-SAMPLE_DATA_PATH = os.path.join(DATA_DIR, "sample_laporan.csv")
+GIZI_BALITA_PATH = os.path.join(DATA_DIR, "gizi_balita.csv")
+IMUNISASI_BAYI_PATH = os.path.join(DATA_DIR, "imunisasi_bayi.csv")
+KESEHATAN_BALITA_PATH = os.path.join(DATA_DIR, "kesehatan_balita.csv")
 LABELS_PATH = os.path.join(DATA_DIR, "labels.json")
+
+# Path data generated (teks laporan hasil generate)
+GENERATED_DATA_PATH = os.path.join(DATA_DIR, "generated_laporan.csv")
 
 # ============================================================
 # KONFIGURASI KLASIFIKASI
 # ============================================================
 
-# Daftar tema/label klasifikasi
+# Daftar tema/label klasifikasi pelayanan KIA di Posyandu
 TEMA_LABELS = [
-    "Pemeriksaan Kehamilan (ANC)",
-    "Imunisasi",
-    "Penimbangan & Pemantauan Pertumbuhan",
-    "Pemberian Makanan Tambahan (PMT)",
-    "Penyuluhan Kesehatan",
-    "Pelayanan KB",
-    "Pemeriksaan Nifas",
-    "Deteksi Dini Tumbuh Kembang",
+    "Pemantauan Gizi Balita",
+    "Imunisasi Bayi",
+    "Pemeriksaan Kesehatan Balita",
 ]
 
 # Deskripsi setiap tema untuk membantu Zero-Shot Learning
 TEMA_DESCRIPTIONS = {
-    "Pemeriksaan Kehamilan (ANC)": (
-        "Kegiatan pemeriksaan rutin ibu hamil meliputi pemeriksaan tekanan darah, "
-        "berat badan, tinggi fundus uteri, denyut jantung janin, pemberian tablet Fe, "
-        "pemeriksaan laboratorium, USG, dan konseling kehamilan."
+    "Pemantauan Gizi Balita": (
+        "Kegiatan penimbangan berat badan, pengukuran tinggi badan, dan lingkar kepala balita. "
+        "Pemantauan status gizi meliputi gizi baik, gizi kurang, dan stunting. "
+        "Termasuk pencatatan ASI eksklusif, kenaikan atau penurunan berat badan, "
+        "serta rujukan untuk balita dengan status gizi buruk atau stunting."
     ),
-    "Imunisasi": (
-        "Pemberian vaksin/imunisasi pada bayi dan balita termasuk BCG, DPT-HB-Hib, "
-        "Polio (OPV/IPV), Campak/MR, Hepatitis B, dan imunisasi lanjutan. "
-        "Termasuk pencatatan status imunisasi dan KIPI."
+    "Imunisasi Bayi": (
+        "Pemberian vaksin/imunisasi pada bayi dan balita meliputi BCG, DPT-HB-Hib, "
+        "Polio, dan Campak. Pencatatan status kelengkapan imunisasi (lengkap/belum lengkap), "
+        "pemantauan Kejadian Ikutan Pasca Imunisasi (KIPI) seperti demam ringan, "
+        "serta pelayanan oleh bidan dan kader posyandu."
     ),
-    "Penimbangan & Pemantauan Pertumbuhan": (
-        "Kegiatan penimbangan berat badan balita, pengukuran tinggi/panjang badan, "
-        "pengukuran lingkar kepala, pencatatan di KMS/buku KIA, "
-        "pemantauan status gizi (gizi baik, kurang, buruk, lebih)."
+    "Pemeriksaan Kesehatan Balita": (
+        "Pemeriksaan kesehatan umum balita yang mencakup pemantauan pertumbuhan "
+        "(berat badan, tinggi badan, lingkar kepala), status gizi, kelengkapan imunisasi, "
+        "pemberian ASI eksklusif, serta catatan perkembangan dan kesehatan secara menyeluruh. "
+        "Merupakan pelayanan kesehatan terpadu untuk balita di posyandu."
     ),
-    "Pemberian Makanan Tambahan (PMT)": (
-        "Pemberian makanan tambahan untuk balita gizi kurang/buruk dan ibu hamil KEK, "
-        "termasuk PMT pemulihan, PMT penyuluhan, pemberian biskuit, "
-        "susu, bubur, dan makanan bergizi lainnya."
-    ),
-    "Penyuluhan Kesehatan": (
-        "Kegiatan edukasi dan penyuluhan kesehatan kepada ibu dan masyarakat "
-        "tentang ASI eksklusif, MPASI, gizi seimbang, PHBS, pencegahan penyakit, "
-        "perawatan bayi/balita, dan kesehatan reproduksi."
-    ),
-    "Pelayanan KB": (
-        "Pelayanan keluarga berencana meliputi konseling KB, pemberian pil KB, "
-        "suntik KB, pemasangan implant/IUD, kondom, dan pemantauan efek samping "
-        "alat kontrasepsi."
-    ),
-    "Pemeriksaan Nifas": (
-        "Kunjungan dan pemeriksaan ibu pasca persalinan (masa nifas), "
-        "pemeriksaan involusi uterus, pemantauan lochea, perawatan luka, "
-        "konseling menyusui, dan deteksi komplikasi nifas."
-    ),
-    "Deteksi Dini Tumbuh Kembang": (
-        "Kegiatan stimulasi, deteksi, dan intervensi dini tumbuh kembang anak "
-        "menggunakan KPSP, pemeriksaan penglihatan, pendengaran, "
-        "perkembangan motorik, bahasa, dan sosial-emosional."
-    ),
+}
+
+# Mapping file CSV ke tema
+FILE_TEMA_MAPPING = {
+    "gizi_balita.csv": "Pemantauan Gizi Balita",
+    "imunisasi_bayi.csv": "Imunisasi Bayi",
+    "kesehatan_balita.csv": "Pemeriksaan Kesehatan Balita",
 }
 
 # ============================================================

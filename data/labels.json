@@ -2,65 +2,34 @@
   "tema_labels": [
     {
       "id": 1,
-      "nama": "Pemeriksaan Kehamilan (ANC)",
-      "kode": "ANC",
-      "deskripsi": "Kegiatan pemeriksaan rutin ibu hamil meliputi pemeriksaan tekanan darah, berat badan, tinggi fundus uteri, denyut jantung janin, pemberian tablet Fe, pemeriksaan laboratorium, USG, dan konseling kehamilan.",
-      "kata_kunci": ["hamil", "kehamilan", "ANC", "trimester", "janin", "USG", "tablet Fe", "fundus", "tekanan darah ibu hamil", "HB", "LILA", "bumil"]
+      "nama": "Pemantauan Gizi Balita",
+      "kode": "GIZI",
+      "deskripsi": "Kegiatan penimbangan berat badan, pengukuran tinggi badan, dan lingkar kepala balita. Pemantauan status gizi meliputi gizi baik, gizi kurang, dan stunting. Termasuk pencatatan ASI eksklusif, kenaikan atau penurunan berat badan, serta rujukan untuk balita dengan status gizi buruk atau stunting.",
+      "kata_kunci": ["gizi", "penimbangan", "berat badan", "tinggi badan", "lingkar kepala", "stunting", "gizi kurang", "gizi baik", "ASI eksklusif", "antropometri", "status gizi", "BB", "TB", "LK"],
+      "sumber_data": "gizi_balita.csv"
     },
     {
       "id": 2,
-      "nama": "Imunisasi",
+      "nama": "Imunisasi Bayi",
       "kode": "IMN",
-      "deskripsi": "Pemberian vaksin/imunisasi pada bayi dan balita termasuk BCG, DPT-HB-Hib, Polio (OPV/IPV), Campak/MR, Hepatitis B, dan imunisasi lanjutan.",
-      "kata_kunci": ["imunisasi", "vaksin", "BCG", "DPT", "Polio", "Campak", "MR", "Hepatitis B", "suntik", "KIPI", "IDL", "booster"]
+      "deskripsi": "Pemberian vaksin/imunisasi pada bayi dan balita meliputi BCG, DPT-HB-Hib, Polio, dan Campak. Pencatatan status kelengkapan imunisasi (lengkap/belum lengkap), pemantauan Kejadian Ikutan Pasca Imunisasi (KIPI) seperti demam ringan, serta pelayanan oleh bidan dan kader posyandu.",
+      "kata_kunci": ["imunisasi", "vaksin", "BCG", "DPT-HB-Hib", "Polio", "Campak", "KIPI", "suntik", "lengkap", "belum lengkap", "demam ringan", "vaksinasi"],
+      "sumber_data": "imunisasi_bayi.csv"
     },
     {
       "id": 3,
-      "nama": "Penimbangan & Pemantauan Pertumbuhan",
-      "kode": "PPP",
-      "deskripsi": "Kegiatan penimbangan berat badan balita, pengukuran tinggi/panjang badan, pengukuran lingkar kepala, pencatatan di KMS/buku KIA, pemantauan status gizi.",
-      "kata_kunci": ["timbang", "penimbangan", "berat badan", "tinggi badan", "KMS", "gizi", "BGM", "status gizi", "lingkar kepala", "balita", "BB/U", "TB/U"]
-    },
-    {
-      "id": 4,
-      "nama": "Pemberian Makanan Tambahan (PMT)",
-      "kode": "PMT",
-      "deskripsi": "Pemberian makanan tambahan untuk balita gizi kurang/buruk dan ibu hamil KEK, termasuk PMT pemulihan, PMT penyuluhan, biskuit, susu, bubur.",
-      "kata_kunci": ["PMT", "makanan tambahan", "biskuit", "susu", "bubur", "gizi kurang", "gizi buruk", "KEK", "pemulihan", "makanan bergizi"]
-    },
-    {
-      "id": 5,
-      "nama": "Penyuluhan Kesehatan",
-      "kode": "PYL",
-      "deskripsi": "Kegiatan edukasi dan penyuluhan kesehatan tentang ASI eksklusif, MPASI, gizi seimbang, PHBS, pencegahan penyakit, perawatan bayi/balita.",
-      "kata_kunci": ["penyuluhan", "edukasi", "ASI", "MPASI", "PHBS", "gizi seimbang", "sosialisasi", "konseling", "demo masak", "cuci tangan"]
-    },
-    {
-      "id": 6,
-      "nama": "Pelayanan KB",
-      "kode": "KB",
-      "deskripsi": "Pelayanan keluarga berencana meliputi konseling KB, pemberian pil KB, suntik KB, pemasangan implant/IUD, kondom.",
-      "kata_kunci": ["KB", "keluarga berencana", "kontrasepsi", "pil", "suntik", "implant", "IUD", "kondom", "akseptor", "MKJP"]
-    },
-    {
-      "id": 7,
-      "nama": "Pemeriksaan Nifas",
-      "kode": "NFS",
-      "deskripsi": "Kunjungan dan pemeriksaan ibu pasca persalinan, pemeriksaan involusi uterus, pemantauan lochea, perawatan luka, konseling menyusui.",
-      "kata_kunci": ["nifas", "pasca persalinan", "melahirkan", "lochea", "involusi", "menyusui", "ASI", "KF1", "KF2", "KF3", "ibu bersalin"]
-    },
-    {
-      "id": 8,
-      "nama": "Deteksi Dini Tumbuh Kembang",
-      "kode": "DDTK",
-      "deskripsi": "Stimulasi, deteksi, dan intervensi dini tumbuh kembang anak menggunakan KPSP, pemeriksaan penglihatan, pendengaran, motorik, bahasa.",
-      "kata_kunci": ["tumbuh kembang", "KPSP", "DDTK", "stimulasi", "motorik", "perkembangan", "milestone", "bahasa", "sosial", "bermain"]
+      "nama": "Pemeriksaan Kesehatan Balita",
+      "kode": "KES",
+      "deskripsi": "Pemeriksaan kesehatan umum balita yang mencakup pemantauan pertumbuhan (berat badan, tinggi badan, lingkar kepala), status gizi, kelengkapan imunisasi, pemberian ASI eksklusif, serta catatan perkembangan dan kesehatan secara menyeluruh. Merupakan pelayanan kesehatan terpadu untuk balita di posyandu.",
+      "kata_kunci": ["pemeriksaan kesehatan", "kesehatan balita", "terpadu", "komprehensif", "pertumbuhan", "imunisasi lengkap", "ASI", "perkembangan", "pelayanan kesehatan"],
+      "sumber_data": "kesehatan_balita.csv"
     }
   ],
   "metadata": {
-    "versi": "1.0",
-    "jumlah_tema": 8,
-    "sumber": "Pedoman Pelaksanaan Posyandu - Kementerian Kesehatan RI",
-    "catatan": "Label dan deskripsi digunakan untuk pendekatan Zero-Shot Learning"
+    "versi": "2.0",
+    "jumlah_tema": 3,
+    "sumber": "Data Posyandu - Pelayanan Kesehatan Ibu dan Anak",
+    "metode": "Zero-Shot Learning dengan Large Language Model (LLM) via Ollama",
+    "catatan": "Label dan deskripsi digunakan sebagai konteks untuk pendekatan Zero-Shot Learning. Model LLM mengklasifikasikan teks laporan tanpa pelatihan khusus pada data berlabel."
   }
 }

@@ -8,57 +8,103 @@ Project ini mengimplementasikan sistem klasifikasi otomatis untuk mengidentifika
 
 Posyandu (Pos Pelayanan Terpadu) merupakan salah satu bentuk upaya kesehatan bersumber daya masyarakat yang dikelola dari, oleh, untuk, dan bersama masyarakat. Laporan kegiatan Posyandu seringkali berisi berbagai informasi terkait pelayanan kesehatan ibu dan anak yang perlu diklasifikasikan untuk keperluan monitoring dan evaluasi program.
 
-### Tema Klasifikasi
+## Tema Klasifikasi
 
-Sistem ini mengklasifikasikan teks laporan ke dalam tema-tema berikut:
+Sistem ini mengklasifikasikan teks laporan ke dalam 3 tema pelayanan KIA:
 
-1. **Pemeriksaan Kehamilan (Antenatal Care/ANC)** - Pemeriksaan rutin ibu hamil, USG, pemberian tablet Fe
-2. **Imunisasi** - Pemberian vaksin pada bayi dan balita (BCG, DPT, Polio, Campak, dll)
-3. **Penimbangan & Pemantauan Pertumbuhan** - Penimbangan balita, pengukuran tinggi badan, KMS
-4. **Pemberian Makanan Tambahan (PMT)** - Pemberian PMT untuk balita gizi kurang/buruk
-5. **Penyuluhan Kesehatan** - Edukasi kesehatan ibu dan anak, KB, ASI eksklusif
-6. **Pelayanan KB (Keluarga Berencana)** - Pelayanan kontrasepsi, konseling KB
-7. **Pemeriksaan Nifas** - Kunjungan nifas, pemeriksaan pasca persalinan
-8. **Deteksi Dini Tumbuh Kembang** - Stimulasi, deteksi, dan intervensi dini tumbuh kembang
+| No | Tema | Kode | Sumber Data |
+|----|------|------|-------------|
+| 1 | **Pemantauan Gizi Balita** | GIZI | `gizi_balita.csv` (300 data) |
+| 2 | **Imunisasi Bayi** | IMN | `imunisasi_bayi.csv` (300 data) |
+| 3 | **Pemeriksaan Kesehatan Balita** | KES | `kesehatan_balita.csv` (300 data) |
 
-## Arsitektur Sistem
+### Detail Tema:
+
+1. **Pemantauan Gizi Balita** - Penimbangan berat badan, pengukuran tinggi badan & lingkar kepala, pemantauan status gizi (gizi baik, gizi kurang, stunting), pencatatan ASI eksklusif.
+
+2. **Imunisasi Bayi** - Pemberian vaksin BCG, DPT-HB-Hib, Polio, Campak. Pencatatan status kelengkapan imunisasi dan pemantauan KIPI.
+
+3. **Pemeriksaan Kesehatan Balita** - Pemeriksaan kesehatan terpadu yang mencakup pertumbuhan, status gizi, imunisasi, dan perkembangan secara menyeluruh.
+
+## Arsitektur & Alur Kerja
 
 ```
-┌─────────────────────┐     ┌──────────────────────┐     ┌─────────────────────┐
-│  Data Laporan       │────▶│  Zero-Shot Classifier │────▶│  Hasil Klasifikasi  │
-│  Posyandu (Teks)    │     │  (Ollama LLM)         │     │  + Evaluasi         │
-└─────────────────────┘     └──────────────────────┘     └─────────────────────┘
+┌────────────────────────┐
+│  Data Tabular (CSV)    │
+│  - gizi_balita.csv     │
+│  - imunisasi_bayi.csv  │
+│  - kesehatan_balita.csv│
+└──────────┬─────────────┘
+           │ Step 1: Text Generation
+           ▼
+┌────────────────────────┐
+│  Teks Laporan Naratif  │
+│  (generated_laporan.csv)│
+└──────────┬─────────────┘
+           │ Step 2: Zero-Shot Classification
+           ▼
+┌────────────────────────┐
+│  LLM via Ollama        │
+│  (llama3/mistral/dll)  │
+│  + Prompt Engineering  │
+└──────────┬─────────────┘
+           │ Step 3: Evaluation
+           ▼
+┌────────────────────────┐
+│  Hasil & Evaluasi      │
+│  - Accuracy, F1-Score  │
+│  - Confusion Matrix    │
+│  - Classification Report│
+└────────────────────────┘
 ```
+
+## Metodologi Zero-Shot Learning
+
+Zero-Shot Learning memungkinkan model untuk mengklasifikasikan teks ke dalam kategori yang belum pernah dilihat selama pelatihan. Pendekatan ini menggunakan:
+
+1. **Text Generation** - Data tabular diubah menjadi teks naratif yang menyerupai laporan kegiatan posyandu sesungguhnya.
+2. **Prompt Engineering** - Merancang prompt yang mendeskripsikan tugas klasifikasi beserta deskripsi setiap tema.
+3. **LLM Inference** - Model LLM memahami konteks teks dan memilih tema yang paling sesuai.
+4. **Evaluation** - Mengukur performa klasifikasi menggunakan metrik standar.
 
 ## Teknologi yang Digunakan
 
 - **Python 3.10+**
 - **Ollama** - Platform untuk menjalankan LLM secara lokal
-- **LLM Models** - llama3, mistral, atau model lainnya via Ollama
+- **LLM Models** - llama3, mistral, gemma, atau model lainnya
 - **Pandas** - Manipulasi dan analisis data
 - **Scikit-learn** - Evaluasi metrik klasifikasi
 - **Matplotlib & Seaborn** - Visualisasi hasil
+- **tqdm** - Progress bar
 
 ## Struktur Project
 
 ```
 project-ollama/
-├── README.md                   # Dokumentasi project
-├── requirements.txt            # Dependencies Python
-├── config.py                   # Konfigurasi project
+├── README.md                    # Dokumentasi project
+├── requirements.txt             # Dependencies Python
+├── config.py                    # Konfigurasi project
+├── main.py                      # Script utama (pipeline)
+├── evaluate.py                  # Script evaluasi & visualisasi
 ├── data/
-│   ├── sample_laporan.csv      # Data sampel laporan posyandu
-│   └── labels.json             # Daftar label/tema klasifikasi
+│   ├── gizi_balita.csv          # Data gizi balita (300 record)
+│   ├── imunisasi_bayi.csv       # Data imunisasi bayi (300 record)
+│   ├── kesehatan_balita.csv     # Data kesehatan balita (300 record)
+│   ├── labels.json              # Daftar label/tema klasifikasi
+│   └── generated_laporan.csv    # [Generated] Teks laporan naratif
 ├── src/
 │   ├── __init__.py
-│   ├── classifier.py           # Modul klasifikasi zero-shot
-│   ├── data_loader.py          # Modul loading data
-│   ├── prompt_templates.py     # Template prompt untuk LLM
-│   └── evaluator.py            # Modul evaluasi hasil
-├── main.py                     # Script utama
-├── evaluate.py                 # Script evaluasi & visualisasi
-└── results/                    # Folder output hasil
-    └── .gitkeep
+│   ├── text_generator.py        # Generator teks dari data tabular
+│   ├── classifier.py            # Klasifikasi zero-shot via Ollama
+│   ├── data_loader.py           # Loading data CSV/JSON
+│   ├── prompt_templates.py      # Template prompt untuk LLM
+│   └── evaluator.py             # Evaluasi & visualisasi hasil
+└── results/                     # Folder output hasil
+    ├── hasil_klasifikasi.csv    # [Generated] Hasil klasifikasi
+    ├── laporan_evaluasi.txt     # [Generated] Laporan evaluasi
+    ├── confusion_matrix.png     # [Generated] Visualisasi
+    ├── classification_report.png # [Generated] Grafik metrik
+    └── distribusi_prediksi.png  # [Generated] Distribusi
 ```
 
 ## Instalasi & Penggunaan
@@ -73,68 +119,125 @@ project-ollama/
 2. **Download Model LLM**
    ```bash
    ollama pull llama3
-   # atau
-   ollama pull mistral
+   # atau model lain:
+   # ollama pull mistral
+   # ollama pull gemma:7b
    ```
 
-3. **Install Dependencies Python**
+3. **Jalankan Ollama Server**
+   ```bash
+   ollama serve
+   ```
+
+4. **Install Dependencies Python**
    ```bash
    pip install -r requirements.txt
    ```
 
-### Menjalankan Klasifikasi
+### Menjalankan Project
 
+#### Pipeline Lengkap (Recommended)
 ```bash
-# Jalankan klasifikasi pada data sampel
 python main.py
+```
+Ini akan menjalankan: Generate Teks → Klasifikasi → Simpan Hasil
 
-# Jalankan dengan model tertentu
-python main.py --model llama3
+#### Step-by-Step
+```bash
+# Step 1: Generate teks laporan dari data CSV
+python main.py --generate
 
-# Jalankan evaluasi dan visualisasi
+# Step 2: Klasifikasi dengan LLM
+python main.py --classify
+
+# Step 3: Evaluasi hasil
 python evaluate.py
 ```
 
-## Metodologi Zero-Shot Learning
+#### Opsi Tambahan
+```bash
+# Gunakan model tertentu
+python main.py --model mistral
 
-Zero-Shot Learning memungkinkan model untuk mengklasifikasikan teks ke dalam kategori yang belum pernah dilihat selama pelatihan. Pendekatan ini menggunakan:
+# Dengan Chain-of-Thought reasoning
+python main.py --reasoning
 
-1. **Prompt Engineering** - Merancang prompt yang mendeskripsikan tugas klasifikasi
-2. **Label Description** - Memberikan deskripsi detail setiap kategori/tema
-3. **LLM Reasoning** - Memanfaatkan kemampuan pemahaman bahasa dari LLM
+# Batasi jumlah data (untuk testing)
+python main.py --limit 30
 
-### Contoh Prompt Zero-Shot
+# Klasifikasi satu teks
+python main.py --single "Hari ini dilakukan penimbangan balita Rizki, BB 12 kg, status gizi baik"
 
+# Batasi jumlah data per tema saat generate
+python main.py --n-per-tema 50
 ```
-Klasifikasikan teks laporan posyandu berikut ke dalam salah satu tema:
-- Pemeriksaan Kehamilan (ANC)
-- Imunisasi
-- Penimbangan & Pemantauan Pertumbuhan
-- Pemberian Makanan Tambahan (PMT)
-- Penyuluhan Kesehatan
-- Pelayanan KB
-- Pemeriksaan Nifas
-- Deteksi Dini Tumbuh Kembang
 
-Teks: "Hari ini dilakukan penimbangan balita sebanyak 45 anak..."
-Tema:
-```
+## Dataset
+
+### gizi_balita.csv (300 record)
+| Kolom | Deskripsi |
+|-------|-----------|
+| ID_Balita | ID unik balita |
+| Nama_Balita | Nama balita |
+| Umur_Bulan | Usia dalam bulan |
+| Jenis_Kelamin | Laki-laki/Perempuan |
+| Berat_Badan | Berat badan (kg) |
+| Tinggi_Badan | Tinggi badan (cm) |
+| Lingkar_Kepala | Lingkar kepala (cm) |
+| Status_Gizi | Gizi Baik/Gizi Kurang/Stunting |
+| ASI_Eksklusif | Ya/Tidak |
+| Tanggal_Pemeriksaan | Tanggal pelayanan |
+| Kader | Petugas yang melayani |
+| Keterangan | Catatan tambahan |
+
+### imunisasi_bayi.csv (300 record)
+| Kolom | Deskripsi |
+|-------|-----------|
+| ID_Bayi | ID unik bayi |
+| Nama_Bayi | Nama bayi |
+| Tanggal_Lahir | Tanggal lahir |
+| Umur_Bulan | Usia dalam bulan |
+| Jenis_Kelamin | Laki-laki/Perempuan |
+| Jenis_Imunisasi | BCG/DPT-HB-Hib/Polio/Campak |
+| Tanggal_Imunisasi | Tanggal pemberian |
+| Status_Imunisasi | Lengkap/Belum Lengkap |
+| Petugas | Petugas pelaksana |
+| Posyandu | Nama posyandu |
+| Keterangan | Kondisi pasca imunisasi |
+
+### kesehatan_balita.csv (300 record)
+| Kolom | Deskripsi |
+|-------|-----------|
+| ID_Balita | ID unik balita |
+| Nama_Balita | Nama balita |
+| Umur_Bulan | Usia dalam bulan |
+| Jenis_Kelamin | Laki-laki/Perempuan |
+| Berat_Badan | Berat badan (kg) |
+| Tinggi_Badan | Tinggi badan (cm) |
+| Lingkar_Kepala | Lingkar kepala (cm) |
+| Status_Gizi | Status gizi |
+| ASI_Eksklusif | Ya/Tidak |
+| Imunisasi_Lengkap | Ya/Tidak |
+| Tanggal_Pemeriksaan | Tanggal pelayanan |
+| Kader | Petugas yang melayani |
+| Catatan | Catatan perkembangan |
 
 ## Hasil & Evaluasi
 
 Evaluasi dilakukan menggunakan metrik:
-- **Accuracy** - Proporsi prediksi yang benar
-- **Precision** - Ketepatan prediksi per kelas
-- **Recall** - Kelengkapan prediksi per kelas
+- **Accuracy** - Proporsi prediksi yang benar secara keseluruhan
+- **Precision** - Ketepatan prediksi per kelas tema
+- **Recall** - Kelengkapan prediksi per kelas tema
 - **F1-Score** - Harmonic mean dari precision dan recall
-- **Confusion Matrix** - Visualisasi distribusi prediksi
+- **Confusion Matrix** - Visualisasi distribusi prediksi vs aktual
 
 ## Lisensi
 
-Project ini dibuat untuk keperluan penelitian dan edukasi.
+Project ini dibuat untuk keperluan penelitian dan edukasi di bidang Natural Language Processing (NLP) dan kesehatan masyarakat.
 
 ## Referensi
 
 - Ollama Documentation: https://ollama.com
 - Zero-Shot Learning: Wei et al. (2022) - "Finetuned Language Models Are Zero-Shot Learners"
 - Pedoman Pelaksanaan Posyandu - Kementerian Kesehatan RI
+- Brown et al. (2020) - "Language Models are Few-Shot Learners" (GPT-3)
