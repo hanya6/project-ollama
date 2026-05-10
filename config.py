@@ -49,18 +49,18 @@ TEMA_LABELS = [
 TEMA_DESCRIPTIONS = {
     "Pemantauan Gizi Balita": (
         "Kegiatan penimbangan berat badan, pengukuran tinggi badan dan lingkar kepala balita. "
-        "Pemantauan status gizi meliputi gizi baik, gizi kurang, dan stunting. "
-        "Termasuk pencatatan ASI eksklusif dan kenaikan/penurunan berat badan."
+        "Pemantauan status gizi (gizi baik, gizi kurang, stunting) dan pencatatan ASI eksklusif. "
+        "Laporan ini HANYA membahas pertumbuhan dan gizi, TANPA menyebutkan status imunisasi."
     ),
     "Imunisasi Bayi": (
         "Pemberian vaksin/imunisasi pada bayi meliputi BCG, DPT-HB-Hib, Polio, dan Campak. "
-        "Pencatatan status kelengkapan imunisasi (lengkap/belum lengkap) dan "
-        "pemantauan Kejadian Ikutan Pasca Imunisasi (KIPI) seperti demam ringan."
+        "Pencatatan status kelengkapan imunisasi dan pemantauan KIPI (demam ringan). "
+        "Laporan ini HANYA membahas vaksinasi, TANPA pengukuran berat badan atau status gizi."
     ),
     "Pemeriksaan Kesehatan Balita": (
-        "Pemeriksaan kesehatan terpadu balita mencakup pengukuran pertumbuhan "
-        "(berat badan, tinggi badan, lingkar kepala), status gizi, kelengkapan imunisasi, "
-        "pemberian ASI eksklusif, serta catatan perkembangan kesehatan menyeluruh."
+        "Pemeriksaan kesehatan TERPADU yang MENGGABUNGKAN informasi pertumbuhan/gizi "
+        "DAN status kelengkapan imunisasi dalam SATU laporan. "
+        "Ciri khas: menyebutkan KEDUA informasi yaitu status gizi DAN status imunisasi sekaligus."
     ),
 }
 

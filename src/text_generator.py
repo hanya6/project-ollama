@@ -83,35 +83,40 @@ TEMPLATES_IMUNISASI = [
 ]
 
 # Template teks - PEMERIKSAAN KESEHATAN BALITA
+# Strategi: Menekankan bahwa ini pemeriksaan TERPADU (gizi + imunisasi)
 TEMPLATES_KESEHATAN = [
     (
-        "Pada tanggal {tanggal}, dilakukan pemeriksaan kesehatan balita di posyandu. "
-        "Balita {nama} ({jk}, {umur} bulan) diperiksa secara menyeluruh. "
-        "BB={bb} kg, TB={tb} cm, LK={lk} cm. Status gizi: {status_gizi}. "
-        "{asi_text} {imun_text} Pemeriksa: {kader}. Catatan: {catatan}."
+        "Pada tanggal {tanggal}, dilakukan pemeriksaan kesehatan terpadu balita di posyandu. "
+        "Balita {nama} ({jk}, {umur} bulan) menjalani pemeriksaan menyeluruh. "
+        "Hasil pengukuran pertumbuhan: BB={bb} kg, TB={tb} cm, LK={lk} cm. Status gizi: {status_gizi}. "
+        "{asi_text} Selain itu, dilakukan pengecekan kelengkapan imunisasi: {imun_text} "
+        "Pemeriksa: {kader}. Catatan perkembangan: {catatan}."
     ),
     (
-        "Laporan pemeriksaan kesehatan terpadu balita {tanggal}. "
-        "Balita {nama}, {jk}, {umur} bulan mendapat pelayanan kesehatan lengkap. "
-        "Pengukuran: BB {bb} kg, TB {tb} cm, LK {lk} cm. Status gizi: {status_gizi}. "
-        "{asi_text} {imun_text} Petugas: {kader}. Keterangan: {catatan}."
+        "Laporan pemeriksaan kesehatan balita secara komprehensif tanggal {tanggal}. "
+        "Balita {nama}, {jk}, {umur} bulan mendapat pelayanan kesehatan terpadu di posyandu. "
+        "Pemantauan pertumbuhan: BB {bb} kg, TB {tb} cm, LK {lk} cm dengan status gizi {status_gizi}. "
+        "{asi_text} Evaluasi kelengkapan imunisasi: {imun_text} "
+        "Petugas: {kader}. Keterangan: {catatan}."
     ),
     (
-        "Pemeriksaan kesehatan balita di posyandu {tanggal} untuk {nama} ({jk}, {umur} bulan). "
-        "Data pertumbuhan: BB {bb} kg, TB {tb} cm, LK {lk} cm. "
-        "Status gizi: {status_gizi}. {asi_text} {imun_text} "
-        "Dilayani oleh {kader}. Catatan: {catatan}."
+        "Pemeriksaan kesehatan balita terpadu di posyandu {tanggal} untuk {nama} ({jk}, {umur} bulan). "
+        "Aspek pertumbuhan - BB: {bb} kg, TB: {tb} cm, LK: {lk} cm, status gizi: {status_gizi}. "
+        "{asi_text} Aspek imunisasi - {imun_text} "
+        "Dilayani oleh {kader}. Catatan kesehatan: {catatan}."
     ),
     (
-        "Hasil pemeriksaan kesehatan komprehensif {tanggal}: "
-        "{nama} ({jk}, {umur} bulan). BB: {bb} kg, TB: {tb} cm, LK: {lk} cm. "
-        "Status gizi: {status_gizi}. {asi_text} {imun_text} "
-        "Pemeriksa: {kader}. Keterangan: {catatan}."
+        "Hasil pemeriksaan kesehatan komprehensif balita {tanggal}: "
+        "{nama} ({jk}, {umur} bulan). "
+        "Pertumbuhan: BB {bb} kg, TB {tb} cm, LK {lk} cm. Status gizi: {status_gizi}. "
+        "{asi_text} Riwayat imunisasi diperiksa: {imun_text} "
+        "Pemeriksa: {kader}. Catatan perkembangan: {catatan}."
     ),
     (
-        "Pelayanan kesehatan balita posyandu {tanggal}: {nama}, {jk}, {umur} bulan. "
-        "Hasil: BB {bb} kg, TB {tb} cm, LK {lk} cm, status gizi {status_gizi}. "
-        "{asi_text} {imun_text} Petugas: {kader}. Catatan: {catatan}."
+        "Pelayanan kesehatan terpadu balita di posyandu {tanggal}: {nama}, {jk}, {umur} bulan. "
+        "Pemantauan gizi: BB {bb} kg, TB {tb} cm, LK {lk} cm, status gizi {status_gizi}. "
+        "{asi_text} Pemantauan imunisasi: {imun_text} "
+        "Petugas pelayanan: {kader}. Catatan: {catatan}."
     ),
 ]
 
@@ -138,12 +143,14 @@ class TextGenerator:
     def _imun_text(self, value: str) -> str:
         if value == "Ya":
             return random.choice([
-                "Imunisasi dasar: lengkap.",
-                "Status imunisasi dasar lengkap.",
+                "Status kelengkapan imunisasi dasar: LENGKAP.",
+                "Imunisasi dasar telah lengkap diberikan.",
+                "Kelengkapan imunisasi: sudah lengkap semua.",
             ])
         return random.choice([
-            "Imunisasi dasar: belum lengkap.",
-            "Status imunisasi belum lengkap.",
+            "Status kelengkapan imunisasi dasar: BELUM LENGKAP.",
+            "Imunisasi dasar belum lengkap, perlu dijadwalkan.",
+            "Kelengkapan imunisasi: belum lengkap.",
         ])
 
     def generate_from_gizi(self, row: pd.Series) -> str:
