@@ -1,198 +1,175 @@
-"""
-Modul Klasifikasi Zero-Shot menggunakan LLM via Ollama.
-"""
-
-import re
 import time
-from typing import Optional
-
 import requests
-from tqdm import tqdm
 
-from config import (
-    OLLAMA_BASE_URL,
-    OLLAMA_MODEL,
-    GENERATION_CONFIG,
-    TEMA_LABELS,
-    TEMA_DESCRIPTIONS,
-)
-from src.prompt_templates import (
-    get_zero_shot_prompt,
-    get_zero_shot_prompt_with_reasoning,
-)
+from config import TEMA_LABELS
 
 
 class OllamaClassifier:
-    """Klasifikasi Zero-Shot menggunakan LLM via Ollama."""
+    def __init__(self, model="mistral", base_url="http://localhost:11434"):
+        self.model = model
+        self.base_url = base_url
 
-    def __init__(self, model: str = None, base_url: str = None):
-        self.model = model or OLLAMA_MODEL
-        self.base_url = base_url or OLLAMA_BASE_URL
-        self.api_url = f"{self.base_url}/api/generate"
-        self.tema_labels = TEMA_LABELS
-        self.tema_descriptions = TEMA_DESCRIPTIONS
-        self.generation_config = GENERATION_CONFIG.copy()
-
-    def check_connection(self) -> bool:
-        """Cek koneksi ke Ollama server."""
+    def check_connection(self):
         try:
-            resp = requests.get(f"{self.base_url}/api/tags", timeout=5)
-            if resp.status_code == 200:
-                models = resp.json().get("models", [])
-                names = [m["name"] for m in models]
-                print(f"[INFO] Terhubung ke Ollama: {self.base_url}")
-                print(f"[INFO] Model tersedia: {', '.join(names)}")
-                if not any(self.model in n for n in names):
-                    print(f"[WARNING] Model '{self.model}' tidak ditemukan!")
-                    print(f"[INFO] Jalankan: ollama pull {self.model}")
-                    return False
-                return True
-            return False
-        except requests.ConnectionError:
-            print(f"[ERROR] Tidak dapat terhubung ke Ollama di {self.base_url}")
-            print("[INFO] Pastikan: ollama serve")
-            return False
-        except Exception as e:
-            print(f"[ERROR] {e}")
+            response = requests.get(f"{self.base_url}/api/tags", timeout=5)
+            return response.status_code == 200
+        except Exception:
             return False
 
-    def _call_ollama(self, prompt: str) -> Optional[str]:
-        """Kirim prompt ke Ollama API."""
+    def build_prompt(self, teks, with_reasoning=False):
+        label_text = "\n".join([f"- {label}" for label in TEMA_LABELS])
+
+        if with_reasoning:
+            prompt = f"""
+Anda adalah sistem klasifikasi tema laporan posyandu.
+
+Tugas Anda adalah mengklasifikasikan teks laporan berikut ke dalam salah satu tema:
+
+{label_text}
+
+Teks laporan:
+\"\"\"{teks}\"\"\"
+
+Berikan jawaban dengan format:
+Tema: <salah satu label>
+Alasan: <alasan singkat>
+
+Aturan:
+- Pilih hanya satu tema.
+- Tema harus persis salah satu dari daftar label.
+- Jangan membuat tema baru.
+"""
+        else:
+            prompt = f"""
+Anda adalah sistem klasifikasi tema laporan posyandu.
+
+Klasifikasikan teks laporan berikut ke dalam salah satu tema:
+
+{label_text}
+
+Teks laporan:
+\"\"\"{teks}\"\"\"
+
+Jawab hanya dengan salah satu label berikut:
+Gizi Balita
+Kesehatan Balita
+Imunisasi Bayi
+"""
+
+        return prompt.strip()
+
+    def query_ollama(self, prompt):
+        url = f"{self.base_url}/api/generate"
+
         payload = {
             "model": self.model,
             "prompt": prompt,
             "stream": False,
-            "options": self.generation_config,
+            "options": {
+                "temperature": 0.0,
+                "top_p": 0.9
+            }
         }
-        try:
-            resp = requests.post(self.api_url, json=payload, timeout=120)
-            if resp.status_code == 200:
-                return resp.json().get("response", "").strip()
-            print(f"[ERROR] API error: {resp.status_code}")
-            return None
-        except requests.Timeout:
-            print("[ERROR] Timeout")
-            return None
-        except Exception as e:
-            print(f"[ERROR] {e}")
-            return None
 
-    def _parse_response(self, response: str) -> str:
-        """Ekstrak nama tema dari respons LLM."""
-        if not response:
-            return "Tidak Terklasifikasi"
+        response = requests.post(url, json=payload, timeout=120)
+        response.raise_for_status()
 
-        clean = response.strip().strip('"').strip("'").strip()
+        result = response.json()
 
-        # Exact match
-        for label in self.tema_labels:
-            if label.lower() == clean.lower():
-                return label
+        return result.get("response", "").strip()
 
-        # Contains match
-        for label in self.tema_labels:
-            if label.lower() in clean.lower():
-                return label
+    def normalize_label(self, text):
+        text_lower = text.lower()
 
-        # Keyword match
-        keywords = {
-            "Pemantauan Gizi Balita": [
-                "gizi", "penimbangan", "stunting", "gizi kurang",
-                "berat badan", "tinggi badan", "antropometri",
-            ],
-            "Imunisasi Bayi": [
-                "imunisasi", "vaksin", "bcg", "dpt", "polio",
-                "campak", "kipi", "vaksinasi",
-            ],
-            "Pemeriksaan Kesehatan Balita": [
-                "pemeriksaan kesehatan", "kesehatan balita",
-                "kesehatan terpadu", "komprehensif",
-            ],
-        }
-        lower = clean.lower()
-        for label, kws in keywords.items():
-            for kw in kws:
-                if kw in lower:
-                    return label
+        if "gizi balita" in text_lower:
+            return "Gizi Balita"
 
-        return "Tidak Terklasifikasi"
+        if "kesehatan balita" in text_lower:
+            return "Kesehatan Balita"
 
-    def _parse_reasoning_response(self, response: str) -> tuple:
-        """Parse respons dengan format reasoning."""
-        if not response:
-            return "Tidak Terklasifikasi", ""
+        if "imunisasi bayi" in text_lower:
+            return "Imunisasi Bayi"
 
-        alasan = ""
-        tema_match = re.search(r"[Tt]ema:\s*(.+?)(?:\n|$)", response)
-        if tema_match:
-            tema = self._parse_response(tema_match.group(1).strip())
-        else:
-            tema = self._parse_response(response)
+        if "imunisasi" in text_lower:
+            return "Imunisasi Bayi"
 
-        alasan_match = re.search(r"[Aa]lasan:\s*(.+?)(?:\n[Tt]ema:|$)", response, re.DOTALL)
-        if alasan_match:
-            alasan = alasan_match.group(1).strip()
+        if "gizi" in text_lower:
+            return "Gizi Balita"
 
-        return tema, alasan
+        if "kesehatan" in text_lower or "tumbuh kembang" in text_lower:
+            return "Kesehatan Balita"
 
-    def classify_single(self, teks: str, with_reasoning: bool = False) -> dict:
-        """Klasifikasi satu teks laporan."""
-        if with_reasoning:
-            prompt = get_zero_shot_prompt_with_reasoning(
-                teks, self.tema_labels, self.tema_descriptions
-            )
-        else:
-            prompt = get_zero_shot_prompt(
-                teks, self.tema_labels, self.tema_descriptions
-            )
+        return "Tidak Diketahui"
 
+    def extract_reason(self, text):
+        if "Alasan:" in text:
+            return text.split("Alasan:", 1)[1].strip()
+
+        if "alasan:" in text.lower():
+            parts = text.lower().split("alasan:", 1)
+            if len(parts) > 1:
+                return parts[1].strip()
+
+        return ""
+
+    def classify_single(self, teks, with_reasoning=False):
         start = time.time()
-        raw = self._call_ollama(prompt)
-        elapsed = time.time() - start
 
-        if with_reasoning:
-            tema, alasan = self._parse_reasoning_response(raw)
-        else:
-            tema = self._parse_response(raw)
-            alasan = ""
+        prompt = self.build_prompt(
+            teks,
+            with_reasoning=with_reasoning
+        )
 
-        return {
-            "tema_prediksi": tema,
-            "alasan": alasan,
-            "raw_response": raw,
-            "waktu_proses": round(elapsed, 2),
-            "model": self.model,
+        response = self.query_ollama(prompt)
+
+        tema_prediksi = self.normalize_label(response)
+        waktu = round(time.time() - start, 2)
+
+        result = {
+            "teks_laporan": teks,
+            "tema_prediksi": tema_prediksi,
+            "response_llm": response,
+            "waktu_proses": waktu
         }
 
-    def classify_batch(self, texts: list, with_reasoning: bool = False, delay: float = 0.5) -> list:
-        """Klasifikasi batch teks."""
-        results = []
-        print(f"\n[INFO] Klasifikasi {len(texts)} teks | Model: {self.model}")
-        print("-" * 50)
-
-        for i, teks in enumerate(tqdm(texts, desc="Klasifikasi")):
-            result = self.classify_single(teks, with_reasoning)
-            result["index"] = i + 1
-            results.append(result)
-            if delay > 0 and i < len(texts) - 1:
-                time.sleep(delay)
-
-        classified = sum(1 for r in results if r["tema_prediksi"] != "Tidak Terklasifikasi")
-        avg_time = sum(r["waktu_proses"] for r in results) / len(results)
-        print(f"\n[INFO] Berhasil: {classified}/{len(texts)} | Rata-rata: {avg_time:.2f}s/teks")
-        return results
-
-    def classify_dataframe(self, df, text_column="teks_laporan",
-                           with_reasoning=False, delay=0.5):
-        """Klasifikasi dari DataFrame."""
-        texts = df[text_column].tolist()
-        results = self.classify_batch(texts, with_reasoning, delay)
-
-        df_result = df.copy()
-        df_result["tema_prediksi"] = [r["tema_prediksi"] for r in results]
-        df_result["waktu_proses"] = [r["waktu_proses"] for r in results]
-        df_result["raw_response"] = [r["raw_response"] for r in results]
         if with_reasoning:
-            df_result["alasan"] = [r["alasan"] for r in results]
+            result["alasan"] = self.extract_reason(response)
 
-        return df_result
+        return result
+
+    def classify_dataframe(self, df, with_reasoning=False, delay=0.5):
+        results = []
+
+        total = len(df)
+
+        for idx, row in df.iterrows():
+            teks = row["teks_laporan"]
+
+            print(f"[{idx + 1}/{total}] Mengklasifikasikan teks...")
+
+            try:
+                result = self.classify_single(
+                    teks,
+                    with_reasoning=with_reasoning
+                )
+
+                result["tema_aktual"] = row.get("tema_aktual", "")
+
+            except Exception as e:
+                result = {
+                    "teks_laporan": teks,
+                    "tema_aktual": row.get("tema_aktual", ""),
+                    "tema_prediksi": "ERROR",
+                    "response_llm": str(e),
+                    "waktu_proses": 0
+                }
+
+                if with_reasoning:
+                    result["alasan"] = ""
+
+            results.append(result)
+
+            time.sleep(delay)
+
+        import pandas as pd
+        return pd.DataFrame(results)
