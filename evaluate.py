@@ -1,67 +1,90 @@
-"""
-Evaluasi Hasil Klasifikasi Tema Pelayanan KIA
-pada Teks Laporan Posyandu (Zero-Shot Learning + LLM)
-
-Penggunaan:
-  python evaluate.py
-  python evaluate.py --input results/hasil_klasifikasi.csv
-  python evaluate.py --model llama3
-"""
-
-import argparse
 import os
-import sys
-
 import pandas as pd
 
-from config import OUTPUT_CSV, RESULTS_DIR, OLLAMA_MODEL
-from src.evaluator import ClassificationEvaluator
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix
+)
+
+from config import OUTPUT_CSV, RESULTS_DIR, TEMA_LABELS
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Evaluasi Klasifikasi Tema Posyandu")
-    parser.add_argument("--input", "-i", default=OUTPUT_CSV, help="File hasil klasifikasi")
-    parser.add_argument("--model", "-m", default=OLLAMA_MODEL, help="Nama model")
-    args = parser.parse_args()
+    print("=" * 60)
+    print("EVALUASI HASIL KLASIFIKASI")
+    print("=" * 60)
 
-    print("""
-================================================================
-  EVALUASI KLASIFIKASI TEMA PELAYANAN KIA
-  PADA TEKS LAPORAN POSYANDU
-  Metode: Zero-Shot Learning + LLM
-================================================================
-""")
+    if not os.path.exists(OUTPUT_CSV):
+        raise FileNotFoundError(
+            f"File hasil klasifikasi tidak ditemukan: {OUTPUT_CSV}. "
+            "Jalankan terlebih dahulu: python main.py --classify"
+        )
 
-    if not os.path.exists(args.input):
-        print(f"[ERROR] File tidak ditemukan: {args.input}")
-        print("[INFO] Jalankan 'python main.py' terlebih dahulu.")
-        sys.exit(1)
+    df = pd.read_csv(OUTPUT_CSV)
 
-    df = pd.read_csv(args.input)
-    print(f"[INFO] Data: {len(df)} baris dari {args.input}")
+    if "tema_aktual" not in df.columns or "tema_prediksi" not in df.columns:
+        raise ValueError(
+            "File hasil klasifikasi harus memiliki kolom tema_aktual dan tema_prediksi."
+        )
 
-    for col in ["tema_aktual", "tema_prediksi"]:
-        if col not in df.columns:
-            print(f"[ERROR] Kolom '{col}' tidak ditemukan!")
-            sys.exit(1)
+    y_true = df["tema_aktual"]
+    y_pred = df["tema_prediksi"]
 
-    y_true = df["tema_aktual"].tolist()
-    y_pred = df["tema_prediksi"].tolist()
+    accuracy = accuracy_score(y_true, y_pred)
 
-    evaluator = ClassificationEvaluator()
-    evaluator.evaluate_all(y_true, y_pred, model_name=args.model)
+    print(f"\nAkurasi: {accuracy * 100:.2f}%")
 
-    print("\n[INFO] File output:")
-    files = [
-        ("Laporan", os.path.join(RESULTS_DIR, "laporan_evaluasi.txt")),
-        ("Confusion Matrix", os.path.join(RESULTS_DIR, "confusion_matrix.png")),
-        ("Grafik Metrik", os.path.join(RESULTS_DIR, "classification_report.png")),
-    ]
-    for name, path in files:
-        status = "OK" if os.path.exists(path) else "-"
-        print(f"  [{status}] {name}: {path}")
+    print("\nClassification Report:")
+    print(
+        classification_report(
+            y_true,
+            y_pred,
+            labels=TEMA_LABELS,
+            zero_division=0
+        )
+    )
 
-    print("\n[INFO] Evaluasi selesai!")
+    cm = confusion_matrix(
+        y_true,
+        y_pred,
+        labels=TEMA_LABELS
+    )
+
+    cm_df = pd.DataFrame(
+        cm,
+        index=[f"Aktual_{label}" for label in TEMA_LABELS],
+        columns=[f"Prediksi_{label}" for label in TEMA_LABELS]
+    )
+
+    print("\nConfusion Matrix:")
+    print(cm_df)
+
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+
+    eval_path = os.path.join(RESULTS_DIR, "evaluasi_confusion_matrix.csv")
+    cm_df.to_csv(eval_path)
+
+    report_path = os.path.join(RESULTS_DIR, "evaluasi_ringkasan.txt")
+
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write("EVALUASI HASIL KLASIFIKASI\n")
+        f.write("=" * 60 + "\n")
+        f.write(f"Akurasi: {accuracy * 100:.2f}%\n\n")
+        f.write("Classification Report:\n")
+        f.write(
+            classification_report(
+                y_true,
+                y_pred,
+                labels=TEMA_LABELS,
+                zero_division=0
+            )
+        )
+        f.write("\n\nConfusion Matrix:\n")
+        f.write(cm_df.to_string())
+
+    print(f"\n[INFO] Confusion matrix disimpan: {eval_path}")
+    print(f"[INFO] Ringkasan evaluasi disimpan: {report_path}")
 
 
 if __name__ == "__main__":
