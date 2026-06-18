@@ -1,0 +1,2001 @@
+ID_Balita,Nama Bayi,Umur (Bulan),Jenis Kelamin,Jenis Imunisasi,Status Imunisasi
+B001,Amelia Lestari,8,Perempuan,Campak,Lengkap
+B002,Bagas Wijaya,23,Laki-laki,DPT-HB-Hib 1,Lengkap
+B003,Farhan Saputra,21,Laki-laki,Campak,Belum Lengkap
+B004,Ahmad Kurniawan,23,Laki-laki,Polio 2,Lengkap
+B005,Arga Pratama,15,Laki-laki,Polio 2,Lengkap
+B006,Nabila Lestari,6,Perempuan,Campak,Lengkap
+B007,Fikri Nugraha,16,Laki-laki,HB-0,Lengkap
+B008,Anisa Rahma,22,Perempuan,DPT-HB-Hib 3,Lengkap
+B009,Lestari Sari,5,Perempuan,DPT-HB-Hib 2,Lengkap
+B010,Dimas Pratama,13,Laki-laki,Polio 2,Lengkap
+B011,Safira Permata,2,Perempuan,BCG,Lengkap
+B012,Aisyah Lestari,6,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B013,Lestari Sari,17,Perempuan,Polio 4,Lengkap
+B014,Kayla Permata,19,Perempuan,Polio 2,Lengkap
+B015,Rian Saputra,1,Laki-laki,Polio 4,Lengkap
+B016,Anisa Putri,12,Perempuan,Polio 4,Lengkap
+B017,Aisyah Sari,9,Perempuan,Campak,Lengkap
+B018,Syifa Putri,9,Perempuan,DPT-HB-Hib 3,Lengkap
+B019,Rafa Wijaya,3,Laki-laki,BCG,Lengkap
+B020,Naufal Wijaya,17,Laki-laki,BCG,Lengkap
+B021,Nabila Lestari,24,Perempuan,DPT-HB-Hib 3,Lengkap
+B022,Nayla Sari,0,Perempuan,BCG,Lengkap
+B023,Iqbal Pratama,24,Laki-laki,Polio 4,Lengkap
+B024,Amelia Rahma,13,Perempuan,DPT-HB-Hib 2,Lengkap
+B025,Lestari Permata,12,Perempuan,DPT-HB-Hib 2,Lengkap
+B026,Fahri Kurniawan,3,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B027,Galang Pratama,6,Laki-laki,Polio 1,Lengkap
+B028,Galang Saputra,11,Laki-laki,Polio 1,Belum Lengkap
+B029,Lestari Lestari,2,Perempuan,DPT-HB-Hib 1,Lengkap
+B030,Fikri Pratama,20,Laki-laki,HB-0,Lengkap
+B031,Adit Nugraha,17,Laki-laki,Polio 2,Lengkap
+B032,Indah Rahma,16,Perempuan,Polio 3,Belum Lengkap
+B033,Rian Pratama,2,Laki-laki,Polio 4,Lengkap
+B034,Amelia Putri,24,Perempuan,HB-0,Lengkap
+B035,Rizky Wijaya,24,Laki-laki,Polio 2,Belum Lengkap
+B036,Lestari Putri,7,Perempuan,BCG,Lengkap
+B037,Fikri Nugraha,3,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B038,Galang Pratama,19,Laki-laki,Polio 2,Belum Lengkap
+B039,Alif Kurniawan,22,Laki-laki,DPT-HB-Hib 3,Lengkap
+B040,Fahri Pratama,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B041,Indah Rahma,2,Perempuan,Campak,Lengkap
+B042,Rafa Wijaya,13,Laki-laki,Polio 3,Lengkap
+B043,Zidan Pratama,15,Laki-laki,Polio 2,Lengkap
+B044,Salsa Rahma,7,Perempuan,Campak,Belum Lengkap
+B045,Naufal Kurniawan,9,Laki-laki,Campak,Lengkap
+B046,Zidan Saputra,13,Laki-laki,DPT-HB-Hib 1,Lengkap
+B047,Rizky Wijaya,2,Laki-laki,Polio 4,Belum Lengkap
+B048,Siti Sari,6,Perempuan,DPT-HB-Hib 2,Lengkap
+B049,Fahri Kurniawan,14,Laki-laki,DPT-HB-Hib 2,Lengkap
+B050,Alya Permata,13,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B051,Reza Wijaya,11,Laki-laki,Campak,Lengkap
+B052,Ahmad Pratama,7,Laki-laki,DPT-HB-Hib 2,Lengkap
+B053,Kayla Sari,6,Perempuan,HB-0,Belum Lengkap
+B054,Arga Kurniawan,4,Laki-laki,Polio 1,Lengkap
+B055,Farhan Kurniawan,3,Laki-laki,Polio 1,Lengkap
+B056,Aisyah Permata,0,Perempuan,BCG,Lengkap
+B057,Aisyah Rahma,18,Perempuan,Campak,Lengkap
+B058,Alya Lestari,22,Perempuan,DPT-HB-Hib 3,Lengkap
+B059,Safira Lestari,11,Perempuan,Polio 2,Belum Lengkap
+B060,Fikri Nugraha,13,Laki-laki,BCG,Belum Lengkap
+B061,Daffa Wijaya,14,Laki-laki,Polio 2,Lengkap
+B062,Nayla Putri,19,Perempuan,DPT-HB-Hib 2,Lengkap
+B063,Melati Permata,14,Perempuan,Campak,Lengkap
+B064,Alif Kurniawan,1,Laki-laki,Polio 1,Lengkap
+B065,Azka Pratama,15,Laki-laki,DPT-HB-Hib 2,Lengkap
+B066,Zidan Kurniawan,8,Laki-laki,Polio 1,Lengkap
+B067,Safira Permata,23,Perempuan,HB-0,Lengkap
+B068,Fahri Pratama,15,Laki-laki,Campak,Lengkap
+B069,Naufal Saputra,20,Laki-laki,Polio 4,Lengkap
+B070,Indah Permata,11,Perempuan,DPT-HB-Hib 3,Lengkap
+B071,Azka Nugraha,13,Laki-laki,Polio 2,Lengkap
+B072,Reza Saputra,12,Laki-laki,DPT-HB-Hib 1,Lengkap
+B073,Indah Sari,12,Perempuan,BCG,Lengkap
+B074,Iqbal Kurniawan,9,Laki-laki,Polio 1,Lengkap
+B075,Fikri Kurniawan,6,Laki-laki,Campak,Lengkap
+B076,Naufal Wijaya,5,Laki-laki,Polio 1,Belum Lengkap
+B077,Syifa Lestari,21,Perempuan,Polio 1,Lengkap
+B078,Rahma Rahma,23,Perempuan,Polio 1,Belum Lengkap
+B079,Fikri Wijaya,12,Laki-laki,Polio 3,Lengkap
+B080,Galang Wijaya,18,Laki-laki,HB-0,Lengkap
+B081,Rafa Saputra,7,Laki-laki,Polio 3,Lengkap
+B082,Iqbal Wijaya,2,Laki-laki,Polio 3,Lengkap
+B083,Amelia Permata,18,Perempuan,DPT-HB-Hib 1,Lengkap
+B084,Ahmad Wijaya,14,Laki-laki,Polio 2,Lengkap
+B085,Rafif Pratama,6,Laki-laki,DPT-HB-Hib 2,Lengkap
+B086,Putri Putri,2,Perempuan,DPT-HB-Hib 3,Lengkap
+B087,Rahma Lestari,7,Perempuan,Polio 4,Lengkap
+B088,Naufal Kurniawan,11,Laki-laki,DPT-HB-Hib 3,Lengkap
+B089,Farhan Kurniawan,1,Laki-laki,Polio 3,Lengkap
+B090,Farhan Pratama,2,Laki-laki,Polio 4,Lengkap
+B091,Rahma Putri,1,Perempuan,HB-0,Lengkap
+B092,Nayla Lestari,3,Perempuan,HB-0,Lengkap
+B093,Indah Lestari,15,Perempuan,DPT-HB-Hib 3,Lengkap
+B094,Reza Saputra,21,Laki-laki,Campak,Lengkap
+B095,Melati Lestari,20,Perempuan,HB-0,Lengkap
+B096,Arga Wijaya,19,Laki-laki,DPT-HB-Hib 2,Lengkap
+B097,Aqila Sari,19,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B098,Nayla Permata,5,Perempuan,Polio 4,Lengkap
+B099,Farhan Nugraha,10,Laki-laki,DPT-HB-Hib 2,Lengkap
+B100,Citra Rahma,21,Perempuan,Campak,Lengkap
+B101,Nayla Lestari,9,Perempuan,Polio 4,Lengkap
+B102,Amelia Permata,15,Perempuan,Polio 3,Lengkap
+B103,Indah Permata,5,Perempuan,BCG,Lengkap
+B104,Rania Sari,11,Perempuan,DPT-HB-Hib 1,Lengkap
+B105,Rania Permata,14,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B106,Siti Putri,18,Perempuan,DPT-HB-Hib 1,Lengkap
+B107,Melati Sari,0,Perempuan,DPT-HB-Hib 2,Lengkap
+B108,Citra Sari,8,Perempuan,Polio 1,Lengkap
+B109,Farhan Saputra,12,Laki-laki,Polio 3,Lengkap
+B110,Arga Wijaya,24,Laki-laki,BCG,Lengkap
+B111,Aisyah Lestari,13,Perempuan,Polio 2,Lengkap
+B112,Zahra Putri,2,Perempuan,DPT-HB-Hib 2,Lengkap
+B113,Indah Putri,2,Perempuan,DPT-HB-Hib 1,Lengkap
+B114,Iqbal Wijaya,8,Laki-laki,BCG,Lengkap
+B115,Nabila Permata,24,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B116,Safira Sari,17,Perempuan,DPT-HB-Hib 3,Lengkap
+B117,Melati Putri,19,Perempuan,Polio 3,Belum Lengkap
+B118,Adit Pratama,19,Laki-laki,DPT-HB-Hib 1,Lengkap
+B119,Daffa Pratama,12,Laki-laki,BCG,Lengkap
+B120,Alif Pratama,13,Laki-laki,Polio 2,Lengkap
+B121,Reza Pratama,22,Laki-laki,BCG,Lengkap
+B122,Nayla Rahma,9,Perempuan,BCG,Lengkap
+B123,Nabila Putri,4,Perempuan,Polio 2,Lengkap
+B124,Daffa Kurniawan,5,Laki-laki,Polio 1,Lengkap
+B125,Syifa Permata,0,Perempuan,HB-0,Lengkap
+B126,Citra Putri,12,Perempuan,BCG,Lengkap
+B127,Safira Permata,19,Perempuan,Polio 1,Belum Lengkap
+B128,Aisyah Sari,14,Perempuan,Polio 2,Belum Lengkap
+B129,Bagas Nugraha,9,Laki-laki,DPT-HB-Hib 2,Lengkap
+B130,Bagas Kurniawan,17,Laki-laki,Polio 1,Lengkap
+B131,Fahri Wijaya,2,Laki-laki,BCG,Belum Lengkap
+B132,Nabila Rahma,2,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B133,Rian Kurniawan,12,Laki-laki,Polio 3,Lengkap
+B134,Reza Saputra,6,Laki-laki,Polio 4,Lengkap
+B135,Nabila Lestari,18,Perempuan,DPT-HB-Hib 2,Lengkap
+B136,Alif Pratama,3,Laki-laki,DPT-HB-Hib 1,Lengkap
+B137,Reza Saputra,8,Laki-laki,DPT-HB-Hib 2,Lengkap
+B138,Alif Wijaya,23,Laki-laki,Polio 3,Belum Lengkap
+B139,Kayla Putri,9,Perempuan,Polio 2,Lengkap
+B140,Rania Lestari,15,Perempuan,DPT-HB-Hib 2,Lengkap
+B141,Safira Rahma,12,Perempuan,Campak,Lengkap
+B142,Ahmad Kurniawan,8,Laki-laki,DPT-HB-Hib 2,Lengkap
+B143,Ahmad Nugraha,20,Laki-laki,Polio 3,Lengkap
+B144,Indah Permata,12,Perempuan,HB-0,Lengkap
+B145,Azka Kurniawan,24,Laki-laki,Campak,Lengkap
+B146,Indah Sari,21,Perempuan,Polio 1,Lengkap
+B147,Arga Kurniawan,24,Laki-laki,DPT-HB-Hib 3,Lengkap
+B148,Aqila Permata,24,Perempuan,Campak,Lengkap
+B149,Rania Rahma,12,Perempuan,Polio 1,Lengkap
+B150,Nabila Permata,10,Perempuan,Campak,Belum Lengkap
+B151,Iqbal Wijaya,0,Laki-laki,Polio 4,Lengkap
+B152,Amelia Rahma,4,Perempuan,Polio 1,Lengkap
+B153,Nabila Lestari,7,Perempuan,Polio 2,Lengkap
+B154,Nabila Permata,13,Perempuan,DPT-HB-Hib 1,Lengkap
+B155,Zahra Sari,23,Perempuan,BCG,Lengkap
+B156,Ahmad Kurniawan,13,Laki-laki,HB-0,Lengkap
+B157,Lestari Rahma,16,Perempuan,Campak,Lengkap
+B158,Kayla Sari,1,Perempuan,HB-0,Lengkap
+B159,Galang Kurniawan,16,Laki-laki,Polio 3,Lengkap
+B160,Kayla Putri,24,Perempuan,Polio 2,Lengkap
+B161,Nayla Putri,10,Perempuan,DPT-HB-Hib 2,Lengkap
+B162,Rania Permata,18,Perempuan,DPT-HB-Hib 3,Lengkap
+B163,Aisyah Permata,6,Perempuan,Polio 1,Belum Lengkap
+B164,Nayla Rahma,4,Perempuan,DPT-HB-Hib 3,Lengkap
+B165,Zahra Lestari,3,Perempuan,Polio 1,Lengkap
+B166,Arga Pratama,13,Laki-laki,DPT-HB-Hib 1,Lengkap
+B167,Arga Wijaya,23,Laki-laki,Polio 4,Belum Lengkap
+B168,Rafif Nugraha,20,Laki-laki,HB-0,Lengkap
+B169,Rafa Nugraha,18,Laki-laki,DPT-HB-Hib 3,Lengkap
+B170,Naufal Wijaya,19,Laki-laki,DPT-HB-Hib 1,Lengkap
+B171,Safira Lestari,8,Perempuan,Polio 3,Lengkap
+B172,Citra Lestari,10,Perempuan,Polio 4,Lengkap
+B173,Fikri Nugraha,5,Laki-laki,DPT-HB-Hib 2,Lengkap
+B174,Reza Wijaya,0,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B175,Fahri Pratama,11,Laki-laki,DPT-HB-Hib 1,Lengkap
+B176,Indah Lestari,21,Perempuan,Campak,Lengkap
+B177,Alya Rahma,4,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B178,Salsa Sari,24,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B179,Rafif Wijaya,23,Laki-laki,Polio 4,Lengkap
+B180,Nabila Sari,5,Perempuan,Polio 3,Belum Lengkap
+B181,Reza Saputra,7,Laki-laki,DPT-HB-Hib 2,Lengkap
+B182,Adit Saputra,13,Laki-laki,Polio 4,Lengkap
+B183,Fahri Nugraha,10,Laki-laki,BCG,Lengkap
+B184,Melati Permata,22,Perempuan,Campak,Lengkap
+B185,Amelia Sari,2,Perempuan,HB-0,Lengkap
+B186,Rizky Kurniawan,22,Laki-laki,Campak,Lengkap
+B187,Aqila Lestari,13,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B188,Kayla Lestari,9,Perempuan,HB-0,Belum Lengkap
+B189,Aqila Sari,3,Perempuan,Campak,Lengkap
+B190,Rizky Wijaya,12,Laki-laki,HB-0,Lengkap
+B191,Adit Kurniawan,18,Laki-laki,BCG,Lengkap
+B192,Rizky Kurniawan,15,Laki-laki,Polio 4,Lengkap
+B193,Fikri Kurniawan,3,Laki-laki,Campak,Belum Lengkap
+B194,Daffa Nugraha,3,Laki-laki,Polio 1,Lengkap
+B195,Arga Nugraha,14,Laki-laki,Polio 4,Lengkap
+B196,Alif Pratama,4,Laki-laki,DPT-HB-Hib 1,Lengkap
+B197,Reza Saputra,3,Laki-laki,Polio 2,Lengkap
+B198,Zidan Kurniawan,5,Laki-laki,Polio 4,Belum Lengkap
+B199,Melati Sari,21,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B200,Reza Nugraha,15,Laki-laki,Polio 1,Lengkap
+B201,Putri Putri,16,Perempuan,DPT-HB-Hib 1,Lengkap
+B202,Ahmad Kurniawan,14,Laki-laki,Polio 1,Belum Lengkap
+B203,Anisa Putri,11,Perempuan,DPT-HB-Hib 1,Lengkap
+B204,Aqila Rahma,18,Perempuan,DPT-HB-Hib 3,Lengkap
+B205,Alif Kurniawan,15,Laki-laki,HB-0,Lengkap
+B206,Ahmad Saputra,10,Laki-laki,BCG,Lengkap
+B207,Aisyah Putri,18,Perempuan,BCG,Lengkap
+B208,Ahmad Wijaya,6,Laki-laki,HB-0,Lengkap
+B209,Galang Pratama,5,Laki-laki,DPT-HB-Hib 2,Lengkap
+B210,Rania Permata,17,Perempuan,Campak,Belum Lengkap
+B211,Rania Lestari,18,Perempuan,Polio 1,Lengkap
+B212,Citra Permata,13,Perempuan,Polio 1,Lengkap
+B213,Rahma Putri,4,Perempuan,HB-0,Lengkap
+B214,Rafa Wijaya,6,Laki-laki,BCG,Lengkap
+B215,Salsa Putri,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B216,Rafif Nugraha,10,Laki-laki,DPT-HB-Hib 1,Lengkap
+B217,Citra Lestari,7,Perempuan,DPT-HB-Hib 3,Lengkap
+B218,Rahma Lestari,22,Perempuan,Polio 1,Belum Lengkap
+B219,Ahmad Saputra,22,Laki-laki,BCG,Lengkap
+B220,Rafa Saputra,2,Laki-laki,Polio 3,Lengkap
+B221,Indah Putri,5,Perempuan,Polio 2,Lengkap
+B222,Nayla Rahma,23,Perempuan,Polio 3,Lengkap
+B223,Naufal Wijaya,7,Laki-laki,Polio 1,Belum Lengkap
+B224,Fikri Kurniawan,9,Laki-laki,Polio 1,Lengkap
+B225,Aqila Lestari,22,Perempuan,Polio 2,Lengkap
+B226,Adit Kurniawan,3,Laki-laki,Polio 2,Lengkap
+B227,Dimas Kurniawan,11,Laki-laki,Polio 4,Lengkap
+B228,Nayla Permata,23,Perempuan,DPT-HB-Hib 1,Lengkap
+B229,Daffa Saputra,11,Laki-laki,Polio 4,Lengkap
+B230,Azka Nugraha,16,Laki-laki,DPT-HB-Hib 3,Lengkap
+B231,Rahma Sari,19,Perempuan,Polio 3,Lengkap
+B232,Anisa Rahma,6,Perempuan,Campak,Lengkap
+B233,Farhan Kurniawan,4,Laki-laki,HB-0,Lengkap
+B234,Safira Putri,9,Perempuan,DPT-HB-Hib 1,Lengkap
+B235,Rania Lestari,15,Perempuan,Polio 2,Lengkap
+B236,Galang Pratama,19,Laki-laki,Campak,Lengkap
+B237,Arga Nugraha,14,Laki-laki,DPT-HB-Hib 3,Lengkap
+B238,Farhan Saputra,17,Laki-laki,Polio 2,Lengkap
+B239,Rizky Kurniawan,11,Laki-laki,Polio 2,Lengkap
+B240,Fikri Wijaya,17,Laki-laki,DPT-HB-Hib 3,Lengkap
+B241,Salsa Rahma,20,Perempuan,Polio 4,Belum Lengkap
+B242,Lestari Rahma,11,Perempuan,DPT-HB-Hib 1,Lengkap
+B243,Arga Saputra,15,Laki-laki,HB-0,Lengkap
+B244,Amelia Sari,1,Perempuan,Polio 2,Belum Lengkap
+B245,Rafa Wijaya,6,Laki-laki,Polio 1,Lengkap
+B246,Anisa Lestari,14,Perempuan,Polio 1,Lengkap
+B247,Rania Putri,3,Perempuan,DPT-HB-Hib 3,Lengkap
+B248,Siti Sari,9,Perempuan,Polio 1,Lengkap
+B249,Melati Rahma,5,Perempuan,Polio 1,Lengkap
+B250,Farhan Nugraha,18,Laki-laki,BCG,Belum Lengkap
+B251,Rahma Putri,4,Perempuan,Campak,Lengkap
+B252,Zidan Kurniawan,13,Laki-laki,HB-0,Lengkap
+B253,Kayla Sari,4,Perempuan,HB-0,Lengkap
+B254,Syifa Rahma,5,Perempuan,HB-0,Lengkap
+B255,Reza Nugraha,13,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B256,Rizky Kurniawan,4,Laki-laki,Polio 1,Belum Lengkap
+B257,Naufal Saputra,14,Laki-laki,DPT-HB-Hib 1,Lengkap
+B258,Siti Putri,7,Perempuan,HB-0,Lengkap
+B259,Aqila Permata,17,Perempuan,Polio 4,Lengkap
+B260,Fahri Kurniawan,21,Laki-laki,Polio 2,Lengkap
+B261,Nayla Rahma,18,Perempuan,Polio 3,Lengkap
+B262,Rizky Wijaya,5,Laki-laki,Polio 4,Lengkap
+B263,Dimas Nugraha,3,Laki-laki,Polio 2,Lengkap
+B264,Reza Wijaya,8,Laki-laki,DPT-HB-Hib 2,Lengkap
+B265,Nayla Rahma,13,Perempuan,Campak,Lengkap
+B266,Kayla Lestari,13,Perempuan,HB-0,Lengkap
+B267,Azka Nugraha,24,Laki-laki,Polio 4,Lengkap
+B268,Galang Saputra,20,Laki-laki,BCG,Lengkap
+B269,Rafif Pratama,19,Laki-laki,DPT-HB-Hib 2,Lengkap
+B270,Syifa Rahma,21,Perempuan,DPT-HB-Hib 2,Lengkap
+B271,Rizky Saputra,14,Laki-laki,DPT-HB-Hib 3,Lengkap
+B272,Nayla Putri,16,Perempuan,Polio 3,Lengkap
+B273,Syifa Lestari,8,Perempuan,BCG,Lengkap
+B274,Arga Saputra,14,Laki-laki,Polio 2,Lengkap
+B275,Arga Kurniawan,3,Laki-laki,Polio 2,Belum Lengkap
+B276,Bagas Saputra,13,Laki-laki,BCG,Belum Lengkap
+B277,Rahma Putri,6,Perempuan,HB-0,Lengkap
+B278,Siti Sari,15,Perempuan,DPT-HB-Hib 3,Lengkap
+B279,Iqbal Pratama,22,Laki-laki,Polio 4,Belum Lengkap
+B280,Rizky Saputra,18,Laki-laki,DPT-HB-Hib 1,Lengkap
+B281,Lestari Permata,23,Perempuan,Polio 4,Lengkap
+B282,Fahri Kurniawan,7,Laki-laki,DPT-HB-Hib 1,Lengkap
+B283,Aqila Rahma,24,Perempuan,HB-0,Lengkap
+B284,Zahra Lestari,15,Perempuan,HB-0,Lengkap
+B285,Fahri Pratama,7,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B286,Farhan Saputra,1,Laki-laki,Polio 3,Lengkap
+B287,Dimas Saputra,19,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B288,Rizky Wijaya,15,Laki-laki,Polio 1,Belum Lengkap
+B289,Aisyah Sari,18,Perempuan,Polio 4,Belum Lengkap
+B290,Nabila Permata,13,Perempuan,Polio 4,Lengkap
+B291,Zahra Lestari,23,Perempuan,Polio 4,Lengkap
+B292,Siti Putri,5,Perempuan,Polio 4,Belum Lengkap
+B293,Anisa Lestari,6,Perempuan,Polio 3,Belum Lengkap
+B294,Azka Nugraha,7,Laki-laki,DPT-HB-Hib 1,Lengkap
+B295,Safira Sari,5,Perempuan,Polio 1,Lengkap
+B296,Indah Permata,11,Perempuan,Polio 2,Lengkap
+B297,Salsa Sari,17,Perempuan,DPT-HB-Hib 1,Lengkap
+B298,Zidan Saputra,14,Laki-laki,Polio 2,Lengkap
+B299,Dimas Saputra,22,Laki-laki,Campak,Lengkap
+B300,Ahmad Nugraha,9,Laki-laki,Polio 2,Lengkap
+B301,Amelia Rahma,23,Perempuan,HB-0,Lengkap
+B302,Zidan Saputra,14,Laki-laki,Polio 1,Lengkap
+B303,Rahma Permata,6,Perempuan,Polio 2,Lengkap
+B304,Galang Pratama,5,Laki-laki,DPT-HB-Hib 3,Lengkap
+B305,Alif Wijaya,0,Laki-laki,HB-0,Lengkap
+B306,Zahra Sari,14,Perempuan,HB-0,Lengkap
+B307,Salsa Rahma,0,Perempuan,DPT-HB-Hib 2,Lengkap
+B308,Naufal Nugraha,22,Laki-laki,DPT-HB-Hib 1,Lengkap
+B309,Citra Rahma,3,Perempuan,Polio 1,Lengkap
+B310,Anisa Permata,18,Perempuan,Campak,Lengkap
+B311,Naufal Nugraha,6,Laki-laki,DPT-HB-Hib 2,Lengkap
+B312,Putri Sari,4,Perempuan,BCG,Lengkap
+B313,Naufal Saputra,10,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B314,Reza Wijaya,13,Laki-laki,BCG,Lengkap
+B315,Indah Rahma,23,Perempuan,Campak,Lengkap
+B316,Rahma Putri,8,Perempuan,HB-0,Lengkap
+B317,Putri Rahma,24,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B318,Arga Pratama,2,Laki-laki,HB-0,Lengkap
+B319,Fahri Nugraha,8,Laki-laki,Polio 1,Lengkap
+B320,Nabila Sari,12,Perempuan,BCG,Lengkap
+B321,Galang Kurniawan,2,Laki-laki,HB-0,Lengkap
+B322,Melati Rahma,20,Perempuan,Polio 1,Lengkap
+B323,Indah Permata,3,Perempuan,DPT-HB-Hib 1,Lengkap
+B324,Azka Nugraha,22,Laki-laki,DPT-HB-Hib 3,Lengkap
+B325,Iqbal Saputra,19,Laki-laki,Polio 3,Lengkap
+B326,Aqila Sari,6,Perempuan,BCG,Lengkap
+B327,Nayla Lestari,17,Perempuan,DPT-HB-Hib 3,Lengkap
+B328,Iqbal Pratama,14,Laki-laki,HB-0,Lengkap
+B329,Aisyah Putri,19,Perempuan,BCG,Lengkap
+B330,Zidan Kurniawan,8,Laki-laki,BCG,Lengkap
+B331,Lestari Putri,5,Perempuan,DPT-HB-Hib 1,Lengkap
+B332,Dimas Pratama,8,Laki-laki,DPT-HB-Hib 3,Lengkap
+B333,Anisa Permata,22,Perempuan,HB-0,Lengkap
+B334,Rian Wijaya,17,Laki-laki,Polio 3,Lengkap
+B335,Dimas Pratama,17,Laki-laki,HB-0,Lengkap
+B336,Rafa Pratama,23,Laki-laki,DPT-HB-Hib 1,Lengkap
+B337,Indah Rahma,21,Perempuan,DPT-HB-Hib 3,Lengkap
+B338,Siti Sari,13,Perempuan,BCG,Lengkap
+B339,Amelia Lestari,7,Perempuan,Polio 1,Lengkap
+B340,Rania Permata,22,Perempuan,DPT-HB-Hib 1,Lengkap
+B341,Bagas Pratama,24,Laki-laki,Polio 2,Belum Lengkap
+B342,Nabila Putri,20,Perempuan,Polio 1,Lengkap
+B343,Zahra Lestari,9,Perempuan,Polio 2,Lengkap
+B344,Farhan Pratama,11,Laki-laki,Polio 2,Lengkap
+B345,Adit Pratama,17,Laki-laki,Polio 1,Lengkap
+B346,Iqbal Nugraha,11,Laki-laki,Polio 4,Lengkap
+B347,Reza Kurniawan,22,Laki-laki,Polio 3,Lengkap
+B348,Syifa Permata,9,Perempuan,Polio 3,Lengkap
+B349,Rania Putri,11,Perempuan,DPT-HB-Hib 3,Lengkap
+B350,Nayla Permata,11,Perempuan,Polio 1,Lengkap
+B351,Alif Pratama,1,Laki-laki,BCG,Lengkap
+B352,Lestari Lestari,14,Perempuan,Polio 2,Lengkap
+B353,Melati Sari,14,Perempuan,Polio 1,Lengkap
+B354,Zidan Pratama,14,Laki-laki,BCG,Lengkap
+B355,Arga Kurniawan,13,Laki-laki,Polio 1,Lengkap
+B356,Dimas Nugraha,8,Laki-laki,Polio 1,Lengkap
+B357,Naufal Wijaya,11,Laki-laki,DPT-HB-Hib 3,Lengkap
+B358,Nayla Rahma,5,Perempuan,Polio 4,Belum Lengkap
+B359,Syifa Lestari,15,Perempuan,DPT-HB-Hib 2,Lengkap
+B360,Dimas Kurniawan,14,Laki-laki,HB-0,Lengkap
+B361,Alif Nugraha,23,Laki-laki,BCG,Lengkap
+B362,Alif Nugraha,21,Laki-laki,Polio 2,Belum Lengkap
+B363,Zidan Kurniawan,3,Laki-laki,Polio 1,Lengkap
+B364,Safira Sari,11,Perempuan,HB-0,Lengkap
+B365,Naufal Kurniawan,14,Laki-laki,DPT-HB-Hib 1,Lengkap
+B366,Amelia Rahma,9,Perempuan,DPT-HB-Hib 3,Lengkap
+B367,Zidan Kurniawan,24,Laki-laki,Polio 4,Lengkap
+B368,Fahri Kurniawan,8,Laki-laki,Campak,Lengkap
+B369,Azka Nugraha,10,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B370,Rafif Nugraha,14,Laki-laki,DPT-HB-Hib 2,Lengkap
+B371,Bagas Kurniawan,0,Laki-laki,DPT-HB-Hib 3,Lengkap
+B372,Safira Sari,17,Perempuan,DPT-HB-Hib 1,Lengkap
+B373,Dimas Nugraha,19,Laki-laki,HB-0,Lengkap
+B374,Aisyah Lestari,0,Perempuan,Polio 1,Lengkap
+B375,Syifa Rahma,22,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B376,Melati Sari,15,Perempuan,Campak,Lengkap
+B377,Farhan Kurniawan,18,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B378,Aisyah Permata,21,Perempuan,HB-0,Belum Lengkap
+B379,Kayla Rahma,0,Perempuan,Polio 2,Lengkap
+B380,Rian Nugraha,4,Laki-laki,DPT-HB-Hib 2,Lengkap
+B381,Fahri Pratama,15,Laki-laki,Polio 4,Lengkap
+B382,Siti Sari,19,Perempuan,Polio 3,Belum Lengkap
+B383,Galang Nugraha,9,Laki-laki,DPT-HB-Hib 3,Lengkap
+B384,Iqbal Nugraha,1,Laki-laki,DPT-HB-Hib 2,Lengkap
+B385,Zahra Lestari,1,Perempuan,Polio 4,Lengkap
+B386,Aisyah Permata,22,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B387,Melati Rahma,19,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B388,Citra Rahma,5,Perempuan,BCG,Belum Lengkap
+B389,Putri Permata,0,Perempuan,Polio 4,Lengkap
+B390,Daffa Pratama,6,Laki-laki,Campak,Lengkap
+B391,Ahmad Nugraha,16,Laki-laki,DPT-HB-Hib 1,Lengkap
+B392,Anisa Sari,8,Perempuan,Polio 4,Lengkap
+B393,Zahra Putri,22,Perempuan,HB-0,Lengkap
+B394,Rafa Kurniawan,22,Laki-laki,DPT-HB-Hib 2,Lengkap
+B395,Rian Wijaya,4,Laki-laki,Polio 1,Lengkap
+B396,Alif Nugraha,19,Laki-laki,DPT-HB-Hib 1,Lengkap
+B397,Amelia Permata,8,Perempuan,Polio 3,Lengkap
+B398,Rian Nugraha,6,Laki-laki,Polio 3,Lengkap
+B399,Citra Permata,18,Perempuan,Campak,Belum Lengkap
+B400,Alif Kurniawan,3,Laki-laki,Polio 4,Lengkap
+B401,Azka Nugraha,20,Laki-laki,Polio 2,Lengkap
+B402,Safira Lestari,2,Perempuan,DPT-HB-Hib 2,Lengkap
+B403,Amelia Rahma,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B404,Kayla Lestari,2,Perempuan,DPT-HB-Hib 1,Lengkap
+B405,Siti Rahma,24,Perempuan,Campak,Belum Lengkap
+B406,Fikri Saputra,20,Laki-laki,Campak,Lengkap
+B407,Salsa Sari,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B408,Nayla Lestari,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B409,Rahma Putri,12,Perempuan,Polio 3,Belum Lengkap
+B410,Kayla Lestari,3,Perempuan,BCG,Lengkap
+B411,Azka Kurniawan,22,Laki-laki,DPT-HB-Hib 3,Lengkap
+B412,Bagas Kurniawan,3,Laki-laki,Polio 4,Lengkap
+B413,Citra Permata,22,Perempuan,BCG,Lengkap
+B414,Farhan Wijaya,18,Laki-laki,DPT-HB-Hib 3,Lengkap
+B415,Reza Kurniawan,12,Laki-laki,DPT-HB-Hib 3,Lengkap
+B416,Adit Pratama,3,Laki-laki,BCG,Lengkap
+B417,Citra Permata,13,Perempuan,Polio 3,Lengkap
+B418,Fahri Nugraha,2,Laki-laki,Polio 2,Lengkap
+B419,Siti Lestari,17,Perempuan,Campak,Lengkap
+B420,Safira Putri,11,Perempuan,DPT-HB-Hib 3,Lengkap
+B421,Zahra Lestari,17,Perempuan,BCG,Lengkap
+B422,Putri Rahma,19,Perempuan,Campak,Belum Lengkap
+B423,Bagas Kurniawan,19,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B424,Naufal Pratama,22,Laki-laki,DPT-HB-Hib 1,Lengkap
+B425,Siti Sari,20,Perempuan,Polio 4,Lengkap
+B426,Rafif Nugraha,18,Laki-laki,Polio 2,Lengkap
+B427,Reza Saputra,7,Laki-laki,Campak,Belum Lengkap
+B428,Bagas Saputra,4,Laki-laki,Polio 2,Lengkap
+B429,Ahmad Pratama,4,Laki-laki,DPT-HB-Hib 2,Lengkap
+B430,Putri Lestari,20,Perempuan,Polio 2,Lengkap
+B431,Galang Kurniawan,23,Laki-laki,Polio 1,Lengkap
+B432,Syifa Lestari,16,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B433,Azka Wijaya,13,Laki-laki,DPT-HB-Hib 2,Lengkap
+B434,Ahmad Nugraha,16,Laki-laki,DPT-HB-Hib 2,Lengkap
+B435,Naufal Saputra,20,Laki-laki,Polio 2,Lengkap
+B436,Siti Rahma,8,Perempuan,BCG,Lengkap
+B437,Nayla Permata,15,Perempuan,Polio 4,Lengkap
+B438,Syifa Putri,22,Perempuan,Polio 1,Lengkap
+B439,Melati Rahma,10,Perempuan,Polio 2,Belum Lengkap
+B440,Aisyah Permata,15,Perempuan,DPT-HB-Hib 3,Lengkap
+B441,Indah Sari,0,Perempuan,Polio 2,Lengkap
+B442,Galang Nugraha,3,Laki-laki,HB-0,Lengkap
+B443,Rania Rahma,12,Perempuan,BCG,Lengkap
+B444,Nayla Lestari,7,Perempuan,DPT-HB-Hib 1,Lengkap
+B445,Alya Permata,7,Perempuan,Polio 3,Belum Lengkap
+B446,Anisa Permata,20,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B447,Safira Lestari,20,Perempuan,Polio 3,Lengkap
+B448,Fikri Wijaya,22,Laki-laki,Campak,Lengkap
+B449,Fahri Wijaya,24,Laki-laki,Polio 4,Lengkap
+B450,Ahmad Nugraha,6,Laki-laki,Polio 3,Lengkap
+B451,Rian Kurniawan,10,Laki-laki,Polio 4,Lengkap
+B452,Putri Putri,20,Perempuan,BCG,Lengkap
+B453,Siti Rahma,19,Perempuan,Campak,Lengkap
+B454,Lestari Sari,10,Perempuan,BCG,Lengkap
+B455,Putri Sari,15,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B456,Kayla Permata,6,Perempuan,Campak,Lengkap
+B457,Rian Saputra,1,Laki-laki,DPT-HB-Hib 2,Lengkap
+B458,Zahra Rahma,13,Perempuan,Campak,Lengkap
+B459,Nabila Putri,1,Perempuan,Campak,Lengkap
+B460,Melati Permata,15,Perempuan,Polio 2,Belum Lengkap
+B461,Dimas Saputra,11,Laki-laki,BCG,Lengkap
+B462,Farhan Wijaya,5,Laki-laki,Polio 2,Belum Lengkap
+B463,Melati Rahma,8,Perempuan,Polio 3,Lengkap
+B464,Daffa Nugraha,14,Laki-laki,Polio 3,Lengkap
+B465,Rizky Nugraha,19,Laki-laki,Polio 3,Lengkap
+B466,Naufal Saputra,0,Laki-laki,HB-0,Lengkap
+B467,Rahma Permata,18,Perempuan,Polio 4,Lengkap
+B468,Farhan Wijaya,1,Laki-laki,DPT-HB-Hib 3,Lengkap
+B469,Nayla Putri,19,Perempuan,Polio 4,Lengkap
+B470,Arga Wijaya,13,Laki-laki,DPT-HB-Hib 3,Lengkap
+B471,Indah Permata,22,Perempuan,DPT-HB-Hib 1,Lengkap
+B472,Anisa Permata,24,Perempuan,DPT-HB-Hib 3,Lengkap
+B473,Safira Sari,11,Perempuan,BCG,Lengkap
+B474,Kayla Rahma,20,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B475,Rizky Pratama,19,Laki-laki,DPT-HB-Hib 2,Lengkap
+B476,Nayla Lestari,10,Perempuan,Polio 2,Lengkap
+B477,Rafa Saputra,16,Laki-laki,Polio 4,Belum Lengkap
+B478,Iqbal Saputra,23,Laki-laki,Polio 2,Belum Lengkap
+B479,Melati Rahma,18,Perempuan,DPT-HB-Hib 2,Lengkap
+B480,Indah Sari,9,Perempuan,Polio 2,Lengkap
+B481,Rafif Pratama,10,Laki-laki,Polio 3,Lengkap
+B482,Fikri Kurniawan,0,Laki-laki,DPT-HB-Hib 3,Lengkap
+B483,Reza Nugraha,22,Laki-laki,Polio 2,Lengkap
+B484,Arga Kurniawan,20,Laki-laki,HB-0,Lengkap
+B485,Ahmad Nugraha,3,Laki-laki,DPT-HB-Hib 1,Lengkap
+B486,Anisa Putri,3,Perempuan,Campak,Lengkap
+B487,Alif Nugraha,23,Laki-laki,Polio 1,Belum Lengkap
+B488,Rafa Wijaya,1,Laki-laki,BCG,Lengkap
+B489,Nabila Lestari,6,Perempuan,Polio 3,Lengkap
+B490,Kayla Permata,18,Perempuan,DPT-HB-Hib 3,Lengkap
+B491,Salsa Sari,3,Perempuan,Polio 3,Lengkap
+B492,Adit Kurniawan,7,Laki-laki,Campak,Lengkap
+B493,Aqila Sari,10,Perempuan,Polio 4,Belum Lengkap
+B494,Rafif Pratama,2,Laki-laki,DPT-HB-Hib 1,Lengkap
+B495,Ahmad Saputra,0,Laki-laki,DPT-HB-Hib 3,Lengkap
+B496,Zahra Rahma,16,Perempuan,DPT-HB-Hib 3,Lengkap
+B497,Lestari Lestari,16,Perempuan,Campak,Belum Lengkap
+B498,Ahmad Kurniawan,1,Laki-laki,Polio 3,Lengkap
+B499,Ahmad Kurniawan,24,Laki-laki,BCG,Lengkap
+B500,Rian Pratama,24,Laki-laki,DPT-HB-Hib 3,Lengkap
+B501,Nayla Permata,6,Perempuan,HB-0,Lengkap
+B502,Daffa Kurniawan,18,Laki-laki,DPT-HB-Hib 1,Lengkap
+B503,Arga Kurniawan,24,Laki-laki,BCG,Lengkap
+B504,Alya Rahma,14,Perempuan,DPT-HB-Hib 1,Lengkap
+B505,Nayla Permata,14,Perempuan,DPT-HB-Hib 1,Lengkap
+B506,Alif Wijaya,6,Laki-laki,DPT-HB-Hib 1,Lengkap
+B507,Indah Putri,24,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B508,Zidan Pratama,15,Laki-laki,DPT-HB-Hib 3,Lengkap
+B509,Rafif Saputra,16,Laki-laki,DPT-HB-Hib 3,Lengkap
+B510,Rania Lestari,7,Perempuan,Polio 4,Lengkap
+B511,Aisyah Lestari,16,Perempuan,Polio 4,Belum Lengkap
+B512,Galang Nugraha,2,Laki-laki,Polio 1,Lengkap
+B513,Syifa Sari,16,Perempuan,BCG,Lengkap
+B514,Syifa Rahma,16,Perempuan,Polio 1,Lengkap
+B515,Arga Nugraha,18,Laki-laki,Polio 3,Lengkap
+B516,Nabila Permata,9,Perempuan,Polio 2,Lengkap
+B517,Bagas Wijaya,9,Laki-laki,Polio 3,Belum Lengkap
+B518,Salsa Permata,11,Perempuan,DPT-HB-Hib 2,Lengkap
+B519,Amelia Putri,14,Perempuan,DPT-HB-Hib 3,Lengkap
+B520,Siti Lestari,2,Perempuan,HB-0,Lengkap
+B521,Aisyah Rahma,4,Perempuan,BCG,Lengkap
+B522,Iqbal Saputra,19,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B523,Aqila Permata,14,Perempuan,Polio 1,Lengkap
+B524,Farhan Nugraha,13,Laki-laki,DPT-HB-Hib 3,Lengkap
+B525,Siti Permata,24,Perempuan,Polio 2,Lengkap
+B526,Amelia Putri,5,Perempuan,Polio 1,Belum Lengkap
+B527,Zahra Permata,10,Perempuan,DPT-HB-Hib 1,Lengkap
+B528,Arga Nugraha,12,Laki-laki,Polio 1,Belum Lengkap
+B529,Syifa Lestari,0,Perempuan,DPT-HB-Hib 2,Lengkap
+B530,Rian Pratama,0,Laki-laki,BCG,Lengkap
+B531,Fahri Wijaya,12,Laki-laki,Polio 4,Lengkap
+B532,Aqila Rahma,21,Perempuan,Campak,Lengkap
+B533,Safira Lestari,7,Perempuan,Polio 1,Lengkap
+B534,Putri Sari,14,Perempuan,DPT-HB-Hib 2,Lengkap
+B535,Iqbal Kurniawan,21,Laki-laki,Polio 3,Lengkap
+B536,Naufal Pratama,21,Laki-laki,Campak,Belum Lengkap
+B537,Siti Putri,5,Perempuan,HB-0,Lengkap
+B538,Fikri Nugraha,4,Laki-laki,Campak,Belum Lengkap
+B539,Nabila Lestari,13,Perempuan,DPT-HB-Hib 3,Lengkap
+B540,Zidan Saputra,1,Laki-laki,BCG,Lengkap
+B541,Azka Pratama,1,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B542,Rahma Sari,10,Perempuan,Polio 3,Lengkap
+B543,Putri Permata,20,Perempuan,DPT-HB-Hib 1,Lengkap
+B544,Adit Pratama,22,Laki-laki,DPT-HB-Hib 1,Lengkap
+B545,Farhan Kurniawan,8,Laki-laki,Polio 4,Lengkap
+B546,Naufal Saputra,19,Laki-laki,Polio 2,Lengkap
+B547,Fahri Pratama,9,Laki-laki,Polio 1,Lengkap
+B548,Reza Saputra,21,Laki-laki,Polio 1,Lengkap
+B549,Reza Wijaya,3,Laki-laki,Campak,Belum Lengkap
+B550,Siti Sari,14,Perempuan,Polio 3,Belum Lengkap
+B551,Galang Pratama,1,Laki-laki,Polio 1,Belum Lengkap
+B552,Melati Lestari,15,Perempuan,DPT-HB-Hib 1,Lengkap
+B553,Putri Permata,16,Perempuan,Campak,Lengkap
+B554,Rania Lestari,20,Perempuan,HB-0,Belum Lengkap
+B555,Rafa Nugraha,19,Laki-laki,DPT-HB-Hib 3,Lengkap
+B556,Zidan Kurniawan,5,Laki-laki,Campak,Lengkap
+B557,Arga Wijaya,21,Laki-laki,DPT-HB-Hib 3,Lengkap
+B558,Salsa Lestari,21,Perempuan,Campak,Lengkap
+B559,Lestari Rahma,18,Perempuan,DPT-HB-Hib 1,Lengkap
+B560,Alif Pratama,9,Laki-laki,Polio 2,Lengkap
+B561,Adit Saputra,6,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B562,Fikri Wijaya,17,Laki-laki,Polio 3,Lengkap
+B563,Fahri Saputra,24,Laki-laki,DPT-HB-Hib 1,Lengkap
+B564,Salsa Lestari,7,Perempuan,BCG,Belum Lengkap
+B565,Citra Lestari,3,Perempuan,Campak,Lengkap
+B566,Reza Nugraha,1,Laki-laki,BCG,Lengkap
+B567,Daffa Pratama,2,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B568,Iqbal Nugraha,4,Laki-laki,DPT-HB-Hib 2,Lengkap
+B569,Zahra Sari,13,Perempuan,DPT-HB-Hib 3,Lengkap
+B570,Siti Sari,11,Perempuan,DPT-HB-Hib 2,Lengkap
+B571,Rania Rahma,22,Perempuan,BCG,Lengkap
+B572,Azka Nugraha,23,Laki-laki,Polio 3,Lengkap
+B573,Rafif Wijaya,8,Laki-laki,BCG,Belum Lengkap
+B574,Syifa Permata,10,Perempuan,Campak,Lengkap
+B575,Naufal Wijaya,24,Laki-laki,DPT-HB-Hib 2,Lengkap
+B576,Melati Sari,20,Perempuan,Polio 1,Lengkap
+B577,Citra Rahma,24,Perempuan,Polio 1,Lengkap
+B578,Nayla Putri,10,Perempuan,Polio 2,Lengkap
+B579,Reza Wijaya,3,Laki-laki,Polio 1,Lengkap
+B580,Arga Nugraha,20,Laki-laki,BCG,Lengkap
+B581,Citra Permata,18,Perempuan,DPT-HB-Hib 2,Lengkap
+B582,Arga Kurniawan,13,Laki-laki,Polio 3,Lengkap
+B583,Rizky Wijaya,9,Laki-laki,Polio 3,Lengkap
+B584,Rafif Saputra,12,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B585,Arga Saputra,17,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B586,Farhan Pratama,16,Laki-laki,Polio 2,Lengkap
+B587,Rafa Nugraha,20,Laki-laki,Campak,Lengkap
+B588,Nayla Sari,20,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B589,Rafif Kurniawan,19,Laki-laki,Polio 1,Lengkap
+B590,Arga Nugraha,18,Laki-laki,Polio 4,Lengkap
+B591,Azka Wijaya,18,Laki-laki,Polio 1,Lengkap
+B592,Fahri Saputra,14,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B593,Rafa Nugraha,0,Laki-laki,Polio 4,Belum Lengkap
+B594,Arga Nugraha,18,Laki-laki,Polio 3,Lengkap
+B595,Kayla Permata,22,Perempuan,Polio 1,Lengkap
+B596,Rafif Nugraha,9,Laki-laki,Polio 3,Belum Lengkap
+B597,Fahri Kurniawan,2,Laki-laki,DPT-HB-Hib 3,Lengkap
+B598,Putri Lestari,0,Perempuan,Polio 4,Lengkap
+B599,Melati Lestari,24,Perempuan,HB-0,Belum Lengkap
+B600,Zidan Pratama,23,Laki-laki,Polio 1,Lengkap
+B601,Rian Pratama,17,Laki-laki,BCG,Lengkap
+B602,Nayla Permata,10,Perempuan,Polio 4,Lengkap
+B603,Ahmad Pratama,21,Laki-laki,HB-0,Lengkap
+B604,Safira Lestari,4,Perempuan,BCG,Lengkap
+B605,Rian Pratama,20,Laki-laki,Polio 4,Lengkap
+B606,Rafa Kurniawan,2,Laki-laki,HB-0,Belum Lengkap
+B607,Rahma Sari,10,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B608,Rian Kurniawan,12,Laki-laki,Polio 4,Lengkap
+B609,Azka Saputra,13,Laki-laki,HB-0,Lengkap
+B610,Rania Sari,16,Perempuan,BCG,Lengkap
+B611,Fikri Nugraha,2,Laki-laki,DPT-HB-Hib 1,Lengkap
+B612,Rahma Lestari,22,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B613,Azka Pratama,22,Laki-laki,Polio 3,Belum Lengkap
+B614,Nabila Lestari,6,Perempuan,Campak,Lengkap
+B615,Citra Lestari,7,Perempuan,Campak,Lengkap
+B616,Nayla Sari,7,Perempuan,Polio 3,Belum Lengkap
+B617,Citra Permata,15,Perempuan,Polio 3,Lengkap
+B618,Daffa Wijaya,24,Laki-laki,HB-0,Belum Lengkap
+B619,Nabila Sari,9,Perempuan,Polio 2,Lengkap
+B620,Rafa Pratama,24,Laki-laki,Polio 3,Belum Lengkap
+B621,Rizky Nugraha,20,Laki-laki,Polio 1,Lengkap
+B622,Nabila Rahma,9,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B623,Aqila Permata,6,Perempuan,BCG,Lengkap
+B624,Rafa Saputra,10,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B625,Zidan Wijaya,3,Laki-laki,Campak,Lengkap
+B626,Putri Putri,19,Perempuan,Polio 3,Belum Lengkap
+B627,Nayla Rahma,6,Perempuan,Campak,Lengkap
+B628,Citra Rahma,23,Perempuan,DPT-HB-Hib 3,Lengkap
+B629,Indah Rahma,14,Perempuan,Polio 2,Lengkap
+B630,Ahmad Saputra,24,Laki-laki,Polio 1,Lengkap
+B631,Zahra Putri,19,Perempuan,Polio 1,Belum Lengkap
+B632,Melati Sari,19,Perempuan,DPT-HB-Hib 2,Lengkap
+B633,Citra Sari,9,Perempuan,BCG,Lengkap
+B634,Putri Sari,18,Perempuan,Polio 4,Belum Lengkap
+B635,Azka Saputra,16,Laki-laki,Polio 3,Lengkap
+B636,Syifa Permata,19,Perempuan,Polio 3,Lengkap
+B637,Farhan Saputra,4,Laki-laki,Polio 4,Lengkap
+B638,Azka Kurniawan,7,Laki-laki,BCG,Belum Lengkap
+B639,Rizky Wijaya,17,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B640,Azka Kurniawan,2,Laki-laki,Polio 2,Belum Lengkap
+B641,Salsa Sari,7,Perempuan,DPT-HB-Hib 3,Lengkap
+B642,Ahmad Saputra,1,Laki-laki,Campak,Lengkap
+B643,Aisyah Permata,14,Perempuan,BCG,Lengkap
+B644,Fikri Pratama,3,Laki-laki,Polio 3,Lengkap
+B645,Zahra Permata,17,Perempuan,DPT-HB-Hib 2,Lengkap
+B646,Rania Lestari,10,Perempuan,BCG,Belum Lengkap
+B647,Safira Lestari,3,Perempuan,Campak,Belum Lengkap
+B648,Salsa Sari,13,Perempuan,Polio 4,Belum Lengkap
+B649,Rahma Rahma,12,Perempuan,Polio 2,Lengkap
+B650,Safira Permata,12,Perempuan,DPT-HB-Hib 2,Lengkap
+B651,Rizky Saputra,11,Laki-laki,DPT-HB-Hib 3,Lengkap
+B652,Alif Wijaya,8,Laki-laki,Polio 4,Lengkap
+B653,Dimas Pratama,4,Laki-laki,DPT-HB-Hib 1,Lengkap
+B654,Farhan Saputra,21,Laki-laki,BCG,Lengkap
+B655,Fahri Wijaya,24,Laki-laki,DPT-HB-Hib 1,Lengkap
+B656,Alif Nugraha,23,Laki-laki,DPT-HB-Hib 2,Lengkap
+B657,Nayla Lestari,9,Perempuan,HB-0,Lengkap
+B658,Anisa Permata,15,Perempuan,Polio 4,Lengkap
+B659,Azka Pratama,7,Laki-laki,BCG,Lengkap
+B660,Siti Permata,12,Perempuan,Polio 4,Belum Lengkap
+B661,Rian Saputra,17,Laki-laki,DPT-HB-Hib 3,Lengkap
+B662,Indah Rahma,10,Perempuan,Polio 3,Belum Lengkap
+B663,Rania Permata,6,Perempuan,HB-0,Lengkap
+B664,Lestari Lestari,3,Perempuan,Campak,Belum Lengkap
+B665,Anisa Lestari,13,Perempuan,DPT-HB-Hib 2,Lengkap
+B666,Siti Sari,24,Perempuan,Polio 3,Lengkap
+B667,Fikri Pratama,16,Laki-laki,Polio 3,Lengkap
+B668,Alif Nugraha,14,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B669,Azka Pratama,24,Laki-laki,Polio 4,Lengkap
+B670,Ahmad Kurniawan,22,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B671,Alif Kurniawan,20,Laki-laki,HB-0,Lengkap
+B672,Rafif Kurniawan,3,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B673,Arga Nugraha,12,Laki-laki,Polio 2,Lengkap
+B674,Farhan Kurniawan,13,Laki-laki,DPT-HB-Hib 1,Lengkap
+B675,Nayla Putri,20,Perempuan,Polio 4,Lengkap
+B676,Zahra Rahma,8,Perempuan,DPT-HB-Hib 1,Lengkap
+B677,Syifa Rahma,16,Perempuan,Polio 4,Lengkap
+B678,Aisyah Sari,4,Perempuan,Polio 1,Belum Lengkap
+B679,Nayla Rahma,6,Perempuan,DPT-HB-Hib 3,Lengkap
+B680,Daffa Pratama,23,Laki-laki,Polio 1,Lengkap
+B681,Putri Sari,9,Perempuan,Campak,Lengkap
+B682,Daffa Nugraha,21,Laki-laki,Campak,Lengkap
+B683,Rafif Kurniawan,19,Laki-laki,DPT-HB-Hib 2,Lengkap
+B684,Adit Saputra,14,Laki-laki,HB-0,Lengkap
+B685,Farhan Nugraha,0,Laki-laki,DPT-HB-Hib 1,Lengkap
+B686,Daffa Kurniawan,9,Laki-laki,Polio 3,Lengkap
+B687,Bagas Pratama,12,Laki-laki,Polio 4,Lengkap
+B688,Nayla Rahma,6,Perempuan,HB-0,Lengkap
+B689,Indah Lestari,17,Perempuan,Polio 2,Lengkap
+B690,Melati Permata,22,Perempuan,BCG,Lengkap
+B691,Putri Sari,7,Perempuan,DPT-HB-Hib 2,Lengkap
+B692,Rafa Pratama,11,Laki-laki,Polio 3,Lengkap
+B693,Bagas Nugraha,23,Laki-laki,Polio 3,Lengkap
+B694,Rizky Pratama,13,Laki-laki,Polio 4,Lengkap
+B695,Fikri Pratama,23,Laki-laki,Polio 3,Lengkap
+B696,Dimas Pratama,21,Laki-laki,BCG,Lengkap
+B697,Ahmad Saputra,13,Laki-laki,DPT-HB-Hib 3,Lengkap
+B698,Galang Pratama,21,Laki-laki,Campak,Lengkap
+B699,Kayla Permata,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B700,Alya Lestari,17,Perempuan,HB-0,Lengkap
+B701,Safira Permata,2,Perempuan,Campak,Lengkap
+B702,Rania Rahma,18,Perempuan,Polio 3,Lengkap
+B703,Lestari Putri,15,Perempuan,Polio 2,Belum Lengkap
+B704,Indah Sari,15,Perempuan,Polio 2,Lengkap
+B705,Galang Nugraha,3,Laki-laki,DPT-HB-Hib 3,Lengkap
+B706,Alya Sari,11,Perempuan,Polio 1,Lengkap
+B707,Anisa Rahma,8,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B708,Naufal Nugraha,1,Laki-laki,Polio 1,Lengkap
+B709,Safira Permata,17,Perempuan,DPT-HB-Hib 2,Lengkap
+B710,Anisa Rahma,1,Perempuan,Polio 4,Lengkap
+B711,Nabila Sari,13,Perempuan,HB-0,Lengkap
+B712,Citra Rahma,10,Perempuan,Polio 2,Lengkap
+B713,Rahma Putri,9,Perempuan,Polio 3,Belum Lengkap
+B714,Melati Rahma,16,Perempuan,Polio 4,Lengkap
+B715,Farhan Kurniawan,6,Laki-laki,Polio 3,Belum Lengkap
+B716,Putri Sari,8,Perempuan,Polio 3,Belum Lengkap
+B717,Nayla Permata,9,Perempuan,HB-0,Belum Lengkap
+B718,Arga Saputra,4,Laki-laki,Polio 3,Lengkap
+B719,Ahmad Saputra,15,Laki-laki,Polio 3,Lengkap
+B720,Siti Lestari,5,Perempuan,HB-0,Lengkap
+B721,Aisyah Sari,17,Perempuan,Polio 4,Lengkap
+B722,Nabila Sari,19,Perempuan,DPT-HB-Hib 1,Lengkap
+B723,Salsa Sari,12,Perempuan,Campak,Belum Lengkap
+B724,Nabila Putri,24,Perempuan,HB-0,Lengkap
+B725,Arga Wijaya,19,Laki-laki,DPT-HB-Hib 1,Lengkap
+B726,Alya Putri,22,Perempuan,HB-0,Belum Lengkap
+B727,Anisa Putri,4,Perempuan,Polio 3,Lengkap
+B728,Aqila Lestari,13,Perempuan,DPT-HB-Hib 1,Lengkap
+B729,Indah Permata,5,Perempuan,Polio 4,Lengkap
+B730,Nabila Sari,14,Perempuan,HB-0,Lengkap
+B731,Farhan Wijaya,20,Laki-laki,Polio 2,Lengkap
+B732,Siti Sari,20,Perempuan,BCG,Lengkap
+B733,Alya Rahma,16,Perempuan,Polio 2,Lengkap
+B734,Indah Sari,5,Perempuan,Campak,Lengkap
+B735,Rahma Sari,11,Perempuan,Polio 2,Lengkap
+B736,Citra Rahma,1,Perempuan,Campak,Lengkap
+B737,Safira Rahma,24,Perempuan,Campak,Lengkap
+B738,Dimas Nugraha,20,Laki-laki,BCG,Lengkap
+B739,Rizky Nugraha,4,Laki-laki,Polio 4,Belum Lengkap
+B740,Nayla Lestari,9,Perempuan,Campak,Lengkap
+B741,Amelia Rahma,17,Perempuan,Polio 1,Lengkap
+B742,Aisyah Putri,5,Perempuan,Polio 1,Lengkap
+B743,Alif Saputra,16,Laki-laki,HB-0,Lengkap
+B744,Kayla Sari,7,Perempuan,HB-0,Lengkap
+B745,Naufal Pratama,1,Laki-laki,Polio 2,Lengkap
+B746,Iqbal Saputra,1,Laki-laki,BCG,Belum Lengkap
+B747,Zahra Permata,10,Perempuan,DPT-HB-Hib 1,Lengkap
+B748,Lestari Permata,2,Perempuan,Campak,Belum Lengkap
+B749,Fikri Wijaya,21,Laki-laki,Campak,Lengkap
+B750,Arga Nugraha,18,Laki-laki,Campak,Belum Lengkap
+B751,Alya Rahma,9,Perempuan,BCG,Lengkap
+B752,Zahra Putri,10,Perempuan,HB-0,Lengkap
+B753,Anisa Lestari,13,Perempuan,BCG,Lengkap
+B754,Azka Saputra,17,Laki-laki,Campak,Lengkap
+B755,Nayla Rahma,2,Perempuan,Polio 2,Belum Lengkap
+B756,Nabila Sari,9,Perempuan,Polio 4,Belum Lengkap
+B757,Rania Lestari,6,Perempuan,Polio 4,Lengkap
+B758,Nayla Permata,16,Perempuan,Polio 2,Lengkap
+B759,Anisa Lestari,15,Perempuan,Polio 1,Lengkap
+B760,Melati Permata,6,Perempuan,Polio 1,Lengkap
+B761,Arga Saputra,0,Laki-laki,Polio 3,Lengkap
+B762,Syifa Lestari,20,Perempuan,HB-0,Lengkap
+B763,Amelia Lestari,13,Perempuan,Polio 1,Lengkap
+B764,Nayla Lestari,10,Perempuan,Campak,Lengkap
+B765,Rizky Pratama,14,Laki-laki,Polio 1,Lengkap
+B766,Rafa Nugraha,24,Laki-laki,Polio 1,Lengkap
+B767,Aqila Lestari,12,Perempuan,Polio 4,Lengkap
+B768,Rafif Kurniawan,2,Laki-laki,DPT-HB-Hib 3,Lengkap
+B769,Reza Pratama,18,Laki-laki,DPT-HB-Hib 2,Lengkap
+B770,Zahra Lestari,16,Perempuan,DPT-HB-Hib 1,Lengkap
+B771,Arga Saputra,5,Laki-laki,HB-0,Belum Lengkap
+B772,Rania Putri,5,Perempuan,Polio 4,Lengkap
+B773,Rizky Pratama,6,Laki-laki,Polio 1,Lengkap
+B774,Rafif Kurniawan,20,Laki-laki,Polio 1,Lengkap
+B775,Siti Sari,19,Perempuan,DPT-HB-Hib 1,Lengkap
+B776,Fahri Kurniawan,16,Laki-laki,DPT-HB-Hib 2,Lengkap
+B777,Rizky Nugraha,21,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B778,Rian Saputra,17,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B779,Rian Saputra,21,Laki-laki,HB-0,Lengkap
+B780,Aisyah Sari,2,Perempuan,Campak,Lengkap
+B781,Nayla Sari,1,Perempuan,BCG,Lengkap
+B782,Galang Kurniawan,11,Laki-laki,Campak,Lengkap
+B783,Farhan Wijaya,23,Laki-laki,Polio 3,Lengkap
+B784,Syifa Sari,18,Perempuan,Polio 2,Lengkap
+B785,Nayla Lestari,3,Perempuan,Campak,Lengkap
+B786,Syifa Rahma,15,Perempuan,Polio 2,Lengkap
+B787,Siti Permata,0,Perempuan,DPT-HB-Hib 2,Lengkap
+B788,Reza Nugraha,1,Laki-laki,DPT-HB-Hib 2,Lengkap
+B789,Indah Permata,18,Perempuan,Campak,Lengkap
+B790,Amelia Putri,3,Perempuan,Campak,Lengkap
+B791,Siti Putri,7,Perempuan,Polio 4,Lengkap
+B792,Putri Sari,5,Perempuan,DPT-HB-Hib 2,Lengkap
+B793,Rafa Kurniawan,14,Laki-laki,Campak,Lengkap
+B794,Nayla Sari,6,Perempuan,BCG,Lengkap
+B795,Daffa Nugraha,0,Laki-laki,DPT-HB-Hib 1,Lengkap
+B796,Anisa Putri,20,Perempuan,DPT-HB-Hib 2,Lengkap
+B797,Reza Nugraha,10,Laki-laki,Polio 2,Lengkap
+B798,Ahmad Pratama,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B799,Putri Putri,8,Perempuan,Polio 2,Lengkap
+B800,Syifa Rahma,21,Perempuan,HB-0,Lengkap
+B801,Fikri Nugraha,2,Laki-laki,BCG,Belum Lengkap
+B802,Bagas Kurniawan,16,Laki-laki,DPT-HB-Hib 3,Lengkap
+B803,Lestari Permata,12,Perempuan,DPT-HB-Hib 2,Lengkap
+B804,Rizky Kurniawan,19,Laki-laki,Campak,Lengkap
+B805,Rizky Wijaya,1,Laki-laki,Polio 2,Lengkap
+B806,Azka Pratama,0,Laki-laki,Polio 2,Lengkap
+B807,Nayla Sari,10,Perempuan,DPT-HB-Hib 3,Lengkap
+B808,Zahra Rahma,11,Perempuan,HB-0,Lengkap
+B809,Citra Permata,8,Perempuan,Campak,Lengkap
+B810,Putri Lestari,15,Perempuan,HB-0,Lengkap
+B811,Galang Nugraha,18,Laki-laki,DPT-HB-Hib 3,Lengkap
+B812,Syifa Rahma,20,Perempuan,Campak,Belum Lengkap
+B813,Citra Sari,24,Perempuan,Polio 2,Lengkap
+B814,Safira Putri,1,Perempuan,Polio 3,Lengkap
+B815,Salsa Rahma,14,Perempuan,BCG,Belum Lengkap
+B816,Iqbal Saputra,4,Laki-laki,Polio 1,Lengkap
+B817,Rian Nugraha,5,Laki-laki,Polio 3,Belum Lengkap
+B818,Safira Lestari,24,Perempuan,DPT-HB-Hib 3,Lengkap
+B819,Rafif Pratama,2,Laki-laki,HB-0,Lengkap
+B820,Syifa Rahma,17,Perempuan,BCG,Lengkap
+B821,Iqbal Wijaya,3,Laki-laki,Polio 1,Lengkap
+B822,Aisyah Sari,19,Perempuan,DPT-HB-Hib 3,Lengkap
+B823,Alya Lestari,15,Perempuan,DPT-HB-Hib 1,Lengkap
+B824,Indah Permata,22,Perempuan,DPT-HB-Hib 1,Lengkap
+B825,Alif Pratama,20,Laki-laki,DPT-HB-Hib 2,Lengkap
+B826,Bagas Nugraha,24,Laki-laki,DPT-HB-Hib 1,Lengkap
+B827,Citra Putri,15,Perempuan,HB-0,Belum Lengkap
+B828,Fikri Saputra,17,Laki-laki,DPT-HB-Hib 1,Lengkap
+B829,Rafa Nugraha,12,Laki-laki,DPT-HB-Hib 1,Lengkap
+B830,Zidan Nugraha,5,Laki-laki,DPT-HB-Hib 2,Lengkap
+B831,Naufal Nugraha,20,Laki-laki,Polio 2,Lengkap
+B832,Rafif Pratama,17,Laki-laki,HB-0,Lengkap
+B833,Naufal Pratama,8,Laki-laki,DPT-HB-Hib 3,Lengkap
+B834,Arga Nugraha,5,Laki-laki,BCG,Lengkap
+B835,Amelia Lestari,3,Perempuan,DPT-HB-Hib 3,Lengkap
+B836,Bagas Pratama,1,Laki-laki,Polio 4,Belum Lengkap
+B837,Fikri Wijaya,10,Laki-laki,BCG,Belum Lengkap
+B838,Fikri Kurniawan,8,Laki-laki,Polio 2,Lengkap
+B839,Safira Rahma,4,Perempuan,Campak,Lengkap
+B840,Safira Putri,16,Perempuan,DPT-HB-Hib 2,Lengkap
+B841,Nayla Lestari,7,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B842,Fahri Nugraha,4,Laki-laki,Polio 4,Lengkap
+B843,Putri Permata,15,Perempuan,Polio 4,Belum Lengkap
+B844,Rizky Saputra,1,Laki-laki,Polio 2,Lengkap
+B845,Salsa Putri,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B846,Kayla Putri,11,Perempuan,Polio 3,Lengkap
+B847,Rizky Saputra,23,Laki-laki,BCG,Lengkap
+B848,Syifa Lestari,19,Perempuan,Campak,Lengkap
+B849,Farhan Wijaya,19,Laki-laki,DPT-HB-Hib 1,Lengkap
+B850,Rafa Kurniawan,23,Laki-laki,Polio 1,Lengkap
+B851,Aqila Putri,2,Perempuan,HB-0,Lengkap
+B852,Rian Kurniawan,22,Laki-laki,DPT-HB-Hib 3,Lengkap
+B853,Reza Kurniawan,16,Laki-laki,Polio 4,Belum Lengkap
+B854,Nayla Putri,21,Perempuan,BCG,Lengkap
+B855,Zahra Permata,1,Perempuan,Campak,Lengkap
+B856,Daffa Wijaya,15,Laki-laki,BCG,Lengkap
+B857,Alya Putri,23,Perempuan,Polio 4,Lengkap
+B858,Rahma Sari,16,Perempuan,DPT-HB-Hib 2,Lengkap
+B859,Fahri Saputra,11,Laki-laki,HB-0,Lengkap
+B860,Bagas Kurniawan,20,Laki-laki,Campak,Belum Lengkap
+B861,Rian Saputra,17,Laki-laki,Campak,Lengkap
+B862,Alya Lestari,2,Perempuan,BCG,Lengkap
+B863,Ahmad Saputra,19,Laki-laki,Polio 3,Belum Lengkap
+B864,Rian Pratama,11,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B865,Rahma Lestari,10,Perempuan,DPT-HB-Hib 2,Lengkap
+B866,Dimas Kurniawan,4,Laki-laki,DPT-HB-Hib 1,Lengkap
+B867,Aisyah Putri,20,Perempuan,Campak,Belum Lengkap
+B868,Farhan Kurniawan,12,Laki-laki,DPT-HB-Hib 1,Lengkap
+B869,Bagas Nugraha,24,Laki-laki,BCG,Lengkap
+B870,Rahma Lestari,15,Perempuan,Campak,Lengkap
+B871,Putri Putri,6,Perempuan,DPT-HB-Hib 3,Lengkap
+B872,Fahri Kurniawan,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B873,Zidan Saputra,11,Laki-laki,Polio 1,Lengkap
+B874,Salsa Rahma,20,Perempuan,Campak,Lengkap
+B875,Siti Lestari,0,Perempuan,Campak,Lengkap
+B876,Aqila Rahma,22,Perempuan,HB-0,Belum Lengkap
+B877,Adit Kurniawan,24,Laki-laki,Polio 4,Lengkap
+B878,Dimas Wijaya,17,Laki-laki,Polio 2,Lengkap
+B879,Arga Saputra,22,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B880,Putri Rahma,24,Perempuan,Polio 2,Lengkap
+B881,Rafa Nugraha,8,Laki-laki,Campak,Lengkap
+B882,Alya Lestari,22,Perempuan,DPT-HB-Hib 2,Lengkap
+B883,Galang Saputra,12,Laki-laki,BCG,Lengkap
+B884,Daffa Kurniawan,17,Laki-laki,DPT-HB-Hib 2,Lengkap
+B885,Alya Sari,10,Perempuan,BCG,Lengkap
+B886,Galang Wijaya,17,Laki-laki,Polio 3,Lengkap
+B887,Indah Lestari,1,Perempuan,DPT-HB-Hib 3,Lengkap
+B888,Nabila Sari,12,Perempuan,HB-0,Lengkap
+B889,Bagas Pratama,22,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B890,Fahri Wijaya,6,Laki-laki,Polio 1,Lengkap
+B891,Farhan Nugraha,11,Laki-laki,HB-0,Lengkap
+B892,Naufal Kurniawan,24,Laki-laki,HB-0,Belum Lengkap
+B893,Rahma Rahma,19,Perempuan,Campak,Lengkap
+B894,Rania Lestari,21,Perempuan,HB-0,Lengkap
+B895,Bagas Nugraha,15,Laki-laki,Polio 3,Lengkap
+B896,Ahmad Wijaya,6,Laki-laki,HB-0,Belum Lengkap
+B897,Melati Sari,17,Perempuan,DPT-HB-Hib 2,Lengkap
+B898,Ahmad Nugraha,13,Laki-laki,Campak,Lengkap
+B899,Melati Putri,16,Perempuan,Campak,Lengkap
+B900,Indah Rahma,18,Perempuan,BCG,Belum Lengkap
+B901,Farhan Nugraha,24,Laki-laki,DPT-HB-Hib 1,Lengkap
+B902,Zahra Permata,16,Perempuan,DPT-HB-Hib 1,Lengkap
+B903,Salsa Permata,3,Perempuan,BCG,Lengkap
+B904,Rafif Kurniawan,11,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B905,Alif Wijaya,4,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B906,Zahra Putri,22,Perempuan,Polio 1,Belum Lengkap
+B907,Aisyah Putri,4,Perempuan,Polio 1,Lengkap
+B908,Citra Sari,0,Perempuan,Polio 3,Lengkap
+B909,Indah Lestari,24,Perempuan,BCG,Lengkap
+B910,Naufal Saputra,24,Laki-laki,Polio 4,Lengkap
+B911,Naufal Saputra,24,Laki-laki,Polio 1,Lengkap
+B912,Anisa Permata,18,Perempuan,Polio 1,Lengkap
+B913,Bagas Saputra,24,Laki-laki,Polio 2,Belum Lengkap
+B914,Lestari Rahma,9,Perempuan,Polio 1,Lengkap
+B915,Nabila Putri,22,Perempuan,Polio 4,Lengkap
+B916,Anisa Sari,21,Perempuan,Polio 3,Belum Lengkap
+B917,Rafif Pratama,24,Laki-laki,Polio 1,Lengkap
+B918,Reza Kurniawan,23,Laki-laki,DPT-HB-Hib 2,Lengkap
+B919,Anisa Rahma,4,Perempuan,Polio 2,Lengkap
+B920,Aqila Rahma,7,Perempuan,Polio 2,Lengkap
+B921,Naufal Nugraha,22,Laki-laki,DPT-HB-Hib 1,Lengkap
+B922,Nabila Permata,2,Perempuan,Polio 4,Lengkap
+B923,Reza Pratama,17,Laki-laki,Polio 2,Lengkap
+B924,Citra Putri,12,Perempuan,BCG,Lengkap
+B925,Rizky Saputra,24,Laki-laki,BCG,Lengkap
+B926,Adit Wijaya,20,Laki-laki,Campak,Lengkap
+B927,Siti Permata,3,Perempuan,Polio 2,Lengkap
+B928,Iqbal Saputra,20,Laki-laki,Polio 4,Belum Lengkap
+B929,Amelia Lestari,23,Perempuan,Polio 1,Belum Lengkap
+B930,Putri Sari,9,Perempuan,Polio 2,Lengkap
+B931,Rizky Nugraha,6,Laki-laki,Campak,Lengkap
+B932,Amelia Rahma,14,Perempuan,HB-0,Belum Lengkap
+B933,Adit Saputra,24,Laki-laki,Polio 3,Belum Lengkap
+B934,Amelia Rahma,15,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B935,Rafif Pratama,14,Laki-laki,Polio 2,Lengkap
+B936,Rania Sari,2,Perempuan,Polio 4,Lengkap
+B937,Naufal Wijaya,5,Laki-laki,Polio 3,Lengkap
+B938,Siti Rahma,7,Perempuan,Campak,Lengkap
+B939,Fahri Pratama,0,Laki-laki,HB-0,Belum Lengkap
+B940,Daffa Saputra,13,Laki-laki,Campak,Lengkap
+B941,Bagas Pratama,15,Laki-laki,Polio 4,Belum Lengkap
+B942,Reza Nugraha,11,Laki-laki,BCG,Lengkap
+B943,Syifa Lestari,6,Perempuan,BCG,Belum Lengkap
+B944,Rian Saputra,6,Laki-laki,Campak,Belum Lengkap
+B945,Farhan Pratama,1,Laki-laki,Polio 1,Lengkap
+B946,Kayla Putri,8,Perempuan,Polio 2,Lengkap
+B947,Rizky Saputra,1,Laki-laki,DPT-HB-Hib 2,Lengkap
+B948,Nabila Putri,1,Perempuan,BCG,Lengkap
+B949,Aisyah Sari,5,Perempuan,BCG,Lengkap
+B950,Bagas Saputra,17,Laki-laki,Polio 3,Lengkap
+B951,Aisyah Lestari,10,Perempuan,DPT-HB-Hib 3,Lengkap
+B952,Rahma Lestari,7,Perempuan,BCG,Lengkap
+B953,Aqila Lestari,14,Perempuan,BCG,Lengkap
+B954,Kayla Putri,17,Perempuan,DPT-HB-Hib 2,Lengkap
+B955,Rafa Pratama,17,Laki-laki,Polio 2,Belum Lengkap
+B956,Safira Permata,0,Perempuan,BCG,Lengkap
+B957,Rahma Permata,7,Perempuan,Polio 3,Lengkap
+B958,Nabila Permata,23,Perempuan,HB-0,Lengkap
+B959,Galang Pratama,5,Laki-laki,Polio 1,Lengkap
+B960,Daffa Nugraha,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B961,Zidan Kurniawan,13,Laki-laki,Polio 2,Lengkap
+B962,Daffa Pratama,22,Laki-laki,BCG,Belum Lengkap
+B963,Arga Saputra,7,Laki-laki,Polio 1,Belum Lengkap
+B964,Aqila Permata,4,Perempuan,Polio 3,Lengkap
+B965,Anisa Rahma,2,Perempuan,Campak,Lengkap
+B966,Melati Permata,17,Perempuan,Polio 1,Lengkap
+B967,Dimas Nugraha,2,Laki-laki,BCG,Lengkap
+B968,Rafa Kurniawan,19,Laki-laki,Polio 1,Belum Lengkap
+B969,Lestari Lestari,16,Perempuan,DPT-HB-Hib 2,Lengkap
+B970,Lestari Lestari,12,Perempuan,DPT-HB-Hib 1,Lengkap
+B971,Adit Kurniawan,10,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B972,Kayla Lestari,9,Perempuan,Campak,Lengkap
+B973,Galang Saputra,5,Laki-laki,Campak,Lengkap
+B974,Farhan Saputra,22,Laki-laki,Campak,Lengkap
+B975,Arga Nugraha,8,Laki-laki,DPT-HB-Hib 2,Lengkap
+B976,Azka Pratama,3,Laki-laki,Campak,Lengkap
+B977,Aisyah Permata,24,Perempuan,DPT-HB-Hib 2,Lengkap
+B978,Salsa Permata,11,Perempuan,Polio 4,Lengkap
+B979,Anisa Sari,20,Perempuan,Campak,Lengkap
+B980,Alif Kurniawan,24,Laki-laki,BCG,Lengkap
+B981,Rafa Kurniawan,16,Laki-laki,HB-0,Lengkap
+B982,Syifa Sari,21,Perempuan,Polio 3,Lengkap
+B983,Galang Kurniawan,22,Laki-laki,Polio 1,Lengkap
+B984,Rafa Nugraha,9,Laki-laki,Polio 1,Belum Lengkap
+B985,Kayla Rahma,21,Perempuan,HB-0,Belum Lengkap
+B986,Zahra Permata,20,Perempuan,DPT-HB-Hib 2,Lengkap
+B987,Kayla Permata,2,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B988,Alya Permata,10,Perempuan,Polio 2,Lengkap
+B989,Alif Wijaya,23,Laki-laki,BCG,Belum Lengkap
+B990,Siti Lestari,12,Perempuan,Polio 3,Lengkap
+B991,Putri Permata,23,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B992,Fikri Kurniawan,13,Laki-laki,HB-0,Lengkap
+B993,Rahma Rahma,14,Perempuan,HB-0,Lengkap
+B994,Syifa Sari,6,Perempuan,DPT-HB-Hib 3,Lengkap
+B995,Reza Pratama,16,Laki-laki,Polio 1,Lengkap
+B996,Aqila Rahma,14,Perempuan,Polio 3,Lengkap
+B997,Galang Kurniawan,11,Laki-laki,DPT-HB-Hib 1,Lengkap
+B998,Rafa Nugraha,14,Laki-laki,BCG,Lengkap
+B999,Lestari Sari,15,Perempuan,DPT-HB-Hib 2,Lengkap
+B1000,Aqila Sari,6,Perempuan,BCG,Lengkap
+B1001,Rahma Lestari,4,Perempuan,BCG,Lengkap
+B1002,Aqila Putri,15,Perempuan,Polio 3,Lengkap
+B1003,Reza Nugraha,6,Laki-laki,Campak,Lengkap
+B1004,Alif Wijaya,0,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1005,Zidan Pratama,16,Laki-laki,Polio 4,Lengkap
+B1006,Zidan Kurniawan,7,Laki-laki,BCG,Lengkap
+B1007,Melati Rahma,0,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1008,Syifa Sari,2,Perempuan,DPT-HB-Hib 3,Lengkap
+B1009,Farhan Wijaya,6,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1010,Arga Saputra,10,Laki-laki,Polio 3,Lengkap
+B1011,Lestari Putri,21,Perempuan,Polio 1,Lengkap
+B1012,Farhan Wijaya,10,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1013,Rania Permata,24,Perempuan,BCG,Lengkap
+B1014,Farhan Kurniawan,19,Laki-laki,Campak,Belum Lengkap
+B1015,Dimas Kurniawan,13,Laki-laki,HB-0,Lengkap
+B1016,Reza Pratama,23,Laki-laki,HB-0,Lengkap
+B1017,Indah Permata,8,Perempuan,Campak,Lengkap
+B1018,Salsa Sari,7,Perempuan,Polio 1,Lengkap
+B1019,Salsa Rahma,4,Perempuan,DPT-HB-Hib 2,Lengkap
+B1020,Nayla Rahma,15,Perempuan,DPT-HB-Hib 1,Lengkap
+B1021,Rian Saputra,13,Laki-laki,Campak,Lengkap
+B1022,Aisyah Sari,13,Perempuan,Polio 1,Lengkap
+B1023,Ahmad Pratama,3,Laki-laki,BCG,Lengkap
+B1024,Syifa Permata,17,Perempuan,DPT-HB-Hib 3,Lengkap
+B1025,Galang Pratama,4,Laki-laki,Polio 2,Lengkap
+B1026,Daffa Saputra,23,Laki-laki,Polio 4,Lengkap
+B1027,Siti Sari,9,Perempuan,Polio 3,Lengkap
+B1028,Rian Nugraha,2,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1029,Kayla Rahma,23,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1030,Rafif Saputra,23,Laki-laki,Polio 4,Lengkap
+B1031,Rania Rahma,22,Perempuan,HB-0,Belum Lengkap
+B1032,Nabila Permata,10,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1033,Naufal Nugraha,21,Laki-laki,BCG,Lengkap
+B1034,Aisyah Sari,0,Perempuan,Polio 4,Lengkap
+B1035,Fahri Saputra,2,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1036,Galang Saputra,22,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1037,Salsa Putri,5,Perempuan,DPT-HB-Hib 3,Lengkap
+B1038,Galang Pratama,4,Laki-laki,HB-0,Lengkap
+B1039,Citra Putri,11,Perempuan,DPT-HB-Hib 3,Lengkap
+B1040,Bagas Saputra,6,Laki-laki,HB-0,Lengkap
+B1041,Rania Lestari,7,Perempuan,Polio 3,Lengkap
+B1042,Farhan Pratama,1,Laki-laki,Polio 2,Lengkap
+B1043,Indah Sari,12,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1044,Zidan Kurniawan,2,Laki-laki,Polio 1,Lengkap
+B1045,Farhan Wijaya,23,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1046,Alya Sari,4,Perempuan,HB-0,Lengkap
+B1047,Fikri Kurniawan,1,Laki-laki,BCG,Lengkap
+B1048,Nayla Putri,0,Perempuan,DPT-HB-Hib 1,Lengkap
+B1049,Nabila Sari,7,Perempuan,DPT-HB-Hib 2,Lengkap
+B1050,Alya Sari,12,Perempuan,BCG,Belum Lengkap
+B1051,Aisyah Sari,18,Perempuan,HB-0,Lengkap
+B1052,Adit Pratama,3,Laki-laki,HB-0,Lengkap
+B1053,Farhan Nugraha,3,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1054,Indah Putri,6,Perempuan,DPT-HB-Hib 3,Lengkap
+B1055,Anisa Sari,18,Perempuan,Polio 4,Lengkap
+B1056,Indah Lestari,0,Perempuan,Campak,Lengkap
+B1057,Dimas Nugraha,23,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1058,Alif Pratama,23,Laki-laki,BCG,Lengkap
+B1059,Iqbal Wijaya,12,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1060,Anisa Putri,4,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1061,Alif Wijaya,24,Laki-laki,BCG,Lengkap
+B1062,Rafa Pratama,6,Laki-laki,Polio 4,Belum Lengkap
+B1063,Rizky Saputra,0,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1064,Rania Sari,0,Perempuan,Polio 4,Lengkap
+B1065,Nabila Putri,10,Perempuan,Polio 4,Lengkap
+B1066,Daffa Wijaya,2,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1067,Aisyah Lestari,1,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1068,Melati Permata,16,Perempuan,Polio 3,Lengkap
+B1069,Farhan Wijaya,2,Laki-laki,Polio 2,Lengkap
+B1070,Alya Sari,13,Perempuan,DPT-HB-Hib 3,Lengkap
+B1071,Rafa Pratama,17,Laki-laki,Polio 1,Lengkap
+B1072,Siti Lestari,20,Perempuan,DPT-HB-Hib 3,Lengkap
+B1073,Siti Putri,19,Perempuan,DPT-HB-Hib 3,Lengkap
+B1074,Adit Wijaya,14,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1075,Alif Nugraha,1,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1076,Alif Pratama,14,Laki-laki,Polio 2,Lengkap
+B1077,Bagas Nugraha,2,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1078,Ahmad Pratama,1,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1079,Ahmad Saputra,17,Laki-laki,Polio 3,Lengkap
+B1080,Rania Lestari,17,Perempuan,Polio 1,Lengkap
+B1081,Azka Kurniawan,16,Laki-laki,Campak,Belum Lengkap
+B1082,Rian Nugraha,10,Laki-laki,HB-0,Belum Lengkap
+B1083,Dimas Saputra,23,Laki-laki,Polio 2,Lengkap
+B1084,Rafif Wijaya,12,Laki-laki,Polio 4,Lengkap
+B1085,Aisyah Sari,3,Perempuan,HB-0,Lengkap
+B1086,Daffa Saputra,14,Laki-laki,Polio 2,Belum Lengkap
+B1087,Kayla Lestari,5,Perempuan,HB-0,Belum Lengkap
+B1088,Syifa Rahma,2,Perempuan,HB-0,Lengkap
+B1089,Safira Sari,13,Perempuan,Polio 2,Lengkap
+B1090,Siti Permata,11,Perempuan,DPT-HB-Hib 1,Lengkap
+B1091,Iqbal Pratama,19,Laki-laki,Polio 3,Lengkap
+B1092,Rahma Permata,1,Perempuan,DPT-HB-Hib 2,Lengkap
+B1093,Nayla Lestari,2,Perempuan,DPT-HB-Hib 1,Lengkap
+B1094,Rizky Pratama,13,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1095,Alya Putri,0,Perempuan,HB-0,Lengkap
+B1096,Fahri Nugraha,22,Laki-laki,Polio 3,Belum Lengkap
+B1097,Aisyah Permata,16,Perempuan,Polio 1,Belum Lengkap
+B1098,Galang Pratama,8,Laki-laki,Polio 4,Lengkap
+B1099,Dimas Saputra,12,Laki-laki,HB-0,Lengkap
+B1100,Rafif Pratama,16,Laki-laki,Polio 3,Lengkap
+B1101,Zidan Saputra,5,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1102,Iqbal Saputra,5,Laki-laki,Polio 2,Lengkap
+B1103,Farhan Pratama,17,Laki-laki,Polio 1,Belum Lengkap
+B1104,Kayla Lestari,23,Perempuan,Polio 1,Lengkap
+B1105,Farhan Wijaya,12,Laki-laki,Campak,Lengkap
+B1106,Rian Kurniawan,13,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1107,Azka Nugraha,17,Laki-laki,Campak,Lengkap
+B1108,Alif Saputra,18,Laki-laki,Campak,Lengkap
+B1109,Rafif Pratama,3,Laki-laki,Polio 2,Lengkap
+B1110,Daffa Pratama,21,Laki-laki,Polio 3,Lengkap
+B1111,Zidan Wijaya,21,Laki-laki,Polio 3,Belum Lengkap
+B1112,Fikri Pratama,4,Laki-laki,HB-0,Lengkap
+B1113,Fahri Kurniawan,22,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1114,Aqila Rahma,9,Perempuan,BCG,Belum Lengkap
+B1115,Amelia Sari,20,Perempuan,Campak,Lengkap
+B1116,Alya Putri,20,Perempuan,DPT-HB-Hib 3,Lengkap
+B1117,Rian Kurniawan,24,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1118,Anisa Lestari,5,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1119,Lestari Sari,22,Perempuan,Polio 4,Lengkap
+B1120,Adit Pratama,5,Laki-laki,BCG,Lengkap
+B1121,Safira Rahma,19,Perempuan,Polio 2,Belum Lengkap
+B1122,Rizky Nugraha,6,Laki-laki,Polio 3,Lengkap
+B1123,Adit Wijaya,3,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1124,Melati Rahma,16,Perempuan,Campak,Lengkap
+B1125,Putri Lestari,18,Perempuan,DPT-HB-Hib 1,Lengkap
+B1126,Dimas Saputra,15,Laki-laki,Polio 1,Lengkap
+B1127,Farhan Pratama,3,Laki-laki,HB-0,Lengkap
+B1128,Lestari Putri,10,Perempuan,Polio 3,Lengkap
+B1129,Galang Kurniawan,5,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1130,Salsa Rahma,12,Perempuan,DPT-HB-Hib 1,Lengkap
+B1131,Safira Sari,2,Perempuan,HB-0,Belum Lengkap
+B1132,Adit Pratama,18,Laki-laki,Campak,Lengkap
+B1133,Rahma Putri,15,Perempuan,DPT-HB-Hib 3,Lengkap
+B1134,Safira Putri,11,Perempuan,Campak,Belum Lengkap
+B1135,Anisa Lestari,14,Perempuan,BCG,Lengkap
+B1136,Reza Saputra,7,Laki-laki,HB-0,Lengkap
+B1137,Rian Nugraha,1,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1138,Kayla Putri,1,Perempuan,DPT-HB-Hib 2,Lengkap
+B1139,Safira Lestari,12,Perempuan,Campak,Lengkap
+B1140,Zahra Sari,7,Perempuan,Polio 4,Lengkap
+B1141,Azka Nugraha,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1142,Putri Sari,10,Perempuan,HB-0,Lengkap
+B1143,Alif Nugraha,15,Laki-laki,Polio 2,Lengkap
+B1144,Rania Putri,24,Perempuan,DPT-HB-Hib 1,Lengkap
+B1145,Citra Rahma,17,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1146,Rania Permata,13,Perempuan,BCG,Belum Lengkap
+B1147,Citra Permata,20,Perempuan,DPT-HB-Hib 2,Lengkap
+B1148,Ahmad Kurniawan,22,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1149,Siti Lestari,15,Perempuan,HB-0,Lengkap
+B1150,Reza Saputra,9,Laki-laki,Polio 1,Lengkap
+B1151,Rian Kurniawan,5,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1152,Azka Saputra,20,Laki-laki,Campak,Lengkap
+B1153,Naufal Nugraha,24,Laki-laki,Polio 4,Lengkap
+B1154,Daffa Saputra,1,Laki-laki,Campak,Lengkap
+B1155,Anisa Permata,14,Perempuan,BCG,Lengkap
+B1156,Putri Sari,8,Perempuan,DPT-HB-Hib 2,Lengkap
+B1157,Putri Sari,23,Perempuan,Polio 1,Lengkap
+B1158,Rania Rahma,17,Perempuan,Polio 4,Lengkap
+B1159,Rian Wijaya,10,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1160,Lestari Putri,15,Perempuan,DPT-HB-Hib 3,Lengkap
+B1161,Aisyah Rahma,21,Perempuan,DPT-HB-Hib 1,Lengkap
+B1162,Zahra Putri,16,Perempuan,Polio 4,Lengkap
+B1163,Ahmad Saputra,1,Laki-laki,BCG,Lengkap
+B1164,Rafif Pratama,13,Laki-laki,Polio 4,Belum Lengkap
+B1165,Reza Kurniawan,21,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1166,Citra Putri,2,Perempuan,BCG,Belum Lengkap
+B1167,Melati Rahma,14,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1168,Dimas Saputra,17,Laki-laki,Campak,Lengkap
+B1169,Fikri Pratama,16,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1170,Zahra Permata,8,Perempuan,Polio 4,Lengkap
+B1171,Nayla Permata,17,Perempuan,DPT-HB-Hib 2,Lengkap
+B1172,Farhan Nugraha,22,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1173,Nabila Rahma,14,Perempuan,DPT-HB-Hib 1,Lengkap
+B1174,Aisyah Rahma,17,Perempuan,Polio 4,Belum Lengkap
+B1175,Ahmad Wijaya,12,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1176,Putri Putri,2,Perempuan,Polio 3,Lengkap
+B1177,Lestari Sari,16,Perempuan,DPT-HB-Hib 1,Lengkap
+B1178,Zidan Pratama,14,Laki-laki,Campak,Lengkap
+B1179,Rafa Kurniawan,20,Laki-laki,Campak,Lengkap
+B1180,Azka Nugraha,0,Laki-laki,Polio 1,Lengkap
+B1181,Zidan Pratama,1,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1182,Indah Rahma,16,Perempuan,HB-0,Lengkap
+B1183,Rahma Rahma,24,Perempuan,DPT-HB-Hib 3,Lengkap
+B1184,Nayla Putri,6,Perempuan,Polio 3,Lengkap
+B1185,Melati Lestari,18,Perempuan,BCG,Lengkap
+B1186,Naufal Saputra,22,Laki-laki,Polio 2,Lengkap
+B1187,Daffa Saputra,23,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1188,Azka Pratama,1,Laki-laki,Polio 3,Lengkap
+B1189,Fahri Kurniawan,6,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1190,Aqila Lestari,24,Perempuan,DPT-HB-Hib 1,Lengkap
+B1191,Daffa Nugraha,15,Laki-laki,Polio 1,Lengkap
+B1192,Citra Permata,11,Perempuan,HB-0,Lengkap
+B1193,Farhan Wijaya,19,Laki-laki,Polio 4,Lengkap
+B1194,Citra Sari,1,Perempuan,Campak,Lengkap
+B1195,Bagas Nugraha,11,Laki-laki,HB-0,Belum Lengkap
+B1196,Kayla Putri,18,Perempuan,HB-0,Lengkap
+B1197,Salsa Lestari,24,Perempuan,Campak,Belum Lengkap
+B1198,Zahra Sari,11,Perempuan,Polio 1,Lengkap
+B1199,Nayla Sari,11,Perempuan,HB-0,Lengkap
+B1200,Azka Nugraha,7,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1201,Bagas Wijaya,13,Laki-laki,Polio 1,Lengkap
+B1202,Nabila Lestari,11,Perempuan,BCG,Lengkap
+B1203,Nabila Permata,13,Perempuan,DPT-HB-Hib 2,Lengkap
+B1204,Bagas Saputra,21,Laki-laki,Polio 3,Lengkap
+B1205,Siti Sari,6,Perempuan,DPT-HB-Hib 2,Lengkap
+B1206,Aqila Rahma,4,Perempuan,DPT-HB-Hib 3,Lengkap
+B1207,Safira Rahma,15,Perempuan,DPT-HB-Hib 1,Lengkap
+B1208,Alif Kurniawan,12,Laki-laki,HB-0,Lengkap
+B1209,Zidan Wijaya,22,Laki-laki,Polio 1,Lengkap
+B1210,Zahra Sari,20,Perempuan,Polio 2,Lengkap
+B1211,Indah Sari,2,Perempuan,DPT-HB-Hib 1,Lengkap
+B1212,Amelia Lestari,2,Perempuan,HB-0,Belum Lengkap
+B1213,Bagas Saputra,20,Laki-laki,Polio 2,Belum Lengkap
+B1214,Arga Nugraha,19,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1215,Zidan Kurniawan,14,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1216,Rania Putri,7,Perempuan,DPT-HB-Hib 3,Lengkap
+B1217,Indah Sari,20,Perempuan,BCG,Lengkap
+B1218,Safira Lestari,10,Perempuan,Campak,Lengkap
+B1219,Alif Saputra,2,Laki-laki,Campak,Lengkap
+B1220,Rian Pratama,19,Laki-laki,Polio 2,Lengkap
+B1221,Adit Saputra,12,Laki-laki,Polio 2,Lengkap
+B1222,Siti Rahma,6,Perempuan,Polio 2,Lengkap
+B1223,Azka Kurniawan,22,Laki-laki,HB-0,Lengkap
+B1224,Farhan Pratama,16,Laki-laki,Campak,Lengkap
+B1225,Aisyah Lestari,17,Perempuan,Polio 4,Lengkap
+B1226,Aisyah Lestari,13,Perempuan,Polio 4,Lengkap
+B1227,Ahmad Kurniawan,3,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1228,Aqila Rahma,7,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1229,Nabila Permata,1,Perempuan,Campak,Lengkap
+B1230,Dimas Wijaya,12,Laki-laki,Campak,Lengkap
+B1231,Nayla Lestari,9,Perempuan,Campak,Lengkap
+B1232,Rania Sari,3,Perempuan,Campak,Lengkap
+B1233,Melati Rahma,23,Perempuan,BCG,Lengkap
+B1234,Fahri Saputra,1,Laki-laki,Polio 4,Belum Lengkap
+B1235,Adit Saputra,7,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1236,Ahmad Saputra,6,Laki-laki,Polio 1,Lengkap
+B1237,Syifa Putri,10,Perempuan,Polio 1,Lengkap
+B1238,Citra Lestari,3,Perempuan,DPT-HB-Hib 3,Lengkap
+B1239,Rania Permata,21,Perempuan,DPT-HB-Hib 2,Lengkap
+B1240,Farhan Saputra,24,Laki-laki,Polio 4,Lengkap
+B1241,Adit Nugraha,1,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1242,Fahri Nugraha,22,Laki-laki,Campak,Belum Lengkap
+B1243,Anisa Sari,7,Perempuan,Polio 3,Lengkap
+B1244,Fikri Wijaya,3,Laki-laki,BCG,Lengkap
+B1245,Adit Kurniawan,11,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1246,Farhan Nugraha,14,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1247,Kayla Putri,7,Perempuan,HB-0,Lengkap
+B1248,Rizky Wijaya,6,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1249,Siti Putri,15,Perempuan,Campak,Belum Lengkap
+B1250,Alya Lestari,9,Perempuan,Polio 4,Lengkap
+B1251,Citra Sari,9,Perempuan,BCG,Lengkap
+B1252,Putri Permata,14,Perempuan,DPT-HB-Hib 1,Lengkap
+B1253,Daffa Pratama,0,Laki-laki,BCG,Belum Lengkap
+B1254,Salsa Lestari,9,Perempuan,HB-0,Lengkap
+B1255,Dimas Kurniawan,18,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1256,Rania Rahma,2,Perempuan,Polio 1,Belum Lengkap
+B1257,Alif Saputra,21,Laki-laki,BCG,Belum Lengkap
+B1258,Zidan Saputra,16,Laki-laki,Polio 1,Belum Lengkap
+B1259,Rizky Pratama,18,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1260,Indah Putri,20,Perempuan,Polio 1,Lengkap
+B1261,Syifa Permata,21,Perempuan,Campak,Lengkap
+B1262,Alif Nugraha,21,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1263,Syifa Permata,14,Perempuan,Polio 2,Lengkap
+B1264,Zahra Rahma,2,Perempuan,DPT-HB-Hib 1,Lengkap
+B1265,Alif Pratama,12,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1266,Galang Pratama,4,Laki-laki,Polio 2,Lengkap
+B1267,Bagas Saputra,1,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1268,Reza Saputra,16,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1269,Citra Rahma,13,Perempuan,DPT-HB-Hib 2,Lengkap
+B1270,Rania Rahma,9,Perempuan,Polio 1,Lengkap
+B1271,Fikri Pratama,12,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1272,Rafif Nugraha,16,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1273,Anisa Permata,11,Perempuan,Polio 2,Lengkap
+B1274,Zidan Saputra,0,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1275,Nabila Lestari,8,Perempuan,Polio 1,Lengkap
+B1276,Syifa Rahma,23,Perempuan,Campak,Lengkap
+B1277,Azka Pratama,15,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1278,Adit Nugraha,8,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1279,Fahri Nugraha,23,Laki-laki,Polio 3,Lengkap
+B1280,Azka Kurniawan,17,Laki-laki,BCG,Lengkap
+B1281,Rizky Kurniawan,15,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1282,Anisa Lestari,13,Perempuan,DPT-HB-Hib 3,Lengkap
+B1283,Rafa Saputra,21,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1284,Daffa Saputra,22,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1285,Azka Pratama,13,Laki-laki,BCG,Lengkap
+B1286,Siti Permata,9,Perempuan,Polio 4,Lengkap
+B1287,Salsa Lestari,5,Perempuan,Polio 3,Lengkap
+B1288,Alya Putri,2,Perempuan,Polio 4,Lengkap
+B1289,Safira Lestari,4,Perempuan,Polio 1,Lengkap
+B1290,Nabila Lestari,22,Perempuan,Polio 1,Lengkap
+B1291,Aisyah Lestari,2,Perempuan,Polio 2,Lengkap
+B1292,Lestari Lestari,4,Perempuan,DPT-HB-Hib 2,Lengkap
+B1293,Arga Saputra,10,Laki-laki,Campak,Lengkap
+B1294,Melati Lestari,15,Perempuan,Polio 1,Lengkap
+B1295,Safira Sari,4,Perempuan,Polio 3,Lengkap
+B1296,Zidan Nugraha,22,Laki-laki,Campak,Belum Lengkap
+B1297,Safira Putri,8,Perempuan,DPT-HB-Hib 1,Lengkap
+B1298,Kayla Permata,23,Perempuan,Polio 3,Lengkap
+B1299,Melati Sari,16,Perempuan,Polio 4,Lengkap
+B1300,Nabila Sari,19,Perempuan,Polio 4,Lengkap
+B1301,Nabila Lestari,0,Perempuan,Campak,Lengkap
+B1302,Arga Nugraha,17,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1303,Bagas Saputra,11,Laki-laki,Polio 2,Lengkap
+B1304,Rian Kurniawan,9,Laki-laki,BCG,Lengkap
+B1305,Aqila Sari,21,Perempuan,BCG,Belum Lengkap
+B1306,Salsa Sari,10,Perempuan,Campak,Lengkap
+B1307,Nabila Lestari,4,Perempuan,Polio 2,Belum Lengkap
+B1308,Nabila Putri,0,Perempuan,DPT-HB-Hib 3,Lengkap
+B1309,Rania Permata,22,Perempuan,Polio 2,Lengkap
+B1310,Rafif Kurniawan,20,Laki-laki,Polio 4,Belum Lengkap
+B1311,Rian Kurniawan,1,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1312,Rafa Wijaya,6,Laki-laki,Polio 2,Lengkap
+B1313,Rizky Pratama,18,Laki-laki,HB-0,Lengkap
+B1314,Daffa Wijaya,9,Laki-laki,Campak,Lengkap
+B1315,Lestari Rahma,18,Perempuan,BCG,Lengkap
+B1316,Naufal Kurniawan,16,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1317,Salsa Permata,12,Perempuan,Polio 4,Lengkap
+B1318,Rahma Rahma,13,Perempuan,Polio 3,Lengkap
+B1319,Anisa Permata,4,Perempuan,BCG,Lengkap
+B1320,Alya Rahma,22,Perempuan,Polio 1,Lengkap
+B1321,Nayla Rahma,0,Perempuan,Polio 4,Lengkap
+B1322,Daffa Kurniawan,6,Laki-laki,Polio 4,Lengkap
+B1323,Adit Wijaya,8,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1324,Iqbal Kurniawan,15,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1325,Rian Saputra,15,Laki-laki,HB-0,Lengkap
+B1326,Zidan Saputra,15,Laki-laki,Polio 2,Belum Lengkap
+B1327,Salsa Sari,11,Perempuan,Polio 2,Lengkap
+B1328,Lestari Permata,13,Perempuan,Campak,Lengkap
+B1329,Bagas Saputra,12,Laki-laki,Polio 1,Lengkap
+B1330,Syifa Rahma,3,Perempuan,HB-0,Lengkap
+B1331,Nayla Rahma,12,Perempuan,DPT-HB-Hib 2,Lengkap
+B1332,Anisa Permata,0,Perempuan,DPT-HB-Hib 2,Lengkap
+B1333,Adit Pratama,15,Laki-laki,Polio 3,Belum Lengkap
+B1334,Citra Lestari,19,Perempuan,DPT-HB-Hib 1,Lengkap
+B1335,Iqbal Wijaya,0,Laki-laki,Polio 3,Lengkap
+B1336,Fikri Kurniawan,16,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1337,Reza Kurniawan,22,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1338,Daffa Saputra,19,Laki-laki,Polio 4,Lengkap
+B1339,Adit Wijaya,13,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1340,Zahra Rahma,15,Perempuan,DPT-HB-Hib 3,Lengkap
+B1341,Siti Lestari,2,Perempuan,Polio 4,Lengkap
+B1342,Galang Nugraha,22,Laki-laki,BCG,Belum Lengkap
+B1343,Salsa Rahma,15,Perempuan,Polio 4,Lengkap
+B1344,Farhan Kurniawan,4,Laki-laki,BCG,Lengkap
+B1345,Alif Nugraha,15,Laki-laki,Polio 4,Lengkap
+B1346,Alif Pratama,10,Laki-laki,Polio 3,Lengkap
+B1347,Rian Nugraha,12,Laki-laki,HB-0,Lengkap
+B1348,Arga Pratama,16,Laki-laki,Polio 4,Belum Lengkap
+B1349,Fikri Nugraha,5,Laki-laki,Polio 1,Lengkap
+B1350,Bagas Nugraha,1,Laki-laki,Polio 2,Lengkap
+B1351,Daffa Nugraha,15,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1352,Citra Permata,12,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1353,Nabila Rahma,12,Perempuan,Campak,Lengkap
+B1354,Rahma Rahma,2,Perempuan,DPT-HB-Hib 2,Lengkap
+B1355,Fikri Wijaya,11,Laki-laki,Polio 3,Lengkap
+B1356,Zidan Wijaya,17,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1357,Putri Permata,16,Perempuan,HB-0,Lengkap
+B1358,Galang Pratama,24,Laki-laki,Polio 3,Lengkap
+B1359,Reza Kurniawan,15,Laki-laki,Polio 4,Lengkap
+B1360,Rizky Nugraha,9,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1361,Lestari Rahma,19,Perempuan,Polio 3,Lengkap
+B1362,Bagas Kurniawan,12,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1363,Rizky Kurniawan,15,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1364,Alya Permata,12,Perempuan,DPT-HB-Hib 2,Lengkap
+B1365,Adit Saputra,17,Laki-laki,Polio 4,Lengkap
+B1366,Zidan Pratama,3,Laki-laki,Polio 2,Lengkap
+B1367,Rania Permata,6,Perempuan,Polio 1,Belum Lengkap
+B1368,Rian Saputra,9,Laki-laki,HB-0,Lengkap
+B1369,Iqbal Wijaya,14,Laki-laki,BCG,Belum Lengkap
+B1370,Syifa Lestari,18,Perempuan,Polio 2,Belum Lengkap
+B1371,Nabila Lestari,10,Perempuan,Polio 1,Lengkap
+B1372,Alya Putri,5,Perempuan,DPT-HB-Hib 2,Lengkap
+B1373,Melati Putri,24,Perempuan,DPT-HB-Hib 2,Lengkap
+B1374,Syifa Putri,0,Perempuan,DPT-HB-Hib 3,Lengkap
+B1375,Alya Lestari,8,Perempuan,Polio 4,Lengkap
+B1376,Rafif Nugraha,19,Laki-laki,BCG,Belum Lengkap
+B1377,Nayla Sari,10,Perempuan,Campak,Belum Lengkap
+B1378,Adit Saputra,6,Laki-laki,Polio 1,Lengkap
+B1379,Rahma Sari,16,Perempuan,Polio 1,Lengkap
+B1380,Aqila Permata,12,Perempuan,DPT-HB-Hib 3,Lengkap
+B1381,Rafif Kurniawan,3,Laki-laki,Polio 1,Lengkap
+B1382,Melati Sari,14,Perempuan,Polio 4,Lengkap
+B1383,Rafa Nugraha,11,Laki-laki,Polio 2,Lengkap
+B1384,Salsa Sari,14,Perempuan,Polio 1,Lengkap
+B1385,Azka Pratama,13,Laki-laki,Polio 4,Lengkap
+B1386,Aqila Permata,4,Perempuan,DPT-HB-Hib 1,Lengkap
+B1387,Arga Saputra,14,Laki-laki,Polio 2,Lengkap
+B1388,Citra Rahma,6,Perempuan,DPT-HB-Hib 1,Lengkap
+B1389,Kayla Rahma,11,Perempuan,HB-0,Lengkap
+B1390,Alya Putri,12,Perempuan,BCG,Lengkap
+B1391,Fikri Wijaya,24,Laki-laki,Polio 1,Lengkap
+B1392,Salsa Sari,16,Perempuan,Polio 2,Lengkap
+B1393,Zahra Sari,8,Perempuan,Polio 3,Lengkap
+B1394,Alya Permata,11,Perempuan,Polio 3,Lengkap
+B1395,Farhan Saputra,11,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1396,Adit Kurniawan,8,Laki-laki,Polio 4,Lengkap
+B1397,Nabila Sari,24,Perempuan,HB-0,Belum Lengkap
+B1398,Naufal Kurniawan,4,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1399,Zidan Pratama,10,Laki-laki,Polio 1,Lengkap
+B1400,Rafif Nugraha,5,Laki-laki,Polio 4,Lengkap
+B1401,Fahri Saputra,23,Laki-laki,Polio 4,Lengkap
+B1402,Melati Putri,16,Perempuan,Campak,Lengkap
+B1403,Dimas Saputra,18,Laki-laki,Polio 4,Lengkap
+B1404,Alya Lestari,5,Perempuan,BCG,Lengkap
+B1405,Daffa Pratama,19,Laki-laki,HB-0,Belum Lengkap
+B1406,Farhan Pratama,5,Laki-laki,HB-0,Lengkap
+B1407,Rizky Nugraha,16,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1408,Rafif Kurniawan,10,Laki-laki,HB-0,Lengkap
+B1409,Siti Lestari,4,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1410,Ahmad Kurniawan,21,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1411,Adit Saputra,6,Laki-laki,Polio 2,Lengkap
+B1412,Nabila Rahma,24,Perempuan,DPT-HB-Hib 3,Lengkap
+B1413,Indah Putri,12,Perempuan,Polio 3,Lengkap
+B1414,Naufal Pratama,0,Laki-laki,Campak,Lengkap
+B1415,Rian Nugraha,16,Laki-laki,Polio 4,Lengkap
+B1416,Safira Sari,2,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1417,Siti Putri,20,Perempuan,DPT-HB-Hib 2,Lengkap
+B1418,Citra Permata,13,Perempuan,Polio 2,Lengkap
+B1419,Fikri Kurniawan,4,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1420,Naufal Kurniawan,13,Laki-laki,HB-0,Lengkap
+B1421,Putri Sari,15,Perempuan,Polio 2,Lengkap
+B1422,Safira Rahma,5,Perempuan,Polio 4,Lengkap
+B1423,Fikri Wijaya,7,Laki-laki,Campak,Lengkap
+B1424,Rafa Nugraha,11,Laki-laki,Polio 4,Lengkap
+B1425,Arga Pratama,19,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1426,Kayla Permata,13,Perempuan,DPT-HB-Hib 2,Lengkap
+B1427,Melati Lestari,2,Perempuan,DPT-HB-Hib 3,Lengkap
+B1428,Rahma Permata,10,Perempuan,BCG,Lengkap
+B1429,Rahma Sari,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B1430,Iqbal Pratama,6,Laki-laki,BCG,Lengkap
+B1431,Aqila Lestari,17,Perempuan,DPT-HB-Hib 3,Lengkap
+B1432,Dimas Saputra,2,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1433,Putri Permata,14,Perempuan,Polio 3,Belum Lengkap
+B1434,Aisyah Putri,18,Perempuan,Polio 1,Lengkap
+B1435,Alya Rahma,10,Perempuan,HB-0,Lengkap
+B1436,Syifa Permata,4,Perempuan,HB-0,Lengkap
+B1437,Rian Nugraha,3,Laki-laki,BCG,Lengkap
+B1438,Rafif Pratama,16,Laki-laki,BCG,Lengkap
+B1439,Iqbal Kurniawan,10,Laki-laki,Polio 4,Lengkap
+B1440,Siti Putri,20,Perempuan,DPT-HB-Hib 2,Lengkap
+B1441,Reza Saputra,0,Laki-laki,Polio 3,Lengkap
+B1442,Lestari Rahma,5,Perempuan,Polio 3,Lengkap
+B1443,Adit Nugraha,0,Laki-laki,HB-0,Belum Lengkap
+B1444,Alya Sari,12,Perempuan,Polio 2,Lengkap
+B1445,Syifa Rahma,22,Perempuan,Polio 4,Belum Lengkap
+B1446,Rafa Saputra,9,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1447,Farhan Kurniawan,2,Laki-laki,Campak,Lengkap
+B1448,Alya Putri,2,Perempuan,Campak,Lengkap
+B1449,Rizky Saputra,16,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1450,Aqila Permata,17,Perempuan,Polio 3,Lengkap
+B1451,Azka Pratama,10,Laki-laki,Polio 4,Belum Lengkap
+B1452,Farhan Kurniawan,23,Laki-laki,Polio 1,Lengkap
+B1453,Rafa Kurniawan,24,Laki-laki,Polio 2,Lengkap
+B1454,Amelia Sari,12,Perempuan,Polio 4,Lengkap
+B1455,Alif Pratama,15,Laki-laki,Polio 4,Lengkap
+B1456,Citra Rahma,6,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1457,Reza Wijaya,11,Laki-laki,Polio 3,Belum Lengkap
+B1458,Aisyah Rahma,15,Perempuan,Polio 2,Lengkap
+B1459,Putri Sari,9,Perempuan,Polio 1,Lengkap
+B1460,Dimas Saputra,13,Laki-laki,BCG,Lengkap
+B1461,Alif Saputra,12,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1462,Putri Putri,9,Perempuan,DPT-HB-Hib 1,Lengkap
+B1463,Kayla Lestari,20,Perempuan,DPT-HB-Hib 3,Lengkap
+B1464,Nabila Lestari,14,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1465,Ahmad Kurniawan,9,Laki-laki,Polio 4,Lengkap
+B1466,Ahmad Saputra,14,Laki-laki,BCG,Lengkap
+B1467,Rian Saputra,14,Laki-laki,HB-0,Lengkap
+B1468,Rian Pratama,4,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1469,Rania Putri,0,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1470,Alya Rahma,1,Perempuan,Polio 2,Lengkap
+B1471,Adit Nugraha,3,Laki-laki,Polio 2,Lengkap
+B1472,Fikri Pratama,19,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1473,Fahri Kurniawan,15,Laki-laki,Polio 4,Belum Lengkap
+B1474,Naufal Kurniawan,0,Laki-laki,Polio 4,Lengkap
+B1475,Reza Wijaya,12,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1476,Siti Permata,8,Perempuan,Polio 3,Lengkap
+B1477,Citra Lestari,4,Perempuan,DPT-HB-Hib 1,Lengkap
+B1478,Galang Saputra,3,Laki-laki,Polio 1,Lengkap
+B1479,Citra Lestari,0,Perempuan,Polio 4,Lengkap
+B1480,Indah Permata,6,Perempuan,Campak,Lengkap
+B1481,Ahmad Saputra,14,Laki-laki,Polio 3,Lengkap
+B1482,Farhan Pratama,24,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1483,Citra Rahma,11,Perempuan,Polio 2,Lengkap
+B1484,Kayla Putri,19,Perempuan,Polio 4,Belum Lengkap
+B1485,Alif Nugraha,1,Laki-laki,Polio 1,Lengkap
+B1486,Putri Lestari,14,Perempuan,DPT-HB-Hib 3,Lengkap
+B1487,Melati Sari,5,Perempuan,Campak,Belum Lengkap
+B1488,Kayla Permata,24,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1489,Syifa Lestari,18,Perempuan,Polio 3,Lengkap
+B1490,Indah Lestari,13,Perempuan,Polio 2,Lengkap
+B1491,Zahra Sari,14,Perempuan,Polio 4,Lengkap
+B1492,Azka Nugraha,10,Laki-laki,Polio 1,Belum Lengkap
+B1493,Melati Sari,14,Perempuan,Polio 1,Lengkap
+B1494,Indah Sari,22,Perempuan,DPT-HB-Hib 2,Lengkap
+B1495,Bagas Nugraha,22,Laki-laki,Polio 3,Lengkap
+B1496,Anisa Permata,0,Perempuan,DPT-HB-Hib 3,Lengkap
+B1497,Lestari Permata,18,Perempuan,DPT-HB-Hib 3,Lengkap
+B1498,Rian Pratama,21,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1499,Citra Rahma,18,Perempuan,Campak,Lengkap
+B1500,Zidan Kurniawan,16,Laki-laki,HB-0,Lengkap
+B1501,Naufal Pratama,0,Laki-laki,Campak,Lengkap
+B1502,Reza Kurniawan,17,Laki-laki,BCG,Belum Lengkap
+B1503,Ahmad Wijaya,6,Laki-laki,Polio 1,Lengkap
+B1504,Adit Kurniawan,13,Laki-laki,HB-0,Lengkap
+B1505,Iqbal Pratama,15,Laki-laki,Polio 2,Belum Lengkap
+B1506,Melati Permata,8,Perempuan,DPT-HB-Hib 3,Lengkap
+B1507,Daffa Pratama,17,Laki-laki,Campak,Lengkap
+B1508,Melati Lestari,19,Perempuan,Polio 2,Lengkap
+B1509,Nayla Sari,2,Perempuan,Polio 1,Lengkap
+B1510,Melati Sari,8,Perempuan,HB-0,Lengkap
+B1511,Rizky Nugraha,24,Laki-laki,Polio 1,Lengkap
+B1512,Putri Putri,18,Perempuan,DPT-HB-Hib 1,Lengkap
+B1513,Bagas Pratama,20,Laki-laki,Polio 3,Lengkap
+B1514,Rizky Nugraha,9,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1515,Bagas Saputra,10,Laki-laki,Polio 3,Lengkap
+B1516,Kayla Permata,0,Perempuan,Polio 3,Lengkap
+B1517,Rafa Pratama,4,Laki-laki,HB-0,Lengkap
+B1518,Safira Lestari,1,Perempuan,Polio 4,Lengkap
+B1519,Siti Sari,22,Perempuan,BCG,Belum Lengkap
+B1520,Syifa Permata,17,Perempuan,Polio 1,Lengkap
+B1521,Nabila Permata,21,Perempuan,Campak,Lengkap
+B1522,Farhan Wijaya,9,Laki-laki,Campak,Lengkap
+B1523,Citra Putri,17,Perempuan,HB-0,Lengkap
+B1524,Rian Nugraha,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1525,Alya Rahma,19,Perempuan,Polio 4,Belum Lengkap
+B1526,Aqila Sari,19,Perempuan,Polio 1,Belum Lengkap
+B1527,Nayla Sari,10,Perempuan,DPT-HB-Hib 1,Lengkap
+B1528,Alif Wijaya,0,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1529,Alif Kurniawan,19,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1530,Kayla Putri,10,Perempuan,Polio 4,Lengkap
+B1531,Lestari Rahma,0,Perempuan,BCG,Lengkap
+B1532,Rahma Sari,1,Perempuan,Polio 1,Belum Lengkap
+B1533,Rizky Wijaya,20,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1534,Reza Nugraha,1,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1535,Iqbal Kurniawan,21,Laki-laki,BCG,Lengkap
+B1536,Bagas Saputra,0,Laki-laki,Polio 3,Lengkap
+B1537,Salsa Lestari,6,Perempuan,DPT-HB-Hib 3,Lengkap
+B1538,Kayla Permata,4,Perempuan,HB-0,Lengkap
+B1539,Fahri Nugraha,3,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1540,Nabila Lestari,9,Perempuan,BCG,Lengkap
+B1541,Indah Lestari,3,Perempuan,Polio 3,Belum Lengkap
+B1542,Azka Nugraha,7,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1543,Alif Wijaya,0,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1544,Nayla Permata,16,Perempuan,DPT-HB-Hib 3,Lengkap
+B1545,Fikri Nugraha,21,Laki-laki,Polio 3,Belum Lengkap
+B1546,Naufal Pratama,11,Laki-laki,Campak,Lengkap
+B1547,Galang Pratama,18,Laki-laki,Polio 2,Lengkap
+B1548,Alif Kurniawan,17,Laki-laki,Polio 3,Lengkap
+B1549,Lestari Lestari,3,Perempuan,Polio 2,Lengkap
+B1550,Zahra Putri,5,Perempuan,BCG,Lengkap
+B1551,Nayla Lestari,3,Perempuan,Polio 1,Lengkap
+B1552,Fikri Nugraha,0,Laki-laki,Polio 3,Lengkap
+B1553,Arga Kurniawan,17,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1554,Rahma Permata,4,Perempuan,Polio 2,Lengkap
+B1555,Syifa Lestari,3,Perempuan,HB-0,Belum Lengkap
+B1556,Arga Wijaya,0,Laki-laki,HB-0,Lengkap
+B1557,Zidan Wijaya,3,Laki-laki,Polio 4,Lengkap
+B1558,Fahri Wijaya,6,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1559,Ahmad Kurniawan,13,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1560,Zidan Wijaya,19,Laki-laki,Polio 4,Lengkap
+B1561,Farhan Wijaya,19,Laki-laki,Polio 3,Belum Lengkap
+B1562,Nayla Permata,21,Perempuan,HB-0,Belum Lengkap
+B1563,Dimas Pratama,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1564,Aisyah Lestari,15,Perempuan,Polio 3,Lengkap
+B1565,Syifa Putri,4,Perempuan,BCG,Lengkap
+B1566,Melati Rahma,15,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1567,Rafif Kurniawan,20,Laki-laki,Campak,Lengkap
+B1568,Safira Putri,11,Perempuan,Polio 3,Lengkap
+B1569,Rania Sari,6,Perempuan,HB-0,Lengkap
+B1570,Iqbal Nugraha,4,Laki-laki,Campak,Belum Lengkap
+B1571,Putri Sari,14,Perempuan,BCG,Lengkap
+B1572,Kayla Permata,10,Perempuan,BCG,Belum Lengkap
+B1573,Rafa Kurniawan,15,Laki-laki,Polio 1,Lengkap
+B1574,Nabila Lestari,23,Perempuan,Polio 2,Belum Lengkap
+B1575,Alya Rahma,5,Perempuan,DPT-HB-Hib 2,Lengkap
+B1576,Salsa Lestari,15,Perempuan,BCG,Belum Lengkap
+B1577,Putri Rahma,18,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1578,Iqbal Kurniawan,4,Laki-laki,Campak,Belum Lengkap
+B1579,Putri Permata,19,Perempuan,Polio 1,Lengkap
+B1580,Arga Saputra,6,Laki-laki,HB-0,Lengkap
+B1581,Zahra Sari,18,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1582,Kayla Putri,19,Perempuan,HB-0,Lengkap
+B1583,Nayla Sari,14,Perempuan,BCG,Lengkap
+B1584,Reza Kurniawan,9,Laki-laki,Polio 4,Lengkap
+B1585,Lestari Rahma,16,Perempuan,DPT-HB-Hib 1,Lengkap
+B1586,Iqbal Kurniawan,22,Laki-laki,HB-0,Lengkap
+B1587,Fikri Nugraha,4,Laki-laki,Polio 1,Lengkap
+B1588,Salsa Rahma,16,Perempuan,DPT-HB-Hib 1,Lengkap
+B1589,Bagas Kurniawan,0,Laki-laki,Polio 1,Lengkap
+B1590,Indah Sari,11,Perempuan,DPT-HB-Hib 2,Lengkap
+B1591,Fikri Nugraha,21,Laki-laki,Polio 2,Lengkap
+B1592,Siti Putri,23,Perempuan,Polio 2,Lengkap
+B1593,Rizky Kurniawan,24,Laki-laki,Campak,Lengkap
+B1594,Kayla Lestari,1,Perempuan,Polio 3,Lengkap
+B1595,Dimas Pratama,13,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1596,Putri Lestari,1,Perempuan,DPT-HB-Hib 1,Lengkap
+B1597,Rahma Rahma,13,Perempuan,HB-0,Belum Lengkap
+B1598,Anisa Putri,17,Perempuan,Polio 3,Lengkap
+B1599,Anisa Rahma,2,Perempuan,Polio 1,Lengkap
+B1600,Dimas Nugraha,22,Laki-laki,Campak,Lengkap
+B1601,Alif Pratama,14,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1602,Anisa Lestari,8,Perempuan,DPT-HB-Hib 3,Lengkap
+B1603,Ahmad Pratama,1,Laki-laki,Campak,Lengkap
+B1604,Melati Lestari,3,Perempuan,Polio 2,Belum Lengkap
+B1605,Rania Putri,11,Perempuan,DPT-HB-Hib 3,Lengkap
+B1606,Arga Saputra,4,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1607,Zidan Saputra,2,Laki-laki,Polio 1,Lengkap
+B1608,Aisyah Sari,14,Perempuan,Polio 4,Lengkap
+B1609,Putri Rahma,7,Perempuan,DPT-HB-Hib 3,Lengkap
+B1610,Aisyah Putri,22,Perempuan,DPT-HB-Hib 3,Lengkap
+B1611,Safira Putri,16,Perempuan,HB-0,Belum Lengkap
+B1612,Alif Nugraha,22,Laki-laki,BCG,Lengkap
+B1613,Rian Saputra,20,Laki-laki,Polio 3,Lengkap
+B1614,Melati Sari,18,Perempuan,DPT-HB-Hib 3,Lengkap
+B1615,Ahmad Kurniawan,12,Laki-laki,BCG,Lengkap
+B1616,Rian Wijaya,6,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1617,Aqila Putri,7,Perempuan,HB-0,Lengkap
+B1618,Naufal Kurniawan,22,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1619,Kayla Putri,24,Perempuan,DPT-HB-Hib 1,Lengkap
+B1620,Kayla Lestari,8,Perempuan,DPT-HB-Hib 2,Lengkap
+B1621,Salsa Rahma,0,Perempuan,Polio 3,Belum Lengkap
+B1622,Melati Sari,4,Perempuan,DPT-HB-Hib 3,Lengkap
+B1623,Rania Rahma,13,Perempuan,Polio 3,Belum Lengkap
+B1624,Fahri Saputra,16,Laki-laki,Campak,Lengkap
+B1625,Dimas Wijaya,24,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1626,Fahri Pratama,18,Laki-laki,Polio 3,Lengkap
+B1627,Indah Lestari,16,Perempuan,Polio 3,Lengkap
+B1628,Farhan Pratama,10,Laki-laki,BCG,Belum Lengkap
+B1629,Lestari Putri,12,Perempuan,Polio 3,Lengkap
+B1630,Iqbal Nugraha,13,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1631,Nayla Sari,19,Perempuan,Polio 1,Lengkap
+B1632,Daffa Saputra,16,Laki-laki,Polio 2,Lengkap
+B1633,Indah Putri,15,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1634,Rian Kurniawan,12,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1635,Rafa Kurniawan,3,Laki-laki,Polio 2,Lengkap
+B1636,Azka Kurniawan,6,Laki-laki,Polio 3,Lengkap
+B1637,Fikri Wijaya,9,Laki-laki,Polio 3,Belum Lengkap
+B1638,Siti Rahma,20,Perempuan,BCG,Lengkap
+B1639,Alif Wijaya,21,Laki-laki,Polio 2,Lengkap
+B1640,Rafif Nugraha,21,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1641,Dimas Pratama,22,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1642,Citra Lestari,0,Perempuan,DPT-HB-Hib 3,Lengkap
+B1643,Rafif Saputra,9,Laki-laki,Polio 2,Lengkap
+B1644,Adit Pratama,6,Laki-laki,Campak,Lengkap
+B1645,Zahra Lestari,19,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1646,Nayla Rahma,5,Perempuan,HB-0,Lengkap
+B1647,Adit Wijaya,18,Laki-laki,HB-0,Belum Lengkap
+B1648,Lestari Rahma,20,Perempuan,BCG,Lengkap
+B1649,Iqbal Nugraha,14,Laki-laki,Polio 4,Lengkap
+B1650,Alif Nugraha,1,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1651,Siti Rahma,12,Perempuan,Polio 3,Belum Lengkap
+B1652,Rian Pratama,3,Laki-laki,Polio 1,Lengkap
+B1653,Fahri Pratama,0,Laki-laki,BCG,Belum Lengkap
+B1654,Adit Saputra,23,Laki-laki,Polio 2,Lengkap
+B1655,Iqbal Pratama,20,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1656,Kayla Permata,14,Perempuan,Campak,Belum Lengkap
+B1657,Rania Rahma,24,Perempuan,Polio 1,Belum Lengkap
+B1658,Anisa Sari,13,Perempuan,Polio 2,Lengkap
+B1659,Rian Nugraha,20,Laki-laki,Polio 4,Lengkap
+B1660,Alya Sari,18,Perempuan,Campak,Lengkap
+B1661,Rahma Putri,22,Perempuan,Polio 1,Belum Lengkap
+B1662,Galang Saputra,16,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1663,Aqila Putri,8,Perempuan,HB-0,Lengkap
+B1664,Amelia Putri,3,Perempuan,HB-0,Lengkap
+B1665,Rafif Saputra,14,Laki-laki,Campak,Lengkap
+B1666,Rian Wijaya,9,Laki-laki,HB-0,Lengkap
+B1667,Rahma Sari,22,Perempuan,HB-0,Lengkap
+B1668,Citra Permata,16,Perempuan,HB-0,Lengkap
+B1669,Zidan Wijaya,10,Laki-laki,Polio 3,Belum Lengkap
+B1670,Indah Putri,18,Perempuan,Campak,Lengkap
+B1671,Arga Wijaya,11,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1672,Citra Permata,22,Perempuan,Polio 1,Lengkap
+B1673,Zahra Rahma,6,Perempuan,HB-0,Belum Lengkap
+B1674,Rafif Kurniawan,19,Laki-laki,HB-0,Lengkap
+B1675,Salsa Permata,8,Perempuan,Polio 3,Lengkap
+B1676,Siti Permata,8,Perempuan,Polio 4,Belum Lengkap
+B1677,Dimas Nugraha,15,Laki-laki,Campak,Lengkap
+B1678,Dimas Nugraha,14,Laki-laki,Polio 2,Belum Lengkap
+B1679,Rafif Pratama,13,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1680,Fikri Saputra,10,Laki-laki,BCG,Lengkap
+B1681,Zidan Pratama,2,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1682,Alya Permata,0,Perempuan,Campak,Lengkap
+B1683,Fikri Wijaya,16,Laki-laki,Polio 2,Lengkap
+B1684,Nabila Putri,15,Perempuan,HB-0,Lengkap
+B1685,Arga Kurniawan,11,Laki-laki,Polio 1,Lengkap
+B1686,Putri Putri,21,Perempuan,BCG,Lengkap
+B1687,Reza Pratama,2,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1688,Fikri Wijaya,10,Laki-laki,Campak,Lengkap
+B1689,Fahri Saputra,8,Laki-laki,Polio 2,Lengkap
+B1690,Safira Putri,18,Perempuan,BCG,Lengkap
+B1691,Alya Rahma,18,Perempuan,BCG,Belum Lengkap
+B1692,Alif Wijaya,1,Laki-laki,HB-0,Lengkap
+B1693,Nabila Lestari,11,Perempuan,DPT-HB-Hib 2,Lengkap
+B1694,Lestari Lestari,0,Perempuan,DPT-HB-Hib 3,Lengkap
+B1695,Zahra Sari,9,Perempuan,DPT-HB-Hib 1,Lengkap
+B1696,Citra Permata,23,Perempuan,Polio 2,Lengkap
+B1697,Galang Kurniawan,14,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1698,Dimas Pratama,2,Laki-laki,BCG,Lengkap
+B1699,Amelia Rahma,16,Perempuan,BCG,Lengkap
+B1700,Salsa Sari,14,Perempuan,Polio 1,Lengkap
+B1701,Putri Rahma,9,Perempuan,DPT-HB-Hib 1,Lengkap
+B1702,Reza Wijaya,2,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1703,Rahma Putri,15,Perempuan,Polio 1,Belum Lengkap
+B1704,Rian Kurniawan,2,Laki-laki,BCG,Lengkap
+B1705,Rania Lestari,19,Perempuan,DPT-HB-Hib 3,Lengkap
+B1706,Syifa Sari,21,Perempuan,DPT-HB-Hib 2,Lengkap
+B1707,Salsa Rahma,22,Perempuan,DPT-HB-Hib 1,Lengkap
+B1708,Siti Sari,18,Perempuan,BCG,Lengkap
+B1709,Lestari Putri,13,Perempuan,Polio 1,Lengkap
+B1710,Zahra Rahma,7,Perempuan,HB-0,Lengkap
+B1711,Fahri Kurniawan,21,Laki-laki,Polio 2,Lengkap
+B1712,Nayla Sari,17,Perempuan,Polio 3,Lengkap
+B1713,Zahra Permata,21,Perempuan,DPT-HB-Hib 3,Lengkap
+B1714,Rania Permata,6,Perempuan,Campak,Lengkap
+B1715,Farhan Nugraha,3,Laki-laki,Campak,Lengkap
+B1716,Safira Putri,21,Perempuan,HB-0,Lengkap
+B1717,Salsa Lestari,3,Perempuan,Polio 2,Lengkap
+B1718,Nabila Rahma,5,Perempuan,DPT-HB-Hib 3,Lengkap
+B1719,Alya Putri,14,Perempuan,Polio 3,Lengkap
+B1720,Safira Rahma,9,Perempuan,Polio 4,Belum Lengkap
+B1721,Rahma Lestari,5,Perempuan,BCG,Lengkap
+B1722,Naufal Wijaya,9,Laki-laki,Polio 2,Lengkap
+B1723,Rahma Permata,20,Perempuan,DPT-HB-Hib 3,Lengkap
+B1724,Indah Permata,9,Perempuan,Campak,Lengkap
+B1725,Bagas Saputra,24,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1726,Aqila Sari,15,Perempuan,DPT-HB-Hib 1,Lengkap
+B1727,Galang Wijaya,19,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1728,Fahri Kurniawan,15,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1729,Zahra Sari,12,Perempuan,HB-0,Lengkap
+B1730,Putri Rahma,23,Perempuan,HB-0,Belum Lengkap
+B1731,Galang Wijaya,17,Laki-laki,Polio 1,Lengkap
+B1732,Amelia Rahma,3,Perempuan,BCG,Belum Lengkap
+B1733,Alya Putri,10,Perempuan,DPT-HB-Hib 1,Lengkap
+B1734,Putri Permata,14,Perempuan,BCG,Lengkap
+B1735,Rian Wijaya,10,Laki-laki,HB-0,Lengkap
+B1736,Azka Saputra,5,Laki-laki,Campak,Lengkap
+B1737,Aisyah Putri,1,Perempuan,DPT-HB-Hib 2,Lengkap
+B1738,Iqbal Kurniawan,7,Laki-laki,BCG,Lengkap
+B1739,Aqila Permata,5,Perempuan,Polio 4,Lengkap
+B1740,Daffa Wijaya,22,Laki-laki,HB-0,Lengkap
+B1741,Salsa Sari,10,Perempuan,DPT-HB-Hib 1,Lengkap
+B1742,Putri Putri,8,Perempuan,Campak,Lengkap
+B1743,Lestari Sari,11,Perempuan,HB-0,Lengkap
+B1744,Arga Wijaya,14,Laki-laki,Campak,Lengkap
+B1745,Naufal Kurniawan,24,Laki-laki,BCG,Lengkap
+B1746,Indah Sari,18,Perempuan,Campak,Lengkap
+B1747,Kayla Permata,5,Perempuan,Polio 3,Lengkap
+B1748,Aisyah Sari,10,Perempuan,Polio 1,Lengkap
+B1749,Ahmad Nugraha,5,Laki-laki,BCG,Lengkap
+B1750,Melati Permata,2,Perempuan,BCG,Lengkap
+B1751,Safira Sari,11,Perempuan,Polio 1,Lengkap
+B1752,Rizky Kurniawan,3,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1753,Rafif Wijaya,17,Laki-laki,Campak,Lengkap
+B1754,Adit Kurniawan,8,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1755,Dimas Wijaya,10,Laki-laki,HB-0,Lengkap
+B1756,Reza Saputra,19,Laki-laki,Polio 2,Lengkap
+B1757,Bagas Saputra,6,Laki-laki,Polio 2,Lengkap
+B1758,Daffa Wijaya,17,Laki-laki,Polio 3,Lengkap
+B1759,Alya Sari,7,Perempuan,DPT-HB-Hib 1,Lengkap
+B1760,Anisa Putri,2,Perempuan,Polio 3,Lengkap
+B1761,Siti Rahma,22,Perempuan,DPT-HB-Hib 2,Lengkap
+B1762,Rian Saputra,19,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1763,Safira Lestari,14,Perempuan,Campak,Lengkap
+B1764,Indah Sari,18,Perempuan,Polio 4,Lengkap
+B1765,Naufal Kurniawan,10,Laki-laki,DPT-HB-Hib 2,Belum Lengkap
+B1766,Anisa Lestari,7,Perempuan,Polio 4,Lengkap
+B1767,Amelia Permata,5,Perempuan,Campak,Lengkap
+B1768,Alif Nugraha,8,Laki-laki,HB-0,Lengkap
+B1769,Rian Kurniawan,21,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1770,Aisyah Sari,8,Perempuan,Polio 3,Lengkap
+B1771,Bagas Kurniawan,9,Laki-laki,Polio 1,Belum Lengkap
+B1772,Nabila Sari,15,Perempuan,Campak,Lengkap
+B1773,Alif Saputra,11,Laki-laki,Polio 3,Lengkap
+B1774,Zahra Sari,17,Perempuan,Polio 1,Lengkap
+B1775,Zahra Putri,21,Perempuan,Polio 3,Lengkap
+B1776,Dimas Nugraha,15,Laki-laki,Polio 3,Lengkap
+B1777,Daffa Pratama,20,Laki-laki,Campak,Belum Lengkap
+B1778,Dimas Pratama,19,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1779,Kayla Putri,8,Perempuan,DPT-HB-Hib 2,Lengkap
+B1780,Syifa Lestari,4,Perempuan,Polio 1,Lengkap
+B1781,Rania Permata,8,Perempuan,Polio 2,Lengkap
+B1782,Daffa Wijaya,18,Laki-laki,Polio 2,Lengkap
+B1783,Anisa Lestari,9,Perempuan,HB-0,Lengkap
+B1784,Bagas Pratama,0,Laki-laki,Polio 1,Lengkap
+B1785,Nayla Permata,3,Perempuan,HB-0,Lengkap
+B1786,Amelia Permata,1,Perempuan,BCG,Lengkap
+B1787,Siti Rahma,0,Perempuan,Campak,Belum Lengkap
+B1788,Rafa Wijaya,6,Laki-laki,BCG,Lengkap
+B1789,Farhan Saputra,0,Laki-laki,Polio 4,Lengkap
+B1790,Zahra Permata,2,Perempuan,Polio 2,Lengkap
+B1791,Rafif Pratama,4,Laki-laki,HB-0,Belum Lengkap
+B1792,Rania Sari,7,Perempuan,HB-0,Lengkap
+B1793,Aisyah Permata,20,Perempuan,Polio 1,Belum Lengkap
+B1794,Nayla Putri,21,Perempuan,Polio 4,Lengkap
+B1795,Rafa Nugraha,5,Laki-laki,Polio 4,Lengkap
+B1796,Rizky Saputra,5,Laki-laki,Polio 3,Lengkap
+B1797,Rafa Wijaya,23,Laki-laki,HB-0,Lengkap
+B1798,Fahri Nugraha,2,Laki-laki,BCG,Lengkap
+B1799,Arga Nugraha,11,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1800,Rafa Kurniawan,12,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1801,Farhan Kurniawan,5,Laki-laki,BCG,Lengkap
+B1802,Aisyah Sari,1,Perempuan,Polio 1,Lengkap
+B1803,Rafif Saputra,7,Laki-laki,Polio 1,Lengkap
+B1804,Nabila Permata,17,Perempuan,Campak,Lengkap
+B1805,Rania Sari,8,Perempuan,DPT-HB-Hib 1,Lengkap
+B1806,Galang Kurniawan,3,Laki-laki,HB-0,Lengkap
+B1807,Amelia Lestari,1,Perempuan,BCG,Lengkap
+B1808,Siti Permata,11,Perempuan,BCG,Lengkap
+B1809,Bagas Kurniawan,13,Laki-laki,Polio 4,Belum Lengkap
+B1810,Galang Kurniawan,19,Laki-laki,Polio 1,Lengkap
+B1811,Rizky Pratama,17,Laki-laki,Polio 4,Lengkap
+B1812,Alya Permata,23,Perempuan,DPT-HB-Hib 1,Lengkap
+B1813,Rahma Lestari,11,Perempuan,HB-0,Lengkap
+B1814,Nayla Sari,5,Perempuan,DPT-HB-Hib 2,Lengkap
+B1815,Salsa Putri,2,Perempuan,Campak,Lengkap
+B1816,Zidan Kurniawan,5,Laki-laki,Polio 2,Lengkap
+B1817,Rafif Nugraha,13,Laki-laki,Polio 4,Lengkap
+B1818,Galang Kurniawan,4,Laki-laki,Polio 2,Belum Lengkap
+B1819,Fikri Kurniawan,8,Laki-laki,Polio 1,Lengkap
+B1820,Aisyah Permata,17,Perempuan,Polio 4,Lengkap
+B1821,Syifa Sari,21,Perempuan,Polio 1,Belum Lengkap
+B1822,Rania Sari,20,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1823,Zidan Saputra,6,Laki-laki,Polio 1,Lengkap
+B1824,Salsa Putri,11,Perempuan,HB-0,Lengkap
+B1825,Dimas Nugraha,17,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1826,Nayla Rahma,22,Perempuan,Polio 2,Lengkap
+B1827,Amelia Lestari,17,Perempuan,Polio 3,Lengkap
+B1828,Lestari Sari,6,Perempuan,DPT-HB-Hib 2,Lengkap
+B1829,Anisa Sari,5,Perempuan,Campak,Lengkap
+B1830,Galang Pratama,9,Laki-laki,Polio 2,Lengkap
+B1831,Zidan Saputra,0,Laki-laki,BCG,Lengkap
+B1832,Citra Rahma,17,Perempuan,Polio 4,Lengkap
+B1833,Putri Putri,5,Perempuan,Campak,Belum Lengkap
+B1834,Nabila Lestari,14,Perempuan,Polio 1,Lengkap
+B1835,Aisyah Sari,22,Perempuan,Polio 1,Lengkap
+B1836,Salsa Lestari,0,Perempuan,DPT-HB-Hib 3,Lengkap
+B1837,Reza Saputra,8,Laki-laki,Polio 1,Lengkap
+B1838,Galang Nugraha,22,Laki-laki,Polio 3,Lengkap
+B1839,Citra Lestari,3,Perempuan,DPT-HB-Hib 2,Belum Lengkap
+B1840,Safira Putri,23,Perempuan,Polio 2,Lengkap
+B1841,Galang Pratama,23,Laki-laki,BCG,Belum Lengkap
+B1842,Nayla Lestari,9,Perempuan,Polio 2,Belum Lengkap
+B1843,Rafa Kurniawan,18,Laki-laki,Campak,Belum Lengkap
+B1844,Siti Putri,9,Perempuan,Polio 4,Lengkap
+B1845,Melati Putri,18,Perempuan,Campak,Lengkap
+B1846,Naufal Wijaya,23,Laki-laki,BCG,Lengkap
+B1847,Nabila Permata,14,Perempuan,DPT-HB-Hib 3,Lengkap
+B1848,Naufal Kurniawan,7,Laki-laki,Polio 2,Belum Lengkap
+B1849,Melati Sari,23,Perempuan,Polio 1,Lengkap
+B1850,Nabila Rahma,4,Perempuan,Polio 1,Lengkap
+B1851,Adit Wijaya,8,Laki-laki,Polio 2,Lengkap
+B1852,Zahra Lestari,0,Perempuan,DPT-HB-Hib 2,Lengkap
+B1853,Reza Saputra,11,Laki-laki,Polio 1,Lengkap
+B1854,Alya Permata,23,Perempuan,DPT-HB-Hib 3,Lengkap
+B1855,Rafif Nugraha,15,Laki-laki,BCG,Lengkap
+B1856,Fahri Wijaya,19,Laki-laki,BCG,Lengkap
+B1857,Farhan Wijaya,19,Laki-laki,BCG,Lengkap
+B1858,Ahmad Saputra,13,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1859,Nabila Rahma,12,Perempuan,DPT-HB-Hib 2,Lengkap
+B1860,Anisa Permata,5,Perempuan,HB-0,Lengkap
+B1861,Galang Kurniawan,0,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1862,Amelia Sari,0,Perempuan,Polio 3,Lengkap
+B1863,Salsa Rahma,11,Perempuan,Polio 4,Lengkap
+B1864,Nayla Rahma,14,Perempuan,Polio 3,Lengkap
+B1865,Rian Nugraha,8,Laki-laki,Campak,Lengkap
+B1866,Dimas Pratama,1,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1867,Naufal Saputra,22,Laki-laki,HB-0,Lengkap
+B1868,Indah Sari,1,Perempuan,DPT-HB-Hib 3,Lengkap
+B1869,Dimas Nugraha,19,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1870,Zidan Nugraha,15,Laki-laki,Polio 4,Lengkap
+B1871,Reza Pratama,21,Laki-laki,Polio 4,Lengkap
+B1872,Zidan Kurniawan,7,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1873,Fahri Nugraha,17,Laki-laki,HB-0,Lengkap
+B1874,Alya Lestari,22,Perempuan,Polio 2,Lengkap
+B1875,Nabila Sari,15,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1876,Alya Putri,1,Perempuan,DPT-HB-Hib 3,Lengkap
+B1877,Azka Saputra,13,Laki-laki,Polio 3,Lengkap
+B1878,Farhan Nugraha,20,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
+B1879,Amelia Rahma,7,Perempuan,DPT-HB-Hib 3,Lengkap
+B1880,Aqila Sari,11,Perempuan,HB-0,Lengkap
+B1881,Salsa Lestari,8,Perempuan,Polio 1,Belum Lengkap
+B1882,Rahma Lestari,7,Perempuan,DPT-HB-Hib 2,Lengkap
+B1883,Kayla Lestari,4,Perempuan,Polio 3,Belum Lengkap
+B1884,Syifa Putri,10,Perempuan,Polio 2,Lengkap
+B1885,Aisyah Rahma,10,Perempuan,DPT-HB-Hib 1,Lengkap
+B1886,Dimas Saputra,4,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1887,Salsa Putri,5,Perempuan,BCG,Lengkap
+B1888,Melati Lestari,7,Perempuan,DPT-HB-Hib 1,Lengkap
+B1889,Rafa Wijaya,2,Laki-laki,Polio 2,Lengkap
+B1890,Lestari Lestari,22,Perempuan,HB-0,Belum Lengkap
+B1891,Azka Saputra,5,Laki-laki,HB-0,Belum Lengkap
+B1892,Farhan Saputra,20,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1893,Lestari Permata,19,Perempuan,Polio 4,Lengkap
+B1894,Bagas Kurniawan,6,Laki-laki,BCG,Lengkap
+B1895,Kayla Permata,20,Perempuan,Polio 3,Lengkap
+B1896,Salsa Permata,11,Perempuan,DPT-HB-Hib 3,Lengkap
+B1897,Rizky Kurniawan,17,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1898,Iqbal Pratama,22,Laki-laki,Polio 3,Lengkap
+B1899,Safira Permata,11,Perempuan,Polio 2,Belum Lengkap
+B1900,Siti Rahma,16,Perempuan,DPT-HB-Hib 3,Lengkap
+B1901,Rian Kurniawan,8,Laki-laki,Polio 4,Lengkap
+B1902,Safira Sari,17,Perempuan,BCG,Lengkap
+B1903,Aisyah Putri,24,Perempuan,Polio 3,Belum Lengkap
+B1904,Fikri Wijaya,2,Laki-laki,Polio 3,Lengkap
+B1905,Salsa Lestari,21,Perempuan,Polio 3,Belum Lengkap
+B1906,Salsa Putri,9,Perempuan,HB-0,Lengkap
+B1907,Fikri Saputra,19,Laki-laki,Polio 1,Lengkap
+B1908,Syifa Rahma,6,Perempuan,Polio 3,Lengkap
+B1909,Nayla Putri,7,Perempuan,HB-0,Lengkap
+B1910,Arga Wijaya,14,Laki-laki,Polio 2,Lengkap
+B1911,Rania Lestari,8,Perempuan,BCG,Lengkap
+B1912,Ahmad Wijaya,15,Laki-laki,Polio 4,Lengkap
+B1913,Ahmad Nugraha,12,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1914,Reza Nugraha,15,Laki-laki,Polio 1,Lengkap
+B1915,Aisyah Permata,20,Perempuan,HB-0,Lengkap
+B1916,Iqbal Pratama,0,Laki-laki,BCG,Lengkap
+B1917,Aqila Permata,1,Perempuan,Polio 2,Lengkap
+B1918,Ahmad Saputra,18,Laki-laki,Campak,Lengkap
+B1919,Bagas Wijaya,1,Laki-laki,Polio 1,Lengkap
+B1920,Galang Wijaya,12,Laki-laki,Polio 2,Lengkap
+B1921,Azka Kurniawan,9,Laki-laki,Polio 3,Lengkap
+B1922,Siti Lestari,9,Perempuan,DPT-HB-Hib 2,Lengkap
+B1923,Fahri Kurniawan,12,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1924,Rania Sari,5,Perempuan,Polio 3,Belum Lengkap
+B1925,Nabila Lestari,7,Perempuan,DPT-HB-Hib 3,Lengkap
+B1926,Farhan Saputra,9,Laki-laki,Polio 4,Lengkap
+B1927,Farhan Saputra,24,Laki-laki,HB-0,Lengkap
+B1928,Aqila Rahma,6,Perempuan,Polio 4,Lengkap
+B1929,Galang Saputra,4,Laki-laki,HB-0,Lengkap
+B1930,Rafa Wijaya,2,Laki-laki,Polio 4,Lengkap
+B1931,Rafif Nugraha,15,Laki-laki,Polio 2,Lengkap
+B1932,Azka Nugraha,12,Laki-laki,Polio 4,Lengkap
+B1933,Putri Putri,10,Perempuan,HB-0,Lengkap
+B1934,Alya Sari,8,Perempuan,Polio 4,Belum Lengkap
+B1935,Bagas Kurniawan,6,Laki-laki,Polio 4,Lengkap
+B1936,Iqbal Kurniawan,24,Laki-laki,Polio 2,Lengkap
+B1937,Adit Saputra,10,Laki-laki,Polio 2,Lengkap
+B1938,Syifa Permata,10,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1939,Alif Saputra,5,Laki-laki,BCG,Lengkap
+B1940,Melati Sari,12,Perempuan,BCG,Belum Lengkap
+B1941,Azka Wijaya,15,Laki-laki,Polio 1,Lengkap
+B1942,Rahma Rahma,5,Perempuan,DPT-HB-Hib 1,Lengkap
+B1943,Nabila Sari,0,Perempuan,BCG,Belum Lengkap
+B1944,Bagas Saputra,24,Laki-laki,Polio 1,Belum Lengkap
+B1945,Alya Putri,7,Perempuan,Polio 2,Belum Lengkap
+B1946,Reza Nugraha,8,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1947,Daffa Kurniawan,8,Laki-laki,Campak,Lengkap
+B1948,Salsa Rahma,21,Perempuan,DPT-HB-Hib 2,Lengkap
+B1949,Fikri Saputra,23,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1950,Galang Nugraha,9,Laki-laki,BCG,Lengkap
+B1951,Nabila Rahma,16,Perempuan,DPT-HB-Hib 3,Lengkap
+B1952,Rafa Pratama,7,Laki-laki,Polio 3,Lengkap
+B1953,Naufal Wijaya,5,Laki-laki,DPT-HB-Hib 2,Lengkap
+B1954,Rania Permata,7,Perempuan,Campak,Lengkap
+B1955,Nabila Putri,12,Perempuan,Campak,Belum Lengkap
+B1956,Melati Putri,20,Perempuan,Polio 2,Lengkap
+B1957,Putri Sari,4,Perempuan,Campak,Lengkap
+B1958,Melati Sari,22,Perempuan,DPT-HB-Hib 3,Belum Lengkap
+B1959,Nabila Lestari,8,Perempuan,DPT-HB-Hib 3,Lengkap
+B1960,Nabila Sari,15,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1961,Indah Permata,24,Perempuan,Campak,Lengkap
+B1962,Galang Nugraha,19,Laki-laki,Campak,Lengkap
+B1963,Alif Nugraha,18,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1964,Azka Pratama,17,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1965,Rafif Pratama,4,Laki-laki,Polio 1,Belum Lengkap
+B1966,Galang Saputra,2,Laki-laki,BCG,Belum Lengkap
+B1967,Farhan Kurniawan,9,Laki-laki,Campak,Lengkap
+B1968,Adit Wijaya,11,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1969,Zidan Kurniawan,20,Laki-laki,DPT-HB-Hib 1,Belum Lengkap
+B1970,Aqila Putri,17,Perempuan,Polio 1,Lengkap
+B1971,Rahma Permata,13,Perempuan,Polio 1,Lengkap
+B1972,Fahri Saputra,4,Laki-laki,Campak,Lengkap
+B1973,Iqbal Pratama,6,Laki-laki,Campak,Lengkap
+B1974,Rafif Pratama,15,Laki-laki,DPT-HB-Hib 3,Lengkap
+B1975,Kayla Putri,13,Perempuan,Polio 2,Lengkap
+B1976,Kayla Permata,20,Perempuan,DPT-HB-Hib 2,Lengkap
+B1977,Syifa Rahma,14,Perempuan,Polio 4,Lengkap
+B1978,Alif Kurniawan,0,Laki-laki,Polio 4,Lengkap
+B1979,Azka Nugraha,18,Laki-laki,Campak,Lengkap
+B1980,Nabila Rahma,9,Perempuan,BCG,Belum Lengkap
+B1981,Kayla Putri,2,Perempuan,DPT-HB-Hib 1,Belum Lengkap
+B1982,Alya Lestari,6,Perempuan,Polio 2,Lengkap
+B1983,Zahra Putri,5,Perempuan,Polio 2,Lengkap
+B1984,Dimas Nugraha,4,Laki-laki,HB-0,Lengkap
+B1985,Bagas Wijaya,4,Laki-laki,DPT-HB-Hib 1,Lengkap
+B1986,Amelia Rahma,16,Perempuan,BCG,Lengkap
+B1987,Rania Putri,3,Perempuan,Polio 1,Lengkap
+B1988,Lestari Sari,15,Perempuan,Polio 3,Lengkap
+B1989,Galang Wijaya,18,Laki-laki,BCG,Lengkap
+B1990,Anisa Lestari,19,Perempuan,DPT-HB-Hib 3,Lengkap
+B1991,Syifa Putri,6,Perempuan,Polio 3,Lengkap
+B1992,Naufal Kurniawan,21,Laki-laki,Polio 2,Lengkap
+B1993,Syifa Lestari,24,Perempuan,Polio 4,Lengkap
+B1994,Rafif Pratama,6,Laki-laki,Polio 4,Lengkap
+B1995,Melati Putri,12,Perempuan,Polio 2,Lengkap
+B1996,Syifa Sari,21,Perempuan,DPT-HB-Hib 3,Lengkap
+B1997,Anisa Putri,19,Perempuan,Polio 1,Lengkap
+B1998,Rizky Saputra,23,Laki-laki,Campak,Lengkap
+B1999,Melati Sari,12,Perempuan,DPT-HB-Hib 1,Lengkap
+B2000,Fahri Kurniawan,16,Laki-laki,BCG,Lengkap

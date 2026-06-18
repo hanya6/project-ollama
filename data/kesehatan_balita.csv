@@ -1,0 +1,2001 @@
+ID_Balita,Nama Balita,Umur (bulan),Jenis Kelamin,Status Imunisasi,Status Kesehatan,Status Tumbuh Kembang,Riwayat Penyakit
+B001,Cantika Rahmawati,42,Perempuan,Tidak Lengkap,Pemantauan,Normal,Campak
+B002,Aisyah Putri,39,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B003,Nayla Permata,52,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B004,Alya Oktavia,48,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B005,Nabila Putri,38,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
+B006,Galih Kurniawan,10,Laki-laki,Lengkap,Pemantauan,Normal,Batuk
+B007,Nadira Oktavia,50,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Asma
+B008,Fitri Putri,34,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B009,Raka Maulana,49,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B010,Haikal Ramadhan,38,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B011,Siti Salsabila,55,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B012,Muhammad Pratama,42,Laki-laki,Lengkap,Sehat,Normal,Asma
+B013,Safira Rahmawati,25,Perempuan,Lengkap,Sehat,Perlu Intervensi,Diare
+B014,Reza Saputra,51,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Diare
+B015,Syifa Anggraini,36,Perempuan,Belum Lengkap,Sehat,Pemantauan,Diare
+B016,Syifa Maharani,29,Perempuan,Lengkap,Sehat,Perlu Intervensi,ISPA
+B017,Khansa Oktavia,37,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B018,Haikal Setiawan,29,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B019,Azzahra Maharani,10,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B020,Khansa Wulandari,48,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B021,Muhammad Saputra,60,Laki-laki,Lengkap,Perlu Tindakan,Normal,Campak
+B022,Azzahra Wulandari,28,Perempuan,Belum Lengkap,Sehat,Pemantauan,Asma
+B023,Farhan Nugraha,39,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B024,Galih Pratama,35,Laki-laki,Lengkap,Sehat,Normal,Diare
+B025,Rafli Permana,18,Laki-laki,Tidak Lengkap,Sehat,Normal,Diare
+B026,Syifa Putri,25,Perempuan,Lengkap,Sehat,Pemantauan,Campak
+B027,Aulia Salsabila,52,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Diare
+B028,Dimas Hidayat,24,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B029,Zahra Putri,60,Perempuan,Lengkap,Sehat,Pemantauan,Cacar Air
+B030,Khansa Oktavia,29,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,ISPA
+B031,Syifa Putri,44,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B032,Zidan Nugraha,40,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Asma
+B033,Iqbal Pratama,55,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B034,Nayla Permata,45,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B035,Fauzan Pratama,58,Laki-laki,Lengkap,Sehat,Normal,Diare
+B036,Nabila Lestari,25,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B037,Humaira Rahmawati,20,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B038,Akbar Maulana,38,Laki-laki,Lengkap,Perlu Tindakan,Normal,Diare
+B039,Arga Hidayat,19,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B040,Zidan Ramadhan,58,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Cacar Air
+B041,Muhammad Saputra,13,Laki-laki,Lengkap,Pemantauan,Normal,Tidak Ada
+B042,Cantika Rahmawati,51,Perempuan,Lengkap,Sehat,Normal,Demam
+B043,Nabila Kartika,15,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B044,Siti Permata,24,Perempuan,Lengkap,Sehat,Pemantauan,Campak
+B045,Syifa Maharani,8,Perempuan,Lengkap,Sehat,Normal,Demam
+B046,Haikal Nugraha,51,Laki-laki,Lengkap,Pemantauan,Pemantauan,Alergi
+B047,Fitri Oktavia,40,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B048,Putri Permata,29,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B049,Aurel Salsabila,14,Perempuan,Lengkap,Pemantauan,Normal,Demam
+B050,Ahmad Firmansyah,14,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B051,Naufal Nugraha,38,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B052,Nayla Maharani,44,Perempuan,Tidak Lengkap,Sehat,Pemantauan,ISPA
+B053,Salma Anggraini,34,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B054,Ahmad Firmansyah,47,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Diare
+B055,Khansa Lestari,1,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Flu
+B056,Muhammad Saputra,18,Laki-laki,Tidak Lengkap,Sehat,Normal,Batuk
+B057,Rizky Maulana,52,Laki-laki,Lengkap,Sehat,Perlu Intervensi,ISPA
+B058,Syifa Rahmawati,54,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B059,Muhammad Saputra,37,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,ISPA
+B060,Nabila Putri,58,Perempuan,Lengkap,Sehat,Normal,Flu
+B061,Akbar Permana,15,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B062,Aurel Putri,14,Perempuan,Lengkap,Sehat,Normal,Asma
+B063,Bagas Setiawan,1,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B064,Cantika Putri,44,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Asma
+B065,Aurel Maharani,6,Perempuan,Lengkap,Pemantauan,Normal,Demam
+B066,Muhammad Permana,42,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Campak
+B067,Muhammad Ramadhan,7,Laki-laki,Tidak Lengkap,Sehat,Normal,Campak
+B068,Dimas Saputra,52,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B069,Zidan Firmansyah,35,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B070,Fauzan Saputra,10,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Alergi
+B071,Azzahra Salsabila,36,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B072,Nadira Anggraini,27,Perempuan,Lengkap,Pemantauan,Pemantauan,ISPA
+B073,Zahra Oktavia,5,Perempuan,Lengkap,Perlu Tindakan,Normal,Alergi
+B074,Galih Setiawan,58,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B075,Aulia Kartika,41,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B076,Aurel Oktavia,47,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Asma
+B077,Syifa Oktavia,18,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B078,Fitri Rahmawati,29,Perempuan,Belum Lengkap,Sehat,Pemantauan,Demam
+B079,Aurel Wulandari,16,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B080,Bagas Hidayat,42,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B081,Fauzan Hidayat,33,Laki-laki,Lengkap,Sehat,Normal,Tidak Ada
+B082,Akbar Permana,53,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B083,Nabila Anggraini,43,Perempuan,Belum Lengkap,Pemantauan,Normal,Alergi
+B084,Galih Kurniawan,44,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Diare
+B085,Aulia Wulandari,31,Perempuan,Lengkap,Sehat,Pemantauan,Demam
+B086,Safira Putri,57,Perempuan,Belum Lengkap,Sehat,Normal,Campak
+B087,Nabila Maharani,59,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B088,Raka Permana,8,Laki-laki,Lengkap,Sehat,Normal,Demam
+B089,Khansa Putri,41,Perempuan,Lengkap,Sehat,Perlu Intervensi,Asma
+B090,Naufal Maulana,27,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B091,Aisyah Oktavia,36,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B092,Rafli Hidayat,16,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B093,Safira Kartika,2,Perempuan,Tidak Lengkap,Sehat,Pemantauan,ISPA
+B094,Syifa Wulandari,24,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B095,Anindya Maharani,22,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B096,Aurel Anggraini,45,Perempuan,Lengkap,Pemantauan,Pemantauan,Batuk
+B097,Aldi Setiawan,32,Laki-laki,Belum Lengkap,Pemantauan,Normal,Flu
+B098,Farhan Ramadhan,60,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B099,Muhammad Saputra,6,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B100,Raka Hidayat,10,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B101,Iqbal Permana,3,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,ISPA
+B102,Aldi Firmansyah,42,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B103,Fikri Kurniawan,32,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Tidak Ada
+B104,Ahmad Nugraha,22,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B105,Bagas Setiawan,38,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B106,Azzahra Wulandari,27,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B107,Siti Oktavia,51,Perempuan,Tidak Lengkap,Pemantauan,Normal,Batuk
+B108,Humaira Anggraini,28,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B109,Muhammad Setiawan,54,Laki-laki,Lengkap,Pemantauan,Pemantauan,ISPA
+B110,Khansa Anggraini,33,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B111,Nayla Rahmawati,56,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B112,Aldi Maulana,43,Laki-laki,Belum Lengkap,Sehat,Normal,Batuk
+B113,Dimas Permana,8,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Tidak Ada
+B114,Farhan Ramadhan,6,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Demam
+B115,Zidan Ramadhan,31,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Demam
+B116,Azzahra Lestari,35,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B117,Rafli Saputra,18,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B118,Farhan Ramadhan,25,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B119,Farhan Permana,11,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Asma
+B120,Haikal Hidayat,44,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B121,Putri Kartika,49,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B122,Alif Hidayat,26,Laki-laki,Lengkap,Sehat,Normal,Batuk
+B123,Siti Oktavia,11,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B124,Rafli Pratama,33,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B125,Khansa Anggraini,18,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B126,Humaira Lestari,25,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B127,Siti Wulandari,47,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B128,Dimas Setiawan,45,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Demam
+B129,Fauzan Pratama,51,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B130,Nayla Kartika,47,Perempuan,Belum Lengkap,Sehat,Normal,Cacar Air
+B131,Aulia Putri,55,Perempuan,Lengkap,Sehat,Perlu Intervensi,Diare
+B132,Humaira Anggraini,57,Perempuan,Lengkap,Pemantauan,Pemantauan,ISPA
+B133,Zidan Hidayat,4,Laki-laki,Lengkap,Perlu Tindakan,Normal,ISPA
+B134,Muhammad Nugraha,29,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B135,Dimas Firmansyah,19,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B136,Galih Permana,11,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B137,Rafli Setiawan,55,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,ISPA
+B138,Zahra Oktavia,45,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B139,Anindya Wulandari,38,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B140,Naufal Pratama,55,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B141,Safira Wulandari,21,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B142,Nadira Wulandari,12,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B143,Haikal Firmansyah,54,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Diare
+B144,Aurel Rahmawati,43,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B145,Naufal Kurniawan,20,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B146,Fitri Kartika,38,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B147,Rafli Setiawan,1,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B148,Tiara Salsabila,3,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B149,Raka Firmansyah,36,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B150,Arga Hidayat,38,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B151,Bagas Hidayat,58,Laki-laki,Lengkap,Sehat,Normal,ISPA
+B152,Aldi Nugraha,47,Laki-laki,Lengkap,Sehat,Normal,Tidak Ada
+B153,Siti Oktavia,59,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Diare
+B154,Fauzan Setiawan,52,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Campak
+B155,Galih Kurniawan,14,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B156,Aulia Maharani,42,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Demam
+B157,Zahra Putri,28,Perempuan,Belum Lengkap,Sehat,Pemantauan,Asma
+B158,Aurel Maharani,51,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B159,Nayla Wulandari,49,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B160,Aldi Setiawan,48,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B161,Aldi Saputra,24,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B162,Alya Putri,30,Perempuan,Belum Lengkap,Pemantauan,Normal,Campak
+B163,Safira Wulandari,26,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B164,Syifa Wulandari,30,Perempuan,Lengkap,Sehat,Normal,Campak
+B165,Tiara Putri,14,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B166,Rizky Saputra,58,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B167,Alya Kartika,47,Perempuan,Lengkap,Sehat,Normal,Flu
+B168,Fitri Oktavia,10,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B169,Fikri Ramadhan,22,Laki-laki,Tidak Lengkap,Sehat,Normal,Batuk
+B170,Azzahra Wulandari,19,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B171,Fitri Kartika,41,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B172,Reza Kurniawan,33,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B173,Syifa Kartika,16,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Batuk
+B174,Arga Hidayat,28,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B175,Fauzan Kurniawan,53,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B176,Dimas Setiawan,6,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Diare
+B177,Rafli Nugraha,44,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B178,Alya Permata,2,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B179,Safira Putri,24,Perempuan,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B180,Safira Permata,41,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B181,Nayla Rahmawati,39,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B182,Aurel Oktavia,48,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Campak
+B183,Bagas Nugraha,50,Laki-laki,Tidak Lengkap,Sehat,Normal,ISPA
+B184,Aurel Salsabila,36,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B185,Nayla Permata,2,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B186,Ahmad Hidayat,58,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B187,Iqbal Kurniawan,59,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Campak
+B188,Salma Anggraini,13,Perempuan,Lengkap,Sehat,Normal,ISPA
+B189,Akbar Permana,59,Laki-laki,Lengkap,Perlu Tindakan,Normal,Demam
+B190,Muhammad Pratama,12,Laki-laki,Tidak Lengkap,Sehat,Normal,Flu
+B191,Alif Ramadhan,43,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Demam
+B192,Raka Firmansyah,55,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Asma
+B193,Putri Oktavia,19,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B194,Aulia Rahmawati,3,Perempuan,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B195,Muhammad Nugraha,48,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B196,Tiara Permata,33,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B197,Azzahra Rahmawati,6,Perempuan,Lengkap,Sehat,Pemantauan,Cacar Air
+B198,Fitri Kartika,21,Perempuan,Lengkap,Pemantauan,Pemantauan,Batuk
+B199,Aisyah Lestari,25,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Asma
+B200,Farhan Pratama,48,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B201,Nabila Maharani,30,Perempuan,Belum Lengkap,Pemantauan,Normal,Alergi
+B202,Fauzan Firmansyah,21,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B203,Aldi Pratama,13,Laki-laki,Lengkap,Pemantauan,Pemantauan,Asma
+B204,Farhan Nugraha,22,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Alergi
+B205,Bagas Ramadhan,35,Laki-laki,Lengkap,Sehat,Normal,Batuk
+B206,Aisyah Permata,12,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B207,Aldi Nugraha,42,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B208,Akbar Pratama,4,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Alergi
+B209,Iqbal Nugraha,31,Laki-laki,Belum Lengkap,Sehat,Normal,Batuk
+B210,Haikal Permana,50,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B211,Muhammad Saputra,43,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B212,Aldi Saputra,49,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B213,Reza Hidayat,13,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Flu
+B214,Reza Firmansyah,9,Laki-laki,Lengkap,Pemantauan,Pemantauan,Campak
+B215,Aisyah Lestari,18,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Alergi
+B216,Reza Saputra,45,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B217,Dimas Ramadhan,30,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B218,Rizky Setiawan,32,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B219,Tiara Permata,58,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B220,Reza Maulana,50,Laki-laki,Lengkap,Pemantauan,Pemantauan,Asma
+B221,Aurel Putri,12,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B222,Cantika Oktavia,32,Perempuan,Belum Lengkap,Sehat,Normal,Tidak Ada
+B223,Aulia Putri,40,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B224,Raka Firmansyah,4,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B225,Dimas Setiawan,49,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B226,Rafli Saputra,1,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B227,Nayla Rahmawati,42,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B228,Anindya Salsabila,4,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B229,Putri Putri,50,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B230,Rizky Ramadhan,31,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B231,Safira Putri,17,Perempuan,Lengkap,Sehat,Perlu Intervensi,Asma
+B232,Tiara Lestari,3,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Diare
+B233,Ahmad Hidayat,45,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Alergi
+B234,Nayla Permata,22,Perempuan,Belum Lengkap,Sehat,Pemantauan,Demam
+B235,Azzahra Lestari,38,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B236,Reza Firmansyah,58,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B237,Zahra Putri,33,Perempuan,Lengkap,Sehat,Normal,Diare
+B238,Siti Salsabila,22,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Batuk
+B239,Nabila Lestari,2,Perempuan,Tidak Lengkap,Pemantauan,Normal,Tidak Ada
+B240,Raka Saputra,18,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B241,Muhammad Kurniawan,54,Laki-laki,Belum Lengkap,Sehat,Normal,Flu
+B242,Azzahra Lestari,25,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B243,Aldi Firmansyah,58,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B244,Nabila Anggraini,21,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B245,Haikal Firmansyah,42,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B246,Iqbal Maulana,54,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B247,Nabila Permata,42,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B248,Alif Pratama,55,Laki-laki,Lengkap,Sehat,Pemantauan,Diare
+B249,Alif Hidayat,4,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B250,Farhan Pratama,47,Laki-laki,Lengkap,Sehat,Pemantauan,Asma
+B251,Tiara Lestari,41,Perempuan,Lengkap,Pemantauan,Normal,Demam
+B252,Azzahra Permata,57,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B253,Muhammad Hidayat,19,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Flu
+B254,Aldi Saputra,45,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B255,Safira Permata,52,Perempuan,Lengkap,Perlu Tindakan,Normal,Flu
+B256,Rafli Nugraha,56,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B257,Putri Rahmawati,54,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B258,Rizky Hidayat,34,Laki-laki,Lengkap,Sehat,Pemantauan,Alergi
+B259,Humaira Rahmawati,2,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B260,Humaira Lestari,5,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B261,Reza Nugraha,8,Laki-laki,Tidak Lengkap,Sehat,Normal,Flu
+B262,Akbar Saputra,41,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Flu
+B263,Aldi Setiawan,6,Laki-laki,Lengkap,Sehat,Pemantauan,Diare
+B264,Anindya Permata,35,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Flu
+B265,Safira Anggraini,4,Perempuan,Lengkap,Sehat,Pemantauan,Alergi
+B266,Siti Maharani,50,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B267,Muhammad Firmansyah,12,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Alergi
+B268,Dimas Pratama,1,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B269,Muhammad Pratama,57,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B270,Salma Anggraini,39,Perempuan,Lengkap,Sehat,Normal,Asma
+B271,Ahmad Nugraha,41,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B272,Aurel Permata,54,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B273,Putri Maharani,19,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B274,Naufal Kurniawan,59,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B275,Dimas Maulana,11,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Campak
+B276,Raka Hidayat,51,Laki-laki,Lengkap,Pemantauan,Pemantauan,Campak
+B277,Aisyah Oktavia,55,Perempuan,Lengkap,Sehat,Pemantauan,Flu
+B278,Haikal Hidayat,31,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B279,Bagas Maulana,32,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B280,Khansa Permata,53,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B281,Tiara Rahmawati,36,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B282,Haikal Hidayat,57,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Flu
+B283,Alif Ramadhan,21,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Diare
+B284,Putri Anggraini,29,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Cacar Air
+B285,Dimas Pratama,50,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B286,Alif Pratama,32,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B287,Aldi Maulana,34,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B288,Farhan Permana,22,Laki-laki,Tidak Lengkap,Sehat,Normal,Batuk
+B289,Siti Rahmawati,2,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B290,Fikri Setiawan,10,Laki-laki,Lengkap,Pemantauan,Normal,Tidak Ada
+B291,Azzahra Kartika,43,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B292,Farhan Permana,46,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B293,Fauzan Maulana,46,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B294,Muhammad Hidayat,34,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B295,Cantika Maharani,15,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B296,Fauzan Pratama,41,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Batuk
+B297,Azzahra Salsabila,12,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B298,Aisyah Wulandari,7,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B299,Dimas Setiawan,57,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B300,Farhan Saputra,26,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Demam
+B301,Tiara Oktavia,54,Perempuan,Lengkap,Sehat,Normal,ISPA
+B302,Aisyah Lestari,40,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,ISPA
+B303,Cantika Maharani,10,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B304,Safira Rahmawati,23,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B305,Muhammad Kurniawan,53,Laki-laki,Lengkap,Perlu Tindakan,Normal,Diare
+B306,Ahmad Firmansyah,14,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B307,Aisyah Wulandari,6,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B308,Naufal Saputra,41,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B309,Cantika Oktavia,22,Perempuan,Lengkap,Pemantauan,Normal,Batuk
+B310,Siti Putri,46,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B311,Fitri Maharani,28,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B312,Safira Rahmawati,49,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B313,Cantika Lestari,2,Perempuan,Lengkap,Sehat,Normal,Alergi
+B314,Syifa Permata,49,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B315,Raka Maulana,1,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Diare
+B316,Khansa Lestari,52,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B317,Akbar Kurniawan,24,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B318,Dimas Saputra,60,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B319,Arga Setiawan,24,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B320,Iqbal Firmansyah,43,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Flu
+B321,Syifa Salsabila,29,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Asma
+B322,Nayla Anggraini,13,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B323,Fitri Rahmawati,22,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B324,Raka Nugraha,39,Laki-laki,Lengkap,Perlu Tindakan,Normal,Diare
+B325,Nadira Rahmawati,57,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B326,Naufal Nugraha,59,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B327,Humaira Oktavia,38,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B328,Tiara Maharani,47,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B329,Tiara Wulandari,32,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B330,Galih Nugraha,32,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B331,Bagas Pratama,57,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B332,Nayla Rahmawati,38,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Asma
+B333,Bagas Kurniawan,34,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B334,Salma Salsabila,12,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Alergi
+B335,Ahmad Permana,58,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Demam
+B336,Raka Firmansyah,37,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B337,Nayla Wulandari,37,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Batuk
+B338,Aisyah Kartika,1,Perempuan,Lengkap,Sehat,Normal,Campak
+B339,Nayla Oktavia,21,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Demam
+B340,Akbar Kurniawan,39,Laki-laki,Lengkap,Pemantauan,Normal,Diare
+B341,Muhammad Permana,7,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Diare
+B342,Anindya Oktavia,57,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Campak
+B343,Salma Lestari,56,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B344,Iqbal Pratama,48,Laki-laki,Lengkap,Sehat,Normal,Flu
+B345,Muhammad Ramadhan,33,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B346,Tiara Oktavia,37,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B347,Zahra Kartika,29,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B348,Aldi Nugraha,15,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B349,Humaira Anggraini,29,Perempuan,Lengkap,Pemantauan,Pemantauan,Demam
+B350,Raka Hidayat,47,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B351,Salma Maharani,17,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Flu
+B352,Putri Rahmawati,24,Perempuan,Lengkap,Pemantauan,Normal,Asma
+B353,Anindya Kartika,22,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B354,Haikal Hidayat,34,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B355,Rizky Setiawan,23,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B356,Aisyah Salsabila,31,Perempuan,Lengkap,Sehat,Perlu Intervensi,Batuk
+B357,Syifa Lestari,59,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Demam
+B358,Zidan Setiawan,5,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B359,Farhan Nugraha,46,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B360,Putri Permata,45,Perempuan,Lengkap,Sehat,Normal,Alergi
+B361,Aldi Maulana,46,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B362,Aldi Permana,4,Laki-laki,Lengkap,Perlu Tindakan,Normal,Demam
+B363,Ahmad Kurniawan,16,Laki-laki,Lengkap,Pemantauan,Pemantauan,Demam
+B364,Reza Hidayat,16,Laki-laki,Lengkap,Pemantauan,Pemantauan,Flu
+B365,Fikri Maulana,6,Laki-laki,Belum Lengkap,Sehat,Normal,Tidak Ada
+B366,Reza Firmansyah,24,Laki-laki,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B367,Syifa Salsabila,37,Perempuan,Tidak Lengkap,Sehat,Pemantauan,ISPA
+B368,Nayla Kartika,27,Perempuan,Belum Lengkap,Pemantauan,Normal,ISPA
+B369,Nabila Oktavia,45,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B370,Aldi Hidayat,13,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B371,Nadira Kartika,27,Perempuan,Lengkap,Pemantauan,Normal,ISPA
+B372,Farhan Nugraha,4,Laki-laki,Lengkap,Pemantauan,Normal,Alergi
+B373,Aulia Kartika,53,Perempuan,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B374,Akbar Permana,42,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Flu
+B375,Muhammad Pratama,1,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B376,Azzahra Anggraini,48,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B377,Galih Saputra,36,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B378,Safira Wulandari,10,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B379,Salma Rahmawati,45,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Asma
+B380,Fauzan Setiawan,3,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Diare
+B381,Cantika Oktavia,18,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Diare
+B382,Iqbal Hidayat,38,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B383,Rafli Nugraha,31,Laki-laki,Lengkap,Pemantauan,Pemantauan,Demam
+B384,Zidan Firmansyah,13,Laki-laki,Belum Lengkap,Sehat,Normal,Tidak Ada
+B385,Salma Permata,26,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B386,Akbar Hidayat,60,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B387,Nayla Wulandari,26,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B388,Safira Oktavia,17,Perempuan,Lengkap,Sehat,Normal,Asma
+B389,Bagas Saputra,8,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Flu
+B390,Nabila Oktavia,7,Perempuan,Belum Lengkap,Sehat,Pemantauan,Batuk
+B391,Aisyah Permata,47,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B392,Zidan Pratama,31,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B393,Humaira Kartika,14,Perempuan,Belum Lengkap,Sehat,Pemantauan,Campak
+B394,Arga Maulana,14,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B395,Rafli Hidayat,41,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Flu
+B396,Cantika Oktavia,21,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B397,Khansa Maharani,37,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B398,Anindya Lestari,44,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Alergi
+B399,Aurel Putri,27,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B400,Nabila Salsabila,56,Perempuan,Lengkap,Pemantauan,Pemantauan,Demam
+B401,Nayla Rahmawati,53,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B402,Galih Kurniawan,2,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B403,Fitri Salsabila,15,Perempuan,Lengkap,Sehat,Normal,Flu
+B404,Galih Setiawan,12,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B405,Siti Rahmawati,20,Perempuan,Lengkap,Pemantauan,Normal,Flu
+B406,Raka Permana,23,Laki-laki,Lengkap,Sehat,Normal,Campak
+B407,Aisyah Maharani,51,Perempuan,Lengkap,Sehat,Normal,Cacar Air
+B408,Alif Permana,33,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B409,Alya Lestari,55,Perempuan,Lengkap,Pemantauan,Normal,ISPA
+B410,Fauzan Saputra,6,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B411,Aldi Permana,54,Laki-laki,Lengkap,Pemantauan,Normal,Cacar Air
+B412,Muhammad Ramadhan,28,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B413,Arga Firmansyah,7,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B414,Cantika Anggraini,11,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B415,Putri Salsabila,16,Perempuan,Lengkap,Pemantauan,Normal,Flu
+B416,Nayla Anggraini,33,Perempuan,Belum Lengkap,Sehat,Normal,Cacar Air
+B417,Syifa Wulandari,11,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Demam
+B418,Azzahra Permata,4,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,ISPA
+B419,Aulia Putri,40,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B420,Fauzan Nugraha,57,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Diare
+B421,Rafli Firmansyah,45,Laki-laki,Belum Lengkap,Sehat,Normal,Batuk
+B422,Putri Kartika,58,Perempuan,Lengkap,Sehat,Normal,Alergi
+B423,Zahra Maharani,55,Perempuan,Lengkap,Sehat,Normal,ISPA
+B424,Aisyah Salsabila,7,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B425,Raka Hidayat,6,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B426,Khansa Lestari,37,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B427,Reza Maulana,20,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B428,Galih Saputra,16,Laki-laki,Lengkap,Sehat,Normal,Campak
+B429,Syifa Salsabila,39,Perempuan,Lengkap,Sehat,Normal,Flu
+B430,Haikal Permana,15,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B431,Alif Firmansyah,15,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B432,Salma Rahmawati,25,Perempuan,Lengkap,Sehat,Normal,ISPA
+B433,Syifa Permata,14,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B434,Zidan Nugraha,56,Laki-laki,Lengkap,Pemantauan,Pemantauan,ISPA
+B435,Khansa Putri,20,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B436,Tiara Anggraini,12,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B437,Cantika Oktavia,26,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B438,Raka Saputra,58,Laki-laki,Belum Lengkap,Sehat,Pemantauan,ISPA
+B439,Fauzan Firmansyah,60,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B440,Reza Setiawan,44,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Demam
+B441,Haikal Kurniawan,35,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B442,Rafli Kurniawan,34,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Asma
+B443,Aulia Putri,27,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B444,Anindya Anggraini,14,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B445,Aldi Nugraha,56,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B446,Zahra Salsabila,27,Perempuan,Lengkap,Perlu Tindakan,Normal,Flu
+B447,Aldi Permana,18,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B448,Rizky Setiawan,44,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B449,Raka Permana,48,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Diare
+B450,Dimas Permana,6,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B451,Dimas Saputra,45,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Campak
+B452,Rafli Hidayat,29,Laki-laki,Lengkap,Perlu Tindakan,Normal,Campak
+B453,Azzahra Putri,19,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Flu
+B454,Aulia Rahmawati,34,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B455,Azzahra Oktavia,19,Perempuan,Tidak Lengkap,Pemantauan,Normal,Campak
+B456,Bagas Permana,7,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B457,Aisyah Putri,35,Perempuan,Lengkap,Sehat,Normal,Batuk
+B458,Aisyah Lestari,10,Perempuan,Lengkap,Sehat,Normal,Asma
+B459,Nabila Putri,1,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B460,Aisyah Kartika,19,Perempuan,Lengkap,Sehat,Perlu Intervensi,ISPA
+B461,Reza Setiawan,21,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B462,Aldi Saputra,46,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Alergi
+B463,Salma Wulandari,11,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B464,Iqbal Ramadhan,60,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B465,Reza Kurniawan,4,Laki-laki,Lengkap,Pemantauan,Normal,Tidak Ada
+B466,Muhammad Setiawan,27,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B467,Aulia Wulandari,34,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B468,Rizky Nugraha,36,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Diare
+B469,Fikri Firmansyah,38,Laki-laki,Belum Lengkap,Sehat,Normal,Tidak Ada
+B470,Fauzan Firmansyah,23,Laki-laki,Lengkap,Pemantauan,Pemantauan,Campak
+B471,Aulia Kartika,42,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B472,Raka Hidayat,25,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B473,Rafli Firmansyah,11,Laki-laki,Lengkap,Sehat,Pemantauan,Campak
+B474,Alif Nugraha,50,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B475,Tiara Kartika,45,Perempuan,Belum Lengkap,Pemantauan,Normal,Asma
+B476,Akbar Kurniawan,46,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B477,Iqbal Permana,49,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B478,Dimas Nugraha,34,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Diare
+B479,Bagas Ramadhan,58,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B480,Fauzan Saputra,2,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B481,Aulia Wulandari,9,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B482,Aldi Ramadhan,4,Laki-laki,Tidak Lengkap,Sehat,Normal,Campak
+B483,Nadira Lestari,51,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Asma
+B484,Fauzan Hidayat,49,Laki-laki,Tidak Lengkap,Sehat,Normal,Batuk
+B485,Aulia Lestari,24,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B486,Arga Permana,38,Laki-laki,Belum Lengkap,Sehat,Normal,Diare
+B487,Arga Hidayat,5,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B488,Alif Kurniawan,30,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B489,Farhan Setiawan,19,Laki-laki,Lengkap,Pemantauan,Pemantauan,Batuk
+B490,Cantika Lestari,12,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Demam
+B491,Safira Permata,35,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B492,Safira Oktavia,43,Perempuan,Belum Lengkap,Sehat,Normal,Alergi
+B493,Zahra Salsabila,49,Perempuan,Lengkap,Sehat,Normal,Cacar Air
+B494,Anindya Maharani,2,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B495,Fitri Lestari,39,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Campak
+B496,Raka Firmansyah,38,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Campak
+B497,Fauzan Ramadhan,28,Laki-laki,Lengkap,Sehat,Normal,Diare
+B498,Aisyah Wulandari,32,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B499,Salma Rahmawati,14,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Asma
+B500,Nayla Permata,34,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B501,Putri Lestari,27,Perempuan,Belum Lengkap,Sehat,Pemantauan,Tidak Ada
+B502,Akbar Saputra,53,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B503,Arga Pratama,47,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Batuk
+B504,Humaira Anggraini,56,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B505,Safira Anggraini,4,Perempuan,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B506,Humaira Lestari,12,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B507,Rizky Nugraha,46,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B508,Khansa Kartika,46,Perempuan,Lengkap,Perlu Tindakan,Normal,Batuk
+B509,Akbar Maulana,40,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Demam
+B510,Putri Permata,34,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B511,Muhammad Maulana,42,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Batuk
+B512,Zidan Nugraha,28,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B513,Iqbal Maulana,10,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B514,Muhammad Pratama,11,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B515,Fauzan Setiawan,54,Laki-laki,Lengkap,Sehat,Normal,Flu
+B516,Galih Pratama,10,Laki-laki,Tidak Lengkap,Sehat,Normal,Cacar Air
+B517,Alif Maulana,8,Laki-laki,Lengkap,Pemantauan,Pemantauan,Campak
+B518,Ahmad Saputra,37,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B519,Aldi Ramadhan,55,Laki-laki,Lengkap,Sehat,Pemantauan,Campak
+B520,Aulia Maharani,45,Perempuan,Lengkap,Sehat,Perlu Intervensi,Batuk
+B521,Khansa Kartika,32,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B522,Fikri Setiawan,2,Laki-laki,Lengkap,Pemantauan,Normal,Demam
+B523,Nabila Lestari,47,Perempuan,Lengkap,Sehat,Perlu Intervensi,Campak
+B524,Putri Wulandari,9,Perempuan,Belum Lengkap,Sehat,Normal,Diare
+B525,Haikal Kurniawan,52,Laki-laki,Lengkap,Pemantauan,Normal,Alergi
+B526,Iqbal Maulana,9,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B527,Azzahra Putri,6,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B528,Aisyah Putri,58,Perempuan,Lengkap,Pemantauan,Pemantauan,Demam
+B529,Naufal Firmansyah,57,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B530,Aulia Kartika,49,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B531,Bagas Pratama,7,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B532,Galih Pratama,17,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B533,Nadira Maharani,8,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B534,Rizky Nugraha,42,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B535,Galih Setiawan,52,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B536,Nadira Anggraini,46,Perempuan,Lengkap,Sehat,Perlu Intervensi,ISPA
+B537,Nadira Permata,37,Perempuan,Tidak Lengkap,Pemantauan,Normal,Cacar Air
+B538,Humaira Rahmawati,26,Perempuan,Lengkap,Sehat,Normal,Cacar Air
+B539,Galih Pratama,25,Laki-laki,Lengkap,Pemantauan,Pemantauan,Demam
+B540,Reza Nugraha,58,Laki-laki,Tidak Lengkap,Sehat,Normal,Diare
+B541,Muhammad Kurniawan,46,Laki-laki,Lengkap,Sehat,Normal,Asma
+B542,Arga Hidayat,36,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B543,Safira Putri,7,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Flu
+B544,Salma Oktavia,27,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B545,Naufal Setiawan,58,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Demam
+B546,Cantika Kartika,5,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Diare
+B547,Farhan Setiawan,36,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B548,Safira Lestari,14,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B549,Aisyah Wulandari,38,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B550,Reza Maulana,4,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B551,Nayla Anggraini,12,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,ISPA
+B552,Ahmad Hidayat,17,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B553,Nayla Maharani,38,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B554,Aisyah Oktavia,41,Perempuan,Tidak Lengkap,Sehat,Normal,Diare
+B555,Salma Lestari,33,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B556,Fauzan Pratama,44,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B557,Zidan Nugraha,27,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B558,Ahmad Permana,45,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B559,Siti Rahmawati,51,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B560,Arga Firmansyah,48,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B561,Nayla Permata,51,Perempuan,Lengkap,Sehat,Normal,Campak
+B562,Haikal Ramadhan,22,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B563,Nayla Anggraini,40,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B564,Safira Rahmawati,11,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B565,Azzahra Rahmawati,59,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B566,Aurel Putri,38,Perempuan,Belum Lengkap,Pemantauan,Normal,Tidak Ada
+B567,Haikal Firmansyah,49,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B568,Aurel Oktavia,21,Perempuan,Lengkap,Pemantauan,Pemantauan,ISPA
+B569,Arga Saputra,50,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Diare
+B570,Alya Permata,57,Perempuan,Lengkap,Pemantauan,Normal,Batuk
+B571,Rafli Permana,48,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B572,Azzahra Salsabila,26,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B573,Reza Setiawan,59,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Diare
+B574,Safira Anggraini,47,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Batuk
+B575,Rizky Hidayat,12,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B576,Nabila Anggraini,47,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B577,Dimas Pratama,57,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B578,Fauzan Firmansyah,28,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B579,Akbar Pratama,9,Laki-laki,Tidak Lengkap,Sehat,Normal,Campak
+B580,Naufal Nugraha,48,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B581,Fitri Salsabila,41,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Campak
+B582,Akbar Permana,28,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B583,Arga Permana,37,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B584,Arga Hidayat,39,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B585,Akbar Hidayat,18,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B586,Akbar Setiawan,48,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B587,Galih Firmansyah,25,Laki-laki,Lengkap,Pemantauan,Pemantauan,Asma
+B588,Galih Maulana,39,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B589,Siti Lestari,39,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Asma
+B590,Salma Lestari,22,Perempuan,Lengkap,Sehat,Pemantauan,Flu
+B591,Alif Maulana,32,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B592,Muhammad Ramadhan,22,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B593,Naufal Nugraha,7,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B594,Arga Setiawan,19,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B595,Siti Putri,40,Perempuan,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B596,Haikal Firmansyah,10,Laki-laki,Lengkap,Sehat,Pemantauan,ISPA
+B597,Zidan Hidayat,28,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B598,Zahra Anggraini,8,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B599,Alif Pratama,28,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B600,Alya Wulandari,4,Perempuan,Lengkap,Perlu Tindakan,Normal,Batuk
+B601,Siti Maharani,47,Perempuan,Lengkap,Sehat,Perlu Intervensi,Diare
+B602,Tiara Oktavia,60,Perempuan,Lengkap,Sehat,Normal,Alergi
+B603,Reza Ramadhan,59,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B604,Farhan Pratama,11,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B605,Aisyah Rahmawati,2,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Batuk
+B606,Arga Maulana,56,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B607,Akbar Hidayat,29,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Campak
+B608,Fauzan Firmansyah,13,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Campak
+B609,Zidan Ramadhan,25,Laki-laki,Lengkap,Pemantauan,Pemantauan,Alergi
+B610,Rizky Setiawan,46,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Asma
+B611,Arga Ramadhan,57,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B612,Iqbal Firmansyah,25,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B613,Azzahra Lestari,12,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B614,Azzahra Rahmawati,44,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B615,Farhan Firmansyah,4,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B616,Siti Anggraini,4,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B617,Safira Wulandari,22,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Flu
+B618,Zidan Ramadhan,24,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B619,Naufal Setiawan,37,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B620,Bagas Hidayat,15,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Flu
+B621,Akbar Kurniawan,25,Laki-laki,Lengkap,Pemantauan,Normal,Diare
+B622,Arga Permana,45,Laki-laki,Lengkap,Pemantauan,Normal,Batuk
+B623,Iqbal Setiawan,26,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Alergi
+B624,Reza Ramadhan,55,Laki-laki,Lengkap,Perlu Tindakan,Normal,Asma
+B625,Humaira Putri,35,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,ISPA
+B626,Salma Lestari,57,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B627,Khansa Anggraini,57,Perempuan,Lengkap,Pemantauan,Pemantauan,Asma
+B628,Zahra Anggraini,34,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B629,Ahmad Hidayat,47,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B630,Aldi Nugraha,1,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B631,Aldi Setiawan,8,Laki-laki,Lengkap,Sehat,Normal,Asma
+B632,Nayla Maharani,9,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B633,Rafli Permana,43,Laki-laki,Belum Lengkap,Sehat,Normal,Campak
+B634,Syifa Wulandari,60,Perempuan,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B635,Rizky Kurniawan,60,Laki-laki,Belum Lengkap,Sehat,Normal,Diare
+B636,Muhammad Saputra,29,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B637,Reza Permana,2,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Asma
+B638,Haikal Pratama,33,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B639,Zahra Lestari,56,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B640,Galih Nugraha,55,Laki-laki,Lengkap,Perlu Tindakan,Normal,Asma
+B641,Nadira Anggraini,5,Perempuan,Lengkap,Sehat,Normal,Demam
+B642,Humaira Permata,31,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B643,Dimas Permana,51,Laki-laki,Belum Lengkap,Sehat,Normal,Diare
+B644,Raka Nugraha,8,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B645,Nadira Salsabila,1,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B646,Putri Permata,40,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B647,Nayla Lestari,44,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B648,Fitri Oktavia,23,Perempuan,Lengkap,Sehat,Pemantauan,Alergi
+B649,Safira Maharani,15,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B650,Bagas Maulana,55,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Flu
+B651,Fitri Permata,54,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B652,Dimas Saputra,15,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Batuk
+B653,Aurel Rahmawati,56,Perempuan,Lengkap,Pemantauan,Normal,Demam
+B654,Reza Ramadhan,36,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B655,Safira Wulandari,14,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B656,Aulia Maharani,19,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B657,Reza Ramadhan,46,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Alergi
+B658,Salma Anggraini,54,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B659,Fauzan Permana,45,Laki-laki,Lengkap,Pemantauan,Normal,Alergi
+B660,Farhan Ramadhan,59,Laki-laki,Lengkap,Sehat,Normal,Batuk
+B661,Galih Kurniawan,57,Laki-laki,Lengkap,Sehat,Normal,Campak
+B662,Anindya Putri,24,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B663,Humaira Anggraini,24,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B664,Bagas Pratama,39,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B665,Khansa Kartika,54,Perempuan,Lengkap,Perlu Tindakan,Normal,Alergi
+B666,Fauzan Ramadhan,50,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Demam
+B667,Ahmad Setiawan,45,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B668,Humaira Rahmawati,48,Perempuan,Tidak Lengkap,Sehat,Normal,Alergi
+B669,Haikal Nugraha,55,Laki-laki,Lengkap,Pemantauan,Pemantauan,Flu
+B670,Nabila Wulandari,13,Perempuan,Lengkap,Sehat,Pemantauan,Cacar Air
+B671,Dimas Hidayat,20,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B672,Zidan Permana,5,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B673,Anindya Permata,31,Perempuan,Belum Lengkap,Sehat,Pemantauan,ISPA
+B674,Iqbal Saputra,5,Laki-laki,Lengkap,Pemantauan,Normal,Diare
+B675,Salma Maharani,35,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B676,Naufal Nugraha,38,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B677,Rafli Maulana,34,Laki-laki,Lengkap,Pemantauan,Normal,ISPA
+B678,Alif Hidayat,48,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B679,Bagas Pratama,14,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B680,Muhammad Setiawan,26,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Flu
+B681,Nayla Oktavia,18,Perempuan,Lengkap,Sehat,Normal,Asma
+B682,Aisyah Kartika,21,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B683,Salma Permata,44,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B684,Tiara Permata,4,Perempuan,Belum Lengkap,Sehat,Pemantauan,Flu
+B685,Naufal Firmansyah,35,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B686,Haikal Nugraha,58,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,ISPA
+B687,Azzahra Lestari,21,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B688,Zidan Nugraha,1,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B689,Farhan Firmansyah,16,Laki-laki,Belum Lengkap,Pemantauan,Normal,Demam
+B690,Siti Rahmawati,58,Perempuan,Lengkap,Sehat,Normal,Demam
+B691,Salma Wulandari,50,Perempuan,Lengkap,Perlu Tindakan,Normal,Diare
+B692,Cantika Putri,38,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B693,Naufal Permana,57,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Alergi
+B694,Azzahra Wulandari,15,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B695,Anindya Putri,40,Perempuan,Lengkap,Sehat,Normal,Asma
+B696,Nadira Oktavia,41,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Batuk
+B697,Arga Setiawan,5,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B698,Zidan Saputra,5,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B699,Anindya Permata,2,Perempuan,Belum Lengkap,Pemantauan,Normal,Cacar Air
+B700,Aisyah Lestari,21,Perempuan,Lengkap,Sehat,Normal,Asma
+B701,Akbar Pratama,20,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B702,Zidan Firmansyah,12,Laki-laki,Lengkap,Pemantauan,Normal,Alergi
+B703,Nabila Permata,12,Perempuan,Tidak Lengkap,Pemantauan,Normal,Alergi
+B704,Siti Wulandari,35,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B705,Nadira Wulandari,55,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B706,Nayla Wulandari,59,Perempuan,Belum Lengkap,Pemantauan,Normal,Diare
+B707,Iqbal Hidayat,5,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B708,Farhan Hidayat,24,Laki-laki,Lengkap,Pemantauan,Normal,Cacar Air
+B709,Humaira Salsabila,59,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B710,Aulia Permata,36,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B711,Rafli Hidayat,27,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B712,Fauzan Pratama,40,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B713,Syifa Rahmawati,18,Perempuan,Lengkap,Sehat,Normal,Batuk
+B714,Ahmad Permana,19,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B715,Zahra Wulandari,41,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B716,Khansa Wulandari,52,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B717,Aldi Setiawan,58,Laki-laki,Lengkap,Sehat,Pemantauan,Diare
+B718,Reza Pratama,9,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B719,Ahmad Setiawan,32,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Asma
+B720,Aldi Pratama,50,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Batuk
+B721,Safira Rahmawati,3,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B722,Farhan Ramadhan,47,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B723,Akbar Hidayat,9,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B724,Arga Nugraha,19,Laki-laki,Lengkap,Pemantauan,Normal,Alergi
+B725,Reza Pratama,38,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B726,Aisyah Salsabila,60,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B727,Aldi Kurniawan,4,Laki-laki,Lengkap,Pemantauan,Pemantauan,Demam
+B728,Syifa Lestari,38,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B729,Iqbal Permana,14,Laki-laki,Belum Lengkap,Pemantauan,Normal,Alergi
+B730,Muhammad Firmansyah,57,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B731,Raka Ramadhan,40,Laki-laki,Lengkap,Sehat,Normal,Diare
+B732,Farhan Nugraha,38,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Diare
+B733,Nadira Wulandari,27,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B734,Aulia Kartika,2,Perempuan,Lengkap,Pemantauan,Pemantauan,Batuk
+B735,Aulia Salsabila,46,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B736,Rizky Ramadhan,3,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Alergi
+B737,Alya Putri,37,Perempuan,Tidak Lengkap,Pemantauan,Normal,Tidak Ada
+B738,Salma Permata,49,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B739,Iqbal Firmansyah,4,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B740,Muhammad Firmansyah,29,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B741,Iqbal Permana,42,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Batuk
+B742,Aldi Kurniawan,46,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B743,Naufal Ramadhan,17,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B744,Safira Rahmawati,15,Perempuan,Tidak Lengkap,Pemantauan,Normal,Tidak Ada
+B745,Naufal Nugraha,5,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B746,Rizky Pratama,33,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B747,Rizky Permana,10,Laki-laki,Belum Lengkap,Pemantauan,Normal,Tidak Ada
+B748,Ahmad Setiawan,5,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Flu
+B749,Iqbal Saputra,60,Laki-laki,Lengkap,Sehat,Perlu Intervensi,ISPA
+B750,Reza Permana,19,Laki-laki,Lengkap,Perlu Tindakan,Normal,Asma
+B751,Safira Maharani,31,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Batuk
+B752,Zahra Lestari,39,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B753,Syifa Lestari,36,Perempuan,Lengkap,Sehat,Pemantauan,Alergi
+B754,Arga Setiawan,38,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B755,Azzahra Wulandari,18,Perempuan,Lengkap,Pemantauan,Pemantauan,ISPA
+B756,Salma Permata,9,Perempuan,Lengkap,Sehat,Normal,ISPA
+B757,Bagas Ramadhan,3,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B758,Naufal Pratama,50,Laki-laki,Lengkap,Pemantauan,Pemantauan,ISPA
+B759,Farhan Hidayat,5,Laki-laki,Belum Lengkap,Pemantauan,Normal,Asma
+B760,Fitri Putri,31,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B761,Reza Permana,20,Laki-laki,Lengkap,Sehat,Perlu Intervensi,ISPA
+B762,Fauzan Permana,11,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,ISPA
+B763,Aurel Oktavia,6,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B764,Alif Maulana,56,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B765,Aldi Saputra,21,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Diare
+B766,Bagas Saputra,23,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B767,Tiara Maharani,12,Perempuan,Lengkap,Sehat,Perlu Intervensi,Asma
+B768,Azzahra Permata,10,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B769,Farhan Kurniawan,41,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B770,Tiara Wulandari,60,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Diare
+B771,Rafli Pratama,46,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B772,Galih Saputra,26,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B773,Ahmad Permana,28,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B774,Tiara Kartika,9,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B775,Akbar Permana,55,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B776,Fauzan Ramadhan,2,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B777,Zidan Permana,45,Laki-laki,Lengkap,Sehat,Normal,Asma
+B778,Safira Anggraini,2,Perempuan,Tidak Lengkap,Sehat,Normal,Asma
+B779,Cantika Anggraini,39,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B780,Nabila Oktavia,23,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B781,Nabila Maharani,1,Perempuan,Lengkap,Sehat,Perlu Intervensi,Batuk
+B782,Humaira Permata,4,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B783,Alya Putri,40,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B784,Safira Oktavia,34,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B785,Muhammad Firmansyah,11,Laki-laki,Lengkap,Perlu Tindakan,Normal,Diare
+B786,Muhammad Saputra,58,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B787,Raka Kurniawan,7,Laki-laki,Tidak Lengkap,Sehat,Normal,Diare
+B788,Fauzan Ramadhan,3,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B789,Humaira Anggraini,37,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B790,Raka Maulana,17,Laki-laki,Belum Lengkap,Sehat,Normal,Demam
+B791,Nayla Rahmawati,12,Perempuan,Lengkap,Perlu Tindakan,Normal,Batuk
+B792,Akbar Kurniawan,18,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B793,Muhammad Nugraha,22,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B794,Siti Kartika,42,Perempuan,Lengkap,Pemantauan,Pemantauan,Asma
+B795,Aulia Anggraini,37,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Diare
+B796,Zidan Kurniawan,33,Laki-laki,Lengkap,Pemantauan,Pemantauan,Diare
+B797,Tiara Maharani,27,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B798,Putri Salsabila,28,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B799,Salma Salsabila,51,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B800,Iqbal Ramadhan,60,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Diare
+B801,Zahra Oktavia,1,Perempuan,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B802,Aldi Firmansyah,15,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,ISPA
+B803,Siti Kartika,58,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B804,Haikal Setiawan,8,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B805,Anindya Maharani,55,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B806,Aldi Firmansyah,15,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B807,Farhan Permana,54,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B808,Muhammad Kurniawan,17,Laki-laki,Tidak Lengkap,Sehat,Normal,Asma
+B809,Aurel Anggraini,17,Perempuan,Lengkap,Sehat,Perlu Intervensi,Flu
+B810,Nayla Maharani,33,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B811,Naufal Kurniawan,44,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Diare
+B812,Iqbal Saputra,13,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B813,Nadira Lestari,56,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B814,Rafli Pratama,24,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B815,Rafli Pratama,30,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B816,Nayla Wulandari,17,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B817,Anindya Anggraini,36,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B818,Aisyah Anggraini,1,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B819,Putri Anggraini,42,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B820,Muhammad Permana,26,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B821,Humaira Maharani,12,Perempuan,Lengkap,Pemantauan,Pemantauan,Demam
+B822,Rizky Saputra,57,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B823,Syifa Salsabila,42,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B824,Iqbal Firmansyah,24,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Flu
+B825,Muhammad Hidayat,57,Laki-laki,Lengkap,Sehat,Pemantauan,Diare
+B826,Zidan Nugraha,8,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B827,Nabila Maharani,53,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B828,Galih Setiawan,45,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B829,Nabila Rahmawati,16,Perempuan,Belum Lengkap,Sehat,Normal,Cacar Air
+B830,Fikri Permana,28,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B831,Dimas Setiawan,23,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Batuk
+B832,Arga Pratama,59,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B833,Farhan Maulana,27,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B834,Syifa Lestari,49,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,ISPA
+B835,Fitri Wulandari,56,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B836,Akbar Nugraha,52,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B837,Azzahra Kartika,50,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B838,Humaira Wulandari,13,Perempuan,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B839,Rizky Ramadhan,20,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B840,Nayla Salsabila,6,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B841,Naufal Pratama,23,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B842,Aisyah Kartika,38,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B843,Haikal Pratama,3,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B844,Salma Putri,26,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Alergi
+B845,Akbar Saputra,43,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B846,Safira Wulandari,50,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Asma
+B847,Rafli Ramadhan,60,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B848,Tiara Maharani,34,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B849,Nayla Kartika,46,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B850,Aisyah Salsabila,52,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B851,Nayla Wulandari,10,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B852,Aurel Oktavia,48,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B853,Tiara Rahmawati,27,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Diare
+B854,Nadira Lestari,31,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B855,Dimas Pratama,19,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B856,Reza Maulana,40,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Campak
+B857,Khansa Permata,6,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B858,Siti Oktavia,8,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B859,Arga Permana,57,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B860,Dimas Hidayat,51,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B861,Haikal Hidayat,16,Laki-laki,Lengkap,Pemantauan,Pemantauan,Batuk
+B862,Rizky Firmansyah,32,Laki-laki,Belum Lengkap,Sehat,Normal,Alergi
+B863,Farhan Pratama,22,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B864,Khansa Maharani,44,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,ISPA
+B865,Aulia Wulandari,21,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B866,Nabila Anggraini,20,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B867,Khansa Lestari,6,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B868,Khansa Rahmawati,24,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B869,Anindya Permata,7,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B870,Azzahra Anggraini,59,Perempuan,Belum Lengkap,Sehat,Normal,Demam
+B871,Fauzan Nugraha,24,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Diare
+B872,Aldi Pratama,51,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B873,Haikal Firmansyah,55,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,ISPA
+B874,Anindya Wulandari,27,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Asma
+B875,Haikal Pratama,16,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B876,Zahra Permata,49,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Asma
+B877,Dimas Maulana,46,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Diare
+B878,Haikal Maulana,57,Laki-laki,Lengkap,Pemantauan,Pemantauan,Campak
+B879,Raka Maulana,9,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Asma
+B880,Tiara Permata,12,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B881,Ahmad Setiawan,10,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B882,Dimas Maulana,12,Laki-laki,Lengkap,Sehat,Normal,Asma
+B883,Azzahra Maharani,48,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B884,Zahra Kartika,24,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B885,Zidan Pratama,1,Laki-laki,Lengkap,Sehat,Normal,Flu
+B886,Nabila Anggraini,45,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Diare
+B887,Fitri Salsabila,32,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B888,Muhammad Ramadhan,41,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B889,Nayla Kartika,45,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B890,Putri Anggraini,52,Perempuan,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B891,Galih Kurniawan,6,Laki-laki,Lengkap,Sehat,Normal,Demam
+B892,Anindya Putri,4,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B893,Farhan Permana,26,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Alergi
+B894,Aldi Permana,32,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B895,Alya Oktavia,17,Perempuan,Belum Lengkap,Sehat,Normal,Tidak Ada
+B896,Rafli Firmansyah,12,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B897,Reza Permana,7,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B898,Akbar Ramadhan,2,Laki-laki,Lengkap,Sehat,Pemantauan,Asma
+B899,Aurel Wulandari,59,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B900,Naufal Permana,4,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B901,Fitri Salsabila,2,Perempuan,Lengkap,Sehat,Perlu Intervensi,ISPA
+B902,Anindya Oktavia,53,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B903,Haikal Permana,2,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Asma
+B904,Siti Oktavia,40,Perempuan,Lengkap,Sehat,Perlu Intervensi,Diare
+B905,Fitri Rahmawati,43,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B906,Fitri Wulandari,39,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B907,Alya Lestari,17,Perempuan,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B908,Anindya Permata,60,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B909,Dimas Saputra,9,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B910,Galih Hidayat,3,Laki-laki,Lengkap,Pemantauan,Pemantauan,Diare
+B911,Fitri Lestari,25,Perempuan,Tidak Lengkap,Sehat,Normal,Tidak Ada
+B912,Zahra Anggraini,37,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B913,Fauzan Permana,54,Laki-laki,Lengkap,Sehat,Normal,Diare
+B914,Syifa Permata,13,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B915,Azzahra Putri,11,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B916,Nayla Lestari,54,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B917,Aurel Salsabila,55,Perempuan,Belum Lengkap,Sehat,Normal,ISPA
+B918,Zahra Anggraini,39,Perempuan,Lengkap,Pemantauan,Pemantauan,Asma
+B919,Muhammad Saputra,60,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B920,Salma Oktavia,20,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B921,Rizky Nugraha,23,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B922,Nadira Salsabila,12,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B923,Azzahra Maharani,47,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B924,Farhan Nugraha,31,Laki-laki,Lengkap,Sehat,Normal,Asma
+B925,Zidan Setiawan,37,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B926,Safira Kartika,35,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B927,Anindya Lestari,2,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B928,Zahra Wulandari,31,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Cacar Air
+B929,Salma Lestari,27,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B930,Nadira Wulandari,33,Perempuan,Belum Lengkap,Sehat,Pemantauan,Diare
+B931,Aldi Saputra,4,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Asma
+B932,Nayla Anggraini,39,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Diare
+B933,Aldi Saputra,53,Laki-laki,Belum Lengkap,Sehat,Normal,Demam
+B934,Fikri Hidayat,14,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B935,Putri Salsabila,14,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B936,Fitri Putri,18,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Campak
+B937,Cantika Kartika,39,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,ISPA
+B938,Akbar Permana,51,Laki-laki,Tidak Lengkap,Pemantauan,Normal,ISPA
+B939,Rafli Kurniawan,10,Laki-laki,Lengkap,Sehat,Normal,Campak
+B940,Siti Maharani,16,Perempuan,Lengkap,Sehat,Pemantauan,Flu
+B941,Nadira Anggraini,47,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B942,Arga Pratama,8,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B943,Muhammad Hidayat,50,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B944,Safira Maharani,22,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B945,Dimas Hidayat,29,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Tidak Ada
+B946,Aisyah Oktavia,14,Perempuan,Tidak Lengkap,Sehat,Normal,Cacar Air
+B947,Putri Putri,31,Perempuan,Lengkap,Pemantauan,Pemantauan,ISPA
+B948,Safira Maharani,52,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Flu
+B949,Aulia Putri,8,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B950,Arga Maulana,17,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B951,Galih Maulana,6,Laki-laki,Lengkap,Pemantauan,Pemantauan,Diare
+B952,Rizky Maulana,58,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B953,Bagas Maulana,21,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Demam
+B954,Zahra Oktavia,42,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B955,Alya Anggraini,10,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B956,Naufal Firmansyah,13,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B957,Naufal Maulana,7,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B958,Naufal Ramadhan,2,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Demam
+B959,Reza Ramadhan,1,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B960,Nabila Anggraini,55,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B961,Putri Putri,33,Perempuan,Belum Lengkap,Pemantauan,Normal,Asma
+B962,Aldi Saputra,13,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B963,Akbar Permana,12,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B964,Azzahra Putri,60,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Campak
+B965,Anindya Rahmawati,32,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B966,Salma Kartika,48,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B967,Muhammad Permana,37,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Cacar Air
+B968,Putri Anggraini,12,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B969,Siti Wulandari,21,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B970,Anindya Oktavia,4,Perempuan,Lengkap,Pemantauan,Normal,Flu
+B971,Alya Anggraini,47,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B972,Nabila Rahmawati,35,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B973,Nabila Oktavia,1,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B974,Reza Ramadhan,10,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B975,Muhammad Ramadhan,11,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B976,Fitri Oktavia,21,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B977,Azzahra Rahmawati,31,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B978,Aurel Oktavia,1,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B979,Salma Lestari,36,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Diare
+B980,Anindya Rahmawati,48,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B981,Muhammad Nugraha,17,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B982,Rafli Ramadhan,8,Laki-laki,Lengkap,Perlu Tindakan,Normal,ISPA
+B983,Salma Oktavia,44,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B984,Zidan Kurniawan,43,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Asma
+B985,Safira Wulandari,46,Perempuan,Belum Lengkap,Pemantauan,Normal,Asma
+B986,Nabila Oktavia,47,Perempuan,Tidak Lengkap,Pemantauan,Normal,Cacar Air
+B987,Akbar Hidayat,4,Laki-laki,Belum Lengkap,Pemantauan,Normal,Flu
+B988,Nabila Salsabila,15,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Cacar Air
+B989,Nadira Maharani,27,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B990,Tiara Lestari,31,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B991,Alya Kartika,53,Perempuan,Belum Lengkap,Pemantauan,Normal,Alergi
+B992,Safira Rahmawati,12,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B993,Raka Setiawan,25,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B994,Fauzan Ramadhan,13,Laki-laki,Lengkap,Pemantauan,Pemantauan,Campak
+B995,Ahmad Firmansyah,43,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Asma
+B996,Nabila Kartika,52,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Alergi
+B997,Zidan Maulana,23,Laki-laki,Lengkap,Perlu Tindakan,Normal,Diare
+B998,Cantika Oktavia,15,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B999,Putri Maharani,23,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B1000,Nadira Salsabila,12,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1001,Khansa Permata,58,Perempuan,Lengkap,Sehat,Pemantauan,Alergi
+B1002,Reza Firmansyah,4,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Alergi
+B1003,Alif Firmansyah,27,Laki-laki,Lengkap,Pemantauan,Pemantauan,Diare
+B1004,Reza Pratama,3,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1005,Haikal Permana,9,Laki-laki,Lengkap,Perlu Tindakan,Normal,Demam
+B1006,Fauzan Saputra,30,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1007,Aulia Lestari,50,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1008,Rizky Firmansyah,60,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1009,Fikri Pratama,26,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Batuk
+B1010,Ahmad Setiawan,47,Laki-laki,Lengkap,Perlu Tindakan,Normal,ISPA
+B1011,Reza Hidayat,57,Laki-laki,Lengkap,Perlu Tindakan,Normal,Campak
+B1012,Safira Anggraini,36,Perempuan,Tidak Lengkap,Pemantauan,Normal,Campak
+B1013,Cantika Maharani,36,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B1014,Alif Saputra,33,Laki-laki,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1015,Putri Permata,12,Perempuan,Tidak Lengkap,Pemantauan,Normal,Flu
+B1016,Rizky Firmansyah,35,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B1017,Rizky Permana,16,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1018,Raka Hidayat,14,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B1019,Raka Kurniawan,11,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,ISPA
+B1020,Haikal Pratama,13,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B1021,Khansa Salsabila,32,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B1022,Salma Rahmawati,29,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Flu
+B1023,Zidan Hidayat,33,Laki-laki,Lengkap,Sehat,Pemantauan,Campak
+B1024,Khansa Permata,6,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Asma
+B1025,Galih Setiawan,13,Laki-laki,Lengkap,Pemantauan,Pemantauan,ISPA
+B1026,Anindya Kartika,45,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1027,Haikal Pratama,1,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1028,Siti Kartika,37,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1029,Fauzan Maulana,48,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B1030,Alif Maulana,38,Laki-laki,Lengkap,Pemantauan,Normal,Demam
+B1031,Zahra Lestari,30,Perempuan,Tidak Lengkap,Pemantauan,Normal,ISPA
+B1032,Siti Rahmawati,33,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1033,Zidan Nugraha,55,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1034,Zidan Pratama,21,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1035,Cantika Kartika,18,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1036,Siti Permata,51,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1037,Reza Saputra,3,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1038,Ahmad Maulana,24,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1039,Aisyah Anggraini,19,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B1040,Aurel Maharani,40,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1041,Anindya Maharani,36,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1042,Aulia Putri,52,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Flu
+B1043,Azzahra Putri,8,Perempuan,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1044,Salma Oktavia,52,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1045,Khansa Putri,44,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Asma
+B1046,Salma Putri,14,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1047,Fauzan Nugraha,54,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1048,Fitri Kartika,49,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1049,Salma Wulandari,30,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1050,Humaira Salsabila,13,Perempuan,Lengkap,Perlu Tindakan,Normal,Batuk
+B1051,Fikri Firmansyah,28,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B1052,Ahmad Maulana,50,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1053,Siti Salsabila,28,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1054,Rafli Maulana,16,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Tidak Ada
+B1055,Putri Putri,28,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1056,Zahra Rahmawati,42,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1057,Fikri Firmansyah,43,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Alergi
+B1058,Zahra Lestari,23,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1059,Iqbal Maulana,52,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B1060,Ahmad Hidayat,39,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1061,Rafli Maulana,32,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1062,Aulia Lestari,46,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,ISPA
+B1063,Zidan Saputra,29,Laki-laki,Lengkap,Pemantauan,Normal,Demam
+B1064,Arga Nugraha,55,Laki-laki,Belum Lengkap,Sehat,Normal,Campak
+B1065,Nabila Putri,21,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1066,Fitri Maharani,16,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1067,Zahra Permata,30,Perempuan,Lengkap,Pemantauan,Pemantauan,Batuk
+B1068,Muhammad Permana,22,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1069,Syifa Wulandari,56,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1070,Rafli Kurniawan,15,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1071,Safira Wulandari,44,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1072,Aldi Ramadhan,25,Laki-laki,Lengkap,Sehat,Normal,Asma
+B1073,Zahra Kartika,49,Perempuan,Tidak Lengkap,Sehat,Normal,Cacar Air
+B1074,Putri Anggraini,4,Perempuan,Lengkap,Pemantauan,Normal,Batuk
+B1075,Nayla Permata,57,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1076,Nadira Maharani,43,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1077,Aulia Oktavia,44,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B1078,Fitri Rahmawati,45,Perempuan,Belum Lengkap,Pemantauan,Normal,Batuk
+B1079,Rizky Maulana,38,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1080,Azzahra Salsabila,36,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1081,Cantika Maharani,19,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1082,Syifa Maharani,27,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
+B1083,Aisyah Permata,45,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Campak
+B1084,Fitri Oktavia,31,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B1085,Arga Saputra,53,Laki-laki,Lengkap,Sehat,Normal,Tidak Ada
+B1086,Nabila Putri,31,Perempuan,Tidak Lengkap,Pemantauan,Normal,ISPA
+B1087,Aisyah Kartika,24,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1088,Alif Kurniawan,33,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1089,Fikri Saputra,2,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1090,Azzahra Putri,15,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1091,Cantika Anggraini,19,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B1092,Aldi Maulana,30,Laki-laki,Lengkap,Pemantauan,Normal,Tidak Ada
+B1093,Khansa Permata,9,Perempuan,Lengkap,Sehat,Pemantauan,Alergi
+B1094,Fikri Saputra,53,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1095,Dimas Maulana,3,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Demam
+B1096,Naufal Ramadhan,37,Laki-laki,Belum Lengkap,Pemantauan,Normal,Demam
+B1097,Nadira Anggraini,16,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B1098,Alya Kartika,23,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B1099,Salma Kartika,45,Perempuan,Lengkap,Sehat,Perlu Intervensi,Flu
+B1100,Aldi Hidayat,55,Laki-laki,Lengkap,Sehat,Pemantauan,Asma
+B1101,Iqbal Setiawan,35,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1102,Nayla Kartika,42,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1103,Alif Pratama,38,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1104,Muhammad Kurniawan,15,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Demam
+B1105,Khansa Rahmawati,41,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B1106,Arga Kurniawan,26,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Asma
+B1107,Galih Maulana,47,Laki-laki,Belum Lengkap,Sehat,Normal,Asma
+B1108,Anindya Permata,13,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1109,Bagas Firmansyah,52,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1110,Arga Kurniawan,9,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1111,Nadira Maharani,10,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B1112,Nadira Putri,47,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1113,Reza Kurniawan,1,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Campak
+B1114,Nabila Permata,15,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B1115,Aisyah Rahmawati,7,Perempuan,Lengkap,Sehat,Normal,Diare
+B1116,Arga Pratama,31,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Campak
+B1117,Syifa Kartika,23,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Diare
+B1118,Alya Oktavia,5,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B1119,Muhammad Firmansyah,2,Laki-laki,Lengkap,Sehat,Normal,Batuk
+B1120,Iqbal Maulana,21,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Flu
+B1121,Rafli Firmansyah,35,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Asma
+B1122,Anindya Kartika,27,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B1123,Alya Rahmawati,50,Perempuan,Tidak Lengkap,Sehat,Normal,Cacar Air
+B1124,Dimas Nugraha,39,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1125,Nayla Lestari,4,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1126,Nayla Wulandari,30,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1127,Anindya Anggraini,25,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1128,Iqbal Firmansyah,38,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Demam
+B1129,Rizky Permana,33,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Demam
+B1130,Raka Setiawan,5,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B1131,Safira Kartika,17,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1132,Muhammad Nugraha,24,Laki-laki,Lengkap,Sehat,Pemantauan,ISPA
+B1133,Aldi Pratama,17,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1134,Aulia Lestari,6,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Diare
+B1135,Nabila Maharani,36,Perempuan,Tidak Lengkap,Pemantauan,Normal,Demam
+B1136,Syifa Wulandari,39,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B1137,Aurel Wulandari,38,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1138,Galih Maulana,40,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Tidak Ada
+B1139,Reza Kurniawan,44,Laki-laki,Belum Lengkap,Pemantauan,Normal,Alergi
+B1140,Fikri Maulana,41,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B1141,Bagas Hidayat,6,Laki-laki,Belum Lengkap,Pemantauan,Normal,Asma
+B1142,Raka Firmansyah,38,Laki-laki,Lengkap,Pemantauan,Pemantauan,ISPA
+B1143,Putri Putri,2,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1144,Aulia Salsabila,42,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1145,Bagas Ramadhan,43,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B1146,Arga Setiawan,25,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1147,Fikri Nugraha,40,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1148,Azzahra Lestari,37,Perempuan,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1149,Akbar Hidayat,42,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B1150,Rafli Saputra,48,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Demam
+B1151,Zahra Anggraini,35,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B1152,Nadira Permata,44,Perempuan,Lengkap,Pemantauan,Normal,Demam
+B1153,Nayla Oktavia,52,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B1154,Arga Maulana,60,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1155,Rafli Permana,5,Laki-laki,Lengkap,Sehat,Normal,Flu
+B1156,Fitri Permata,52,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1157,Muhammad Nugraha,9,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B1158,Putri Lestari,11,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1159,Aisyah Maharani,29,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B1160,Putri Oktavia,32,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B1161,Siti Kartika,4,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1162,Nadira Permata,1,Perempuan,Belum Lengkap,Pemantauan,Normal,Asma
+B1163,Cantika Wulandari,10,Perempuan,Belum Lengkap,Pemantauan,Normal,Campak
+B1164,Rafli Permana,59,Laki-laki,Lengkap,Sehat,Pemantauan,Asma
+B1165,Ahmad Maulana,47,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Alergi
+B1166,Dimas Maulana,28,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1167,Khansa Rahmawati,43,Perempuan,Lengkap,Perlu Tindakan,Normal,Flu
+B1168,Alif Nugraha,28,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B1169,Iqbal Saputra,51,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Batuk
+B1170,Zahra Wulandari,60,Perempuan,Lengkap,Pemantauan,Normal,Asma
+B1171,Zahra Salsabila,40,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1172,Cantika Wulandari,47,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B1173,Bagas Setiawan,47,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1174,Zidan Nugraha,22,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B1175,Fitri Wulandari,23,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1176,Fikri Maulana,8,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1177,Akbar Ramadhan,6,Laki-laki,Lengkap,Perlu Tindakan,Normal,Diare
+B1178,Raka Firmansyah,26,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B1179,Iqbal Hidayat,27,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B1180,Alif Saputra,41,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B1181,Raka Maulana,33,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1182,Galih Hidayat,45,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Alergi
+B1183,Tiara Maharani,30,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1184,Aulia Anggraini,32,Perempuan,Lengkap,Sehat,Pemantauan,Flu
+B1185,Anindya Wulandari,11,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1186,Nadira Anggraini,39,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1187,Naufal Pratama,13,Laki-laki,Lengkap,Perlu Tindakan,Normal,Demam
+B1188,Nayla Lestari,27,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1189,Cantika Rahmawati,36,Perempuan,Belum Lengkap,Sehat,Normal,Asma
+B1190,Zahra Permata,54,Perempuan,Lengkap,Pemantauan,Normal,Batuk
+B1191,Syifa Maharani,20,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B1192,Rizky Setiawan,59,Laki-laki,Lengkap,Sehat,Normal,Batuk
+B1193,Aurel Oktavia,26,Perempuan,Lengkap,Perlu Tindakan,Normal,Diare
+B1194,Rafli Firmansyah,14,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1195,Farhan Setiawan,3,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1196,Nayla Wulandari,54,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Alergi
+B1197,Alya Lestari,59,Perempuan,Belum Lengkap,Pemantauan,Normal,Flu
+B1198,Aldi Ramadhan,32,Laki-laki,Lengkap,Perlu Tindakan,Normal,Asma
+B1199,Haikal Pratama,32,Laki-laki,Lengkap,Sehat,Pemantauan,ISPA
+B1200,Fauzan Kurniawan,11,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1201,Aldi Ramadhan,30,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B1202,Muhammad Hidayat,59,Laki-laki,Lengkap,Perlu Tindakan,Normal,Alergi
+B1203,Nadira Kartika,55,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1204,Fauzan Saputra,32,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1205,Muhammad Firmansyah,2,Laki-laki,Lengkap,Sehat,Pemantauan,Asma
+B1206,Syifa Putri,41,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Alergi
+B1207,Nadira Lestari,10,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1208,Nayla Kartika,49,Perempuan,Belum Lengkap,Sehat,Pemantauan,Batuk
+B1209,Akbar Nugraha,1,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1210,Safira Wulandari,53,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Campak
+B1211,Nayla Rahmawati,18,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Batuk
+B1212,Putri Salsabila,25,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1213,Cantika Kartika,8,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Alergi
+B1214,Aurel Maharani,19,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1215,Zahra Salsabila,15,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1216,Arga Nugraha,17,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Alergi
+B1217,Nadira Lestari,60,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1218,Khansa Oktavia,3,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B1219,Anindya Oktavia,20,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1220,Safira Salsabila,9,Perempuan,Lengkap,Sehat,Normal,Demam
+B1221,Safira Salsabila,32,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1222,Khansa Rahmawati,49,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B1223,Aurel Permata,44,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1224,Reza Permana,5,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B1225,Aldi Hidayat,35,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1226,Akbar Permana,16,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1227,Nadira Rahmawati,9,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1228,Rizky Ramadhan,53,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1229,Ahmad Nugraha,6,Laki-laki,Belum Lengkap,Pemantauan,Normal,Demam
+B1230,Fauzan Maulana,43,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1231,Naufal Setiawan,23,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1232,Aisyah Lestari,36,Perempuan,Lengkap,Pemantauan,Pemantauan,ISPA
+B1233,Alif Firmansyah,59,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Demam
+B1234,Aisyah Maharani,57,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1235,Siti Maharani,2,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1236,Putri Maharani,28,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Demam
+B1237,Nabila Putri,29,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1238,Alya Lestari,21,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B1239,Nadira Rahmawati,33,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Demam
+B1240,Siti Salsabila,31,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Batuk
+B1241,Anindya Oktavia,6,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B1242,Aldi Firmansyah,7,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B1243,Aldi Hidayat,35,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B1244,Arga Firmansyah,41,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1245,Haikal Kurniawan,37,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B1246,Azzahra Anggraini,18,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1247,Aldi Firmansyah,53,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1248,Khansa Maharani,54,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B1249,Alya Putri,8,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B1250,Dimas Firmansyah,48,Laki-laki,Lengkap,Sehat,Pemantauan,ISPA
+B1251,Humaira Maharani,6,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1252,Farhan Saputra,13,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B1253,Cantika Putri,24,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Flu
+B1254,Aulia Maharani,8,Perempuan,Tidak Lengkap,Sehat,Normal,Cacar Air
+B1255,Humaira Putri,14,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Alergi
+B1256,Zidan Permana,52,Laki-laki,Tidak Lengkap,Sehat,Normal,Asma
+B1257,Salma Anggraini,44,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B1258,Nabila Kartika,47,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1259,Aulia Kartika,6,Perempuan,Lengkap,Sehat,Perlu Intervensi,Flu
+B1260,Putri Anggraini,24,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Campak
+B1261,Aulia Oktavia,30,Perempuan,Lengkap,Perlu Tindakan,Normal,Diare
+B1262,Cantika Oktavia,21,Perempuan,Lengkap,Sehat,Normal,Campak
+B1263,Dimas Pratama,44,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1264,Rafli Nugraha,35,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1265,Farhan Pratama,34,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1266,Fikri Saputra,50,Laki-laki,Lengkap,Sehat,Normal,Demam
+B1267,Haikal Maulana,5,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1268,Safira Wulandari,5,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1269,Cantika Putri,33,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1270,Humaira Rahmawati,4,Perempuan,Lengkap,Pemantauan,Pemantauan,Asma
+B1271,Dimas Pratama,47,Laki-laki,Lengkap,Sehat,Normal,ISPA
+B1272,Naufal Nugraha,1,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Alergi
+B1273,Salma Kartika,44,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Tidak Ada
+B1274,Zahra Wulandari,32,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1275,Dimas Hidayat,18,Laki-laki,Belum Lengkap,Sehat,Normal,Flu
+B1276,Aurel Lestari,54,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1277,Rafli Hidayat,54,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Diare
+B1278,Aulia Putri,49,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1279,Nayla Putri,35,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B1280,Safira Lestari,28,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B1281,Aisyah Kartika,36,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1282,Naufal Maulana,13,Laki-laki,Belum Lengkap,Pemantauan,Normal,Asma
+B1283,Rafli Ramadhan,10,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B1284,Zidan Hidayat,42,Laki-laki,Lengkap,Pemantauan,Normal,Asma
+B1285,Tiara Rahmawati,5,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1286,Dimas Maulana,12,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1287,Aisyah Salsabila,13,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1288,Tiara Salsabila,23,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1289,Aulia Permata,26,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,ISPA
+B1290,Cantika Lestari,35,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1291,Rizky Maulana,33,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B1292,Farhan Firmansyah,1,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1293,Iqbal Pratama,40,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Batuk
+B1294,Dimas Firmansyah,41,Laki-laki,Lengkap,Sehat,Pemantauan,Campak
+B1295,Salma Putri,48,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1296,Putri Putri,46,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1297,Siti Oktavia,33,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Demam
+B1298,Tiara Maharani,51,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1299,Syifa Maharani,52,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1300,Safira Oktavia,15,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B1301,Rafli Kurniawan,29,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1302,Salma Anggraini,20,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Demam
+B1303,Azzahra Salsabila,38,Perempuan,Lengkap,Pemantauan,Normal,Demam
+B1304,Farhan Kurniawan,47,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1305,Azzahra Wulandari,5,Perempuan,Lengkap,Pemantauan,Normal,Demam
+B1306,Tiara Maharani,16,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Batuk
+B1307,Tiara Lestari,16,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B1308,Nadira Lestari,18,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B1309,Fitri Kartika,31,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B1310,Fitri Wulandari,57,Perempuan,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1311,Iqbal Permana,47,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1312,Alya Salsabila,15,Perempuan,Belum Lengkap,Sehat,Normal,Batuk
+B1313,Fauzan Permana,4,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B1314,Rizky Kurniawan,7,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B1315,Syifa Anggraini,28,Perempuan,Belum Lengkap,Sehat,Pemantauan,Diare
+B1316,Reza Hidayat,55,Laki-laki,Lengkap,Sehat,Normal,Tidak Ada
+B1317,Rizky Saputra,45,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1318,Anindya Kartika,18,Perempuan,Lengkap,Pemantauan,Pemantauan,Asma
+B1319,Rizky Permana,25,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1320,Nayla Wulandari,28,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B1321,Bagas Permana,14,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B1322,Cantika Wulandari,39,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1323,Zidan Setiawan,41,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B1324,Arga Kurniawan,4,Laki-laki,Lengkap,Pemantauan,Pemantauan,Flu
+B1325,Bagas Pratama,57,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1326,Arga Permana,4,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1327,Fitri Permata,59,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B1328,Naufal Kurniawan,36,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B1329,Fitri Kartika,39,Perempuan,Lengkap,Perlu Tindakan,Normal,Batuk
+B1330,Alya Lestari,6,Perempuan,Belum Lengkap,Sehat,Pemantauan,Batuk
+B1331,Safira Wulandari,12,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1332,Arga Pratama,17,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1333,Galih Permana,22,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Diare
+B1334,Aulia Rahmawati,41,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1335,Galih Saputra,53,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B1336,Zidan Permana,48,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1337,Aldi Nugraha,40,Laki-laki,Lengkap,Perlu Tindakan,Normal,Asma
+B1338,Haikal Pratama,4,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1339,Naufal Nugraha,51,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B1340,Ahmad Setiawan,28,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1341,Humaira Lestari,38,Perempuan,Lengkap,Sehat,Pemantauan,Demam
+B1342,Tiara Putri,26,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1343,Aurel Maharani,16,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Alergi
+B1344,Alya Rahmawati,3,Perempuan,Lengkap,Pemantauan,Normal,ISPA
+B1345,Zahra Salsabila,11,Perempuan,Lengkap,Perlu Tindakan,Normal,Demam
+B1346,Syifa Oktavia,40,Perempuan,Lengkap,Sehat,Normal,Flu
+B1347,Nayla Maharani,52,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1348,Galih Maulana,36,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1349,Iqbal Kurniawan,37,Laki-laki,Lengkap,Sehat,Pemantauan,Diare
+B1350,Cantika Salsabila,57,Perempuan,Lengkap,Sehat,Normal,Asma
+B1351,Aulia Rahmawati,41,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B1352,Aisyah Maharani,51,Perempuan,Lengkap,Sehat,Perlu Intervensi,Campak
+B1353,Bagas Saputra,5,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B1354,Safira Kartika,27,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Diare
+B1355,Azzahra Wulandari,16,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B1356,Alif Saputra,4,Laki-laki,Belum Lengkap,Pemantauan,Normal,ISPA
+B1357,Reza Kurniawan,33,Laki-laki,Lengkap,Perlu Tindakan,Normal,ISPA
+B1358,Dimas Kurniawan,37,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1359,Aulia Rahmawati,49,Perempuan,Lengkap,Sehat,Perlu Intervensi,Diare
+B1360,Fitri Permata,25,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B1361,Raka Firmansyah,14,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B1362,Akbar Hidayat,25,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Campak
+B1363,Reza Ramadhan,32,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1364,Fitri Salsabila,1,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Campak
+B1365,Azzahra Kartika,31,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B1366,Nabila Rahmawati,26,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Flu
+B1367,Reza Ramadhan,5,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1368,Aulia Oktavia,20,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B1369,Rizky Maulana,58,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1370,Zidan Hidayat,29,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1371,Fikri Kurniawan,5,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1372,Rizky Pratama,60,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Asma
+B1373,Rafli Nugraha,44,Laki-laki,Lengkap,Pemantauan,Pemantauan,Campak
+B1374,Anindya Salsabila,31,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1375,Khansa Rahmawati,28,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1376,Arga Setiawan,9,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1377,Reza Setiawan,53,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Asma
+B1378,Tiara Wulandari,32,Perempuan,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1379,Azzahra Kartika,42,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1380,Humaira Lestari,34,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B1381,Haikal Kurniawan,60,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Tidak Ada
+B1382,Galih Setiawan,32,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1383,Zahra Maharani,42,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1384,Muhammad Ramadhan,35,Laki-laki,Lengkap,Sehat,Normal,Tidak Ada
+B1385,Fikri Kurniawan,42,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B1386,Aldi Saputra,53,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B1387,Muhammad Kurniawan,5,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1388,Reza Nugraha,38,Laki-laki,Tidak Lengkap,Sehat,Normal,Diare
+B1389,Aurel Maharani,60,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1390,Aulia Lestari,50,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,ISPA
+B1391,Reza Ramadhan,6,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1392,Tiara Maharani,22,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1393,Aldi Saputra,22,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1394,Aisyah Wulandari,48,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1395,Zahra Putri,19,Perempuan,Lengkap,Sehat,Perlu Intervensi,ISPA
+B1396,Raka Firmansyah,6,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1397,Fauzan Kurniawan,60,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1398,Rizky Pratama,24,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B1399,Alya Wulandari,21,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1400,Salma Lestari,1,Perempuan,Belum Lengkap,Sehat,Normal,Diare
+B1401,Naufal Hidayat,42,Laki-laki,Belum Lengkap,Sehat,Normal,Cacar Air
+B1402,Akbar Kurniawan,29,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B1403,Fauzan Setiawan,56,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Asma
+B1404,Khansa Oktavia,59,Perempuan,Lengkap,Sehat,Pemantauan,Demam
+B1405,Haikal Ramadhan,54,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1406,Galih Permana,44,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1407,Humaira Wulandari,17,Perempuan,Lengkap,Sehat,Pemantauan,Flu
+B1408,Anindya Anggraini,2,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1409,Siti Oktavia,45,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1410,Zahra Maharani,18,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B1411,Dimas Nugraha,26,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Demam
+B1412,Fauzan Permana,34,Laki-laki,Lengkap,Pemantauan,Pemantauan,Diare
+B1413,Zidan Hidayat,26,Laki-laki,Lengkap,Sehat,Normal,Alergi
+B1414,Aurel Anggraini,23,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Asma
+B1415,Naufal Ramadhan,22,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Flu
+B1416,Akbar Nugraha,29,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Campak
+B1417,Muhammad Saputra,11,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1418,Humaira Wulandari,55,Perempuan,Belum Lengkap,Pemantauan,Normal,Alergi
+B1419,Zidan Permana,29,Laki-laki,Lengkap,Perlu Tindakan,Normal,Alergi
+B1420,Ahmad Firmansyah,3,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B1421,Aulia Permata,8,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B1422,Azzahra Salsabila,16,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1423,Syifa Putri,56,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1424,Arga Setiawan,35,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1425,Syifa Oktavia,37,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1426,Syifa Permata,59,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1427,Azzahra Rahmawati,13,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1428,Cantika Lestari,40,Perempuan,Tidak Lengkap,Pemantauan,Normal,ISPA
+B1429,Farhan Saputra,55,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B1430,Rizky Firmansyah,58,Laki-laki,Lengkap,Sehat,Pemantauan,Asma
+B1431,Raka Pratama,38,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Alergi
+B1432,Humaira Kartika,24,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Campak
+B1433,Aisyah Lestari,59,Perempuan,Lengkap,Sehat,Normal,Campak
+B1434,Farhan Kurniawan,33,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1435,Azzahra Anggraini,60,Perempuan,Tidak Lengkap,Sehat,Normal,Alergi
+B1436,Cantika Putri,30,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1437,Salma Wulandari,8,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1438,Fitri Permata,26,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Alergi
+B1439,Reza Ramadhan,47,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1440,Galih Pratama,25,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1441,Ahmad Firmansyah,49,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1442,Alif Hidayat,4,Laki-laki,Lengkap,Sehat,Normal,Diare
+B1443,Galih Setiawan,21,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1444,Ahmad Hidayat,15,Laki-laki,Lengkap,Sehat,Normal,Tidak Ada
+B1445,Khansa Putri,1,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Flu
+B1446,Fitri Salsabila,37,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1447,Farhan Saputra,55,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1448,Nayla Lestari,9,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B1449,Naufal Kurniawan,20,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B1450,Rizky Maulana,27,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1451,Fikri Ramadhan,24,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1452,Zidan Nugraha,3,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1453,Fitri Rahmawati,43,Perempuan,Lengkap,Sehat,Perlu Intervensi,Asma
+B1454,Dimas Setiawan,7,Laki-laki,Belum Lengkap,Sehat,Normal,Campak
+B1455,Rizky Permana,14,Laki-laki,Lengkap,Pemantauan,Normal,Batuk
+B1456,Reza Ramadhan,13,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B1457,Naufal Firmansyah,33,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1458,Rafli Pratama,38,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B1459,Putri Permata,34,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1460,Nayla Putri,46,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Flu
+B1461,Farhan Nugraha,8,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1462,Rafli Firmansyah,35,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Alergi
+B1463,Tiara Anggraini,21,Perempuan,Belum Lengkap,Sehat,Pemantauan,Tidak Ada
+B1464,Fikri Ramadhan,58,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1465,Syifa Maharani,46,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B1466,Rafli Permana,58,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1467,Fauzan Saputra,45,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B1468,Aisyah Lestari,45,Perempuan,Tidak Lengkap,Pemantauan,Normal,Cacar Air
+B1469,Azzahra Wulandari,40,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B1470,Salma Kartika,48,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1471,Aulia Putri,33,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1472,Farhan Kurniawan,35,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1473,Dimas Hidayat,22,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1474,Azzahra Kartika,10,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Alergi
+B1475,Nadira Maharani,9,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1476,Salma Anggraini,21,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1477,Haikal Maulana,15,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B1478,Salma Anggraini,11,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1479,Ahmad Maulana,23,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1480,Aurel Anggraini,56,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1481,Nadira Salsabila,7,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1482,Rizky Saputra,36,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B1483,Safira Oktavia,47,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B1484,Alya Wulandari,1,Perempuan,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1485,Alya Putri,36,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B1486,Akbar Kurniawan,45,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1487,Raka Firmansyah,45,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B1488,Siti Anggraini,32,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1489,Anindya Lestari,24,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B1490,Akbar Maulana,21,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1491,Azzahra Permata,60,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Alergi
+B1492,Akbar Firmansyah,46,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1493,Alif Kurniawan,13,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1494,Haikal Maulana,20,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Alergi
+B1495,Safira Permata,9,Perempuan,Belum Lengkap,Sehat,Normal,Flu
+B1496,Syifa Lestari,50,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Campak
+B1497,Fitri Kartika,59,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1498,Zahra Wulandari,37,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Tidak Ada
+B1499,Muhammad Permana,14,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Alergi
+B1500,Galih Ramadhan,15,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Asma
+B1501,Syifa Salsabila,30,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Alergi
+B1502,Anindya Salsabila,14,Perempuan,Lengkap,Sehat,Perlu Intervensi,Flu
+B1503,Dimas Firmansyah,5,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1504,Akbar Saputra,26,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1505,Raka Nugraha,14,Laki-laki,Lengkap,Sehat,Normal,Tidak Ada
+B1506,Khansa Kartika,54,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
+B1507,Arga Maulana,54,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1508,Khansa Lestari,19,Perempuan,Tidak Lengkap,Pemantauan,Normal,Asma
+B1509,Haikal Kurniawan,26,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1510,Nayla Maharani,7,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B1511,Dimas Kurniawan,53,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1512,Salma Wulandari,33,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1513,Reza Firmansyah,58,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Batuk
+B1514,Azzahra Rahmawati,34,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1515,Alya Lestari,58,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B1516,Safira Lestari,43,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B1517,Putri Permata,1,Perempuan,Belum Lengkap,Sehat,Pemantauan,Cacar Air
+B1518,Fitri Putri,20,Perempuan,Lengkap,Sehat,Normal,Demam
+B1519,Farhan Setiawan,12,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Asma
+B1520,Alya Permata,57,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1521,Anindya Maharani,33,Perempuan,Belum Lengkap,Sehat,Normal,Batuk
+B1522,Raka Maulana,8,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1523,Aisyah Oktavia,24,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B1524,Fitri Kartika,23,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B1525,Syifa Oktavia,47,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B1526,Salma Putri,27,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B1527,Nadira Salsabila,35,Perempuan,Lengkap,Perlu Tindakan,Normal,Flu
+B1528,Rizky Saputra,16,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1529,Fauzan Setiawan,55,Laki-laki,Lengkap,Sehat,Normal,Diare
+B1530,Nadira Salsabila,25,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1531,Cantika Putri,13,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B1532,Haikal Setiawan,31,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1533,Cantika Rahmawati,35,Perempuan,Tidak Lengkap,Pemantauan,Normal,Cacar Air
+B1534,Bagas Nugraha,55,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B1535,Aurel Permata,54,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Batuk
+B1536,Arga Firmansyah,11,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B1537,Raka Pratama,21,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B1538,Naufal Permana,60,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1539,Fikri Ramadhan,35,Laki-laki,Lengkap,Sehat,Pemantauan,Alergi
+B1540,Aldi Firmansyah,18,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B1541,Aulia Lestari,46,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1542,Salma Oktavia,32,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1543,Fikri Permana,24,Laki-laki,Lengkap,Pemantauan,Pemantauan,Asma
+B1544,Cantika Permata,21,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1545,Fauzan Permana,55,Laki-laki,Lengkap,Sehat,Pemantauan,Flu
+B1546,Iqbal Permana,32,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1547,Aisyah Salsabila,3,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B1548,Syifa Kartika,31,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1549,Syifa Rahmawati,2,Perempuan,Belum Lengkap,Pemantauan,Normal,ISPA
+B1550,Fitri Maharani,21,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B1551,Fitri Oktavia,22,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1552,Rizky Hidayat,3,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,ISPA
+B1553,Fitri Anggraini,5,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1554,Khansa Salsabila,34,Perempuan,Lengkap,Sehat,Normal,Alergi
+B1555,Aurel Oktavia,5,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1556,Salma Rahmawati,36,Perempuan,Lengkap,Perlu Tindakan,Normal,ISPA
+B1557,Tiara Oktavia,34,Perempuan,Tidak Lengkap,Pemantauan,Normal,Demam
+B1558,Alif Setiawan,20,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1559,Fauzan Nugraha,60,Laki-laki,Belum Lengkap,Sehat,Normal,Demam
+B1560,Aisyah Kartika,1,Perempuan,Tidak Lengkap,Sehat,Normal,Alergi
+B1561,Alya Wulandari,48,Perempuan,Tidak Lengkap,Sehat,Pemantauan,ISPA
+B1562,Reza Hidayat,30,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1563,Ahmad Kurniawan,51,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1564,Raka Hidayat,40,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1565,Galih Hidayat,52,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B1566,Alya Salsabila,2,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Diare
+B1567,Farhan Nugraha,42,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1568,Cantika Anggraini,34,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1569,Naufal Maulana,48,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1570,Cantika Permata,20,Perempuan,Belum Lengkap,Sehat,Normal,Cacar Air
+B1571,Alya Lestari,35,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Diare
+B1572,Fauzan Setiawan,9,Laki-laki,Lengkap,Perlu Tindakan,Normal,Asma
+B1573,Nadira Maharani,11,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B1574,Raka Permana,35,Laki-laki,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1575,Iqbal Maulana,32,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Batuk
+B1576,Tiara Wulandari,28,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1577,Nadira Permata,56,Perempuan,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1578,Ahmad Nugraha,4,Laki-laki,Lengkap,Sehat,Pemantauan,Alergi
+B1579,Alif Ramadhan,21,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Asma
+B1580,Naufal Kurniawan,5,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1581,Naufal Saputra,15,Laki-laki,Lengkap,Pemantauan,Normal,Diare
+B1582,Reza Maulana,3,Laki-laki,Lengkap,Sehat,Pemantauan,ISPA
+B1583,Anindya Salsabila,4,Perempuan,Belum Lengkap,Sehat,Normal,Asma
+B1584,Nadira Wulandari,29,Perempuan,Lengkap,Pemantauan,Pemantauan,Asma
+B1585,Humaira Salsabila,52,Perempuan,Lengkap,Sehat,Normal,Demam
+B1586,Fikri Ramadhan,25,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Batuk
+B1587,Fitri Rahmawati,51,Perempuan,Lengkap,Sehat,Normal,Cacar Air
+B1588,Galih Firmansyah,25,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1589,Fitri Lestari,43,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B1590,Zahra Wulandari,57,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,ISPA
+B1591,Haikal Hidayat,39,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1592,Bagas Firmansyah,27,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1593,Salma Oktavia,14,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1594,Muhammad Permana,36,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1595,Humaira Wulandari,28,Perempuan,Lengkap,Sehat,Pemantauan,Cacar Air
+B1596,Siti Kartika,53,Perempuan,Lengkap,Sehat,Normal,Asma
+B1597,Fikri Hidayat,60,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1598,Anindya Putri,20,Perempuan,Lengkap,Sehat,Normal,Demam
+B1599,Putri Kartika,45,Perempuan,Lengkap,Sehat,Pemantauan,Asma
+B1600,Putri Kartika,16,Perempuan,Lengkap,Pemantauan,Normal,Tidak Ada
+B1601,Alya Putri,59,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Flu
+B1602,Nabila Lestari,6,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,Campak
+B1603,Safira Permata,56,Perempuan,Tidak Lengkap,Sehat,Normal,Demam
+B1604,Cantika Permata,10,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1605,Haikal Setiawan,31,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1606,Rafli Firmansyah,11,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1607,Dimas Hidayat,29,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B1608,Rafli Kurniawan,43,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1609,Nadira Lestari,52,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
+B1610,Khansa Lestari,23,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1611,Farhan Firmansyah,13,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1612,Galih Maulana,19,Laki-laki,Belum Lengkap,Sehat,Normal,Demam
+B1613,Akbar Permana,49,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Diare
+B1614,Humaira Maharani,20,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1615,Fikri Saputra,13,Laki-laki,Belum Lengkap,Pemantauan,Pemantauan,Alergi
+B1616,Nayla Lestari,16,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1617,Putri Putri,16,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1618,Fitri Putri,31,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1619,Muhammad Saputra,9,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1620,Aldi Setiawan,16,Laki-laki,Belum Lengkap,Sehat,Normal,ISPA
+B1621,Rafli Saputra,26,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B1622,Alya Anggraini,21,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1623,Humaira Wulandari,5,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B1624,Galih Maulana,7,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B1625,Putri Putri,4,Perempuan,Lengkap,Sehat,Normal,Demam
+B1626,Naufal Maulana,39,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1627,Zidan Firmansyah,16,Laki-laki,Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1628,Muhammad Permana,34,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1629,Rizky Setiawan,19,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B1630,Nabila Salsabila,39,Perempuan,Lengkap,Sehat,Pemantauan,Flu
+B1631,Arga Firmansyah,52,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1632,Salma Wulandari,18,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B1633,Dimas Saputra,21,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1634,Galih Permana,40,Laki-laki,Lengkap,Pemantauan,Normal,ISPA
+B1635,Anindya Kartika,9,Perempuan,Lengkap,Pemantauan,Pemantauan,Batuk
+B1636,Reza Maulana,41,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,ISPA
+B1637,Fauzan Saputra,26,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Campak
+B1638,Zahra Rahmawati,19,Perempuan,Lengkap,Pemantauan,Normal,Alergi
+B1639,Nadira Kartika,32,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1640,Arga Saputra,41,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1641,Alif Pratama,22,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Diare
+B1642,Bagas Maulana,47,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,ISPA
+B1643,Aulia Rahmawati,13,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1644,Nabila Maharani,13,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1645,Fikri Saputra,24,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1646,Naufal Setiawan,58,Laki-laki,Lengkap,Pemantauan,Normal,Alergi
+B1647,Khansa Maharani,19,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1648,Nadira Rahmawati,44,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1649,Raka Maulana,8,Laki-laki,Lengkap,Pemantauan,Normal,Diare
+B1650,Anindya Rahmawati,28,Perempuan,Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1651,Aurel Maharani,46,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1652,Arga Maulana,44,Laki-laki,Lengkap,Sehat,Normal,Demam
+B1653,Aurel Anggraini,27,Perempuan,Lengkap,Sehat,Normal,Demam
+B1654,Putri Permata,55,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1655,Aisyah Anggraini,60,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B1656,Rafli Saputra,55,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1657,Nayla Anggraini,21,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B1658,Nabila Salsabila,38,Perempuan,Lengkap,Sehat,Normal,ISPA
+B1659,Dimas Pratama,59,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1660,Muhammad Nugraha,14,Laki-laki,Lengkap,Perlu Tindakan,Normal,Alergi
+B1661,Putri Putri,36,Perempuan,Belum Lengkap,Pemantauan,Normal,Cacar Air
+B1662,Alya Anggraini,47,Perempuan,Belum Lengkap,Sehat,Normal,Batuk
+B1663,Nayla Lestari,3,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1664,Syifa Maharani,1,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1665,Muhammad Kurniawan,36,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B1666,Nabila Maharani,49,Perempuan,Lengkap,Sehat,Normal,ISPA
+B1667,Bagas Firmansyah,30,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B1668,Aisyah Anggraini,38,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Asma
+B1669,Khansa Wulandari,19,Perempuan,Tidak Lengkap,Sehat,Pemantauan,Tidak Ada
+B1670,Muhammad Pratama,49,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B1671,Khansa Putri,45,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Batuk
+B1672,Aisyah Kartika,31,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B1673,Dimas Permana,34,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Batuk
+B1674,Safira Lestari,31,Perempuan,Tidak Lengkap,Pemantauan,Normal,Diare
+B1675,Alif Permana,44,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1676,Raka Firmansyah,54,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1677,Rizky Nugraha,2,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B1678,Cantika Oktavia,48,Perempuan,Belum Lengkap,Sehat,Normal,Alergi
+B1679,Iqbal Nugraha,32,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1680,Arga Pratama,19,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1681,Azzahra Lestari,46,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B1682,Naufal Nugraha,38,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B1683,Ahmad Saputra,14,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1684,Fitri Anggraini,49,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Demam
+B1685,Arga Pratama,11,Laki-laki,Lengkap,Pemantauan,Normal,Campak
+B1686,Zahra Putri,32,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1687,Dimas Nugraha,35,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1688,Fitri Maharani,26,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1689,Siti Putri,34,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1690,Azzahra Oktavia,17,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B1691,Fitri Lestari,44,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1692,Alif Setiawan,49,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B1693,Nabila Kartika,5,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1694,Nabila Kartika,8,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B1695,Iqbal Setiawan,4,Laki-laki,Lengkap,Pemantauan,Pemantauan,Diare
+B1696,Anindya Lestari,53,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B1697,Fitri Permata,3,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B1698,Aisyah Permata,39,Perempuan,Lengkap,Sehat,Pemantauan,Demam
+B1699,Rizky Hidayat,42,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1700,Galih Ramadhan,19,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1701,Arga Ramadhan,59,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1702,Nabila Oktavia,49,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1703,Arga Nugraha,60,Laki-laki,Lengkap,Sehat,Normal,Campak
+B1704,Aulia Salsabila,54,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1705,Nabila Anggraini,39,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1706,Tiara Kartika,17,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B1707,Fikri Maulana,13,Laki-laki,Lengkap,Sehat,Pemantauan,ISPA
+B1708,Cantika Permata,38,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B1709,Iqbal Nugraha,25,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Flu
+B1710,Fikri Hidayat,3,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1711,Putri Kartika,7,Perempuan,Lengkap,Sehat,Normal,Asma
+B1712,Putri Kartika,26,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1713,Siti Kartika,21,Perempuan,Belum Lengkap,Sehat,Pemantauan,Alergi
+B1714,Fikri Setiawan,58,Laki-laki,Lengkap,Perlu Tindakan,Normal,Campak
+B1715,Akbar Saputra,26,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Alergi
+B1716,Farhan Saputra,36,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1717,Aurel Permata,28,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1718,Humaira Maharani,15,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1719,Rizky Nugraha,37,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1720,Nadira Salsabila,14,Perempuan,Lengkap,Pemantauan,Normal,Flu
+B1721,Nabila Lestari,45,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B1722,Nabila Wulandari,37,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1723,Aurel Salsabila,35,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1724,Dimas Saputra,41,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1725,Cantika Putri,52,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B1726,Khansa Lestari,56,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1727,Anindya Salsabila,60,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1728,Dimas Firmansyah,32,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1729,Alya Kartika,33,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1730,Safira Salsabila,11,Perempuan,Lengkap,Pemantauan,Pemantauan,Diare
+B1731,Khansa Permata,26,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1732,Rafli Saputra,54,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1733,Cantika Maharani,7,Perempuan,Belum Lengkap,Sehat,Pemantauan,Alergi
+B1734,Aulia Putri,10,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B1735,Raka Hidayat,8,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1736,Syifa Salsabila,27,Perempuan,Lengkap,Perlu Tindakan,Normal,Alergi
+B1737,Fauzan Permana,8,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1738,Ahmad Permana,27,Laki-laki,Lengkap,Sehat,Pemantauan,ISPA
+B1739,Farhan Nugraha,21,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1740,Zahra Kartika,25,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Batuk
+B1741,Bagas Setiawan,3,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1742,Khansa Putri,16,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1743,Fitri Kartika,18,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1744,Azzahra Putri,26,Perempuan,Belum Lengkap,Sehat,Pemantauan,Alergi
+B1745,Cantika Oktavia,17,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1746,Zahra Rahmawati,58,Perempuan,Lengkap,Sehat,Perlu Intervensi,Flu
+B1747,Syifa Salsabila,22,Perempuan,Lengkap,Pemantauan,Pemantauan,Batuk
+B1748,Naufal Firmansyah,39,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1749,Aulia Maharani,1,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1750,Akbar Kurniawan,30,Laki-laki,Lengkap,Pemantauan,Normal,Flu
+B1751,Nadira Rahmawati,42,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B1752,Safira Lestari,58,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1753,Ahmad Ramadhan,42,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1754,Safira Oktavia,13,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1755,Fitri Anggraini,24,Perempuan,Lengkap,Sehat,Perlu Intervensi,Diare
+B1756,Zidan Kurniawan,54,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1757,Aldi Ramadhan,31,Laki-laki,Lengkap,Pemantauan,Normal,ISPA
+B1758,Zidan Firmansyah,55,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Campak
+B1759,Muhammad Pratama,11,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1760,Fauzan Maulana,41,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1761,Raka Ramadhan,45,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1762,Salma Lestari,26,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1763,Humaira Oktavia,30,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1764,Zidan Setiawan,23,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Alergi
+B1765,Zidan Setiawan,48,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1766,Rizky Nugraha,14,Laki-laki,Lengkap,Sehat,Normal,Cacar Air
+B1767,Alif Ramadhan,31,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Demam
+B1768,Khansa Maharani,45,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1769,Siti Maharani,60,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B1770,Aisyah Putri,31,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1771,Naufal Setiawan,55,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Flu
+B1772,Akbar Firmansyah,1,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Flu
+B1773,Anindya Putri,35,Perempuan,Belum Lengkap,Pemantauan,Normal,Diare
+B1774,Khansa Rahmawati,1,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1775,Galih Saputra,58,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B1776,Azzahra Maharani,52,Perempuan,Lengkap,Pemantauan,Normal,ISPA
+B1777,Anindya Wulandari,4,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1778,Akbar Pratama,19,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1779,Cantika Maharani,18,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1780,Humaira Salsabila,3,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B1781,Syifa Kartika,7,Perempuan,Lengkap,Pemantauan,Normal,Diare
+B1782,Alya Anggraini,1,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1783,Aulia Putri,14,Perempuan,Lengkap,Sehat,Perlu Intervensi,Flu
+B1784,Iqbal Setiawan,19,Laki-laki,Lengkap,Sehat,Normal,Campak
+B1785,Cantika Permata,44,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1786,Aisyah Maharani,48,Perempuan,Lengkap,Sehat,Perlu Intervensi,Alergi
+B1787,Cantika Rahmawati,14,Perempuan,Lengkap,Sehat,Pemantauan,ISPA
+B1788,Rizky Firmansyah,57,Laki-laki,Lengkap,Pemantauan,Normal,Diare
+B1789,Ahmad Pratama,47,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B1790,Galih Ramadhan,30,Laki-laki,Lengkap,Sehat,Normal,Diare
+B1791,Anindya Maharani,35,Perempuan,Lengkap,Sehat,Perlu Intervensi,Cacar Air
+B1792,Alya Lestari,35,Perempuan,Lengkap,Perlu Tindakan,Normal,Asma
+B1793,Rizky Permana,59,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1794,Anindya Lestari,55,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1795,Iqbal Kurniawan,26,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,Campak
+B1796,Humaira Wulandari,58,Perempuan,Lengkap,Pemantauan,Normal,Asma
+B1797,Nayla Wulandari,57,Perempuan,Lengkap,Sehat,Normal,Asma
+B1798,Iqbal Firmansyah,11,Laki-laki,Lengkap,Sehat,Pemantauan,Diare
+B1799,Anindya Oktavia,30,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1800,Raka Ramadhan,45,Laki-laki,Lengkap,Pemantauan,Pemantauan,Demam
+B1801,Bagas Hidayat,37,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B1802,Azzahra Maharani,56,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1803,Aldi Maulana,26,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1804,Nayla Oktavia,17,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1805,Raka Maulana,45,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1806,Rafli Pratama,26,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Diare
+B1807,Khansa Maharani,53,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B1808,Fikri Ramadhan,31,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Tidak Ada
+B1809,Safira Lestari,29,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Flu
+B1810,Rizky Ramadhan,55,Laki-laki,Lengkap,Pemantauan,Normal,Tidak Ada
+B1811,Khansa Oktavia,2,Perempuan,Lengkap,Perlu Tindakan,Normal,Flu
+B1812,Nayla Permata,22,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1813,Aldi Ramadhan,54,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1814,Putri Permata,4,Perempuan,Belum Lengkap,Pemantauan,Normal,Diare
+B1815,Ahmad Nugraha,38,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B1816,Safira Wulandari,13,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
+B1817,Fikri Permana,36,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1818,Fauzan Ramadhan,51,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1819,Ahmad Ramadhan,25,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1820,Akbar Firmansyah,20,Laki-laki,Lengkap,Sehat,Normal,Flu
+B1821,Haikal Pratama,53,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1822,Fauzan Maulana,5,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,ISPA
+B1823,Ahmad Firmansyah,12,Laki-laki,Belum Lengkap,Pemantauan,Normal,Batuk
+B1824,Azzahra Lestari,57,Perempuan,Lengkap,Sehat,Normal,ISPA
+B1825,Nabila Lestari,36,Perempuan,Lengkap,Sehat,Normal,Alergi
+B1826,Anindya Kartika,53,Perempuan,Tidak Lengkap,Sehat,Normal,Batuk
+B1827,Arga Maulana,18,Laki-laki,Tidak Lengkap,Sehat,Normal,Alergi
+B1828,Rizky Hidayat,49,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Flu
+B1829,Haikal Ramadhan,42,Laki-laki,Lengkap,Perlu Tindakan,Normal,Batuk
+B1830,Humaira Lestari,6,Perempuan,Lengkap,Sehat,Normal,Tidak Ada
+B1831,Fauzan Ramadhan,6,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1832,Safira Permata,25,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1833,Rizky Pratama,51,Laki-laki,Lengkap,Pemantauan,Normal,Cacar Air
+B1834,Nadira Lestari,40,Perempuan,Tidak Lengkap,Pemantauan,Normal,Diare
+B1835,Ahmad Saputra,8,Laki-laki,Tidak Lengkap,Sehat,Pemantauan,Tidak Ada
+B1836,Bagas Pratama,41,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B1837,Syifa Putri,50,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,ISPA
+B1838,Zidan Setiawan,23,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Campak
+B1839,Iqbal Hidayat,14,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1840,Zidan Firmansyah,29,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Diare
+B1841,Humaira Putri,41,Perempuan,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B1842,Rafli Ramadhan,57,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Campak
+B1843,Dimas Ramadhan,4,Laki-laki,Lengkap,Perlu Tindakan,Normal,Demam
+B1844,Safira Putri,52,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1845,Nadira Maharani,36,Perempuan,Lengkap,Pemantauan,Normal,Cacar Air
+B1846,Raka Firmansyah,58,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B1847,Aurel Anggraini,16,Perempuan,Lengkap,Pemantauan,Pemantauan,Batuk
+B1848,Galih Pratama,14,Laki-laki,Lengkap,Pemantauan,Pemantauan,Asma
+B1849,Cantika Rahmawati,60,Perempuan,Tidak Lengkap,Sehat,Normal,Batuk
+B1850,Safira Lestari,17,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B1851,Naufal Maulana,20,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Demam
+B1852,Akbar Permana,18,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Asma
+B1853,Aurel Oktavia,49,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Campak
+B1854,Farhan Firmansyah,14,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1855,Fitri Rahmawati,11,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B1856,Khansa Putri,38,Perempuan,Lengkap,Pemantauan,Normal,Batuk
+B1857,Iqbal Firmansyah,35,Laki-laki,Belum Lengkap,Pemantauan,Normal,Demam
+B1858,Siti Anggraini,30,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1859,Galih Ramadhan,33,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1860,Bagas Setiawan,26,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1861,Raka Permana,36,Laki-laki,Lengkap,Pemantauan,Pemantauan,Diare
+B1862,Nabila Kartika,34,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1863,Aurel Anggraini,8,Perempuan,Belum Lengkap,Sehat,Perlu Intervensi,ISPA
+B1864,Akbar Firmansyah,11,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1865,Raka Setiawan,18,Laki-laki,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1866,Zidan Maulana,30,Laki-laki,Lengkap,Perlu Tindakan,Normal,Flu
+B1867,Iqbal Maulana,45,Laki-laki,Lengkap,Sehat,Normal,Demam
+B1868,Fitri Maharani,27,Perempuan,Lengkap,Pemantauan,Pemantauan,ISPA
+B1869,Dimas Pratama,39,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B1870,Raka Ramadhan,18,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1871,Cantika Oktavia,41,Perempuan,Belum Lengkap,Pemantauan,Normal,Campak
+B1872,Fikri Ramadhan,4,Laki-laki,Belum Lengkap,Pemantauan,Normal,Campak
+B1873,Nabila Wulandari,26,Perempuan,Lengkap,Perlu Tindakan,Normal,Batuk
+B1874,Aldi Nugraha,3,Laki-laki,Lengkap,Perlu Tindakan,Normal,Campak
+B1875,Zidan Permana,3,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1876,Aldi Setiawan,53,Laki-laki,Tidak Lengkap,Sehat,Normal,Alergi
+B1877,Khansa Permata,45,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1878,Arga Hidayat,28,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B1879,Humaira Putri,40,Perempuan,Lengkap,Sehat,Pemantauan,Diare
+B1880,Zidan Hidayat,12,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Tidak Ada
+B1881,Arga Kurniawan,7,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1882,Cantika Salsabila,45,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1883,Aulia Permata,44,Perempuan,Lengkap,Sehat,Normal,Alergi
+B1884,Syifa Maharani,41,Perempuan,Lengkap,Sehat,Perlu Intervensi,Campak
+B1885,Nabila Putri,41,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,ISPA
+B1886,Alya Lestari,13,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Campak
+B1887,Fitri Salsabila,59,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1888,Akbar Setiawan,21,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1889,Naufal Saputra,43,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B1890,Raka Saputra,2,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,Diare
+B1891,Rizky Nugraha,19,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Tidak Ada
+B1892,Akbar Ramadhan,32,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1893,Cantika Wulandari,52,Perempuan,Lengkap,Perlu Tindakan,Normal,Diare
+B1894,Iqbal Pratama,44,Laki-laki,Belum Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1895,Arga Kurniawan,3,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Asma
+B1896,Nayla Putri,45,Perempuan,Lengkap,Sehat,Perlu Intervensi,Demam
+B1897,Alya Anggraini,11,Perempuan,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1898,Khansa Oktavia,24,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B1899,Farhan Permana,36,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1900,Galih Nugraha,6,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B1901,Siti Rahmawati,57,Perempuan,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1902,Aulia Maharani,53,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Flu
+B1903,Ahmad Hidayat,16,Laki-laki,Tidak Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B1904,Ahmad Hidayat,51,Laki-laki,Belum Lengkap,Sehat,Normal,Campak
+B1905,Dimas Maulana,59,Laki-laki,Tidak Lengkap,Pemantauan,Normal,Demam
+B1906,Cantika Wulandari,4,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1907,Haikal Kurniawan,28,Laki-laki,Lengkap,Pemantauan,Pemantauan,Tidak Ada
+B1908,Safira Oktavia,45,Perempuan,Lengkap,Sehat,Perlu Intervensi,ISPA
+B1909,Arga Kurniawan,40,Laki-laki,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1910,Muhammad Pratama,19,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1911,Zahra Anggraini,50,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1912,Safira Lestari,16,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Alergi
+B1913,Nabila Lestari,25,Perempuan,Lengkap,Sehat,Pemantauan,Cacar Air
+B1914,Syifa Wulandari,33,Perempuan,Belum Lengkap,Sehat,Normal,Alergi
+B1915,Fauzan Nugraha,58,Laki-laki,Belum Lengkap,Pemantauan,Normal,ISPA
+B1916,Aisyah Anggraini,18,Perempuan,Tidak Lengkap,Sehat,Normal,Diare
+B1917,Zahra Maharani,22,Perempuan,Belum Lengkap,Sehat,Normal,Cacar Air
+B1918,Iqbal Firmansyah,57,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Asma
+B1919,Rafli Hidayat,52,Laki-laki,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,ISPA
+B1920,Ahmad Hidayat,5,Laki-laki,Tidak Lengkap,Sehat,Perlu Intervensi,ISPA
+B1921,Tiara Wulandari,59,Perempuan,Belum Lengkap,Pemantauan,Normal,Flu
+B1922,Rizky Ramadhan,26,Laki-laki,Lengkap,Sehat,Pemantauan,Demam
+B1923,Bagas Setiawan,56,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1924,Galih Saputra,45,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B1925,Nadira Oktavia,49,Perempuan,Lengkap,Sehat,Perlu Intervensi,ISPA
+B1926,Nayla Lestari,18,Perempuan,Lengkap,Pemantauan,Pemantauan,Campak
+B1927,Fitri Salsabila,41,Perempuan,Lengkap,Sehat,Perlu Intervensi,Batuk
+B1928,Galih Kurniawan,45,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,ISPA
+B1929,Safira Lestari,24,Perempuan,Tidak Lengkap,Sehat,Normal,Campak
+B1930,Iqbal Saputra,25,Laki-laki,Lengkap,Sehat,Normal,ISPA
+B1931,Humaira Kartika,27,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1932,Bagas Maulana,21,Laki-laki,Belum Lengkap,Pemantauan,Normal,ISPA
+B1933,Aulia Putri,3,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1934,Safira Maharani,15,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Diare
+B1935,Fikri Pratama,27,Laki-laki,Tidak Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1936,Aurel Rahmawati,8,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1937,Raka Maulana,55,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B1938,Haikal Nugraha,4,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B1939,Akbar Firmansyah,7,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B1940,Aulia Putri,10,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Cacar Air
+B1941,Farhan Hidayat,44,Laki-laki,Lengkap,Sehat,Pemantauan,Cacar Air
+B1942,Salma Putri,11,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B1943,Aurel Kartika,58,Perempuan,Tidak Lengkap,Perlu Tindakan,Pemantauan,Tidak Ada
+B1944,Zahra Lestari,33,Perempuan,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1945,Fikri Hidayat,3,Laki-laki,Lengkap,Sehat,Normal,Batuk
+B1946,Farhan Permana,26,Laki-laki,Lengkap,Sehat,Pemantauan,Batuk
+B1947,Safira Kartika,40,Perempuan,Belum Lengkap,Pemantauan,Normal,Demam
+B1948,Iqbal Nugraha,6,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Cacar Air
+B1949,Azzahra Oktavia,49,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B1950,Humaira Oktavia,28,Perempuan,Belum Lengkap,Perlu Tindakan,Pemantauan,ISPA
+B1951,Zahra Putri,20,Perempuan,Lengkap,Sehat,Pemantauan,Batuk
+B1952,Farhan Nugraha,29,Laki-laki,Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1953,Cantika Kartika,24,Perempuan,Tidak Lengkap,Pemantauan,Normal,Diare
+B1954,Bagas Saputra,32,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1955,Anindya Salsabila,8,Perempuan,Tidak Lengkap,Pemantauan,Pemantauan,Batuk
+B1956,Zahra Oktavia,22,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1957,Aulia Maharani,37,Perempuan,Belum Lengkap,Sehat,Normal,Asma
+B1958,Iqbal Nugraha,53,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Batuk
+B1959,Khansa Permata,5,Perempuan,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1960,Salma Anggraini,51,Perempuan,Lengkap,Sehat,Pemantauan,Tidak Ada
+B1961,Farhan Firmansyah,35,Laki-laki,Belum Lengkap,Sehat,Normal,Batuk
+B1962,Cantika Maharani,23,Perempuan,Lengkap,Sehat,Normal,ISPA
+B1963,Siti Maharani,58,Perempuan,Lengkap,Perlu Tindakan,Normal,Flu
+B1964,Fauzan Hidayat,59,Laki-laki,Belum Lengkap,Perlu Tindakan,Normal,ISPA
+B1965,Zidan Setiawan,23,Laki-laki,Belum Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1966,Iqbal Kurniawan,17,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Tidak Ada
+B1967,Khansa Maharani,5,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Flu
+B1968,Bagas Maulana,16,Laki-laki,Lengkap,Perlu Tindakan,Pemantauan,Demam
+B1969,Zahra Salsabila,8,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Alergi
+B1970,Haikal Nugraha,46,Laki-laki,Lengkap,Perlu Tindakan,Normal,Cacar Air
+B1971,Rizky Ramadhan,46,Laki-laki,Tidak Lengkap,Perlu Tindakan,Normal,Demam
+B1972,Azzahra Salsabila,19,Perempuan,Lengkap,Sehat,Pemantauan,Flu
+B1973,Aulia Lestari,48,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Alergi
+B1974,Khansa Putri,35,Perempuan,Belum Lengkap,Perlu Tindakan,Normal,Demam
+B1975,Aldi Permana,8,Laki-laki,Lengkap,Perlu Tindakan,Normal,Alergi
+B1976,Akbar Hidayat,48,Laki-laki,Tidak Lengkap,Pemantauan,Normal,ISPA
+B1977,Haikal Nugraha,40,Laki-laki,Belum Lengkap,Sehat,Pemantauan,Campak
+B1978,Khansa Rahmawati,45,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Tidak Ada
+B1979,Khansa Lestari,11,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1980,Siti Rahmawati,1,Perempuan,Lengkap,Pemantauan,Normal,Campak
+B1981,Aurel Rahmawati,12,Perempuan,Tidak Lengkap,Perlu Tindakan,Normal,Batuk
+B1982,Nabila Anggraini,55,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
+B1983,Nadira Rahmawati,53,Perempuan,Belum Lengkap,Pemantauan,Normal,Demam
+B1984,Cantika Putri,48,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1985,Tiara Putri,43,Perempuan,Belum Lengkap,Pemantauan,Perlu Intervensi,Batuk
+B1986,Cantika Wulandari,55,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Demam
+B1987,Humaira Kartika,31,Perempuan,Lengkap,Sehat,Pemantauan,Alergi
+B1988,Muhammad Permana,51,Laki-laki,Lengkap,Perlu Tindakan,Normal,Asma
+B1989,Galih Saputra,41,Laki-laki,Belum Lengkap,Pemantauan,Normal,Demam
+B1990,Bagas Pratama,24,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Campak
+B1991,Nabila Lestari,48,Perempuan,Lengkap,Sehat,Normal,ISPA
+B1992,Aulia Permata,20,Perempuan,Lengkap,Perlu Tindakan,Normal,Campak
+B1993,Muhammad Firmansyah,58,Laki-laki,Tidak Lengkap,Sehat,Normal,Tidak Ada
+B1994,Khansa Salsabila,42,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
+B1995,Cantika Kartika,60,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Cacar Air
+B1996,Zahra Kartika,28,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Asma
+B1997,Farhan Permana,52,Laki-laki,Lengkap,Pemantauan,Pemantauan,Flu
+B1998,Dimas Saputra,39,Laki-laki,Lengkap,Sehat,Pemantauan,Asma
+B1999,Reza Nugraha,35,Laki-laki,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B2000,Azzahra Kartika,49,Perempuan,Belum Lengkap,Perlu Tindakan,Perlu Intervensi,Alergi
