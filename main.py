@@ -38,8 +38,7 @@ def parse_args():
 def print_banner():
     print("""
 ================================================================
-  KLASIFIKASI TEMA PELAYANAN KESEHATAN IBU DAN ANAK
-  PADA TEKS LAPORAN POSYANDU
+  KLASIFIKASI TEMA KESEHATAN BAYI DAN BALITA PADA TEKS LAPORAN
   MENGGUNAKAN LARGE LANGUAGE MODELS (LLM) DAN ZERO-SHOT LEARNING
 ================================================================
 """)
