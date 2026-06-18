@@ -13,6 +13,10 @@ from sklearn.metrics import (
 from config import OUTPUT_CSV, RESULTS_DIR, TEMA_LABELS
 
 
+# =====================================================
+# GITHUB CONFIG
+# =====================================================
+
 GITHUB_USERNAME = "hanya6"
 GITHUB_REPO = "project-ollama"
 GITHUB_BRANCH = "feature/klasifikasi-tema-posyandu"
@@ -20,6 +24,10 @@ GITHUB_BRANCH = "feature/klasifikasi-tema-posyandu"
 GIT_EMAIL = "sedekah100m1@gmail.com"
 GIT_NAME = "ya"
 
+
+# =====================================================
+# GIT COMMAND
+# =====================================================
 
 def run_cmd(command):
     try:
@@ -40,7 +48,7 @@ def run_cmd(command):
         return True
 
     except subprocess.CalledProcessError as e:
-        print(f"\n[ERROR] Perintah gagal:")
+        print("\n[ERROR] Perintah gagal:")
         print(command)
 
         if e.stdout:
@@ -52,6 +60,10 @@ def run_cmd(command):
         return False
 
 
+# =====================================================
+# PUSH RESULTS TO GITHUB
+# =====================================================
+
 def push_results_to_github():
     print("\n" + "=" * 60)
     print("UPDATE HASIL EVALUASI KE GITHUB")
@@ -61,7 +73,9 @@ def push_results_to_github():
 
     if not token:
         print("[ERROR] GITHUB_TOKEN belum tersedia.")
-        print('Jalankan dulu: export GITHUB_TOKEN="token_github_anda"')
+        print('Jalankan dulu di Colab:')
+        print('import os')
+        print('os.environ["GITHUB_TOKEN"] = "token_github_anda"')
         return
 
     if not os.path.exists(".git"):
@@ -75,15 +89,13 @@ def push_results_to_github():
 
     run_cmd(f'git config --global user.email "{GIT_EMAIL}"')
     run_cmd(f'git config --global user.name "{GIT_NAME}"')
-
     run_cmd(f"git remote set-url origin {remote_url}")
-
     run_cmd(f"git checkout {GITHUB_BRANCH}")
 
-    # Simpan perubahan evaluate.py jika ada
+    # Add source code evaluate.py
     run_cmd("git add evaluate.py")
 
-    # Paksa add results karena results/*.csv, *.png, *.txt ada di .gitignore
+    # Force add karena results/*.csv, *.png, *.txt ada di .gitignore
     run_cmd("git add -f results/*.csv")
     run_cmd("git add -f results/*.png")
     run_cmd("git add -f results/*.txt")
@@ -100,9 +112,14 @@ def push_results_to_github():
         run_cmd(f"git push origin {GITHUB_BRANCH}")
         return
 
-    run_cmd('git commit -m "update evaluation results"')
+    commit_ok = run_cmd(
+        'git commit -m "update evaluation results"'
+    )
 
-    # Ambil update remote dulu agar tidak rejected fetch first
+    if not commit_ok:
+        print("[ERROR] Commit gagal.")
+        return
+
     pull_ok = run_cmd(
         f"git pull origin {GITHUB_BRANCH} --rebase"
     )
@@ -117,12 +134,16 @@ def push_results_to_github():
 
     if push_ok:
         print("\n[INFO] BERHASIL PUSH RESULTS KE GITHUB")
-        print(f"Repository: {GITHUB_USERNAME}/{GITHUB_REPO}")
-        print(f"Branch    : {GITHUB_BRANCH}")
-        print("Folder    : results/")
+        print(f"Repository : {GITHUB_USERNAME}/{GITHUB_REPO}")
+        print(f"Branch     : {GITHUB_BRANCH}")
+        print("Folder     : results/")
     else:
         print("\n[ERROR] Push gagal.")
 
+
+# =====================================================
+# MAIN EVALUATION
+# =====================================================
 
 def main():
     print("=" * 60)
@@ -137,19 +158,28 @@ def main():
 
     df = pd.read_csv(OUTPUT_CSV)
 
-    if "tema_aktual" not in df.columns or "tema_prediksi" not in df.columns:
-        raise ValueError(
-            "File harus memiliki kolom tema_aktual dan tema_prediksi."
-        )
+    if "tema_aktual" not in df.columns:
+        raise ValueError("Kolom tema_aktual tidak ditemukan.")
+
+    if "tema_prediksi" not in df.columns:
+        raise ValueError("Kolom tema_prediksi tidak ditemukan.")
 
     y_true = df["tema_aktual"]
     y_pred = df["tema_prediksi"]
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
+    # =====================================================
+    # AKURASI
+    # =====================================================
+
     accuracy = accuracy_score(y_true, y_pred)
 
     print(f"\nAkurasi: {accuracy * 100:.2f}%")
+
+    # =====================================================
+    # CLASSIFICATION REPORT
+    # =====================================================
 
     report_dict = classification_report(
         y_true,
@@ -170,6 +200,10 @@ def main():
     )
 
     report_df.to_csv(report_csv_path)
+
+    # =====================================================
+    # CONFUSION MATRIX
+    # =====================================================
 
     cm = confusion_matrix(
         y_true,
@@ -193,6 +227,10 @@ def main():
 
     cm_df.to_csv(cm_csv_path)
 
+    # =====================================================
+    # GAMBAR CONFUSION MATRIX
+    # =====================================================
+
     fig, ax = plt.subplots(figsize=(8, 6))
 
     disp = ConfusionMatrixDisplay(
@@ -208,6 +246,8 @@ def main():
     )
 
     plt.title("Confusion Matrix Klasifikasi Tema Posyandu")
+    plt.xlabel("Prediksi")
+    plt.ylabel("Aktual")
     plt.tight_layout()
 
     cm_img_path = os.path.join(
@@ -215,16 +255,25 @@ def main():
         "confusion_matrix.png"
     )
 
-    plt.savefig(cm_img_path, dpi=300)
+    plt.savefig(
+        cm_img_path,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
     plt.show()
     plt.close()
+
+    # =====================================================
+    # GRAFIK CLASSIFICATION REPORT PER KELAS
+    # =====================================================
 
     per_class_df = report_df.loc[
         TEMA_LABELS,
         ["precision", "recall", "f1-score"]
     ]
 
-    ax = per_class_df.plot(
+    per_class_df.plot(
         kind="bar",
         figsize=(10, 6)
     )
@@ -233,8 +282,9 @@ def main():
     plt.xlabel("Kelas")
     plt.ylabel("Nilai")
     plt.ylim(0, 1.05)
-    plt.xticks(rotation=20)
+    plt.xticks(rotation=25)
     plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.legend(title="Metrik")
     plt.tight_layout()
 
     report_img_path = os.path.join(
@@ -242,9 +292,169 @@ def main():
         "classification_report_per_kelas.png"
     )
 
-    plt.savefig(report_img_path, dpi=300)
+    plt.savefig(
+        report_img_path,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
     plt.show()
     plt.close()
+
+    # =====================================================
+    # TABEL HASIL KLASIFIKASI
+    # =====================================================
+
+    hasil_df = df[
+        [
+            "teks_laporan",
+            "tema_aktual",
+            "tema_prediksi"
+        ]
+    ].copy()
+
+    print("\nTABEL HASIL KLASIFIKASI")
+    print("=" * 60)
+    print(hasil_df.head(20))
+
+    hasil_csv_path = os.path.join(
+        RESULTS_DIR,
+        "tabel_hasil_klasifikasi.csv"
+    )
+
+    hasil_df.to_csv(
+        hasil_csv_path,
+        index=False
+    )
+
+    # =====================================================
+    # DISTRIBUSI TEMA AKTUAL
+    # =====================================================
+
+    distribusi_aktual = (
+        df["tema_aktual"]
+        .value_counts()
+        .sort_index()
+    )
+
+    print("\nDistribusi Tema Aktual:")
+    print(distribusi_aktual)
+
+    plt.figure(figsize=(8, 6))
+
+    distribusi_aktual.plot(kind="bar")
+
+    plt.title("Distribusi Tema Aktual")
+    plt.xlabel("Tema")
+    plt.ylabel("Jumlah Data")
+    plt.xticks(rotation=25)
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.tight_layout()
+
+    distribusi_aktual_path = os.path.join(
+        RESULTS_DIR,
+        "distribusi_tema_aktual.png"
+    )
+
+    plt.savefig(
+        distribusi_aktual_path,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.show()
+    plt.close()
+
+    # =====================================================
+    # DISTRIBUSI TEMA PREDIKSI
+    # =====================================================
+
+    distribusi_prediksi = (
+        df["tema_prediksi"]
+        .value_counts()
+        .sort_index()
+    )
+
+    print("\nDistribusi Tema Prediksi:")
+    print(distribusi_prediksi)
+
+    plt.figure(figsize=(8, 6))
+
+    distribusi_prediksi.plot(kind="bar")
+
+    plt.title("Distribusi Tema Prediksi")
+    plt.xlabel("Tema")
+    plt.ylabel("Jumlah Data")
+    plt.xticks(rotation=25)
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.tight_layout()
+
+    distribusi_prediksi_path = os.path.join(
+        RESULTS_DIR,
+        "distribusi_tema_prediksi.png"
+    )
+
+    plt.savefig(
+        distribusi_prediksi_path,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.show()
+    plt.close()
+
+    # =====================================================
+    # PERBANDINGAN DISTRIBUSI AKTUAL VS PREDIKSI
+    # =====================================================
+
+    distribusi_df = pd.DataFrame({
+        "Aktual": df["tema_aktual"].value_counts(),
+        "Prediksi": df["tema_prediksi"].value_counts()
+    }).fillna(0)
+
+    distribusi_df = distribusi_df.loc[TEMA_LABELS]
+
+    print("\nDISTRIBUSI TEMA AKTUAL VS PREDIKSI")
+    print("=" * 60)
+    print(distribusi_df)
+
+    distribusi_csv_path = os.path.join(
+        RESULTS_DIR,
+        "distribusi_tema.csv"
+    )
+
+    distribusi_df.to_csv(distribusi_csv_path)
+
+    distribusi_df.plot(
+        kind="bar",
+        figsize=(10, 6)
+    )
+
+    plt.title("Perbandingan Distribusi Tema Aktual dan Prediksi")
+    plt.xlabel("Tema")
+    plt.ylabel("Jumlah Data")
+    plt.xticks(rotation=25)
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.legend(title="Jenis")
+    plt.tight_layout()
+
+    distribusi_compare_path = os.path.join(
+        RESULTS_DIR,
+        "distribusi_tema_aktual_vs_prediksi.png"
+    )
+
+    plt.savefig(
+        distribusi_compare_path,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.show()
+    plt.close()
+
+    # =====================================================
+    # SIMPAN RINGKASAN TXT
+    # =====================================================
 
     summary_path = os.path.join(
         RESULTS_DIR,
@@ -262,12 +472,31 @@ def main():
         f.write("\n\nConfusion Matrix:\n")
         f.write(cm_df.to_string())
 
+        f.write("\n\nTabel Hasil Klasifikasi - 20 Data Pertama:\n")
+        f.write(hasil_df.head(20).to_string())
+
+        f.write("\n\nDistribusi Tema Aktual vs Prediksi:\n")
+        f.write(distribusi_df.to_string())
+
+    # =====================================================
+    # INFO FILE
+    # =====================================================
+
     print("\n[INFO] File evaluasi berhasil disimpan:")
     print(f"- {report_csv_path}")
     print(f"- {cm_csv_path}")
     print(f"- {cm_img_path}")
     print(f"- {report_img_path}")
+    print(f"- {hasil_csv_path}")
+    print(f"- {distribusi_csv_path}")
+    print(f"- {distribusi_aktual_path}")
+    print(f"- {distribusi_prediksi_path}")
+    print(f"- {distribusi_compare_path}")
     print(f"- {summary_path}")
+
+    # =====================================================
+    # PUSH KE GITHUB
+    # =====================================================
 
     push_results_to_github()
 
