@@ -1,4 +1,4 @@
 """
-Klasifikasi Tema Pelayanan Kesehatan Ibu dan Anak
-pada Teks Laporan Posyandu menggunakan LLM dan Zero-Shot Learning
+Klasifikasi Tema Kesehatan Bayi dan Balita
+pada Teks Laporan menggunakan LLM dan Zero-Shot Learning
 """
