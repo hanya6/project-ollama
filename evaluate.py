@@ -1,10 +1,12 @@
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from sklearn.metrics import (
     accuracy_score,
     classification_report,
-    confusion_matrix
+    confusion_matrix,
+    ConfusionMatrixDisplay
 )
 
 from config import OUTPUT_CSV, RESULTS_DIR, TEMA_LABELS
@@ -23,28 +25,40 @@ def main():
 
     df = pd.read_csv(OUTPUT_CSV)
 
-    if "tema_aktual" not in df.columns or "tema_prediksi" not in df.columns:
-        raise ValueError(
-            "File hasil klasifikasi harus memiliki kolom tema_aktual dan tema_prediksi."
-        )
-
     y_true = df["tema_aktual"]
     y_pred = df["tema_prediksi"]
 
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+
+    # ============================
+    # AKURASI
+    # ============================
     accuracy = accuracy_score(y_true, y_pred)
 
     print(f"\nAkurasi: {accuracy * 100:.2f}%")
 
-    print("\nClassification Report:")
-    print(
-        classification_report(
-            y_true,
-            y_pred,
-            labels=TEMA_LABELS,
-            zero_division=0
-        )
+    # ============================
+    # CLASSIFICATION REPORT
+    # ============================
+    report_dict = classification_report(
+        y_true,
+        y_pred,
+        labels=TEMA_LABELS,
+        output_dict=True,
+        zero_division=0
     )
 
+    report_df = pd.DataFrame(report_dict).transpose()
+
+    print("\nClassification Report:")
+    print(report_df)
+
+    report_csv_path = os.path.join(RESULTS_DIR, "classification_report.csv")
+    report_df.to_csv(report_csv_path)
+
+    # ============================
+    # CONFUSION MATRIX
+    # ============================
     cm = confusion_matrix(
         y_true,
         y_pred,
@@ -53,38 +67,82 @@ def main():
 
     cm_df = pd.DataFrame(
         cm,
-        index=[f"Aktual_{label}" for label in TEMA_LABELS],
-        columns=[f"Prediksi_{label}" for label in TEMA_LABELS]
+        index=[f"Aktual {label}" for label in TEMA_LABELS],
+        columns=[f"Prediksi {label}" for label in TEMA_LABELS]
     )
 
     print("\nConfusion Matrix:")
     print(cm_df)
 
-    os.makedirs(RESULTS_DIR, exist_ok=True)
+    cm_csv_path = os.path.join(RESULTS_DIR, "confusion_matrix.csv")
+    cm_df.to_csv(cm_csv_path)
 
-    eval_path = os.path.join(RESULTS_DIR, "evaluasi_confusion_matrix.csv")
-    cm_df.to_csv(eval_path)
+    # ============================
+    # GAMBAR CONFUSION MATRIX
+    # ============================
+    plt.figure(figsize=(8, 6))
 
-    report_path = os.path.join(RESULTS_DIR, "evaluasi_ringkasan.txt")
+    disp = ConfusionMatrixDisplay(
+        confusion_matrix=cm,
+        display_labels=TEMA_LABELS
+    )
 
-    with open(report_path, "w", encoding="utf-8") as f:
+    disp.plot(
+        cmap="Blues",
+        values_format="d",
+        xticks_rotation=30
+    )
+
+    plt.title("Confusion Matrix Klasifikasi Tema Laporan Posyandu")
+    plt.tight_layout()
+
+    cm_img_path = os.path.join(RESULTS_DIR, "confusion_matrix.png")
+    plt.savefig(cm_img_path, dpi=300)
+    plt.show()
+
+    # ============================
+    # GRAFIK PERBANDINGAN REPORT PER KELAS
+    # ============================
+    per_class_df = report_df.loc[TEMA_LABELS, ["precision", "recall", "f1-score"]]
+
+    ax = per_class_df.plot(
+        kind="bar",
+        figsize=(10, 6)
+    )
+
+    plt.title("Perbandingan Classification Report per Kelas")
+    plt.xlabel("Kelas")
+    plt.ylabel("Nilai")
+    plt.ylim(0, 1.05)
+    plt.xticks(rotation=30)
+    plt.legend(title="Metrik")
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.tight_layout()
+
+    report_img_path = os.path.join(RESULTS_DIR, "classification_report_per_kelas.png")
+    plt.savefig(report_img_path, dpi=300)
+    plt.show()
+
+    # ============================
+    # SIMPAN RINGKASAN TXT
+    # ============================
+    summary_path = os.path.join(RESULTS_DIR, "evaluasi_ringkasan.txt")
+
+    with open(summary_path, "w", encoding="utf-8") as f:
         f.write("EVALUASI HASIL KLASIFIKASI\n")
         f.write("=" * 60 + "\n")
         f.write(f"Akurasi: {accuracy * 100:.2f}%\n\n")
         f.write("Classification Report:\n")
-        f.write(
-            classification_report(
-                y_true,
-                y_pred,
-                labels=TEMA_LABELS,
-                zero_division=0
-            )
-        )
+        f.write(report_df.to_string())
         f.write("\n\nConfusion Matrix:\n")
         f.write(cm_df.to_string())
 
-    print(f"\n[INFO] Confusion matrix disimpan: {eval_path}")
-    print(f"[INFO] Ringkasan evaluasi disimpan: {report_path}")
+    print("\n[INFO] File evaluasi berhasil disimpan:")
+    print(f"- {cm_csv_path}")
+    print(f"- {report_csv_path}")
+    print(f"- {cm_img_path}")
+    print(f"- {report_img_path}")
+    print(f"- {summary_path}")
 
 
 if __name__ == "__main__":
