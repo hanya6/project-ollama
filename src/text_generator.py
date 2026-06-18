@@ -1,274 +1,381 @@
-"""
-Modul Text Generator
-Mengubah data tabular CSV posyandu menjadi teks laporan naratif
-untuk klasifikasi Zero-Shot Learning.
-"""
-
+import os
 import random
 import pandas as pd
 
 from config import (
-    GIZI_BALITA_PATH,
-    IMUNISASI_BAYI_PATH,
-    KESEHATAN_BALITA_PATH,
+    DATA_DIR,
     GENERATED_DATA_PATH,
+    TEMA_LABELS,
 )
 
-# Template teks - PEMANTAUAN GIZI BALITA
-TEMPLATES_GIZI = [
-    (
-        "Pada tanggal {tanggal}, telah dilakukan pemantauan gizi balita di posyandu. "
-        "Balita {nama} ({jk}, usia {umur} bulan) ditimbang dengan hasil berat badan {bb} kg, "
-        "tinggi badan {tb} cm, dan lingkar kepala {lk} cm. "
-        "Status gizi balita tercatat {status_gizi}. {asi_text} "
-        "Pemeriksaan dilakukan oleh {kader}. Keterangan: {ket}."
-    ),
-    (
-        "Laporan penimbangan balita tanggal {tanggal}. "
-        "Balita atas nama {nama}, {jk}, usia {umur} bulan menjalani pemantauan pertumbuhan. "
-        "Hasil pengukuran: BB={bb} kg, TB={tb} cm, LK={lk} cm. "
-        "Status gizi: {status_gizi}. {asi_text} "
-        "Petugas: {kader}. Catatan: {ket}."
-    ),
-    (
-        "Kegiatan posyandu tanggal {tanggal} mencatat pemantauan gizi balita {nama} "
-        "({jk}, {umur} bulan). Antropometri: BB {bb} kg, TB {tb} cm, LK {lk} cm. "
-        "Status gizi {status_gizi}. {asi_text} "
-        "Pelayanan oleh {kader}. Keterangan: {ket}."
-    ),
-    (
-        "Hasil pemantauan gizi di posyandu {tanggal}: balita {nama} ({jk}, {umur} bulan). "
-        "Berat badan: {bb} kg, tinggi badan: {tb} cm, lingkar kepala: {lk} cm. "
-        "Evaluasi status gizi menunjukkan {status_gizi}. {asi_text} "
-        "Diperiksa oleh {kader}. Catatan: {ket}."
-    ),
-    (
-        "Pelaksanaan posyandu {tanggal}: penimbangan balita {nama}, {jk}, {umur} bulan. "
-        "BB tercatat {bb} kg, TB {tb} cm, LK {lk} cm dengan status gizi {status_gizi}. "
-        "{asi_text} Penanggung jawab: {kader}. Keterangan: {ket}."
-    ),
-]
 
-# Template teks - IMUNISASI BAYI
-TEMPLATES_IMUNISASI = [
-    (
-        "Pada tanggal {tgl_imunisasi}, dilaksanakan pemberian imunisasi di {posyandu}. "
-        "Bayi {nama} ({jk}, usia {umur} bulan) mendapatkan imunisasi {jenis}. "
-        "Status imunisasi: {status}. Petugas: {petugas}. "
-        "Keterangan pasca imunisasi: {ket}."
-    ),
-    (
-        "Laporan imunisasi bayi di {posyandu} tanggal {tgl_imunisasi}. "
-        "Bayi {nama}, {jk}, {umur} bulan menerima vaksin {jenis}. "
-        "Kelengkapan imunisasi: {status}. Pelayanan oleh {petugas}. "
-        "Kondisi setelah imunisasi: {ket}."
-    ),
-    (
-        "Kegiatan imunisasi di {posyandu} pada {tgl_imunisasi}: "
-        "pemberian vaksin {jenis} kepada bayi {nama} ({jk}, {umur} bulan). "
-        "Status kelengkapan: {status}. Diberikan oleh {petugas}. "
-        "Pemantauan KIPI: {ket}."
-    ),
-    (
-        "Pencatatan imunisasi {tgl_imunisasi} di {posyandu}: "
-        "Bayi {nama} ({jk}, {umur} bulan), jenis imunisasi: {jenis}. "
-        "Status: {status}. Petugas pelaksana: {petugas}. KIPI: {ket}."
-    ),
-    (
-        "Program imunisasi {posyandu} tanggal {tgl_imunisasi}: "
-        "bayi {nama} ({jk}, {umur} bulan) divaksinasi {jenis}. "
-        "Catatan status: {status}. Pemberian oleh {petugas}. "
-        "Observasi: {ket}."
-    ),
-]
-
-# Template teks - PEMERIKSAAN KESEHATAN BALITA
-# Strategi: Menekankan bahwa ini pemeriksaan TERPADU (gizi + imunisasi)
-TEMPLATES_KESEHATAN = [
-    (
-        "Pada tanggal {tanggal}, dilakukan pemeriksaan kesehatan terpadu balita di posyandu. "
-        "Balita {nama} ({jk}, {umur} bulan) menjalani pemeriksaan menyeluruh. "
-        "Hasil pengukuran pertumbuhan: BB={bb} kg, TB={tb} cm, LK={lk} cm. Status gizi: {status_gizi}. "
-        "{asi_text} Selain itu, dilakukan pengecekan kelengkapan imunisasi: {imun_text} "
-        "Pemeriksa: {kader}. Catatan perkembangan: {catatan}."
-    ),
-    (
-        "Laporan pemeriksaan kesehatan balita secara komprehensif tanggal {tanggal}. "
-        "Balita {nama}, {jk}, {umur} bulan mendapat pelayanan kesehatan terpadu di posyandu. "
-        "Pemantauan pertumbuhan: BB {bb} kg, TB {tb} cm, LK {lk} cm dengan status gizi {status_gizi}. "
-        "{asi_text} Evaluasi kelengkapan imunisasi: {imun_text} "
-        "Petugas: {kader}. Keterangan: {catatan}."
-    ),
-    (
-        "Pemeriksaan kesehatan balita terpadu di posyandu {tanggal} untuk {nama} ({jk}, {umur} bulan). "
-        "Aspek pertumbuhan - BB: {bb} kg, TB: {tb} cm, LK: {lk} cm, status gizi: {status_gizi}. "
-        "{asi_text} Aspek imunisasi - {imun_text} "
-        "Dilayani oleh {kader}. Catatan kesehatan: {catatan}."
-    ),
-    (
-        "Hasil pemeriksaan kesehatan komprehensif balita {tanggal}: "
-        "{nama} ({jk}, {umur} bulan). "
-        "Pertumbuhan: BB {bb} kg, TB {tb} cm, LK {lk} cm. Status gizi: {status_gizi}. "
-        "{asi_text} Riwayat imunisasi diperiksa: {imun_text} "
-        "Pemeriksa: {kader}. Catatan perkembangan: {catatan}."
-    ),
-    (
-        "Pelayanan kesehatan terpadu balita di posyandu {tanggal}: {nama}, {jk}, {umur} bulan. "
-        "Pemantauan gizi: BB {bb} kg, TB {tb} cm, LK {lk} cm, status gizi {status_gizi}. "
-        "{asi_text} Pemantauan imunisasi: {imun_text} "
-        "Petugas pelayanan: {kader}. Catatan: {catatan}."
-    ),
-]
+def get_value(row, possible_columns, default="-"):
+    """
+    Mengambil nilai dari baris CSV berdasarkan beberapa kemungkinan nama kolom.
+    Fungsi ini dibuat agar tidak terjadi KeyError jika nama kolom berbeda.
+    """
+    for col in possible_columns:
+        if col in row.index:
+            value = row[col]
+            if pd.notna(value):
+                return value
+    return default
 
 
 class TextGenerator:
-    """Generator teks laporan posyandu dari data tabular CSV."""
-
-    def __init__(self, seed: int = 42):
+    def __init__(self, seed=42):
         random.seed(seed)
 
-    def _asi_text(self, value: str) -> str:
-        if value == "Ya":
-            return random.choice([
-                "Balita mendapatkan ASI eksklusif.",
-                "Riwayat ASI eksklusif: Ya.",
-                "Tercatat mendapat ASI eksklusif.",
-            ])
-        return random.choice([
-            "Balita tidak mendapatkan ASI eksklusif.",
-            "Riwayat ASI eksklusif: Tidak.",
-            "ASI eksklusif tidak tercapai.",
+        self.gizi_path = os.path.join(DATA_DIR, "gizi_balita.csv")
+        self.imunisasi_path = os.path.join(DATA_DIR, "imunisasi.csv")
+        self.ibu_hamil_path = os.path.join(DATA_DIR, "ibu_hamil.csv")
+        self.kb_path = os.path.join(DATA_DIR, "kb.csv")
+        self.keluhan_path = os.path.join(DATA_DIR, "keluhan.csv")
+
+        self.gizi_df = self._read_csv_safe(self.gizi_path)
+        self.imunisasi_df = self._read_csv_safe(self.imunisasi_path)
+        self.ibu_hamil_df = self._read_csv_safe(self.ibu_hamil_path)
+        self.kb_df = self._read_csv_safe(self.kb_path)
+        self.keluhan_df = self._read_csv_safe(self.keluhan_path)
+
+    def _read_csv_safe(self, path):
+        if os.path.exists(path):
+            print(f"[INFO] Membaca data {os.path.basename(path)}...")
+            return pd.read_csv(path)
+        else:
+            print(f"[WARNING] File tidak ditemukan: {path}")
+            return pd.DataFrame()
+
+    def generate_from_gizi(self, row):
+        tanggal = get_value(row, [
+            "Tanggal_Pemeriksaan",
+            "tanggal_pemeriksaan",
+            "Tanggal Pemeriksaan",
+            "tanggal",
+            "Tanggal",
+            "tgl_pemeriksaan",
+            "Tgl_Pemeriksaan"
         ])
 
-    def _imun_text(self, value: str) -> str:
-        if value == "Ya":
-            return random.choice([
-                "Status kelengkapan imunisasi dasar: LENGKAP.",
-                "Imunisasi dasar telah lengkap diberikan.",
-                "Kelengkapan imunisasi: sudah lengkap semua.",
-            ])
-        return random.choice([
-            "Status kelengkapan imunisasi dasar: BELUM LENGKAP.",
-            "Imunisasi dasar belum lengkap, perlu dijadwalkan.",
-            "Kelengkapan imunisasi: belum lengkap.",
+        nama = get_value(row, [
+            "Nama_Balita",
+            "nama_balita",
+            "Nama Balita",
+            "nama",
+            "Nama"
         ])
 
-    def generate_from_gizi(self, row: pd.Series) -> str:
-        tpl = random.choice(TEMPLATES_GIZI)
-        return tpl.format(
-            tanggal=row["Tanggal_Pemeriksaan"],
-            nama=row["Nama_Balita"],
-            jk=row["Jenis_Kelamin"],
-            umur=row["Umur_Bulan"],
-            bb=row["Berat_Badan"],
-            tb=row["Tinggi_Badan"],
-            lk=row["Lingkar_Kepala"],
-            status_gizi=row["Status_Gizi"],
-            asi_text=self._asi_text(row["ASI_Eksklusif"]),
-            kader=row["Kader"],
-            ket=row["Keterangan"],
-        )
+        umur = get_value(row, [
+            "Umur",
+            "umur",
+            "Usia",
+            "usia",
+            "umur_bulan",
+            "Usia_Bulan"
+        ])
 
-    def generate_from_imunisasi(self, row: pd.Series) -> str:
-        tpl = random.choice(TEMPLATES_IMUNISASI)
-        return tpl.format(
-            tgl_imunisasi=row["Tanggal_Imunisasi"],
-            posyandu=row["Posyandu"],
-            nama=row["Nama_Bayi"],
-            jk=row["Jenis_Kelamin"],
-            umur=row["Umur_Bulan"],
-            jenis=row["Jenis_Imunisasi"],
-            status=row["Status_Imunisasi"],
-            petugas=row["Petugas"],
-            ket=row["Keterangan"],
-        )
+        berat = get_value(row, [
+            "Berat_Badan",
+            "berat_badan",
+            "Berat Badan",
+            "bb",
+            "BB"
+        ])
 
-    def generate_from_kesehatan(self, row: pd.Series) -> str:
-        tpl = random.choice(TEMPLATES_KESEHATAN)
-        return tpl.format(
-            tanggal=row["Tanggal_Pemeriksaan"],
-            nama=row["Nama_Balita"],
-            jk=row["Jenis_Kelamin"],
-            umur=row["Umur_Bulan"],
-            bb=row["Berat_Badan"],
-            tb=row["Tinggi_Badan"],
-            lk=row["Lingkar_Kepala"],
-            status_gizi=row["Status_Gizi"],
-            asi_text=self._asi_text(row["ASI_Eksklusif"]),
-            imun_text=self._imun_text(row["Imunisasi_Lengkap"]),
-            kader=row["Kader"],
-            catatan=row["Catatan"],
-        )
+        tinggi = get_value(row, [
+            "Tinggi_Badan",
+            "tinggi_badan",
+            "Tinggi Badan",
+            "tb",
+            "TB"
+        ])
 
-    def generate_all(self, n_per_tema: int = None, shuffle: bool = True) -> pd.DataFrame:
-        """Generate seluruh teks laporan dari ketiga file CSV."""
-        results = []
+        status = get_value(row, [
+            "Status_Gizi",
+            "status_gizi",
+            "Status Gizi",
+            "status",
+            "Status"
+        ])
 
-        # 1. Gizi Balita
-        print("[INFO] Membaca data gizi_balita.csv...")
-        df_gizi = pd.read_csv(GIZI_BALITA_PATH)
-        if n_per_tema:
-            df_gizi = df_gizi.head(n_per_tema)
-        print(f"[INFO] Generating {len(df_gizi)} teks laporan gizi...")
-        for _, row in df_gizi.iterrows():
-            results.append({
-                "id": row["ID_Balita"],
-                "teks_laporan": self.generate_from_gizi(row),
-                "tema_aktual": "Pemantauan Gizi Balita",
-                "sumber": "gizi_balita.csv",
-            })
+        teks = f"""
+Pada tanggal {tanggal}, dilakukan pemeriksaan pertumbuhan balita atas nama {nama}.
+Balita berusia {umur} bulan dengan berat badan {berat} kg dan tinggi badan {tinggi} cm.
+Berdasarkan hasil pemeriksaan di posyandu, status gizi balita termasuk kategori {status}.
+Petugas memberikan edukasi kepada orang tua mengenai pemenuhan nutrisi seimbang,
+pemantauan berat badan, serta pentingnya kunjungan rutin ke posyandu.
+"""
 
-        # 2. Imunisasi Bayi
-        print("[INFO] Membaca data imunisasi_bayi.csv...")
-        df_imun = pd.read_csv(IMUNISASI_BAYI_PATH)
-        if n_per_tema:
-            df_imun = df_imun.head(n_per_tema)
-        print(f"[INFO] Generating {len(df_imun)} teks laporan imunisasi...")
-        for _, row in df_imun.iterrows():
-            results.append({
-                "id": row["ID_Bayi"],
-                "teks_laporan": self.generate_from_imunisasi(row),
-                "tema_aktual": "Imunisasi Bayi",
-                "sumber": "imunisasi_bayi.csv",
-            })
+        return teks.strip()
 
-        # 3. Kesehatan Balita
-        print("[INFO] Membaca data kesehatan_balita.csv...")
-        df_kes = pd.read_csv(KESEHATAN_BALITA_PATH)
-        if n_per_tema:
-            df_kes = df_kes.head(n_per_tema)
-        print(f"[INFO] Generating {len(df_kes)} teks laporan kesehatan...")
-        for _, row in df_kes.iterrows():
-            results.append({
-                "id": row["ID_Balita"],
-                "teks_laporan": self.generate_from_kesehatan(row),
-                "tema_aktual": "Pemeriksaan Kesehatan Balita",
-                "sumber": "kesehatan_balita.csv",
-            })
+    def generate_from_imunisasi(self, row):
+        tanggal = get_value(row, [
+            "Tanggal_Imunisasi",
+            "tanggal_imunisasi",
+            "Tanggal Imunisasi",
+            "tanggal",
+            "Tanggal"
+        ])
 
-        df = pd.DataFrame(results)
-        if shuffle:
+        nama = get_value(row, [
+            "Nama_Balita",
+            "nama_balita",
+            "Nama Balita",
+            "nama",
+            "Nama"
+        ])
+
+        umur = get_value(row, [
+            "Umur",
+            "umur",
+            "Usia",
+            "usia",
+            "umur_bulan"
+        ])
+
+        jenis = get_value(row, [
+            "Jenis_Imunisasi",
+            "jenis_imunisasi",
+            "Jenis Imunisasi",
+            "imunisasi",
+            "Jenis"
+        ])
+
+        status = get_value(row, [
+            "Status_Imunisasi",
+            "status_imunisasi",
+            "Status Imunisasi",
+            "status",
+            "Status"
+        ])
+
+        teks = f"""
+Pada tanggal {tanggal}, balita atas nama {nama} yang berusia {umur} bulan
+mendapatkan pelayanan imunisasi {jenis} di posyandu.
+Status pemberian imunisasi tercatat {status}.
+Petugas kesehatan memberikan penjelasan kepada orang tua mengenai manfaat imunisasi,
+jadwal imunisasi lanjutan, serta pentingnya melengkapi imunisasi dasar anak.
+"""
+
+        return teks.strip()
+
+    def generate_from_ibu_hamil(self, row):
+        tanggal = get_value(row, [
+            "Tanggal_Pemeriksaan",
+            "tanggal_pemeriksaan",
+            "Tanggal Pemeriksaan",
+            "tanggal",
+            "Tanggal"
+        ])
+
+        nama = get_value(row, [
+            "Nama_Ibu",
+            "nama_ibu",
+            "Nama Ibu",
+            "nama",
+            "Nama"
+        ])
+
+        usia_kehamilan = get_value(row, [
+            "Usia_Kehamilan",
+            "usia_kehamilan",
+            "Usia Kehamilan",
+            "umur_kehamilan",
+            "Umur_Kehamilan"
+        ])
+
+        tekanan_darah = get_value(row, [
+            "Tekanan_Darah",
+            "tekanan_darah",
+            "Tekanan Darah",
+            "tensi",
+            "Tensi"
+        ])
+
+        keluhan = get_value(row, [
+            "Keluhan",
+            "keluhan",
+            "Keluhan_Ibu",
+            "keluhan_ibu"
+        ])
+
+        teks = f"""
+Pada tanggal {tanggal}, dilakukan pemeriksaan ibu hamil atas nama {nama}.
+Usia kehamilan ibu tercatat {usia_kehamilan} minggu dengan tekanan darah {tekanan_darah}.
+Ibu menyampaikan keluhan berupa {keluhan}.
+Petugas posyandu memberikan pemantauan kesehatan kehamilan, edukasi tanda bahaya kehamilan,
+anjuran konsumsi tablet tambah darah, serta menyarankan pemeriksaan lanjutan bila diperlukan.
+"""
+
+        return teks.strip()
+
+    def generate_from_kb(self, row):
+        tanggal = get_value(row, [
+            "Tanggal_Pelayanan",
+            "tanggal_pelayanan",
+            "Tanggal Pelayanan",
+            "tanggal",
+            "Tanggal"
+        ])
+
+        nama = get_value(row, [
+            "Nama_Ibu",
+            "nama_ibu",
+            "Nama Ibu",
+            "nama",
+            "Nama"
+        ])
+
+        metode = get_value(row, [
+            "Metode_KB",
+            "metode_kb",
+            "Metode KB",
+            "jenis_kb",
+            "Jenis_KB",
+            "KB"
+        ])
+
+        status = get_value(row, [
+            "Status_KB",
+            "status_kb",
+            "Status KB",
+            "status",
+            "Status"
+        ])
+
+        teks = f"""
+Pada tanggal {tanggal}, ibu atas nama {nama} mendapatkan pelayanan keluarga berencana di posyandu.
+Metode kontrasepsi yang digunakan adalah {metode} dengan status pelayanan {status}.
+Petugas memberikan konseling mengenai manfaat KB, jadwal kontrol ulang,
+kemungkinan efek samping, serta pentingnya pemilihan metode kontrasepsi yang sesuai.
+"""
+
+        return teks.strip()
+
+    def generate_from_keluhan(self, row):
+        tanggal = get_value(row, [
+            "Tanggal_Keluhan",
+            "tanggal_keluhan",
+            "Tanggal Keluhan",
+            "Tanggal_Pemeriksaan",
+            "tanggal",
+            "Tanggal"
+        ])
+
+        nama = get_value(row, [
+            "Nama",
+            "nama",
+            "Nama_Pasien",
+            "nama_pasien",
+            "Nama_Ibu",
+            "Nama_Balita"
+        ])
+
+        keluhan = get_value(row, [
+            "Keluhan",
+            "keluhan",
+            "Jenis_Keluhan",
+            "jenis_keluhan"
+        ])
+
+        tindakan = get_value(row, [
+            "Tindakan",
+            "tindakan",
+            "Penanganan",
+            "penanganan",
+            "Saran"
+        ])
+
+        teks = f"""
+Pada tanggal {tanggal}, warga atas nama {nama} datang ke posyandu dengan keluhan {keluhan}.
+Petugas melakukan pencatatan keluhan dan memberikan penanganan berupa {tindakan}.
+Selain itu, petugas memberikan edukasi kesehatan, anjuran pemantauan kondisi,
+serta menyarankan pemeriksaan ke fasilitas kesehatan apabila keluhan berlanjut.
+"""
+
+        return teks.strip()
+
+    def _sample_dataframe(self, df, n):
+        if df.empty:
+            return pd.DataFrame()
+
+        if n is None:
+            return df
+
+        if len(df) >= n:
+            return df.sample(n=n, random_state=42)
+        else:
+            return df.sample(n=n, replace=True, random_state=42)
+
+    def generate_all(self, n_per_tema=None, shuffle=True):
+        all_data = []
+
+        if not self.gizi_df.empty:
+            df_sample = self._sample_dataframe(self.gizi_df, n_per_tema)
+            for _, row in df_sample.iterrows():
+                all_data.append({
+                    "teks_laporan": self.generate_from_gizi(row),
+                    "tema_aktual": "Gizi Balita"
+                })
+
+        if not self.imunisasi_df.empty:
+            df_sample = self._sample_dataframe(self.imunisasi_df, n_per_tema)
+            for _, row in df_sample.iterrows():
+                all_data.append({
+                    "teks_laporan": self.generate_from_imunisasi(row),
+                    "tema_aktual": "Imunisasi"
+                })
+
+        if not self.ibu_hamil_df.empty:
+            df_sample = self._sample_dataframe(self.ibu_hamil_df, n_per_tema)
+            for _, row in df_sample.iterrows():
+                all_data.append({
+                    "teks_laporan": self.generate_from_ibu_hamil(row),
+                    "tema_aktual": "Ibu Hamil"
+                })
+
+        if not self.kb_df.empty:
+            df_sample = self._sample_dataframe(self.kb_df, n_per_tema)
+            for _, row in df_sample.iterrows():
+                all_data.append({
+                    "teks_laporan": self.generate_from_kb(row),
+                    "tema_aktual": "Keluarga Berencana"
+                })
+
+        if not self.keluhan_df.empty:
+            df_sample = self._sample_dataframe(self.keluhan_df, n_per_tema)
+            for _, row in df_sample.iterrows():
+                all_data.append({
+                    "teks_laporan": self.generate_from_keluhan(row),
+                    "tema_aktual": "Keluhan Umum"
+                })
+
+        df = pd.DataFrame(all_data)
+
+        if shuffle and not df.empty:
             df = df.sample(frac=1, random_state=42).reset_index(drop=True)
 
-        print(f"\n[INFO] Total teks: {len(df)}")
-        for tema, count in df["tema_aktual"].value_counts().items():
-            print(f"       - {tema}: {count}")
-
         return df
 
-    def generate_and_save(self, n_per_tema: int = None, shuffle: bool = True) -> pd.DataFrame:
-        """Generate dan simpan ke CSV."""
-        df = self.generate_all(n_per_tema=n_per_tema, shuffle=shuffle)
+    def generate_and_save(self, n_per_tema=None, shuffle=True):
+        print("[INFO] Generating teks laporan...")
+
+        df = self.generate_all(
+            n_per_tema=n_per_tema,
+            shuffle=shuffle
+        )
+
+        if df.empty:
+            raise ValueError(
+                "Tidak ada data yang berhasil digenerate. "
+                "Pastikan file CSV tersedia di folder data."
+            )
+
+        os.makedirs(os.path.dirname(GENERATED_DATA_PATH), exist_ok=True)
+
         df.to_csv(GENERATED_DATA_PATH, index=False)
-        print(f"[INFO] Disimpan ke: {GENERATED_DATA_PATH}")
+
+        print(f"[INFO] Total teks berhasil dibuat: {len(df)}")
+        print(f"[INFO] File disimpan ke: {GENERATED_DATA_PATH}")
+
         return df
-
-
-if __name__ == "__main__":
-    gen = TextGenerator()
-    df = gen.generate_and_save()
-    print("\nContoh teks:")
-    for tema in df["tema_aktual"].unique():
-        sample = df[df["tema_aktual"] == tema].iloc[0]
-        print(f"\n[{tema}]")
-        print(f"  {sample['teks_laporan'][:200]}...")
