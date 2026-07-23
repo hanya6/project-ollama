@@ -1,14 +1,14 @@
 ID_Balita,Nama Bayi,Umur (Bulan),Jenis Kelamin,Jenis Imunisasi,Status Imunisasi
-B001,Amelia Lestari,8,Perempuan,Campak,Lengkap
-B002,Bagas Wijaya,23,Laki-laki,DPT-HB-Hib 1,Lengkap
-B003,Farhan Saputra,21,Laki-laki,Campak,Belum Lengkap
-B004,Ahmad Kurniawan,23,Laki-laki,Polio 2,Lengkap
-B005,Arga Pratama,15,Laki-laki,Polio 2,Lengkap
-B006,Nabila Lestari,6,Perempuan,Campak,Lengkap
-B007,Fikri Nugraha,16,Laki-laki,HB-0,Lengkap
-B008,Anisa Rahma,22,Perempuan,DPT-HB-Hib 3,Lengkap
-B009,Lestari Sari,5,Perempuan,DPT-HB-Hib 2,Lengkap
-B010,Dimas Pratama,13,Laki-laki,Polio 2,Lengkap
+B001,Cantika Rahmawati,42,Perempuan,Tidak Lengkap,Pemantauan,Normal,Campak
+B002,Aisyah Putri,39,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
+B003,Nayla Permata,52,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
+B004,Alya Oktavia,48,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B005,Nabila Putri,38,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
+B006,Galih Kurniawan,10,Laki-laki,Lengkap,Pemantauan,Normal,Batuk
+B007,Nadira Oktavia,50,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Asma
+B008,Fitri Putri,34,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
+B009,Raka Maulana,49,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
+B010,Haikal Ramadhan,38,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
 B011,Safira Permata,2,Perempuan,BCG,Lengkap
 B012,Aisyah Lestari,6,Perempuan,DPT-HB-Hib 2,Belum Lengkap
 B013,Lestari Sari,17,Perempuan,Polio 4,Lengkap
