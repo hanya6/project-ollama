@@ -1,14 +1,14 @@
 ID_Balita,Nama Balita,Umur (Bulan),Jenis Kelamin,Berat Badan (kg),Tinggi Badan (cm),Status Gizi,Keterangan
-B001,Rania Lestari,41,Perempuan,7.3,95.4,Gizi Kurang,Perlu pemantauan gizi
-B002,Alif Nugraha,18,Laki-laki,6.1,83.6,Gizi Buruk,Perlu penanganan segera
-B003,Azka Pratama,12,Laki-laki,4.1,70.9,Gizi Buruk,Perlu penanganan segera
-B004,Nabila Rahma,18,Perempuan,9.8,71.2,Gizi Buruk,Perlu penanganan segera
-B005,Amelia Rahma,43,Perempuan,16.1,99.9,Gizi Baik,Pertumbuhan sesuai usia
-B006,Farhan Pratama,52,Laki-laki,5.7,78.5,Gizi Buruk,Perlu penanganan segera
-B007,Rafa Saputra,9,Laki-laki,14.6,93.8,Gizi Baik,Pertumbuhan sesuai usia
-B008,Alya Putri,47,Perempuan,9.3,102.8,Gizi Baik,Pertumbuhan sesuai usia
-B009,Lestari Sari,51,Perempuan,13.9,81.7,Gizi Baik,Pertumbuhan sesuai usia
-B010,Siti Permata,12,Perempuan,11.3,70.9,Gizi Kurang,Perlu pemantauan gizi
+B001,Amelia Lestari,8,Perempuan,Campak,Lengkap
+B002,Bagas Wijaya,23,Laki-laki,DPT-HB-Hib 1,Lengkap
+B003,Farhan Saputra,21,Laki-laki,Campak,Belum Lengkap
+B004,Ahmad Kurniawan,23,Laki-laki,Polio 2,Lengkap
+B005,Arga Pratama,15,Laki-laki,Polio 2,Lengkap
+B006,Nabila Lestari,6,Perempuan,Campak,Lengkap
+B007,Fikri Nugraha,16,Laki-laki,HB-0,Lengkap
+B008,Anisa Rahma,22,Perempuan,DPT-HB-Hib 3,Lengkap
+B009,Lestari Sari,5,Perempuan,DPT-HB-Hib 2,Lengkap
+B010,Dimas Pratama,13,Laki-laki,Polio 2,Lengkap
 B011,Rahma Permata,30,Perempuan,11.7,90,Gizi Baik,Pertumbuhan sesuai usia
 B012,Indah Putri,4,Perempuan,8.8,81.7,Gizi Baik,Pertumbuhan sesuai usia
 B013,Lestari Lestari,30,Perempuan,14.5,108.5,Gizi Baik,Pertumbuhan sesuai usia
