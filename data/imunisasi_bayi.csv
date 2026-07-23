@@ -1,104 +1,104 @@
 ID_Balita,Nama Bayi,Umur (Bulan),Jenis Kelamin,Jenis Imunisasi,Status Imunisasi
-B001,Cantika Rahmawati,42,Perempuan,Tidak Lengkap,Pemantauan,Normal,Campak
-B002,Aisyah Putri,39,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
-B003,Nayla Permata,52,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
-B004,Alya Oktavia,48,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
-B005,Nabila Putri,38,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
-B006,Galih Kurniawan,10,Laki-laki,Lengkap,Pemantauan,Normal,Batuk
-B007,Nadira Oktavia,50,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Asma
-B008,Fitri Putri,34,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
-B009,Raka Maulana,49,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
-B010,Haikal Ramadhan,38,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
-B011,Safira Permata,2,Perempuan,BCG,Lengkap
-B012,Aisyah Lestari,6,Perempuan,DPT-HB-Hib 2,Belum Lengkap
-B013,Lestari Sari,17,Perempuan,Polio 4,Lengkap
-B014,Kayla Permata,19,Perempuan,Polio 2,Lengkap
-B015,Rian Saputra,1,Laki-laki,Polio 4,Lengkap
-B016,Anisa Putri,12,Perempuan,Polio 4,Lengkap
-B017,Aisyah Sari,9,Perempuan,Campak,Lengkap
-B018,Syifa Putri,9,Perempuan,DPT-HB-Hib 3,Lengkap
-B019,Rafa Wijaya,3,Laki-laki,BCG,Lengkap
-B020,Naufal Wijaya,17,Laki-laki,BCG,Lengkap
-B021,Nabila Lestari,24,Perempuan,DPT-HB-Hib 3,Lengkap
-B022,Nayla Sari,0,Perempuan,BCG,Lengkap
-B023,Iqbal Pratama,24,Laki-laki,Polio 4,Lengkap
-B024,Amelia Rahma,13,Perempuan,DPT-HB-Hib 2,Lengkap
-B025,Lestari Permata,12,Perempuan,DPT-HB-Hib 2,Lengkap
-B026,Fahri Kurniawan,3,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
-B027,Galang Pratama,6,Laki-laki,Polio 1,Lengkap
-B028,Galang Saputra,11,Laki-laki,Polio 1,Belum Lengkap
-B029,Lestari Lestari,2,Perempuan,DPT-HB-Hib 1,Lengkap
-B030,Fikri Pratama,20,Laki-laki,HB-0,Lengkap
-B031,Adit Nugraha,17,Laki-laki,Polio 2,Lengkap
-B032,Indah Rahma,16,Perempuan,Polio 3,Belum Lengkap
-B033,Rian Pratama,2,Laki-laki,Polio 4,Lengkap
-B034,Amelia Putri,24,Perempuan,HB-0,Lengkap
-B035,Rizky Wijaya,24,Laki-laki,Polio 2,Belum Lengkap
-B036,Lestari Putri,7,Perempuan,BCG,Lengkap
-B037,Fikri Nugraha,3,Laki-laki,DPT-HB-Hib 3,Belum Lengkap
-B038,Galang Pratama,19,Laki-laki,Polio 2,Belum Lengkap
-B039,Alif Kurniawan,22,Laki-laki,DPT-HB-Hib 3,Lengkap
-B040,Fahri Pratama,21,Laki-laki,DPT-HB-Hib 2,Lengkap
-B041,Indah Rahma,2,Perempuan,Campak,Lengkap
-B042,Rafa Wijaya,13,Laki-laki,Polio 3,Lengkap
-B043,Zidan Pratama,15,Laki-laki,Polio 2,Lengkap
-B044,Salsa Rahma,7,Perempuan,Campak,Belum Lengkap
-B045,Naufal Kurniawan,9,Laki-laki,Campak,Lengkap
-B046,Zidan Saputra,13,Laki-laki,DPT-HB-Hib 1,Lengkap
-B047,Rizky Wijaya,2,Laki-laki,Polio 4,Belum Lengkap
-B048,Siti Sari,6,Perempuan,DPT-HB-Hib 2,Lengkap
-B049,Fahri Kurniawan,14,Laki-laki,DPT-HB-Hib 2,Lengkap
-B050,Alya Permata,13,Perempuan,DPT-HB-Hib 2,Belum Lengkap
-B051,Reza Wijaya,11,Laki-laki,Campak,Lengkap
-B052,Ahmad Pratama,7,Laki-laki,DPT-HB-Hib 2,Lengkap
-B053,Kayla Sari,6,Perempuan,HB-0,Belum Lengkap
-B054,Arga Kurniawan,4,Laki-laki,Polio 1,Lengkap
-B055,Farhan Kurniawan,3,Laki-laki,Polio 1,Lengkap
-B056,Aisyah Permata,0,Perempuan,BCG,Lengkap
-B057,Aisyah Rahma,18,Perempuan,Campak,Lengkap
-B058,Alya Lestari,22,Perempuan,DPT-HB-Hib 3,Lengkap
-B059,Safira Lestari,11,Perempuan,Polio 2,Belum Lengkap
-B060,Fikri Nugraha,13,Laki-laki,BCG,Belum Lengkap
-B061,Daffa Wijaya,14,Laki-laki,Polio 2,Lengkap
-B062,Nayla Putri,19,Perempuan,DPT-HB-Hib 2,Lengkap
-B063,Melati Permata,14,Perempuan,Campak,Lengkap
-B064,Alif Kurniawan,1,Laki-laki,Polio 1,Lengkap
-B065,Azka Pratama,15,Laki-laki,DPT-HB-Hib 2,Lengkap
-B066,Zidan Kurniawan,8,Laki-laki,Polio 1,Lengkap
-B067,Safira Permata,23,Perempuan,HB-0,Lengkap
-B068,Fahri Pratama,15,Laki-laki,Campak,Lengkap
-B069,Naufal Saputra,20,Laki-laki,Polio 4,Lengkap
-B070,Indah Permata,11,Perempuan,DPT-HB-Hib 3,Lengkap
-B071,Azka Nugraha,13,Laki-laki,Polio 2,Lengkap
-B072,Reza Saputra,12,Laki-laki,DPT-HB-Hib 1,Lengkap
-B073,Indah Sari,12,Perempuan,BCG,Lengkap
-B074,Iqbal Kurniawan,9,Laki-laki,Polio 1,Lengkap
-B075,Fikri Kurniawan,6,Laki-laki,Campak,Lengkap
-B076,Naufal Wijaya,5,Laki-laki,Polio 1,Belum Lengkap
-B077,Syifa Lestari,21,Perempuan,Polio 1,Lengkap
-B078,Rahma Rahma,23,Perempuan,Polio 1,Belum Lengkap
-B079,Fikri Wijaya,12,Laki-laki,Polio 3,Lengkap
-B080,Galang Wijaya,18,Laki-laki,HB-0,Lengkap
-B081,Rafa Saputra,7,Laki-laki,Polio 3,Lengkap
-B082,Iqbal Wijaya,2,Laki-laki,Polio 3,Lengkap
-B083,Amelia Permata,18,Perempuan,DPT-HB-Hib 1,Lengkap
-B084,Ahmad Wijaya,14,Laki-laki,Polio 2,Lengkap
-B085,Rafif Pratama,6,Laki-laki,DPT-HB-Hib 2,Lengkap
-B086,Putri Putri,2,Perempuan,DPT-HB-Hib 3,Lengkap
-B087,Rahma Lestari,7,Perempuan,Polio 4,Lengkap
-B088,Naufal Kurniawan,11,Laki-laki,DPT-HB-Hib 3,Lengkap
-B089,Farhan Kurniawan,1,Laki-laki,Polio 3,Lengkap
-B090,Farhan Pratama,2,Laki-laki,Polio 4,Lengkap
-B091,Rahma Putri,1,Perempuan,HB-0,Lengkap
-B092,Nayla Lestari,3,Perempuan,HB-0,Lengkap
-B093,Indah Lestari,15,Perempuan,DPT-HB-Hib 3,Lengkap
-B094,Reza Saputra,21,Laki-laki,Campak,Lengkap
-B095,Melati Lestari,20,Perempuan,HB-0,Lengkap
-B096,Arga Wijaya,19,Laki-laki,DPT-HB-Hib 2,Lengkap
-B097,Aqila Sari,19,Perempuan,DPT-HB-Hib 3,Belum Lengkap
-B098,Nayla Permata,5,Perempuan,Polio 4,Lengkap
-B099,Farhan Nugraha,10,Laki-laki,DPT-HB-Hib 2,Lengkap
-B100,Citra Rahma,21,Perempuan,Campak,Lengkap
+B001,Amelia Lestari,8,Perempuan,Campak,Lengkap
+B002,Bagas Wijaya,23,Laki-laki,DPT-HB-Hib 1,Lengkap
+B003,Farhan Saputra,21,Laki-laki,Campak,Belum Lengkap
+B004,Ahmad Kurniawan,23,Laki-laki,Polio 2,Lengkap
+B005,Arga Pratama,15,Laki-laki,Polio 2,Lengkap
+B006,Nabila Lestari,6,Perempuan,Campak,Lengkap
+B007,Fikri Nugraha,16,Laki-laki,HB-0,Lengkap
+B008,Anisa Rahma,22,Perempuan,DPT-HB-Hib 3,Lengkap
+B009,Lestari Sari,5,Perempuan,DPT-HB-Hib 2,Lengkap
+B010,Dimas Pratama,13,Laki-laki,Polio 2,Lengkap
+B011,Rahma Permata,30,Perempuan,11.7,90,Gizi Baik,Pertumbuhan sesuai usia
+B012,Indah Putri,4,Perempuan,8.8,81.7,Gizi Baik,Pertumbuhan sesuai usia
+B013,Lestari Lestari,30,Perempuan,14.5,108.5,Gizi Baik,Pertumbuhan sesuai usia
+B014,Dimas Saputra,15,Laki-laki,9.4,99.9,Gizi Baik,Pertumbuhan sesuai usia
+B015,Alya Lestari,7,Perempuan,19,99.3,Risiko Gizi Lebih,Perlu pengaturan pola makan
+B016,Rafif Pratama,34,Laki-laki,12.3,80.3,Gizi Baik,Pertumbuhan sesuai usia
+B017,Adit Pratama,35,Laki-laki,9,96.8,Gizi Baik,Pertumbuhan sesuai usia
+B018,Nabila Putri,29,Perempuan,10.2,82.6,Gizi Kurang,Perlu pemantauan gizi
+B019,Putri Sari,48,Perempuan,8.8,89.8,Gizi Kurang,Perlu pemantauan gizi
+B020,Melati Permata,48,Perempuan,17.5,76.5,Gizi Baik,Pertumbuhan sesuai usia
+B021,Citra Rahma,1,Perempuan,10.2,89,Gizi Baik,Pertumbuhan sesuai usia
+B022,Fahri Saputra,19,Laki-laki,13.5,87,Gizi Baik,Pertumbuhan sesuai usia
+B023,Ahmad Pratama,47,Laki-laki,23.8,114.8,Risiko Gizi Lebih,Perlu pengaturan pola makan
+B024,Ahmad Saputra,53,Laki-laki,16.2,80,Gizi Baik,Pertumbuhan sesuai usia
+B025,Zahra Permata,4,Perempuan,11.5,92.4,Gizi Baik,Pertumbuhan sesuai usia
+B026,Safira Sari,9,Perempuan,17.7,71.6,Gizi Baik,Pertumbuhan sesuai usia
+B027,Aqila Rahma,4,Perempuan,9.5,76.7,Gizi Kurang,Perlu pemantauan gizi
+B028,Siti Sari,29,Perempuan,11.8,102.7,Gizi Baik,Pertumbuhan sesuai usia
+B029,Bagas Nugraha,27,Laki-laki,10.8,69.8,Gizi Kurang,Perlu pemantauan gizi
+B030,Rafif Nugraha,7,Laki-laki,5.5,68,Gizi Buruk,Perlu penanganan segera
+B031,Anisa Sari,46,Perempuan,8.2,104.3,Gizi Baik,Pertumbuhan sesuai usia
+B032,Syifa Permata,41,Perempuan,15.5,87.4,Gizi Baik,Pertumbuhan sesuai usia
+B033,Citra Permata,13,Perempuan,7.2,61.5,Gizi Buruk,Perlu penanganan segera
+B034,Alif Saputra,3,Laki-laki,15.3,105,Gizi Baik,Pertumbuhan sesuai usia
+B035,Rafif Wijaya,32,Laki-laki,11.5,98.7,Gizi Baik,Pertumbuhan sesuai usia
+B036,Alya Rahma,25,Perempuan,9.6,96.7,Gizi Kurang,Perlu pemantauan gizi
+B037,Aqila Putri,42,Perempuan,9.8,83.7,Gizi Buruk,Perlu penanganan segera
+B038,Iqbal Wijaya,42,Laki-laki,8.3,70.5,Gizi Buruk,Perlu penanganan segera
+B039,Kayla Rahma,34,Perempuan,17.7,72.8,Gizi Baik,Pertumbuhan sesuai usia
+B040,Rizky Pratama,25,Laki-laki,9.9,78.9,Gizi Kurang,Perlu pemantauan gizi
+B041,Ahmad Wijaya,32,Laki-laki,7.9,67.3,Gizi Kurang,Perlu pemantauan gizi
+B042,Kayla Permata,4,Perempuan,14.7,101.2,Gizi Baik,Pertumbuhan sesuai usia
+B043,Nabila Putri,57,Perempuan,21.5,95.1,Risiko Gizi Lebih,Perlu pengaturan pola makan
+B044,Rahma Sari,36,Perempuan,15.4,81,Gizi Baik,Pertumbuhan sesuai usia
+B045,Ahmad Nugraha,33,Laki-laki,15.1,113.4,Risiko Gizi Lebih,Perlu pengaturan pola makan
+B046,Zidan Wijaya,13,Laki-laki,14.2,91.4,Gizi Baik,Pertumbuhan sesuai usia
+B047,Rizky Saputra,49,Laki-laki,9.9,76.6,Gizi Baik,Pertumbuhan sesuai usia
+B048,Salsa Permata,3,Perempuan,16.8,99.2,Gizi Baik,Pertumbuhan sesuai usia
+B049,Zahra Putri,13,Perempuan,16.6,104,Gizi Baik,Pertumbuhan sesuai usia
+B050,Fahri Wijaya,60,Laki-laki,12.2,104.5,Gizi Baik,Pertumbuhan sesuai usia
+B051,Aisyah Lestari,45,Perempuan,12.6,98.1,Gizi Baik,Pertumbuhan sesuai usia
+B052,Alif Pratama,25,Laki-laki,11.4,86.9,Gizi Baik,Pertumbuhan sesuai usia
+B053,Azka Nugraha,50,Laki-laki,7.6,69.2,Gizi Kurang,Perlu pemantauan gizi
+B054,Alya Rahma,42,Perempuan,12.3,72.3,Gizi Baik,Pertumbuhan sesuai usia
+B055,Rahma Rahma,41,Perempuan,11.1,87.1,Gizi Baik,Pertumbuhan sesuai usia
+B056,Melati Sari,7,Perempuan,17.7,71.6,Gizi Baik,Pertumbuhan sesuai usia
+B057,Citra Rahma,51,Perempuan,10.4,97.6,Gizi Baik,Pertumbuhan sesuai usia
+B058,Galang Saputra,29,Laki-laki,10.9,82.4,Gizi Kurang,Perlu pemantauan gizi
+B059,Iqbal Saputra,49,Laki-laki,15.1,102.6,Gizi Baik,Pertumbuhan sesuai usia
+B060,Aqila Rahma,4,Perempuan,10.1,80.4,Gizi Kurang,Perlu pemantauan gizi
+B061,Rafif Wijaya,15,Laki-laki,22.1,98.8,Risiko Gizi Lebih,Perlu pengaturan pola makan
+B062,Syifa Permata,58,Perempuan,13.7,82.2,Gizi Baik,Pertumbuhan sesuai usia
+B063,Naufal Pratama,50,Laki-laki,8.9,90.2,Gizi Baik,Pertumbuhan sesuai usia
+B064,Safira Putri,49,Perempuan,10,97.1,Gizi Kurang,Perlu pemantauan gizi
+B065,Iqbal Wijaya,9,Laki-laki,16.4,107.6,Gizi Baik,Pertumbuhan sesuai usia
+B066,Zahra Lestari,34,Perempuan,10.4,74.9,Gizi Baik,Pertumbuhan sesuai usia
+B067,Putri Sari,36,Perempuan,17.7,86.8,Gizi Baik,Pertumbuhan sesuai usia
+B068,Iqbal Nugraha,53,Laki-laki,7.6,98.3,Gizi Kurang,Perlu pemantauan gizi
+B069,Reza Kurniawan,7,Laki-laki,8.7,68.1,Gizi Kurang,Perlu pemantauan gizi
+B070,Nabila Permata,48,Perempuan,9.5,82.8,Gizi Baik,Pertumbuhan sesuai usia
+B071,Nabila Permata,14,Perempuan,14.5,91.8,Gizi Baik,Pertumbuhan sesuai usia
+B072,Rian Wijaya,7,Laki-laki,10.3,104.8,Gizi Baik,Pertumbuhan sesuai usia
+B073,Alya Sari,55,Perempuan,15.4,78.4,Gizi Baik,Pertumbuhan sesuai usia
+B074,Aqila Permata,48,Perempuan,9.8,81.5,Gizi Baik,Pertumbuhan sesuai usia
+B075,Dimas Kurniawan,50,Laki-laki,16.5,73.6,Gizi Baik,Pertumbuhan sesuai usia
+B076,Citra Lestari,15,Perempuan,17.4,90.3,Gizi Baik,Pertumbuhan sesuai usia
+B077,Rian Nugraha,29,Laki-laki,15.7,101.5,Gizi Baik,Pertumbuhan sesuai usia
+B078,Iqbal Pratama,43,Laki-laki,14.9,86.8,Gizi Baik,Pertumbuhan sesuai usia
+B079,Rania Putri,9,Perempuan,14.5,95.7,Gizi Baik,Pertumbuhan sesuai usia
+B080,Anisa Putri,56,Perempuan,8.7,86.7,Gizi Baik,Pertumbuhan sesuai usia
+B081,Alif Wijaya,27,Laki-laki,8.6,89.9,Gizi Baik,Pertumbuhan sesuai usia
+B082,Nabila Rahma,11,Perempuan,8.5,91.7,Gizi Kurang,Perlu pemantauan gizi
+B083,Ahmad Nugraha,11,Laki-laki,17.7,72.7,Gizi Baik,Pertumbuhan sesuai usia
+B084,Salsa Putri,40,Perempuan,12.6,72.6,Gizi Baik,Pertumbuhan sesuai usia
+B085,Alya Putri,25,Perempuan,11.2,104,Gizi Baik,Pertumbuhan sesuai usia
+B086,Dimas Saputra,50,Laki-laki,9.5,79.3,Gizi Baik,Pertumbuhan sesuai usia
+B087,Rafif Kurniawan,17,Laki-laki,16.4,92.3,Gizi Baik,Pertumbuhan sesuai usia
+B088,Daffa Nugraha,52,Laki-laki,11,97.9,Gizi Baik,Pertumbuhan sesuai usia
+B089,Zahra Permata,54,Perempuan,14.5,86,Gizi Baik,Pertumbuhan sesuai usia
+B090,Rafif Wijaya,53,Laki-laki,13.6,108.6,Gizi Baik,Pertumbuhan sesuai usia
+B091,Putri Lestari,45,Perempuan,9.9,77.3,Gizi Kurang,Perlu pemantauan gizi
+B092,Galang Pratama,46,Laki-laki,11.8,92.9,Gizi Baik,Pertumbuhan sesuai usia
+B093,Siti Putri,43,Perempuan,15.9,79.3,Gizi Baik,Pertumbuhan sesuai usia
+B094,Daffa Nugraha,44,Laki-laki,14.6,93.9,Gizi Baik,Pertumbuhan sesuai usia
+B095,Nabila Permata,4,Perempuan,15.9,101.4,Gizi Baik,Pertumbuhan sesuai usia
+B096,Lestari Sari,44,Perempuan,20.7,80.9,Risiko Gizi Lebih,Perlu pengaturan pola makan
+B097,Alif Nugraha,43,Laki-laki,9.4,88.5,Gizi Baik,Pertumbuhan sesuai usia
+B098,Rafa Kurniawan,15,Laki-laki,14.5,95.9,Gizi Baik,Pertumbuhan sesuai usia
+B099,Siti Lestari,37,Perempuan,8.9,102.2,Gizi Baik,Pertumbuhan sesuai usia
+B100,Aisyah Putri,28,Perempuan,17,90.2,Gizi Baik,Pertumbuhan sesuai usia
 B101,Nayla Lestari,9,Perempuan,Polio 4,Lengkap
 B102,Amelia Permata,15,Perempuan,Polio 3,Lengkap
 B103,Indah Permata,5,Perempuan,BCG,Lengkap
