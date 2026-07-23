@@ -1,14 +1,14 @@
 ID_Balita,Nama Balita,Umur (bulan),Jenis Kelamin,Status Imunisasi,Status Kesehatan,Status Tumbuh Kembang,Riwayat Penyakit
-B001,Cantika Rahmawati,42,Perempuan,Tidak Lengkap,Pemantauan,Normal,Campak
-B002,Aisyah Putri,39,Perempuan,Lengkap,Perlu Tindakan,Pemantauan,Batuk
-B003,Nayla Permata,52,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Flu
-B004,Alya Oktavia,48,Perempuan,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
-B005,Nabila Putri,38,Perempuan,Lengkap,Pemantauan,Pemantauan,Flu
-B006,Galih Kurniawan,10,Laki-laki,Lengkap,Pemantauan,Normal,Batuk
-B007,Nadira Oktavia,50,Perempuan,Belum Lengkap,Pemantauan,Pemantauan,Asma
-B008,Fitri Putri,34,Perempuan,Lengkap,Pemantauan,Pemantauan,Alergi
-B009,Raka Maulana,49,Laki-laki,Lengkap,Sehat,Perlu Intervensi,Flu
-B010,Haikal Ramadhan,38,Laki-laki,Lengkap,Perlu Tindakan,Perlu Intervensi,Diare
+B001,Rania Lestari,41,Perempuan,7.3,95.4,Gizi Kurang,Perlu pemantauan gizi
+B002,Alif Nugraha,18,Laki-laki,6.1,83.6,Gizi Buruk,Perlu penanganan segera
+B003,Azka Pratama,12,Laki-laki,4.1,70.9,Gizi Buruk,Perlu penanganan segera
+B004,Nabila Rahma,18,Perempuan,9.8,71.2,Gizi Buruk,Perlu penanganan segera
+B005,Amelia Rahma,43,Perempuan,16.1,99.9,Gizi Baik,Pertumbuhan sesuai usia
+B006,Farhan Pratama,52,Laki-laki,5.7,78.5,Gizi Buruk,Perlu penanganan segera
+B007,Rafa Saputra,9,Laki-laki,14.6,93.8,Gizi Baik,Pertumbuhan sesuai usia
+B008,Alya Putri,47,Perempuan,9.3,102.8,Gizi Baik,Pertumbuhan sesuai usia
+B009,Lestari Sari,51,Perempuan,13.9,81.7,Gizi Baik,Pertumbuhan sesuai usia
+B010,Siti Permata,12,Perempuan,11.3,70.9,Gizi Kurang,Perlu pemantauan gizi
 B011,Siti Salsabila,55,Perempuan,Tidak Lengkap,Pemantauan,Perlu Intervensi,Cacar Air
 B012,Muhammad Pratama,42,Laki-laki,Lengkap,Sehat,Normal,Asma
 B013,Safira Rahmawati,25,Perempuan,Lengkap,Sehat,Perlu Intervensi,Diare
