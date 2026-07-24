@@ -1,6 +1,6 @@
 import os
 import random
-from typing import Optional
+from typing import Callable, Dict, List, Optional
 
 import pandas as pd
 
@@ -14,113 +14,304 @@ from config import (
 
 class TextGenerator:
     """
-    Generator teks laporan Posyandu dengan beberapa tingkat kesulitan.
+    Generator teks laporan Posyandu.
 
-    Tujuan:
-    - Menghindari kebocoran label secara langsung.
-    - Membuat teks lebih natural dan bervariasi.
-    - Menambahkan sebagian kasus ambigu.
-    - Mempertahankan tema_aktual sebagai ground truth.
+    Generator ini membuat teks untuk tiga tema:
 
-    Tingkat kesulitan:
-    - easy: informasi utama masih jelas.
-    - medium: menggunakan ungkapan tidak langsung.
-    - hard: informasi lebih singkat dan ambigu.
+    1. Gizi Balita
+    2. Kesehatan Balita
+    3. Imunisasi Bayi
+
+    Setiap tema memiliki tiga tingkat kesulitan:
+
+    - easy
+    - medium
+    - hard
+
+    Distribusi tingkat kesulitan dibuat berbeda untuk setiap kelas.
+    Kelas Imunisasi Bayi dibuat lebih jelas karena sebelumnya memiliki
+    recall yang lebih rendah dibandingkan kelas lainnya.
     """
 
     LABEL_GIZI = "Gizi Balita"
     LABEL_KESEHATAN = "Kesehatan Balita"
     LABEL_IMUNISASI = "Imunisasi Bayi"
 
+    VALID_DIFFICULTIES = [
+        "easy",
+        "medium",
+        "hard",
+    ]
+
     def __init__(
         self,
         seed: int = 42,
-        easy_ratio: float = 0.35,
+        easy_ratio: float = 0.50,
         medium_ratio: float = 0.40,
-        hard_ratio: float = 0.25,
+        hard_ratio: float = 0.10,
     ):
+        """
+        Args:
+            seed:
+                Random seed agar hasil dapat direproduksi.
+
+            easy_ratio:
+                Rasio default data mudah.
+
+            medium_ratio:
+                Rasio default data sedang.
+
+            hard_ratio:
+                Rasio default data sulit.
+        """
         self.seed = seed
         self.random = random.Random(seed)
-
-        total_ratio = easy_ratio + medium_ratio + hard_ratio
-
-        if abs(total_ratio - 1.0) > 1e-9:
-            raise ValueError(
-                "Jumlah easy_ratio, medium_ratio, dan hard_ratio harus 1.0"
-            )
 
         self.easy_ratio = easy_ratio
         self.medium_ratio = medium_ratio
         self.hard_ratio = hard_ratio
 
+        self.validate_ratios(
+            easy_ratio=easy_ratio,
+            medium_ratio=medium_ratio,
+            hard_ratio=hard_ratio,
+        )
+
         self.gizi_df = self.read_csv(
-            GIZI_CSV,
-            "gizi_balita.csv"
+            path=GIZI_CSV,
+            filename="gizi_balita.csv",
         )
 
         self.kesehatan_df = self.read_csv(
-            KESEHATAN_CSV,
-            "kesehatan_balita.csv"
+            path=KESEHATAN_CSV,
+            filename="kesehatan_balita.csv",
         )
 
         self.imunisasi_df = self.read_csv(
-            IMUNISASI_CSV,
-            "imunisasi_bayi.csv"
+            path=IMUNISASI_CSV,
+            filename="imunisasi_bayi.csv",
         )
+
+    # =====================================================
+    # VALIDASI
+    # =====================================================
+
+    @staticmethod
+    def validate_ratios(
+        easy_ratio: float,
+        medium_ratio: float,
+        hard_ratio: float,
+    ) -> None:
+        """
+        Memastikan seluruh rasio valid dan jumlahnya sama dengan 1.
+        """
+        ratios = {
+            "easy_ratio": easy_ratio,
+            "medium_ratio": medium_ratio,
+            "hard_ratio": hard_ratio,
+        }
+
+        for name, value in ratios.items():
+            if not 0 <= value <= 1:
+                raise ValueError(
+                    f"{name} harus berada antara 0 dan 1. "
+                    f"Nilai diterima: {value}"
+                )
+
+        total = (
+            easy_ratio
+            + medium_ratio
+            + hard_ratio
+        )
+
+        if abs(total - 1.0) > 1e-9:
+            raise ValueError(
+                "Jumlah easy_ratio, medium_ratio, dan hard_ratio "
+                f"harus sama dengan 1.0. Jumlah saat ini: {total}"
+            )
+
+    @staticmethod
+    def validate_difficulty_weights(
+        difficulty_weights: Dict[str, float],
+    ) -> None:
+        """
+        Memvalidasi distribusi tingkat kesulitan per kelas.
+        """
+        required_keys = {
+            "easy",
+            "medium",
+            "hard",
+        }
+
+        missing_keys = (
+            required_keys
+            - set(difficulty_weights.keys())
+        )
+
+        if missing_keys:
+            raise ValueError(
+                "Difficulty weights tidak lengkap. "
+                f"Key yang belum tersedia: {sorted(missing_keys)}"
+            )
+
+        for key in required_keys:
+            value = difficulty_weights[key]
+
+            if not 0 <= value <= 1:
+                raise ValueError(
+                    f"Nilai difficulty '{key}' harus antara 0 dan 1."
+                )
+
+        total = sum(
+            difficulty_weights[key]
+            for key in required_keys
+        )
+
+        if abs(total - 1.0) > 1e-9:
+            raise ValueError(
+                "Jumlah difficulty weights harus sama dengan 1.0. "
+                f"Jumlah saat ini: {total}"
+            )
+
+    # =====================================================
+    # PEMBACAAN DATA
+    # =====================================================
+
+    @staticmethod
+    def read_csv(
+        path: str,
+        filename: str,
+    ) -> pd.DataFrame:
+        """
+        Membaca file CSV sumber.
+        """
+        if not os.path.exists(path):
+            print(
+                f"[WARNING] File tidak ditemukan: {filename}"
+            )
+            print(
+                f"[WARNING] Lokasi yang diperiksa: {path}"
+            )
+
+            return pd.DataFrame()
+
+        print(
+            f"[INFO] Membaca data {filename}..."
+        )
+
+        try:
+            df = pd.read_csv(path)
+
+        except Exception as error:
+            raise ValueError(
+                f"Gagal membaca {filename}: {error}"
+            ) from error
+
+        print(
+            f"[INFO] Jumlah baris {filename}: {len(df)}"
+        )
+
+        print(
+            f"[INFO] Kolom {filename}:"
+        )
+
+        print(
+            df.columns.tolist()
+        )
+
+        return df
 
     # =====================================================
     # UTILITAS
     # =====================================================
 
-    def read_csv(self, path: str, filename: str) -> pd.DataFrame:
-        if not os.path.exists(path):
-            print(f"[WARNING] File tidak ditemukan: {path}")
-            return pd.DataFrame()
-
-        print(f"[INFO] Membaca data {filename}...")
-
-        df = pd.read_csv(path)
-
-        print(f"[INFO] Jumlah data {filename}: {len(df)}")
-        print(f"[INFO] Kolom {filename}: {df.columns.tolist()}")
-
-        return df
-
     @staticmethod
-    def clean_value(value, default: str = "tidak tersedia") -> str:
+    def clean_value(
+        value,
+        default: str = "tidak tersedia",
+    ) -> str:
+        """
+        Membersihkan nilai dari CSV.
+        """
         if pd.isna(value):
             return default
 
-        value = str(value).strip()
+        result = str(value).strip()
 
-        if not value:
+        if result == "":
             return default
 
-        return value
-
-    def choose(self, options: list[str]) -> str:
-        return self.random.choice(options)
-
-    def determine_difficulty(self) -> str:
-        value = self.random.random()
-
-        if value < self.easy_ratio:
-            return "easy"
-
-        if value < self.easy_ratio + self.medium_ratio:
-            return "medium"
-
-        return "hard"
+        return result
 
     @staticmethod
-    def normalize_text(text: str) -> str:
-        return " ".join(text.split())
+    def normalize_text(
+        text: str,
+    ) -> str:
+        """
+        Menghapus baris dan spasi berlebih dari teks.
+        """
+        return " ".join(
+            str(text).split()
+        )
+
+    def choose(
+        self,
+        options: List[str],
+    ) -> str:
+        """
+        Memilih salah satu variasi teks secara acak.
+        """
+        if not options:
+            raise ValueError(
+                "Daftar pilihan teks tidak boleh kosong."
+            )
+
+        return self.random.choice(options)
+
+    def determine_difficulty(
+        self,
+        difficulty_weights: Optional[
+            Dict[str, float]
+        ] = None,
+    ) -> str:
+        """
+        Menentukan tingkat kesulitan.
+
+        Apabila difficulty_weights tersedia, distribusi tersebut
+        digunakan. Jika tidak, gunakan rasio default dari constructor.
+        """
+        if difficulty_weights is None:
+            difficulty_weights = {
+                "easy": self.easy_ratio,
+                "medium": self.medium_ratio,
+                "hard": self.hard_ratio,
+            }
+
+        self.validate_difficulty_weights(
+            difficulty_weights
+        )
+
+        return self.random.choices(
+            population=self.VALID_DIFFICULTIES,
+            weights=[
+                difficulty_weights["easy"],
+                difficulty_weights["medium"],
+                difficulty_weights["hard"],
+            ],
+            k=1,
+        )[0]
 
     def sample_dataframe(
         self,
         df: pd.DataFrame,
         n: Optional[int],
     ) -> pd.DataFrame:
+        """
+        Mengambil sampel data dari DataFrame.
+
+        Apabila jumlah data lebih sedikit dari n, sampling dilakukan
+        dengan replacement.
+        """
         if df.empty:
             return pd.DataFrame()
 
@@ -128,22 +319,25 @@ class TextGenerator:
             return df.copy()
 
         if n <= 0:
-            raise ValueError("n_per_tema harus lebih besar dari 0.")
+            raise ValueError(
+                "n_per_tema harus lebih besar dari 0."
+            )
 
         if len(df) >= n:
             return df.sample(
                 n=n,
-                random_state=self.seed
+                replace=False,
+                random_state=self.seed,
             ).copy()
 
         return df.sample(
             n=n,
             replace=True,
-            random_state=self.seed
+            random_state=self.seed,
         ).copy()
 
     # =====================================================
-    # GENERATOR GIZI
+    # GENERATOR GIZI BALITA
     # =====================================================
 
     def generate_from_gizi(
@@ -151,189 +345,149 @@ class TextGenerator:
         row: pd.Series,
         difficulty: Optional[str] = None,
     ) -> str:
-        difficulty = difficulty or self.determine_difficulty()
+        """
+        Membuat teks untuk tema Gizi Balita.
+        """
+        difficulty = (
+            difficulty
+            or self.determine_difficulty()
+        )
 
-        nama = self.clean_value(row.get("Nama Balita"))
-        identitas = self.clean_value(row.get("ID_Balita"))
-        umur = self.clean_value(row.get("Umur (Bulan)"))
-        jenis_kelamin = self.clean_value(row.get("Jenis Kelamin"))
-        berat = self.clean_value(row.get("Berat Badan (kg)"))
-        tinggi = self.clean_value(row.get("Tinggi Badan (cm)"))
-        status = self.clean_value(row.get("Status Gizi"))
-        keterangan = self.clean_value(row.get("Keterangan"))
+        nama = self.clean_value(
+            row.get("Nama Balita")
+        )
+
+        identitas = self.clean_value(
+            row.get("ID_Balita")
+        )
+
+        umur = self.clean_value(
+            row.get("Umur (Bulan)")
+        )
+
+        jenis_kelamin = self.clean_value(
+            row.get("Jenis Kelamin")
+        )
+
+        berat = self.clean_value(
+            row.get("Berat Badan (kg)")
+        )
+
+        tinggi = self.clean_value(
+            row.get("Tinggi Badan (cm)")
+        )
+
+        status_gizi = self.clean_value(
+            row.get("Status Gizi")
+        )
+
+        keterangan = self.clean_value(
+            row.get("Keterangan")
+        )
 
         pembuka = self.choose([
-            "Balita datang mengikuti kegiatan rutin di posyandu.",
-            "Petugas mencatat hasil kunjungan bulanan seorang balita.",
-            "Kunjungan dilakukan untuk melihat perubahan kondisi anak.",
-            "Orang tua membawa anak untuk mengikuti pelayanan rutin.",
+            (
+                "Balita datang mengikuti kegiatan rutin "
+                "di posyandu."
+            ),
+            (
+                "Petugas mencatat hasil kunjungan bulanan "
+                "seorang balita."
+            ),
+            (
+                "Orang tua membawa anak untuk melakukan "
+                "pemantauan pertumbuhan."
+            ),
+            (
+                "Kunjungan dilakukan untuk menilai perubahan "
+                "pertumbuhan anak."
+            ),
         ])
 
         if difficulty == "easy":
-            teks = f"""
+            text = f"""
             {pembuka}
 
-            Anak bernama {nama}, ID {identitas}, berusia {umur} bulan
-            dan berjenis kelamin {jenis_kelamin}.
+            Balita bernama {nama}, dengan ID {identitas},
+            berusia {umur} bulan dan berjenis kelamin
+            {jenis_kelamin}.
 
-            Hasil penimbangan menunjukkan berat badan {berat} kg,
-            sedangkan hasil pengukuran tinggi badan adalah {tinggi} cm.
+            Petugas melakukan penimbangan berat badan dan
+            pengukuran tinggi badan.
 
-            Berdasarkan hasil pengukuran tersebut, kondisi anak tercatat
-            sebagai {status}. Catatan petugas: {keterangan}.
+            Berat badan anak tercatat {berat} kg dan tinggi
+            badan tercatat {tinggi} cm.
 
-            Orang tua dianjurkan memperhatikan pola makan anak dan
-            melakukan pengukuran kembali pada kunjungan berikutnya.
+            Berdasarkan hasil pengukuran tersebut, status gizi
+            anak adalah {status_gizi}.
+
+            Catatan petugas menyebutkan {keterangan}.
+
+            Orang tua diberikan edukasi mengenai pemenuhan
+            gizi seimbang dan pemantauan pertumbuhan anak.
             """
 
         elif difficulty == "medium":
-            teks = f"""
+            text = f"""
             {pembuka}
 
-            {nama}, usia {umur} bulan, menjalani pengukuran fisik rutin.
-            Angka pada timbangan tercatat {berat} kg dan panjang atau
-            tinggi tubuh tercatat {tinggi} cm.
+            {nama}, usia {umur} bulan, menjalani pengukuran
+            pertumbuhan secara rutin.
 
-            Hasil pencatatan petugas menunjukkan kondisi {status}.
-            Terdapat keterangan tambahan berupa {keterangan}.
+            Hasil penimbangan menunjukkan berat badan
+            {berat} kg, sedangkan tinggi badan anak adalah
+            {tinggi} cm.
 
-            Keluarga diminta memperhatikan asupan harian dan mengamati
-            perubahan kondisi anak sampai jadwal kunjungan berikutnya.
+            Kondisi gizi berdasarkan hasil pencatatan adalah
+            {status_gizi}.
+
+            Petugas memberikan catatan berupa {keterangan}
+            dan meminta keluarga memperhatikan pola makan
+            anak sampai kunjungan berikutnya.
             """
 
         else:
-            teks = self.choose([
+            text = self.choose([
                 f"""
-                Pada kunjungan bulan ini, {nama} memiliki hasil
-                pengukuran {berat} kg dan {tinggi} cm.
+                Pada kunjungan bulan ini, {nama} menjalani
+                penimbangan dan pengukuran tubuh.
 
-                Petugas mencatat kondisi {status} serta memberikan
-                arahan kepada keluarga untuk melakukan pemantauan ulang.
+                Hasilnya adalah {berat} kg dan {tinggi} cm.
+
+                Berdasarkan hasil tersebut, kondisi pertumbuhan
+                anak tercatat {status_gizi}.
+
+                Keluarga diminta memperhatikan asupan harian
+                dan datang kembali pada bulan berikutnya.
                 """,
 
                 f"""
-                Catatan kunjungan {nama}, usia {umur} bulan:
-                hasil pengukuran tubuh adalah {berat} kg dan {tinggi} cm.
-                Kondisi yang tercatat yaitu {status}.
+                Petugas mencatat perubahan fisik {nama},
+                usia {umur} bulan.
 
-                Orang tua diminta memperhatikan kebutuhan harian anak.
+                Angka pada timbangan menunjukkan {berat} kg,
+                sedangkan hasil pengukuran tinggi adalah
+                {tinggi} cm.
+
+                Catatan kondisi anak adalah {status_gizi},
+                dengan keterangan tambahan {keterangan}.
                 """,
 
                 f"""
-                Perubahan kondisi fisik {nama} kembali diamati pada
-                kunjungan rutin. Angka yang diperoleh adalah
-                {berat} kg dan {tinggi} cm.
+                Hasil pengukuran rutin {nama} menunjukkan
+                berat badan {berat} kg dan tinggi badan
+                {tinggi} cm.
 
-                Petugas mencatat {keterangan} dan meminta keluarga
-                datang kembali bulan depan.
-                """,
-            ])
-
-        return self.normalize_text(teks)
-
-    # =====================================================
-    # GENERATOR IMUNISASI
-    # =====================================================
-
-    def generate_from_imunisasi(
-        self,
-        row: pd.Series,
-        difficulty: Optional[str] = None,
-    ) -> str:
-        difficulty = difficulty or self.determine_difficulty()
-
-        nama = self.clean_value(row.get("Nama Bayi"))
-        identitas = self.clean_value(row.get("ID_Balita"))
-        umur = self.clean_value(row.get("Umur (Bulan)"))
-        jenis_kelamin = self.clean_value(row.get("Jenis Kelamin"))
-        jenis = self.clean_value(row.get("Jenis Imunisasi"))
-        status = self.clean_value(row.get("Status Imunisasi"))
-
-        pembuka = self.choose([
-            "Bayi datang mengikuti jadwal pelayanan sesuai usianya.",
-            "Petugas menerima kunjungan bayi untuk pelayanan lanjutan.",
-            "Orang tua membawa bayi sesuai jadwal pada buku KIA.",
-            "Kunjungan dilakukan untuk melanjutkan pelayanan pencegahan.",
-        ])
-
-        if difficulty == "easy":
-            teks = f"""
-            {pembuka}
-
-            Bayi bernama {nama}, ID {identitas}, berusia {umur} bulan
-            dan berjenis kelamin {jenis_kelamin}.
-
-            Pada kunjungan ini diberikan {jenis}.
-            Catatan kelengkapan pelayanan anak adalah {status}.
-
-            Petugas menjelaskan jadwal pemberian berikutnya dan meminta
-            orang tua mengamati kondisi bayi setelah pelayanan.
-            """
-
-        elif difficulty == "medium":
-            teks = f"""
-            {pembuka}
-
-            {nama}, usia {umur} bulan, memperoleh tindakan {jenis}
-            sesuai catatan jadwal pelayanan anak.
-
-            Riwayat pemberian sebelumnya tercatat {status}.
-            Orang tua diminta kembali sesuai jadwal pada buku KIA
-            serta mengamati kemungkinan reaksi setelah tindakan.
-            """
-
-        else:
-            jenis_tidak_langsung = self.make_indirect_immunization_name(jenis)
-
-            teks = self.choose([
-                f"""
-                {nama} datang sesuai jadwal usia {umur} bulan.
-                Petugas memberikan {jenis_tidak_langsung} dan
-                memperbarui catatan pelayanan pada buku KIA.
-
-                Orang tua diminta kembali pada jadwal berikutnya.
-                """,
-
-                f"""
-                Pelayanan lanjutan untuk {nama} dilakukan berdasarkan
-                riwayat yang tercatat {status}.
-
-                Pada kunjungan ini anak menerima {jenis_tidak_langsung}.
-                Keluarga diberi penjelasan mengenai reaksi ringan
-                yang mungkin muncul setelah tindakan.
-                """,
-
-                f"""
-                Buku KIA milik {nama} diperiksa pada kunjungan hari ini.
-                Petugas kemudian memberikan tindakan sesuai usia anak
-                dan memperbarui catatan kelengkapannya.
-
-                Jadwal berikutnya telah disampaikan kepada keluarga.
+                Petugas mencatat kondisi {status_gizi} serta
+                memberikan arahan tentang pola makan dan
+                pemantauan pertumbuhan.
                 """,
             ])
 
-        return self.normalize_text(teks)
-
-    @staticmethod
-    def make_indirect_immunization_name(jenis: str) -> str:
-        jenis_lower = jenis.lower()
-
-        if "bcg" in jenis_lower:
-            return "pelayanan untuk perlindungan awal terhadap tuberkulosis"
-
-        if "dpt" in jenis_lower:
-            return "pelayanan lanjutan untuk perlindungan terhadap beberapa penyakit"
-
-        if "polio" in jenis_lower:
-            return "tetes perlindungan yang diberikan sesuai jadwal usia"
-
-        if "campak" in jenis_lower or "mr" in jenis_lower:
-            return "suntikan perlindungan sesuai jadwal anak"
-
-        return "tindakan pencegahan sesuai jadwal usia"
+        return self.normalize_text(text)
 
     # =====================================================
-    # GENERATOR KESEHATAN
+    # GENERATOR KESEHATAN BALITA
     # =====================================================
 
     def generate_from_kesehatan(
@@ -341,96 +495,297 @@ class TextGenerator:
         row: pd.Series,
         difficulty: Optional[str] = None,
     ) -> str:
-        difficulty = difficulty or self.determine_difficulty()
+        """
+        Membuat teks untuk tema Kesehatan Balita.
+        """
+        difficulty = (
+            difficulty
+            or self.determine_difficulty()
+        )
 
-        nama = self.clean_value(row.get("Nama Balita"))
-        identitas = self.clean_value(row.get("ID_Balita"))
+        nama = self.clean_value(
+            row.get("Nama Balita")
+        )
+
+        identitas = self.clean_value(
+            row.get("ID_Balita")
+        )
+
         umur = self.clean_value(
             row.get(
                 "Umur (bulan)",
                 row.get("Umur (Bulan)")
             )
         )
-        jenis_kelamin = self.clean_value(row.get("Jenis Kelamin"))
-        status_imunisasi = self.clean_value(row.get("Status Imunisasi"))
-        status_kesehatan = self.clean_value(row.get("Status Kesehatan"))
-        tumbuh_kembang = self.clean_value(
+
+        jenis_kelamin = self.clean_value(
+            row.get("Jenis Kelamin")
+        )
+
+        status_imunisasi = self.clean_value(
+            row.get("Status Imunisasi")
+        )
+
+        status_kesehatan = self.clean_value(
+            row.get("Status Kesehatan")
+        )
+
+        status_tumbuh_kembang = self.clean_value(
             row.get("Status Tumbuh Kembang")
         )
-        riwayat = self.clean_value(row.get("Riwayat Penyakit"))
+
+        riwayat_penyakit = self.clean_value(
+            row.get("Riwayat Penyakit")
+        )
 
         pembuka = self.choose([
-            "Balita mengikuti kunjungan rutin untuk penilaian menyeluruh.",
-            "Petugas melakukan pencatatan beberapa aspek kondisi anak.",
-            "Kunjungan hari ini mencakup peninjauan kondisi dan perkembangan anak.",
-            "Orang tua membawa anak untuk menjalani pelayanan rutin terpadu.",
+            (
+                "Balita mengikuti pemeriksaan rutin untuk "
+                "menilai kondisi secara menyeluruh."
+            ),
+            (
+                "Petugas melakukan pemeriksaan beberapa aspek "
+                "kondisi anak dalam satu kunjungan."
+            ),
+            (
+                "Kunjungan hari ini mencakup pemeriksaan kondisi "
+                "umum dan perkembangan anak."
+            ),
+            (
+                "Orang tua membawa balita untuk menjalani "
+                "pemeriksaan kesehatan terpadu."
+            ),
         ])
 
         if difficulty == "easy":
-            teks = f"""
+            text = f"""
             {pembuka}
 
-            Anak bernama {nama}, ID {identitas}, berusia {umur} bulan
-            dan berjenis kelamin {jenis_kelamin}.
+            Balita bernama {nama}, dengan ID {identitas},
+            berusia {umur} bulan dan berjenis kelamin
+            {jenis_kelamin}.
 
-            Kondisi umum anak tercatat {status_kesehatan}.
-            Perkembangan anak tercatat {tumbuh_kembang}.
-            Riwayat pelayanan pencegahan tercatat {status_imunisasi}.
-            Riwayat penyakit yang dilaporkan adalah {riwayat}.
+            Kondisi kesehatan anak tercatat
+            {status_kesehatan}.
 
-            Petugas memberikan saran berdasarkan seluruh hasil
-            pemeriksaan dan pencatatan tersebut.
+            Status tumbuh kembang anak adalah
+            {status_tumbuh_kembang}.
+
+            Status imunisasi berdasarkan buku KIA tercatat
+            {status_imunisasi}.
+
+            Riwayat penyakit yang pernah dialami adalah
+            {riwayat_penyakit}.
+
+            Petugas memberikan saran berdasarkan keseluruhan
+            hasil pemeriksaan kesehatan anak.
             """
 
         elif difficulty == "medium":
-            teks = f"""
+            text = f"""
             {pembuka}
 
-            {nama}, usia {umur} bulan, menjalani penilaian kondisi umum,
-            perkembangan sesuai usia, dan riwayat pelayanan sebelumnya.
+            {nama}, usia {umur} bulan, menjalani pemeriksaan
+            kondisi umum, perkembangan, riwayat penyakit,
+            dan catatan pelayanan sebelumnya.
 
-            Hasil penilaian kondisi umum adalah {status_kesehatan}.
-            Perkembangannya tercatat {tumbuh_kembang}, sedangkan catatan
-            pelayanan sebelumnya adalah {status_imunisasi}.
+            Hasil pemeriksaan menunjukkan kondisi kesehatan
+            {status_kesehatan}.
 
-            Keluarga juga menyampaikan riwayat berupa {riwayat}.
-            Petugas memberikan arahan tindak lanjut sesuai temuan.
+            Perkembangan anak tercatat
+            {status_tumbuh_kembang}, sedangkan catatan
+            imunisasi adalah {status_imunisasi}.
+
+            Keluarga juga menyampaikan riwayat penyakit berupa
+            {riwayat_penyakit}.
+
+            Petugas memberikan arahan tindak lanjut sesuai
+            seluruh hasil pemeriksaan.
             """
 
         else:
-            teks = self.choose([
+            text = self.choose([
                 f"""
-                Pada kunjungan {nama}, petugas meninjau kondisi umum,
-                perkembangan anak, catatan pada buku KIA, dan riwayat
-                penyakit sebelumnya.
+                Dalam satu kunjungan, petugas memeriksa kondisi
+                umum dan perkembangan {nama}.
 
-                Hasilnya mencatat kondisi {status_kesehatan},
-                perkembangan {tumbuh_kembang}, serta riwayat {riwayat}.
+                Kondisi anak tercatat {status_kesehatan},
+                sementara perkembangan anak adalah
+                {status_tumbuh_kembang}.
+
+                Buku KIA menunjukkan status imunisasi
+                {status_imunisasi}.
+
+                Riwayat penyakit yang pernah dicatat adalah
+                {riwayat_penyakit}.
                 """,
 
                 f"""
-                Beberapa aspek kondisi {nama} diperiksa dalam satu
-                kunjungan. Catatan menunjukkan kondisi umum
-                {status_kesehatan} dan perkembangan {tumbuh_kembang}.
+                {nama}, usia {umur} bulan, datang untuk
+                evaluasi rutin.
 
-                Buku KIA juga ditinjau sebelum petugas memberikan
-                rekomendasi kepada keluarga.
+                Petugas meninjau kondisi fisik, perkembangan,
+                riwayat penyakit, dan kelengkapan pelayanan
+                pada buku KIA.
+
+                Hasilnya menunjukkan kondisi
+                {status_kesehatan} dan perkembangan
+                {status_tumbuh_kembang}.
                 """,
 
                 f"""
-                {nama}, usia {umur} bulan, datang untuk evaluasi rutin.
-                Petugas meninjau perkembangan, kondisi umum, serta
-                riwayat pelayanan anak.
+                Pemeriksaan rutin {nama} mencakup beberapa
+                aspek kondisi anak.
 
-                Berdasarkan hasil tersebut, keluarga diberi arahan
-                untuk kunjungan berikutnya.
+                Catatan menunjukkan kondisi kesehatan
+                {status_kesehatan}, perkembangan
+                {status_tumbuh_kembang}, serta status
+                imunisasi {status_imunisasi}.
+
+                Petugas memberikan rekomendasi berdasarkan
+                seluruh temuan tersebut.
                 """,
             ])
 
-        return self.normalize_text(teks)
+        return self.normalize_text(text)
 
     # =====================================================
-    # DATA AMBIGU TAMBAHAN
+    # GENERATOR IMUNISASI BAYI
+    # =====================================================
+
+    def generate_from_imunisasi(
+        self,
+        row: pd.Series,
+        difficulty: Optional[str] = None,
+    ) -> str:
+        """
+        Membuat teks untuk tema Imunisasi Bayi.
+
+        Kelas ini dibuat lebih jelas karena pada evaluasi sebelumnya
+        recall Imunisasi Bayi lebih rendah daripada kelas lain.
+        """
+        difficulty = (
+            difficulty
+            or self.determine_difficulty()
+        )
+
+        nama = self.clean_value(
+            row.get("Nama Bayi")
+        )
+
+        identitas = self.clean_value(
+            row.get("ID_Balita")
+        )
+
+        umur = self.clean_value(
+            row.get("Umur (Bulan)")
+        )
+
+        jenis_kelamin = self.clean_value(
+            row.get("Jenis Kelamin")
+        )
+
+        jenis_imunisasi = self.clean_value(
+            row.get("Jenis Imunisasi")
+        )
+
+        status_imunisasi = self.clean_value(
+            row.get("Status Imunisasi")
+        )
+
+        pembuka = self.choose([
+            (
+                "Bayi datang ke posyandu sesuai jadwal "
+                "imunisasi berdasarkan usianya."
+            ),
+            (
+                "Orang tua membawa bayi untuk melanjutkan "
+                "jadwal pemberian vaksin."
+            ),
+            (
+                "Petugas menerima kunjungan bayi berdasarkan "
+                "jadwal imunisasi pada buku KIA."
+            ),
+            (
+                "Bayi mengikuti pelayanan imunisasi rutin "
+                "sesuai jadwal yang telah ditentukan."
+            ),
+        ])
+
+        if difficulty == "easy":
+            text = f"""
+            {pembuka}
+
+            Bayi bernama {nama}, dengan ID {identitas},
+            berusia {umur} bulan dan berjenis kelamin
+            {jenis_kelamin}.
+
+            Pada kunjungan ini bayi menerima imunisasi
+            {jenis_imunisasi}.
+
+            Status kelengkapan imunisasi bayi tercatat
+            {status_imunisasi}.
+
+            Petugas menjelaskan manfaat vaksin, kemungkinan
+            reaksi ringan setelah imunisasi, dan jadwal
+            pemberian vaksin berikutnya.
+            """
+
+        elif difficulty == "medium":
+            text = f"""
+            {pembuka}
+
+            {nama}, usia {umur} bulan, menerima vaksin
+            {jenis_imunisasi} sesuai jadwal pada buku KIA.
+
+            Catatan imunisasi anak saat ini adalah
+            {status_imunisasi}.
+
+            Setelah pemberian vaksin, petugas meminta orang tua
+            mengamati kondisi bayi dan kembali sesuai jadwal
+            imunisasi berikutnya.
+            """
+
+        else:
+            text = self.choose([
+                f"""
+                {nama}, usia {umur} bulan, datang sesuai jadwal
+                pemberian vaksin.
+
+                Petugas memberikan {jenis_imunisasi} dan
+                memperbarui catatan imunisasi pada buku KIA.
+
+                Status imunisasi bayi tercatat
+                {status_imunisasi}.
+                """,
+
+                f"""
+                Pada kunjungan hari ini, {nama} menerima vaksin
+                {jenis_imunisasi} sebagai bagian dari
+                perlindungan terhadap penyakit.
+
+                Petugas mencatat status imunisasi
+                {status_imunisasi} dan menyampaikan jadwal
+                vaksin berikutnya.
+                """,
+
+                f"""
+                Buku KIA milik {nama} diperiksa untuk melihat
+                kelengkapan imunisasi.
+
+                Berdasarkan jadwal usia {umur} bulan,
+                petugas memberikan vaksin
+                {jenis_imunisasi}.
+
+                Orang tua diminta mengamati reaksi bayi setelah
+                imunisasi dan datang kembali sesuai jadwal.
+                """,
+            ])
+
+        return self.normalize_text(text)
+
+    # =====================================================
+    # KONTEKS TAMBAHAN
     # =====================================================
 
     def create_ambiguous_variation(
@@ -439,173 +794,364 @@ class TextGenerator:
         label: str,
     ) -> str:
         """
-        Menambahkan sedikit konteks lintas tema pada sebagian data.
+        Menambahkan konteks sekunder tanpa menghilangkan fokus utama.
 
-        Konteks tambahan tidak mengubah ground truth, karena fokus utama
-        laporan tetap ditentukan oleh sumber datanya.
+        Konteks tambahan dibuat ringan agar dataset tetap realistis,
+        tetapi tidak terlalu sulit seperti versi sebelumnya.
         """
-
         if label == self.LABEL_GIZI:
             additions = [
-                "Buku KIA juga diperiksa secara singkat oleh petugas.",
-                "Orang tua diingatkan mengikuti jadwal pelayanan lainnya.",
-                "Catatan pelayanan anak sebelumnya turut diperiksa.",
+                (
+                    "Petugas juga memeriksa buku KIA secara singkat, "
+                    "tetapi fokus kunjungan tetap pada hasil "
+                    "penimbangan dan pertumbuhan anak."
+                ),
+                (
+                    "Kondisi umum anak diamati sebelum petugas "
+                    "memberikan edukasi mengenai pola makan."
+                ),
+                (
+                    "Orang tua juga diingatkan mengikuti jadwal "
+                    "pelayanan kesehatan anak berikutnya."
+                ),
+            ]
+
+        elif label == self.LABEL_KESEHATAN:
+            additions = [
+                (
+                    "Petugas menilai seluruh informasi secara terpadu "
+                    "sebelum memberikan rekomendasi."
+                ),
+                (
+                    "Keluarga diminta memperhatikan pola makan, "
+                    "perkembangan, dan jadwal kunjungan anak."
+                ),
+                (
+                    "Catatan pertumbuhan dan imunisasi digunakan "
+                    "sebagai bagian dari pemeriksaan menyeluruh."
+                ),
             ]
 
         elif label == self.LABEL_IMUNISASI:
             additions = [
-                "Petugas juga menanyakan pola makan anak kepada orang tua.",
-                "Kondisi fisik anak diamati sebelum tindakan diberikan.",
-                "Orang tua turut berkonsultasi mengenai pertumbuhan anak.",
+                (
+                    "Kondisi umum bayi diperiksa terlebih dahulu "
+                    "sebelum vaksin diberikan."
+                ),
+                (
+                    "Petugas memastikan bayi dalam kondisi yang "
+                    "memungkinkan untuk menerima imunisasi."
+                ),
+                (
+                    "Berat badan bayi dicatat sebagai pemeriksaan "
+                    "awal sebelum pemberian vaksin."
+                ),
             ]
 
         else:
             additions = [
-                "Petugas memberi perhatian khusus pada perkembangan anak.",
-                "Keluarga diminta menjaga pola makan dan jadwal kunjungan.",
-                "Catatan pelayanan sebelumnya menjadi bagian dari penilaian.",
+                (
+                    "Petugas memberikan saran sesuai hasil "
+                    "pelayanan hari ini."
+                )
             ]
 
+        additional_text = self.choose(
+            additions
+        )
+
         return self.normalize_text(
-            f"{text} {self.choose(additions)}"
+            f"{text} {additional_text}"
         )
 
     # =====================================================
-    # PEMBENTUKAN DATASET
+    # PENAMBAHAN DATA PER KELAS
     # =====================================================
 
     def append_generated_rows(
         self,
-        target: list[dict],
+        target: List[Dict],
         dataframe: pd.DataFrame,
-        generator_function,
+        generator_function: Callable,
         label: str,
         n_per_tema: Optional[int],
         ambiguity_ratio: float,
+        difficulty_weights: Dict[str, float],
     ) -> None:
-        sampled = self.sample_dataframe(
-            dataframe,
-            n_per_tema
-        )
-
-        for _, row in sampled.iterrows():
-            difficulty = self.determine_difficulty()
-
-            text = generator_function(
-                row,
-                difficulty=difficulty
-            )
-
-            is_ambiguous = self.random.random() < ambiguity_ratio
-
-            if is_ambiguous:
-                text = self.create_ambiguous_variation(
-                    text,
-                    label
-                )
-
-            target.append({
-                "teks_laporan": text,
-                "tema_aktual": label,
-                "tingkat_kesulitan": difficulty,
-                "ambigu": is_ambiguous,
-            })
-
-    def generate_all(
-        self,
-        n_per_tema: Optional[int] = None,
-        shuffle: bool = True,
-        ambiguity_ratio: float = 0.20,
-    ) -> pd.DataFrame:
+        """
+        Membuat teks untuk satu kelas dan menambahkannya ke dataset.
+        """
         if not 0 <= ambiguity_ratio <= 1:
             raise ValueError(
                 "ambiguity_ratio harus berada antara 0 dan 1."
             )
 
-        data: list[dict] = []
+        self.validate_difficulty_weights(
+            difficulty_weights
+        )
+
+        sampled_df = self.sample_dataframe(
+            df=dataframe,
+            n=n_per_tema,
+        )
+
+        if sampled_df.empty:
+            print(
+                f"[WARNING] Tidak ada data untuk tema {label}."
+            )
+            return
+
+        for source_index, row in sampled_df.iterrows():
+            difficulty = self.determine_difficulty(
+                difficulty_weights=difficulty_weights
+            )
+
+            generated_text = generator_function(
+                row=row,
+                difficulty=difficulty,
+            )
+
+            is_ambiguous = (
+                self.random.random()
+                < ambiguity_ratio
+            )
+
+            if is_ambiguous:
+                generated_text = (
+                    self.create_ambiguous_variation(
+                        text=generated_text,
+                        label=label,
+                    )
+                )
+
+            target.append({
+                "teks_laporan": generated_text,
+                "tema_aktual": label,
+                "tingkat_kesulitan": difficulty,
+                "ambigu": is_ambiguous,
+                "sumber_index": source_index,
+            })
+
+    # =====================================================
+    # GENERATE SELURUH DATA
+    # =====================================================
+
+    def generate_all(
+        self,
+        n_per_tema: Optional[int] = None,
+        shuffle: bool = True,
+        ambiguity_ratio: float = 0.10,
+    ) -> pd.DataFrame:
+        """
+        Membuat seluruh dataset.
+
+        Distribusi yang digunakan:
+
+        Gizi Balita:
+        - easy   55%
+        - medium 35%
+        - hard   10%
+        - ambiguity sekitar 8%
+
+        Kesehatan Balita:
+        - easy   35%
+        - medium 45%
+        - hard   20%
+        - ambiguity sekitar 12%
+
+        Imunisasi Bayi:
+        - easy   65%
+        - medium 30%
+        - hard    5%
+        - ambiguity sekitar 5%
+
+        Parameter ambiguity_ratio digunakan sebagai nilai dasar.
+        Nilai aktual setiap kelas disesuaikan agar tidak terlalu sulit.
+        """
+        if not 0 <= ambiguity_ratio <= 1:
+            raise ValueError(
+                "ambiguity_ratio harus berada antara 0 dan 1."
+            )
+
+        generated_data: List[Dict] = []
+
+        # -------------------------------------------------
+        # GIZI BALITA
+        # -------------------------------------------------
 
         if not self.gizi_df.empty:
+            gizi_ambiguity = min(
+                ambiguity_ratio,
+                0.08,
+            )
+
             self.append_generated_rows(
-                target=data,
+                target=generated_data,
                 dataframe=self.gizi_df,
                 generator_function=self.generate_from_gizi,
                 label=self.LABEL_GIZI,
                 n_per_tema=n_per_tema,
-                ambiguity_ratio=ambiguity_ratio,
+                ambiguity_ratio=gizi_ambiguity,
+                difficulty_weights={
+                    "easy": 0.55,
+                    "medium": 0.35,
+                    "hard": 0.10,
+                },
             )
 
+        # -------------------------------------------------
+        # KESEHATAN BALITA
+        # -------------------------------------------------
+
         if not self.kesehatan_df.empty:
+            kesehatan_ambiguity = min(
+                ambiguity_ratio,
+                0.12,
+            )
+
             self.append_generated_rows(
-                target=data,
+                target=generated_data,
                 dataframe=self.kesehatan_df,
                 generator_function=self.generate_from_kesehatan,
                 label=self.LABEL_KESEHATAN,
                 n_per_tema=n_per_tema,
-                ambiguity_ratio=ambiguity_ratio,
+                ambiguity_ratio=kesehatan_ambiguity,
+                difficulty_weights={
+                    "easy": 0.35,
+                    "medium": 0.45,
+                    "hard": 0.20,
+                },
             )
 
+        # -------------------------------------------------
+        # IMUNISASI BAYI
+        # -------------------------------------------------
+
         if not self.imunisasi_df.empty:
+            imunisasi_ambiguity = min(
+                ambiguity_ratio,
+                0.05,
+            )
+
             self.append_generated_rows(
-                target=data,
+                target=generated_data,
                 dataframe=self.imunisasi_df,
                 generator_function=self.generate_from_imunisasi,
                 label=self.LABEL_IMUNISASI,
                 n_per_tema=n_per_tema,
-                ambiguity_ratio=ambiguity_ratio,
+                ambiguity_ratio=imunisasi_ambiguity,
+                difficulty_weights={
+                    "easy": 0.65,
+                    "medium": 0.30,
+                    "hard": 0.05,
+                },
             )
 
-        df = pd.DataFrame(data)
+        result_df = pd.DataFrame(
+            generated_data
+        )
 
-        if df.empty:
+        if result_df.empty:
             raise ValueError(
-                "Data kosong. Pastikan seluruh file CSV tersedia "
-                "dan memiliki struktur kolom yang benar."
+                "Data hasil generator kosong. Pastikan file CSV "
+                "gizi, kesehatan, dan imunisasi tersedia."
             )
 
         if shuffle:
-            df = df.sample(
+            result_df = result_df.sample(
                 frac=1,
-                random_state=self.seed
-            ).reset_index(drop=True)
+                random_state=self.seed,
+            ).reset_index(
+                drop=True
+            )
 
-        return df
+        return result_df
+
+    # =====================================================
+    # SIMPAN DATA
+    # =====================================================
 
     def generate_and_save(
         self,
         n_per_tema: Optional[int] = None,
         shuffle: bool = True,
-        ambiguity_ratio: float = 0.20,
+        ambiguity_ratio: float = 0.10,
     ) -> pd.DataFrame:
-        print("[INFO] Membuat teks laporan...")
+        """
+        Membuat dataset kemudian menyimpannya ke CSV.
+        """
+        print(
+            "\n[INFO] Membuat teks laporan..."
+        )
 
-        df = self.generate_all(
+        result_df = self.generate_all(
             n_per_tema=n_per_tema,
             shuffle=shuffle,
             ambiguity_ratio=ambiguity_ratio,
         )
 
-        output_dir = os.path.dirname(GENERATED_DATA_PATH)
+        output_directory = os.path.dirname(
+            GENERATED_DATA_PATH
+        )
 
-        if output_dir:
+        if output_directory:
             os.makedirs(
-                output_dir,
-                exist_ok=True
+                output_directory,
+                exist_ok=True,
             )
 
-        df.to_csv(
+        result_df.to_csv(
             GENERATED_DATA_PATH,
-            index=False
+            index=False,
         )
 
-        print(f"[INFO] Total teks dibuat: {len(df)}")
-        print(
-            "[INFO] Distribusi tingkat kesulitan:\n"
-            f"{df['tingkat_kesulitan'].value_counts()}"
-        )
-        print(
-            "[INFO] Jumlah data ambigu: "
-            f"{int(df['ambigu'].sum())}/{len(df)}"
-        )
-        print(f"[INFO] File disimpan: {GENERATED_DATA_PATH}")
+        print("\n" + "=" * 60)
+        print("RINGKASAN DATA HASIL GENERATOR")
+        print("=" * 60)
 
-        return df
+        print(
+            f"Total teks laporan: {len(result_df)}"
+        )
+
+        print("\nDistribusi tema aktual:")
+
+        print(
+            result_df[
+                "tema_aktual"
+            ]
+            .value_counts()
+            .to_string()
+        )
+
+        print("\nDistribusi tingkat kesulitan:")
+
+        print(
+            result_df[
+                "tingkat_kesulitan"
+            ]
+            .value_counts()
+            .to_string()
+        )
+
+        total_ambiguous = int(
+            result_df["ambigu"].sum()
+        )
+
+        ambiguous_percentage = (
+            total_ambiguous
+            / len(result_df)
+            * 100
+        )
+
+        print(
+            "\nJumlah data dengan konteks tambahan: "
+            f"{total_ambiguous}/{len(result_df)} "
+            f"({ambiguous_percentage:.2f}%)"
+        )
+
+        print(
+            f"\n[INFO] File disimpan ke: "
+            f"{GENERATED_DATA_PATH}"
+        )
+
+        return result_df
